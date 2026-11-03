@@ -2417,6 +2417,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "a1298ee7b720e71a7f7d3431918df9d5e98dd6d0ecf81fcf3d53987fcaebc903"
       }
     ]
+  },
+  {
+    "poemId": "primary-028",
+    "title": "江畔独步寻花",
+    "label": "江畔桃花与塔前春风",
+    "alt": "《江畔独步寻花》诗境插画：诗人沿江岸赏花，一簇深浅相间的桃花迎风开放，远处古塔临江而立",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-028-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "91f6104b328e2f6f50aee3923a68b1fed24af8a8af7142e3537f106133af444d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-028-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 53248,
+        "sha256": "b3ecd636f7b1b2eb26a06017eaec9f88d55d209c5997945fe0a5ebbedb9651d4"
+      },
+      {
+        "src": "./illustrations/primary-028-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 180678,
+        "sha256": "b457408cf7afcceaf55dffb6b0aec19b354c78009982edaf5525cf6857043241"
+      },
+      {
+        "src": "./illustrations/primary-028-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 390268,
+        "sha256": "767103b0d7207a00f104f306a1f6bddc33c1b469303ae860376531f563a32eca"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-048",
+    "title": "蜂",
+    "label": "百花采蜜与山野晴光",
+    "alt": "《蜂》诗境插画：几只蜜蜂在白色、黄色和淡紫野花间忙碌采蜜，远处草地与青山相接",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-048-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0fe348e3ec8667a1bcee0e20566499470f672e7878b3f68f89a0d98b3f47b007"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-048-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42570,
+        "sha256": "ffcf1e6b0640a4578e069bbb4c470e3abebe50b879a3e91922ce15ab5e605ad7"
+      },
+      {
+        "src": "./illustrations/primary-048-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 132582,
+        "sha256": "315bdcce274dabd2d06a644cd790a30c726e64752b8b5303bb537770f21c89dd"
+      },
+      {
+        "src": "./illustrations/primary-048-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 263540,
+        "sha256": "10ed4559c5d0b3f0bb036c72ca944e3f66b4aef7a7ad33770c73a2147cae58dc"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-029",
+    "title": "芙蓉楼送辛渐",
+    "label": "江楼晓别与楚山孤影",
+    "alt": "《芙蓉楼送辛渐》诗境插画：薄雨初歇的清晨，两位友人在江楼旁送别，远山与江雾相映，旅人将登舟远行",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-029-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0b533e68f8a51e37227d0f6b4483b4ac7c5bad774538a0e9358fe582736db1c3"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-029-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42572,
+        "sha256": "60f01ad9308d7ef83effb84e16f6c0c390dcda7f5082a26b164ae75f1ddb7d48"
+      },
+      {
+        "src": "./illustrations/ts3b-029-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 148868,
+        "sha256": "f2ecec5ef5e1d03285e4166543badc34478c5384c4a51bb2f4ba195eabbd9bfe"
+      },
+      {
+        "src": "./illustrations/ts3b-029-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 321956,
+        "sha256": "2081c18844da7f401970259c8b861a8e99fdbaaad1dd08498f52ea9c495830af"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-318",
+    "title": "塞下曲·月黑雁飞高",
+    "label": "雪夜轻骑与高飞雁影",
+    "alt": "《塞下曲·月黑雁飞高》诗境插画：无月雪夜中几位骑兵整装待发，弓刀覆着白雪，雁群掠过深蓝天空",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-318-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eda6e53b22f8988fc04e43ad56c36b9f8b82f8d3efdd80ba88d12614010adf47"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-318-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 47794,
+        "sha256": "79dac9adda3b652c6b12ba3740e43a4bb798e312fdce40720ed4cdfbe91a5e50"
+      },
+      {
+        "src": "./illustrations/ts3b-318-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 173916,
+        "sha256": "f64f0e27d4addd058d3a161c6378b66d05a68ffcd44229ab90a97eb27babd9ea"
+      },
+      {
+        "src": "./illustrations/ts3b-318-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 401028,
+        "sha256": "193ae46fdb415033da23b47782c97ec6d89190843779051eed93ef766c0b8d20"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-070",
+    "title": "墨梅",
+    "label": "淡墨梅枝与洗砚池影",
+    "alt": "《墨梅》诗境插画：洗砚池旁梅枝横斜，花朵以淡墨勾染，石沿上静放一方砚台",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-070-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e3583fa67968966e1c1a582b4c0b64a9c22df99cb6631b365a28157650686382"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-070-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25930,
+        "sha256": "c9fefe5d6a3da050bb96e86daa9600f53564443940405cb0efae96a73ce1acb0"
+      },
+      {
+        "src": "./illustrations/primary-070-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 87316,
+        "sha256": "2e35f02a5ac8b1049809e84b81e23726e51697ec7cb106d3c310214f0abb9d36"
+      },
+      {
+        "src": "./illustrations/primary-070-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 198432,
+        "sha256": "835cbddd32d4f01b4a729edffda3235246402666d373cc3169fb4cbb489c50ee"
+      }
+    ]
+  },
+  {
+    "poemId": "school-8860aec60d893863",
+    "title": "独坐敬亭山",
+    "label": "孤云远鸟与独对青山",
+    "alt": "《独坐敬亭山》诗境插画：诗人独坐山前，远鸟渐去，一片闲云飘离，青山与人静静相对",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-8860aec60d893863-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1fe81ea2749529270e293efacb92cb6ea6f468744ea3371317de82e76cc2785a"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-8860aec60d893863-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28638,
+        "sha256": "c76a406883000e042018115199b405e2f570c33116c90e04c100341d8ef68adc"
+      },
+      {
+        "src": "./illustrations/school-8860aec60d893863-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 99234,
+        "sha256": "da762b7d9a4cb629889f636e9240e916cd8ab5ab8cbf01c255da5b1c1f3d4262"
+      },
+      {
+        "src": "./illustrations/school-8860aec60d893863-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 219828,
+        "sha256": "3120f1a2ae3e3767f8962b5c978b895e6c7e7e8313018625af975fd5fcf5d4f0"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));

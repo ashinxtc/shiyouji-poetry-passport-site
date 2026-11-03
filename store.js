@@ -1,4 +1,4 @@
-import {STAGE_NAMES,stageForGrade} from './grades.js?v=23';
+import {STAGE_NAMES,stageForGrade} from './grades.js?v=24';
 export const STORAGE_KEY='shiyouji.passport.v3';
 export const LEGACY_STORAGE_KEY='shiyouji.passport.v1';
 export const SCHEMA=2;
