@@ -1,6 +1,6 @@
-import {apiUrl} from './api.js?v=26';
-import {VoiceSession,voiceCapabilities} from './voice.js?v=26';
-import {compareRecitation} from './recitation.js?v=26';
+import {apiUrl} from './api.js?v=27';
+import {VoiceSession,voiceCapabilities} from './voice.js?v=27';
+import {compareRecitation} from './recitation.js?v=27';
 
 
 export function speechCorrectionDetails(analysis,escape){

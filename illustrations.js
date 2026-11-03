@@ -2909,6 +2909,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "339c361bdd717ef77b09bfae81d6e0a3d24f1150101d3be93d4bdd5453c74d73"
       }
     ]
+  },
+  {
+    "poemId": "primary-066",
+    "title": "观书有感",
+    "label": "方塘云影与源头活水",
+    "alt": "《观书有感》诗境插画：清澈方塘映着蓝天白云，一股活水从石渠流入，岸边树影轻轻摇曳",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-066-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d327f47cf81320e7b072521d2ea6d2988679aba6f5578d1084cb1a796ee55b00"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-066-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 47576,
+        "sha256": "467bd98f1dcb79a6f0a310bbfd3bc74cd7e0920dbb8918219d360debc3fff390"
+      },
+      {
+        "src": "./illustrations/primary-066-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 154528,
+        "sha256": "a34d1deaa94f7902f22fdcdf2f04112bacb9d39f3b5c2f0bb0e251adddcd4a0b"
+      },
+      {
+        "src": "./illustrations/primary-066-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 326402,
+        "sha256": "75a1186b1fda6c1fa594bbb8e955a241d5f540a21e06981e8918bc8adb0b5d52"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-061",
+    "title": "四时田园杂兴",
+    "label": "桑阴种瓜与田园劳作",
+    "alt": "《四时田园杂兴》诗境插画：孩子们在桑树荫下学着种瓜，远处大人锄田，屋檐下放着纺麻的工具",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-061-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dbbd5aa050e63b7cc830e44ffcb3cf755e0426befc3b4ea3c12280573f36349a"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-061-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 53474,
+        "sha256": "a7842770197a393afa67bbf2b9ef9c0f950989c02705fca8f89bf25cb97737d7"
+      },
+      {
+        "src": "./illustrations/primary-061-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 176578,
+        "sha256": "0d778b6f2ae3b35f46f1092e04eb79fc8df557388164332025624d37c037c47a"
+      },
+      {
+        "src": "./illustrations/primary-061-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 369372,
+        "sha256": "6aa37abb6f0e182a761fc60fe951db9c5330e4d822eeddc43dcd2c0c9292bd8c"
+      }
+    ]
+  },
+  {
+    "poemId": "school-0f82b179d0f2132f",
+    "title": "稚子弄冰",
+    "label": "彩丝悬冰与冬晨童趣",
+    "alt": "《稚子弄冰》诗境插画：冬日清晨，孩子用彩丝提起圆薄冰片轻敲，旁边金属盆里留着脱冰后的水痕",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-0f82b179d0f2132f-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "869b060b89f2cc7d65d78d81777ea054351714c4ca99fff07e4b86fc5db0f639"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-0f82b179d0f2132f-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 48600,
+        "sha256": "bc64c9d2e85678fc73d1f3f6b388c7b48fbc13164932840eb3d9d14d67766a3e"
+      },
+      {
+        "src": "./illustrations/school-0f82b179d0f2132f-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 158336,
+        "sha256": "6ac59a1457be65bb56c7720abdec2535c83e85190706e5fc0b83913d067c4ef9"
+      },
+      {
+        "src": "./illustrations/school-0f82b179d0f2132f-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 332688,
+        "sha256": "bb699e8f3f74ca302d60f43ed790009ecbb6559655392a603fc5c8100eeed76e"
+      }
+    ]
+  },
+  {
+    "poemId": "school-6a80fe437be7839f",
+    "title": "村晚",
+    "label": "牧笛牛背与山衔落日",
+    "alt": "《村晚》诗境插画：傍晚牧童横坐水牛背上吹笛归家，池塘水满，远山衔着落日，水面映出微光",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-6a80fe437be7839f-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2ca627ab696c924214f53c4caf5fc913780571d6142b06c2c1f5316e0935c0ac"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-6a80fe437be7839f-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43940,
+        "sha256": "8f9385bbce02e809ca68660ce009a1b5a8cc44217058ede9cda0aea9941373ee"
+      },
+      {
+        "src": "./illustrations/school-6a80fe437be7839f-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 148160,
+        "sha256": "aef48d829a526ef898c4cb848c56c89dd7a860ae8a6f66f0426d5d322113233e"
+      },
+      {
+        "src": "./illustrations/school-6a80fe437be7839f-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 322758,
+        "sha256": "d0f6f65c9bd2d80254ee52b6f5fc70fdf4cf496f40b775a645dc5f91a94cdabe"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-069",
+    "title": "乡村四月",
+    "label": "烟雨蚕桑与春田插秧",
+    "alt": "《乡村四月》诗境插画：四月烟雨笼罩青山，水田一片明亮，村民插秧，近处竹篮里装着新采的桑叶",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-069-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2d719e9baa0934378d0d8ffc34d5c69c7000cd2b0d1c89652311229619f0369d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-069-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 51064,
+        "sha256": "627544b8e9dbe5d5e81483bfa18a3b7e116a6eae5c7b99466293e636e1919ac6"
+      },
+      {
+        "src": "./illustrations/primary-069-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 187306,
+        "sha256": "9b36eb6a86fa43d64f368ca654255fc9fd4aa0d10cf5df6d316201e4325a8991"
+      },
+      {
+        "src": "./illustrations/primary-069-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 428598,
+        "sha256": "28957a7fcf88fb24a3c436fffd7df1917ab0e9fca13d3739b88bd800bcf5d0cc"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-276",
+    "title": "凉州词",
+    "label": "黄河孤城与边关羌笛",
+    "alt": "《凉州词》诗境插画：黄河蜿蜒远接白云，孤城依着峻岭，城边旅人吹笛，荒凉关外尚无春色",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-276-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aef73872c7f49b7f25de906e0ca2cc2a16f0d03d92ccfab28108e9e20b5354de"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-276-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45718,
+        "sha256": "9e52b0e2fb5997e624238e4c9f074d659d8d29d2da0456304631e566d1a9e6e3"
+      },
+      {
+        "src": "./illustrations/ts3b-276-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 167626,
+        "sha256": "57f9d7212ec030cbd52a4de63329fc24453f6f6385afa1b6d0df4043fe81faa9"
+      },
+      {
+        "src": "./illustrations/ts3b-276-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 383594,
+        "sha256": "c4c11b9cfcbd0c03be7a17a9ec66e7513e014a87cc4975e567ecd180d3d3d111"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
