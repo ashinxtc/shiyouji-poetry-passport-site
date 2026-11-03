@@ -1,0 +1,3249 @@
+[
+  {
+    "id": "primary-001",
+    "title": "江南",
+    "author": "汉乐府",
+    "dynasty": "汉",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "江南可采莲，",
+      "莲叶何田田。",
+      "鱼戏莲叶间。",
+      "鱼戏莲叶东，",
+      "鱼戏莲叶西，",
+      "鱼戏莲叶南，",
+      "鱼戏莲叶北。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-001.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "e9136a1a08e8759f59877e9d8e8c00b7a098ca738cd8565447c02e14d93ee2cb"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "江南",
+      "originalAuthor": "汉乐府",
+      "originalParagraphs": [
+        "江南可采莲，",
+        "莲叶何田田。",
+        "鱼戏莲叶间。",
+        "鱼戏莲叶东，",
+        "鱼戏莲叶西，",
+        "鱼戏莲叶南，",
+        "鱼戏莲叶北。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-002",
+    "title": "长歌行",
+    "author": "汉乐府",
+    "dynasty": "汉",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "青青园中葵，",
+      "朝露待日晞。",
+      "阳春布德泽，",
+      "万物生光辉。",
+      "常恐秋节至，",
+      "焜黄华叶衰。",
+      "百川东到海，",
+      "何时复西归？",
+      "少壮不努力，",
+      "老大徒伤悲。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-002.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "531e9942435f3ec1ad6b592d4a19cad855afa80481e0fafd30ec484221522201"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "长歌行",
+      "originalAuthor": "汉乐府",
+      "originalParagraphs": [
+        "青青园中葵，",
+        "朝露待日晞。",
+        "阳春布德泽，",
+        "万物生光辉。",
+        "常恐秋节至，",
+        "焜黄华叶衰。",
+        "百川东到海，",
+        "何时复西归？",
+        "少壮不努力，",
+        "老大徒伤悲。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-003",
+    "title": "敕勒歌",
+    "author": "北朝民歌",
+    "dynasty": "南北朝",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "敕勒川，",
+      "阴山下。",
+      "天似穹庐，",
+      "笼盖四野。",
+      "天苍苍，",
+      "野茫茫。",
+      "风吹草低见牛羊。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-003.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "bd83cee4a23514113be745e17c1e8d560edc5de5f713664999cdae63b8b73835"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "敕勒歌",
+      "originalAuthor": "北朝民歌",
+      "originalParagraphs": [
+        "敕勒川，",
+        "阴山下。",
+        "天似穹庐，",
+        "笼盖四野。",
+        "天苍苍，",
+        "野茫茫。",
+        "风吹草低见牛羊。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-004",
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "鹅鹅鹅，",
+      "曲项向天歌。",
+      "白毛浮绿水，",
+      "红掌拨清波。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-004.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "0da28d25f1dfd0929cf092f57817628d8404dbfbe2aa23ef939db3460191ba98"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "咏鹅",
+      "originalAuthor": "唐·骆宾王",
+      "originalParagraphs": [
+        "鹅鹅鹅，",
+        "曲项向天歌。",
+        "白毛浮绿水，",
+        "红掌拨清波。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-005",
+    "title": "风",
+    "author": "李峤",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "解落三秋叶，",
+      "能开二月花。",
+      "过江千尺浪，",
+      "入竹万竿斜。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-005.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "4f1289e3b1709a557e1c65ba0ea3ab71db050ae905be8948698331c3841db247"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "风",
+      "originalAuthor": "唐·李峤",
+      "originalParagraphs": [
+        "解落三秋叶，",
+        "能开二月花。",
+        "过江千尺浪，",
+        "入竹万竿斜。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-006",
+    "title": "咏柳",
+    "author": "贺知章",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "碧玉妆成一树高，",
+      "万条垂下绿丝绦。",
+      "不知细叶谁裁出，",
+      "二月春风似剪刀。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-006.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "12427b4a0c02707f00f36d9b0778fd33c26b959844a5be13f94726484d34dd38"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "咏柳",
+      "originalAuthor": "唐·贺知章",
+      "originalParagraphs": [
+        "碧玉妆成一树高，",
+        "万条垂下绿丝绦。",
+        "不知细叶谁裁出，",
+        "二月春风似剪刀。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-018",
+    "title": "古朗月行",
+    "author": "李白",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "小时不识月，",
+      "呼作白玉盘。",
+      "又疑瑶台镜，",
+      "飞在青云端。",
+      "仙人垂两足，",
+      "桂树何团团。",
+      "白兔捣药成，",
+      "问言与谁餐。",
+      "蟾蜍蚀圆影，",
+      "大明夜已残。",
+      "羿昔落九乌，",
+      "天人清且安。",
+      "阴精此沦惑，",
+      "去去不足观。",
+      "忧来其如何，",
+      "凄怆摧心肝。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-018.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "b6dc97011f1f5d7019899fb9f2bf8641910356145baa1a9c78c5acbde921de59"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "古朗月行",
+      "originalAuthor": "唐·李白",
+      "originalParagraphs": [
+        "小时不识月，",
+        "呼作白玉盘。",
+        "又疑瑶台镜，",
+        "飞在青云端。",
+        "仙人垂两足，",
+        "桂树何团团。",
+        "白兔捣药成，",
+        "问言与谁餐。",
+        "蟾蜍蚀圆影，",
+        "大明夜已残。",
+        "羿昔落九乌，",
+        "天人清且安。",
+        "阴精此沦惑，",
+        "去去不足观。",
+        "忧来其如何，",
+        "凄怆摧心肝。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-019",
+    "title": "望庐山瀑布",
+    "author": "李白",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "日照香炉生紫烟，",
+      "遥看瀑布挂前川。",
+      "飞流直下三千尺，",
+      "疑是银河落九天。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-019.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "915be8b9b79242989bb5fdb707d3f6293d47c8556eb96adf7106390e0303a8a4"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "望庐山瀑布",
+      "originalAuthor": "唐·李白",
+      "originalParagraphs": [
+        "日照香炉生紫烟，",
+        "遥看瀑布挂前川。",
+        "飞流直下三千尺，",
+        "疑是银河落九天。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-020",
+    "title": "赠汪伦",
+    "author": "李白",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "李白乘舟将欲行，",
+      "忽闻岸上踏歌声。",
+      "桃花潭水深千尺，",
+      "不及汪伦送我情。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-020.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "a60235154558ddee8aa508831e4d5314c10da118da3cc073cdae549ead3febb6"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "赠汪伦",
+      "originalAuthor": "唐·李白",
+      "originalParagraphs": [
+        "李白乘舟将欲行，",
+        "忽闻岸上踏歌声。",
+        "桃花潭水深千尺，",
+        "不及汪伦送我情。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-023",
+    "title": "望天门山",
+    "author": "李白",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "天门中断楚江开，",
+      "碧水东流至此回。",
+      "两岸青山相对出，",
+      "孤帆一片日边来。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-023.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "032a3e5316b4acfce7c3439d6f4827c3a566b7b04fe956ef92f6db37bc54b812"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "望天门山",
+      "originalAuthor": "唐·李白",
+      "originalParagraphs": [
+        "天门中断楚江开，",
+        "碧水东流至此回。",
+        "两岸青山相对出，",
+        "孤帆一片日边来。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-024",
+    "title": "别董大",
+    "author": "高适",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "千里黄云白日曛，",
+      "北风吹雁雪纷纷。",
+      "莫愁前路无知己，",
+      "天下谁人不识君？"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-024.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "dca70f8ed0f8029df27d6cf95161190a7ef713e59bc1d5b61dacda0200603c21"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "别董大",
+      "originalAuthor": "唐·高适",
+      "originalParagraphs": [
+        "千里黄云白日曛，",
+        "北风吹雁雪纷纷。",
+        "莫愁前路无知己，",
+        "天下谁人不识君？"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-025",
+    "title": "绝句",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "两个黄鹂鸣翠柳，",
+      "一行白鹭上青天。",
+      "窗含西岭千秋雪，",
+      "门泊东吴万里船。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-025.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "8ff97fce5eaaff85a1a71216cc343909df5118b36ac07f91df961fc2c3b7f0c9"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "绝句",
+      "originalAuthor": "唐·杜甫",
+      "originalParagraphs": [
+        "两个黄鹂鸣翠柳，",
+        "一行白鹭上青天。",
+        "窗含西岭千秋雪，",
+        "门泊东吴万里船。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-026",
+    "title": "春夜喜雨",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "好雨知时节，",
+      "当春乃发生。",
+      "随风潜入夜，",
+      "润物细无声。",
+      "野径云俱黑，",
+      "江船火独明。",
+      "晓看红湿处，",
+      "花重锦官城。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-026.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "2081b84efd8d9d7e091876fb81ffb5e5e2bc5ecc9fd5750beacaa2eb41c10b5e"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "春夜喜雨",
+      "originalAuthor": "唐·杜甫",
+      "originalParagraphs": [
+        "好雨知时节，",
+        "当春乃发生。",
+        "随风潜入夜，",
+        "润物细无声。",
+        "野径云俱黑，",
+        "江船火独明。",
+        "晓看红湿处，",
+        "花重锦官城。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-027",
+    "title": "绝句",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "迟日江山丽，",
+      "春风花草香。",
+      "泥融飞燕子，",
+      "沙暖睡鸳鸯。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-027.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "e8c1f168567e6f4ccf800b261ddb340e22959c2c0931eb417c9630b3dcc10e7e"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "绝句",
+      "originalAuthor": "唐·杜甫",
+      "originalParagraphs": [
+        "迟日江山丽，",
+        "春风花草香。",
+        "泥融飞燕子，",
+        "沙暖睡鸳鸯。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-028",
+    "title": "江畔独步寻花",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "黄师塔前江水东，",
+      "春光懒困倚微风。",
+      "桃花一簇开无主，",
+      "可爱深红爱浅红？"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-028.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "a5ea06eba5550f457697135eb6046213111c243f3db4cbcb4e2839722e14af3a"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "江畔独步寻花",
+      "originalAuthor": "唐·杜甫",
+      "originalParagraphs": [
+        "黄师塔前江水东，",
+        "春光懒困倚微风。",
+        "桃花一簇开无主，",
+        "可爱深红爱浅红？"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-034",
+    "title": "早春呈水部张十八员外",
+    "author": "韩愈",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "天街小雨润如酥，",
+      "草色遥看近却无。",
+      "最是一年春好处，",
+      "绝胜烟柳满皇都。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-034.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "ec6e97c18ae451dbb527b52282c76b6624cf6a7cbe69c6b954abf3abff451d2a"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "早春呈水部张十八员外",
+      "originalAuthor": "唐·韩愈",
+      "originalParagraphs": [
+        "天街小雨润如酥，",
+        "草色遥看近却无。",
+        "最是一年春好处，",
+        "绝胜烟柳满皇都。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-031",
+    "title": "渔歌子",
+    "author": "张志和",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "西塞山前白鹭飞，",
+      "桃花流水鳜鱼肥。",
+      "青箬笠，",
+      "绿蓑衣，",
+      "斜风细雨不须归。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-031.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "64e60c96c901dbaa59d7a5f1e85539ae0364e238186c5225e32592bdf063896b"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "渔歌子",
+      "originalAuthor": "唐·张志和",
+      "originalParagraphs": [
+        "西塞山前白鹭飞，",
+        "桃花流水鳜鱼肥。",
+        "青箬笠，",
+        "绿蓑衣，",
+        "斜风细雨不须归。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-035",
+    "title": "望洞庭",
+    "author": "刘禹锡",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "湖光秋月两相和，",
+      "潭面无风镜未磨。",
+      "遥望洞庭山水色，",
+      "白银盘里一青螺。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-035.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "c2f17475d68f41d98d7f9c9898cefdb2be532fbb3f78fcd6d4e8d1705dd1ba4a"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "望洞庭",
+      "originalAuthor": "唐·刘禹锡",
+      "originalParagraphs": [
+        "湖光秋月两相和，",
+        "潭面无风镜未磨。",
+        "遥望洞庭山水色，",
+        "白银盘里一青螺。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-036",
+    "title": "浪淘沙",
+    "author": "刘禹锡",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "九曲黄河万里沙，",
+      "浪淘风簸自天涯。",
+      "如今直上银河去，",
+      "同到牵牛织女家。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-036.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "ccecdd0b153c0d84e065a3c251e02c5cca79bf73f39779d22522921ea965ba8b"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "浪淘沙",
+      "originalAuthor": "唐·刘禹锡",
+      "originalParagraphs": [
+        "九曲黄河万里沙，",
+        "浪淘风簸自天涯。",
+        "如今直上银河去，",
+        "同到牵牛织女家。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-038",
+    "title": "池上",
+    "author": "白居易",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "小娃撑小艇，",
+      "偷采白莲回。",
+      "不解藏踪迹，",
+      "浮萍一道开。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-038.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "a42922b5fcb6ed2eefbbf4cc6ec5e0480ff1c5c9e944000d27be5f02085d3c25"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "池上",
+      "originalAuthor": "唐·白居易",
+      "originalParagraphs": [
+        "小娃撑小艇，",
+        "偷采白莲回。",
+        "不解藏踪迹，",
+        "浮萍一道开。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-039",
+    "title": "忆江南",
+    "author": "白居易",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "江南好，",
+      "风景旧曾谙。",
+      "日出江花红胜火，",
+      "春来江水绿如蓝。",
+      "能不忆江南？"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-039.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "72d94c002aa9cd5aa19f23180d1ca0697884da77a2be358cc09eecfcc72eeccc"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "忆江南",
+      "originalAuthor": "唐·白居易",
+      "originalParagraphs": [
+        "江南好，",
+        "风景旧曾谙。",
+        "日出江花红胜火，",
+        "春来江水绿如蓝。",
+        "能不忆江南？"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-040",
+    "title": "小儿垂钓",
+    "author": "胡令能",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "蓬头稚子学垂纶，",
+      "侧坐莓苔草映身。",
+      "路人借问遥招手，",
+      "怕得鱼惊不应人。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-040.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "2cbba046e18db52ed866086366f35558b34d83c9938c38de8a6772ec2e003214"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "小儿垂钓",
+      "originalAuthor": "唐·胡令能",
+      "originalParagraphs": [
+        "蓬头稚子学垂纶，",
+        "侧坐莓苔草映身。",
+        "路人借问遥招手，",
+        "怕得鱼惊不应人。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-041",
+    "title": "悯农",
+    "author": "李绅",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "锄禾日当午，",
+      "汗滴禾下土。",
+      "谁知盘中餐，",
+      "粒粒皆辛苦。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-041.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "aff0c8c378ec968b71960b29b179206a9ff0db289cabd4b5f804e6503bb86663"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "悯农",
+      "originalAuthor": "唐·李绅",
+      "originalParagraphs": [
+        "锄禾日当午，",
+        "汗滴禾下土。",
+        "谁知盘中餐，",
+        "粒粒皆辛苦。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-042",
+    "title": "悯农",
+    "author": "李绅",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "春种一粒粟，",
+      "秋收万颗子。",
+      "四海无闲田，",
+      "农夫犹饿死。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-042.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "1c97227a480e667e1aba6378c898111ed00b4a41e281d8b672b3884f5441662b"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "悯农",
+      "originalAuthor": "唐·李绅",
+      "originalParagraphs": [
+        "春种一粒粟，",
+        "秋收万颗子。",
+        "四海无闲田，",
+        "农夫犹饿死。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-045",
+    "title": "山行",
+    "author": "杜牧",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "远上寒山石径斜，",
+      "白云生处有人家。",
+      "停车坐爱枫林晚，",
+      "霜叶红于二月花。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-045.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "64d8bc6e38fe438a7d93946e6b1c9d71864563bfbfa918149962b143cb18d281"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "山行",
+      "originalAuthor": "唐·杜牧",
+      "originalParagraphs": [
+        "远上寒山石径斜，",
+        "白云生处有人家。",
+        "停车坐爱枫林晚，",
+        "霜叶红于二月花。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-046",
+    "title": "清明",
+    "author": "杜牧",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "清明时节雨纷纷，",
+      "路上行人欲断魂。",
+      "借问酒家何处有？",
+      "牧童遥指杏花村。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-046.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "24b19527237b9d96b87b75d4749c98caa1e4ec0551f083ed26247cc1c7af7a31"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "清明",
+      "originalAuthor": "唐·杜牧",
+      "originalParagraphs": [
+        "清明时节雨纷纷，",
+        "路上行人欲断魂。",
+        "借问酒家何处有？",
+        "牧童遥指杏花村。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-047",
+    "title": "江南春",
+    "author": "杜牧",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "千里莺啼绿映红，",
+      "水村山郭酒旗风。",
+      "南朝四百八十寺，",
+      "多少楼台烟雨中。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-047.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "eccbdba3defc33161e54a24eb141e71f50dacc0acc478831286297dc63d8bae1"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "江南春",
+      "originalAuthor": "唐·杜牧",
+      "originalParagraphs": [
+        "千里莺啼绿映红，",
+        "水村山郭酒旗风。",
+        "南朝四百八十寺，",
+        "多少楼台烟雨中。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-048",
+    "title": "蜂",
+    "author": "罗隐",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "不论平地与山尖，",
+      "无限风光尽被占。",
+      "采得百花成蜜后，",
+      "为谁辛苦为谁甜？"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-048.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "c6a83b2a5ead90f498e5ae260a62f791c1d944521639e8169c9096a3962da419"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "蜂",
+      "originalAuthor": "唐·罗隐",
+      "originalParagraphs": [
+        "不论平地与山尖，",
+        "无限风光尽被占。",
+        "采得百花成蜜后，",
+        "为谁辛苦为谁甜？"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-049",
+    "title": "江上渔者",
+    "author": "范仲淹",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "江上往来人，",
+      "但爱鲈鱼美。",
+      "君看一叶舟，",
+      "出没风波里。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-049.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "b0466a1163824cc6c55e42ee0e7f4abbe73bcdaa6432aefb21b69032270b4605"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "江上渔者",
+      "originalAuthor": "宋·范仲淹",
+      "originalParagraphs": [
+        "江上往来人，",
+        "但爱鲈鱼美。",
+        "君看一叶舟，",
+        "出没风波里。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-050",
+    "title": "元日",
+    "author": "王安石",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "爆竹声中一岁除，",
+      "春风送暖入屠苏。",
+      "千门万户曈曈日，",
+      "总把新桃换旧符。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-050.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "192745e483e7d5ec7206fa339dbebc09446f0448eaf9f56964ee7409e8c18553"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "元日",
+      "originalAuthor": "宋·王安石",
+      "originalParagraphs": [
+        "爆竹声中一岁除，",
+        "春风送暖入屠苏。",
+        "千门万户曈曈日，",
+        "总把新桃换旧符。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-051",
+    "title": "泊船瓜洲",
+    "author": "王安石",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "京口瓜洲一水间，",
+      "钟山只隔数重山。",
+      "春风又绿江南岸，",
+      "明月何时照我还？"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-051.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "c4d801808fb8c059e017587f0bdf0dd36cbfc06b40e015b19d836f97d95d1233"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "泊船瓜洲",
+      "originalAuthor": "宋·王安石",
+      "originalParagraphs": [
+        "京口瓜洲一水间，",
+        "钟山只隔数重山。",
+        "春风又绿江南岸，",
+        "明月何时照我还？"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-052",
+    "title": "书湖阴先生壁",
+    "author": "王安石",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "茅檐长扫净无苔，",
+      "花木成畦手自栽。",
+      "一水护田将绿绕，",
+      "两山排闼送青来。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-052.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "9f7ca79088c433aa3340763c45cd93ee326b81a1ee9d01fde32c13c4f4bdb108"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "书湖阴先生壁",
+      "originalAuthor": "宋·王安石",
+      "originalParagraphs": [
+        "茅檐长扫净无苔，",
+        "花木成畦手自栽。",
+        "一水护田将绿绕，",
+        "两山排闼送青来。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-053",
+    "title": "六月二十七日望湖楼醉书",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "黑云翻墨未遮山，",
+      "白雨跳珠乱入船。",
+      "卷地风来忽吹散，",
+      "望湖楼下水如天。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-053.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "20e81fcd788dadcb826cd6b58183109e69bc492c731ce5c44ce6c922cd2efcfa"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "六月二十七日望湖楼醉书",
+      "originalAuthor": "宋·苏轼",
+      "originalParagraphs": [
+        "黑云翻墨未遮山，",
+        "白雨跳珠乱入船。",
+        "卷地风来忽吹散，",
+        "望湖楼下水如天。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-054",
+    "title": "饮湖上初晴后雨",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "水光潋滟晴方好，",
+      "山色空蒙雨亦奇。",
+      "欲把西湖比西子，",
+      "淡妆浓抹总相宜。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-054.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "cba8c61e678cf0f87e2d6452af4b0e6f74924168adf61cf3ef99da5316345c54"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "饮湖上初晴后雨",
+      "originalAuthor": "宋·苏轼",
+      "originalParagraphs": [
+        "水光潋滟晴方好，",
+        "山色空蒙雨亦奇。",
+        "欲把西湖比西子，",
+        "淡妆浓抹总相宜。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-055",
+    "title": "惠崇春江晚景",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": "惠崇春江晓景",
+    "lines": [
+      "竹外桃花三两枝，",
+      "春江水暖鸭先知。",
+      "蒌蒿满地芦芽短，",
+      "正是河豚欲上时。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-055.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "ab7bf13ed5b27ab86e8363ce52a0e2ddeb28c4e55b8688ddee3ce7b20f480d0e"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "惠崇春江晓景",
+      "originalAuthor": "宋·苏轼",
+      "originalParagraphs": [
+        "竹外桃花三两枝，",
+        "春江水暖鸭先知。",
+        "蒌蒿满地芦芽短，",
+        "正是河豚欲上时。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-056",
+    "title": "题西林壁",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "横看成岭侧成峰，",
+      "远近高低各不同。",
+      "不识庐山真面目，",
+      "只缘身在此山中。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-056.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "27d827b73ee0060f351dcb1f47960557c106c75d70c072c9a0eba7be2d3135f2"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "题西林壁",
+      "originalAuthor": "宋·苏轼",
+      "originalParagraphs": [
+        "横看成岭侧成峰，",
+        "远近高低各不同。",
+        "不识庐山真面目，",
+        "只缘身在此山中。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-057",
+    "title": "夏日绝句",
+    "author": "李清照",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "生当作人杰，",
+      "死亦为鬼雄。",
+      "至今思项羽，",
+      "不肯过江东。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-057.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "c409cbbc88e7161d22e3ebe1b908272fd41263bbdc0df2547f72115c4bb73cfe"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "夏日绝句",
+      "originalAuthor": "宋·李清照",
+      "originalParagraphs": [
+        "生当作人杰，",
+        "死亦为鬼雄。",
+        "至今思项羽，",
+        "不肯过江东。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-058",
+    "title": "三衢道中",
+    "author": "曾几",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "梅子黄时日日晴，",
+      "小溪泛尽却山行。",
+      "绿阴不减来时路，",
+      "添得黄鹂四五声。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-058.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "922a4feb7d10c908b057e6eb706e29ef13bdce9d6382b7663b5f70075db9cb69"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "三衢道中",
+      "originalAuthor": "宋·曾几",
+      "originalParagraphs": [
+        "梅子黄时日日晴，",
+        "小溪泛尽却山行。",
+        "绿阴不减来时路，",
+        "添得黄鹂四五声。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-059",
+    "title": "示儿",
+    "author": "陆游",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "死去元知万事空，",
+      "但悲不见九州同。",
+      "王师北定中原日，",
+      "家祭无忘告乃翁。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-059.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "a75775de0ba8cfa76ef8864794b3e857cee31ec00eaf5b02ca027b0e1a2643f3"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "示儿",
+      "originalAuthor": "宋·陆游",
+      "originalParagraphs": [
+        "死去元知万事空，",
+        "但悲不见九州同。",
+        "王师北定中原日，",
+        "家祭无忘告乃翁。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-060",
+    "title": "秋夜将晓出篱门迎凉有感",
+    "author": "陆游",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "三万里河东入海，",
+      "五千仞岳上摩天。",
+      "遗民泪尽胡尘里，",
+      "南望王师又一年。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-060.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "d57daa864665e843f2a5c5322c5daa46d2c4102b3d7cc3ed5375ed5629f3e960"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "秋夜将晓出篱门迎凉有感",
+      "originalAuthor": "宋·陆游",
+      "originalParagraphs": [
+        "三万里河东入海，",
+        "五千仞岳上摩天。",
+        "遗民泪尽胡尘里，",
+        "南望王师又一年。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-061",
+    "title": "四时田园杂兴",
+    "author": "范成大",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "昼出耘田夜绩麻，",
+      "村庄儿女各当家。",
+      "童孙未解供耕织，",
+      "也傍桑阴学种瓜。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-061.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "aa8aa69f24e71d7038fe9758f7f772780981b7e9cb00fd867137942643156935"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "四时田园杂兴",
+      "originalAuthor": "宋·范成大",
+      "originalParagraphs": [
+        "昼出耘田夜绩麻，",
+        "村庄儿女各当家。",
+        "童孙未解供耕织，",
+        "也傍桑阴学种瓜。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-062",
+    "title": "四时田园杂兴",
+    "author": "范成大",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "梅子金黄杏子肥，",
+      "麦花雪白菜花稀。",
+      "日长篱落无人过，",
+      "唯有蜻蜓蛱蝶飞。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-062.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "dd44a2aa03f7b21a5c8b5232b5e5f0611987d959fefb9c2a134025aa3a6a33fa"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "四时田园杂兴",
+      "originalAuthor": "宋·范成大",
+      "originalParagraphs": [
+        "梅子金黄杏子肥，",
+        "麦花雪白菜花稀。",
+        "日长篱落无人过，",
+        "唯有蜻蜓蛱蝶飞。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-063-v2",
+    "title": "小池",
+    "author": "杨万里",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "泉眼无声惜细流，",
+      "树阴照水爱晴柔。",
+      "小荷才露尖尖角，",
+      "早有蜻蜓立上头。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-063-v2.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "3c63e37c682ce9e2b38754298a5937be1f1dca980a97a83be7a17eedf2476d15"
+    },
+    "source": {
+      "url": "https://www.moe.gov.cn/srcsite/A06/s3331/201612/W020161213303084709835.pdf",
+      "revision": null,
+      "sha256": null,
+      "originalTitle": "小池",
+      "originalAuthor": "杨万里",
+      "originalParagraphs": [
+        "泉眼无声惜细流，",
+        "树阴照水爱晴柔。",
+        "小荷才露尖尖角，",
+        "早有蜻蜓立上头。"
+      ],
+      "originalSubchapter": null,
+      "page": 30,
+      "purpose": "仅用于核对《小池》的正文与作者，不作为普通小学学段分配依据"
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation",
+      "source.sha256"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null,
+    "correction": {
+      "number": 63,
+      "poemId": "primary-063-v2",
+      "replaces": "primary-063",
+      "title": "小池",
+      "author": "杨万里",
+      "dynasty": "宋",
+      "lines": [
+        "泉眼无声惜细流，",
+        "树阴照水爱晴柔。",
+        "小荷才露尖尖角，",
+        "早有蜻蜓立上头。"
+      ],
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A06/s3331/201612/W020161213303084709835.pdf",
+      "sourcePage": 30,
+      "sourcePurpose": "仅用于核对《小池》的正文与作者，不作为普通小学学段分配依据",
+      "checkedAt": "2026-11-01",
+      "reason": "此前采用的公开诗文汇编将《小池》正文错排为《四时田园杂兴》。旧 ID 保留作历史备份，正确正文使用新 ID，旧完成记录不能证明新正文已会背。"
+    }
+  },
+  {
+    "id": "primary-064",
+    "title": "晓出净慈寺送林子方",
+    "author": "杨万里",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "毕竟西湖六月中，",
+      "风光不与四时同。",
+      "接天莲叶无穷碧，",
+      "映日荷花别样红。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-064.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "3b64127604f248306d1fd20fe619f256e231440d8bee53f412e6871786942f8e"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "晓出净慈寺送林子方",
+      "originalAuthor": "宋·杨万里",
+      "originalParagraphs": [
+        "毕竟西湖六月中，",
+        "风光不与四时同。",
+        "接天莲叶无穷碧，",
+        "映日荷花别样红。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-065",
+    "title": "春日",
+    "author": "朱熹",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "胜日寻芳泗水滨，",
+      "无边光景一时新。",
+      "等闲识得东风面，",
+      "万紫千红总是春。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-065.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "19d76e0065012c6d8697c7870379462dbc18b73c2a3f35f646a96ace46dbe6fe"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "春日",
+      "originalAuthor": "宋·朱熹",
+      "originalParagraphs": [
+        "胜日寻芳泗水滨，",
+        "无边光景一时新。",
+        "等闲识得东风面，",
+        "万紫千红总是春。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-066",
+    "title": "观书有感",
+    "author": "朱熹",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "半亩方塘一鉴开，",
+      "天光云影共徘徊。",
+      "问渠那得清如许？",
+      "为有源头活水来。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-066.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "565c9e13c5e6dedeed6a8755d9427f7a174eb3bac2fa74fe5d58e86b7055da2b"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "观书有感",
+      "originalAuthor": "宋·朱熹",
+      "originalParagraphs": [
+        "半亩方塘一鉴开，",
+        "天光云影共徘徊。",
+        "问渠那得清如许？",
+        "为有源头活水来。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [
+      "(那\n通：哪)"
+    ],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-067",
+    "title": "题临安邸",
+    "author": "林升",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "山外青山楼外楼，",
+      "西湖歌舞几时休？",
+      "暖风熏得游人醉，",
+      "直把杭州作汴州。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-067.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "134498ddc5881a14c7455a9f2145a77b4aa8b834ceb98edc6429359e6e32d414"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "题临安邸",
+      "originalAuthor": "宋·林升",
+      "originalParagraphs": [
+        "山外青山楼外楼，",
+        "西湖歌舞几时休？",
+        "暖风熏得游人醉，",
+        "直把杭州作汴州。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-068",
+    "title": "游园不值",
+    "author": "叶绍翁",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "应怜屐齿印苍苔，",
+      "小扣柴扉久不开。",
+      "春色满园关不住，",
+      "一枝红杏出墙来。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-068.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "375ba58806c289e85b31a21793355585ae315c96b420931cb19520b7af12b3fe"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "游园不值",
+      "originalAuthor": "宋·叶绍翁",
+      "originalParagraphs": [
+        "应怜屐齿印苍苔，",
+        "小扣柴扉久不开。",
+        "春色满园关不住，",
+        "一枝红杏出墙来。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-069",
+    "title": "乡村四月",
+    "author": "翁卷",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "绿遍山原白满川，",
+      "子规声里雨如烟。",
+      "乡村四月闲人少，",
+      "才了蚕桑又插田。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-069.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "ab2b60e3989dc697c517394eb07fab7977319c0786139eea6c24e1ce24674eb6"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "乡村四月",
+      "originalAuthor": "宋·翁卷",
+      "originalParagraphs": [
+        "绿遍山原白满川，",
+        "子规声里雨如烟。",
+        "乡村四月闲人少，",
+        "才了蚕桑又插田。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-070",
+    "title": "墨梅",
+    "author": "王冕",
+    "dynasty": "元",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "我家洗砚池头树，",
+      "朵朵花开淡墨痕。",
+      "不要人夸好颜色，",
+      "只留清气满乾坤。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-070.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "4daaa828e21df8c120ab8beeb022474b993a2c6458c86c4e1fd8be2ccee307d0"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "墨梅",
+      "originalAuthor": "元·王冕",
+      "originalParagraphs": [
+        "我家洗砚池头树，",
+        "朵朵花开淡墨痕。",
+        "不要人夸好颜色，",
+        "只留清气满乾坤。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [
+      "(我家\n一作：吾家；朵朵\n一作：个个)",
+      "(好颜色\n一作：颜色好)"
+    ],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-071",
+    "title": "石灰吟",
+    "author": "于谦",
+    "dynasty": "明",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "千锤万凿出深山，",
+      "烈火焚烧若等闲。",
+      "粉骨碎身浑不怕，",
+      "要留清白在人间。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-071.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "b26d9d85c2e4f6f2176fa883055156ff65cdf4c6f008e77dd1de216f38641a35"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "石灰吟",
+      "originalAuthor": "明·于谦",
+      "originalParagraphs": [
+        "千锤万凿出深山，",
+        "烈火焚烧若等闲。",
+        "粉骨碎身浑不怕，",
+        "要留清白在人间。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [
+      "(万凿一作：万击)",
+      "(浑不怕一作：全不怕)"
+    ],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-072",
+    "title": "竹石",
+    "author": "郑燮",
+    "dynasty": "清",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "咬定青山不放松，",
+      "立根原在破岩中。",
+      "千磨万击还坚劲，",
+      "任尔东西南北风。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-072.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "1a6cfbe605ab8ad2ad18cffb5337e6bcccc2428e414ed414fa9cb7925e056b9b"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "竹石",
+      "originalAuthor": "清·郑燮",
+      "originalParagraphs": [
+        "咬定青山不放松，",
+        "立根原在破岩中。",
+        "千磨万击还坚劲，",
+        "任尔东西南北风。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-073",
+    "title": "所见",
+    "author": "袁枚",
+    "dynasty": "清",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "牧童骑黄牛，",
+      "歌声振林樾。",
+      "意欲捕鸣蝉，",
+      "忽然闭口立。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-073.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "fa69a865898eff83f6513c547e8a0ff5f25cccc5fcd86d8142d3eea174ac8c30"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "所见",
+      "originalAuthor": "清·袁枚",
+      "originalParagraphs": [
+        "牧童骑黄牛，",
+        "歌声振林樾。",
+        "意欲捕鸣蝉，",
+        "忽然闭口立。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-075",
+    "title": "村居",
+    "author": "高鼎",
+    "dynasty": "清",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "草长莺飞二月天，",
+      "拂堤杨柳醉春烟。",
+      "儿童散学归来早，",
+      "忙趁东风放纸鸢。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-075.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "586cbe96ffad89ca03288cff21f27c83bd1fb5b4ccb92e36cef1623955169e00"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "村居",
+      "originalAuthor": "清·高鼎",
+      "originalParagraphs": [
+        "草长莺飞二月天，",
+        "拂堤杨柳醉春烟。",
+        "儿童散学归来早，",
+        "忙趁东风放纸鸢。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-074",
+    "title": "己亥杂诗",
+    "author": "龚自珍",
+    "dynasty": "清",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "九州生气恃风雷，",
+      "万马齐喑究可哀。",
+      "我劝天公重抖擞，",
+      "不拘一格降人材。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-074.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "65b32cb605674b4ac48b0226b3cb0102a04dd1cea7cbf2dd99165651dd167c09"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "己亥杂诗",
+      "originalAuthor": "清·龚自珍",
+      "originalParagraphs": [
+        "九州生气恃风雷，",
+        "万马齐喑究可哀。",
+        "我劝天公重抖擞，",
+        "不拘一格降人材。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [
+      "(人材一作：人才)"
+    ],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null
+  },
+  {
+    "id": "primary-063",
+    "title": "旧版误录记录（原标小池）",
+    "author": "杨万里",
+    "dynasty": "宋",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "梅子金黄杏子肥，",
+      "麦花雪白菜花稀。",
+      "日长篱落无人过，",
+      "惟有蜻蜓蛱蝶飞。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-063.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "2f5f3ac642b0c10217cc4815721cbfe5716b18d1402f1735f5bbba72c6f45793"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "小池",
+      "originalAuthor": "宋·杨万里",
+      "originalParagraphs": [
+        "梅子金黄杏子肥，",
+        "麦花雪白菜花稀。",
+        "日长篱落无人过，",
+        "惟有蜻蜓蛱蝶飞。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [
+      "此前采用的公开诗文汇编将《小池》正文错排为《四时田园杂兴》。旧 ID 保留作历史备份，正确正文使用新 ID，旧完成记录不能证明新正文已会背。"
+    ],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null,
+    "archived": true,
+    "replacementId": "primary-063-v2"
+  },
+  {
+    "id": "primary-018-excerpt",
+    "title": "古朗月行（节选）",
+    "author": "李白",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": null,
+    "lines": [
+      "小时不识月，",
+      "呼作白玉盘。",
+      "又疑瑶台镜，",
+      "飞在青云端。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-018-excerpt.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "2586097562b76ce35b1edbdf53dce9b8ff59443eba3e61571804c2dd90cad628"
+    },
+    "source": {
+      "url": "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+      "revision": null,
+      "sha256": "9929a6f84d66f4315156c9c3d7699a5f6533e51492ff65c578e2fe6d5a0e6ff1",
+      "originalTitle": "古朗月行",
+      "originalAuthor": "唐·李白",
+      "originalParagraphs": [
+        "小时不识月，",
+        "呼作白玉盘。",
+        "又疑瑶台镜，",
+        "飞在青云端。",
+        "仙人垂两足，",
+        "桂树何团团。",
+        "白兔捣药成，",
+        "问言与谁餐。",
+        "蟾蜍蚀圆影，",
+        "大明夜已残。",
+        "羿昔落九乌，",
+        "天人清且安。",
+        "阴精此沦惑，",
+        "去去不足观。",
+        "忧来其如何，",
+        "凄怆摧心肝。"
+      ],
+      "originalSubchapter": null
+    },
+    "sourceNotes": [
+      "教材参考对照为前四句；完整版本另行保留。"
+    ],
+    "punctuationChanges": [],
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null,
+    "workId": "primary-018",
+    "recitationScope": "教材前四句"
+  },
+  {
+    "id": "primary-037-excerpt",
+    "title": "赋得古原草送别（节选）",
+    "author": "白居易",
+    "dynasty": "唐",
+    "theme": "诗境",
+    "level": "mid",
+    "lines": [
+      "离离原上草，",
+      "一岁一枯荣。",
+      "野火烧不尽，",
+      "春风吹又生。"
+    ],
+    "pinyin": null,
+    "titlePinyin": null,
+    "guide": null,
+    "source": {
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/fa1814a8044db4fb0c7a9e0a0449974e8c3463b7/蒙学/tangshisanbaishou.json",
+      "revision": "fa1814a8044db4fb0c7a9e0a0449974e8c3463b7",
+      "originalTitle": "賦得古原草送別",
+      "originalAuthor": "白居易",
+      "originalParagraphs": [
+        "離離原上草，一歲一枯榮。",
+        "野火燒不盡，春風吹又生。",
+        "遠芳侵古道，晴翠接荒城。",
+        "又送王孫去，萋萋滿別情。"
+      ],
+      "originalSubchapter": "草 / 賦得古原草送別"
+    },
+    "sourceNotes": [
+      "教材参考对照为前四句；完整版本另行保留。"
+    ],
+    "punctuationChanges": [],
+    "annotation": null,
+    "audio": {
+      "src": "./audio/primary-037-excerpt.mp3",
+      "kind": "synthetic",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "engine": "edge-tts 7.3.1",
+      "rate": "-15%",
+      "format": "audio/mpeg",
+      "sha256": "f307a66a85f8b0aad100d36bd9f91a74ee5eb4ddbd199ee8df9ced73d606bbea"
+    },
+    "missing": [
+      "pinyin",
+      "titlePinyin",
+      "guide",
+      "annotation"
+    ],
+    "pinyinMethod": null,
+    "guideSource": null,
+    "category": "课标古诗词",
+    "sourceIndex": null,
+    "alternateTitle": "草 / 赋得古原草送别",
+    "workId": "ts3b-094",
+    "recitationScope": "教材前四句"
+  }
+]

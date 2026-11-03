@@ -1,0 +1,118 @@
+/* One viewport, one book. Adult controls remain in the application frame. */
+html,body{height:100%;overflow:hidden;overscroll-behavior:none}
+body{height:100dvh;min-height:0}
+.app-shell{height:var(--app-height,100dvh);max-width:1280px;padding:env(safe-area-inset-top) 24px env(safe-area-inset-bottom);display:grid;grid-template-rows:54px minmax(0,1fr) 68px;gap:0}
+.app-header{height:auto;min-height:0;gap:12px;position:relative}
+.brand{font-size:21px;letter-spacing:2px;gap:8px;line-height:1.25}
+.brand-mark{width:29px;height:33px;font-size:22px;border-radius:5px}
+.brand small,.save-status,.desktop-footer{display:none}
+.context-label{font-size:12px;color:#71877c;position:absolute;left:50%;transform:translateX(-50%);pointer-events:none}
+.header-actions{gap:0;margin-left:auto}
+.profile-button{padding:6px;border:0;min-width:40px;min-height:40px;justify-content:center;border-radius:10px;color:#607e75;background:transparent}
+.profile-button>span{display:none!important}
+#main{position:relative;min-height:0;height:100%;overflow:hidden}
+.main-nav{position:static;transform:none;width:min(520px,100%);max-width:520px;align-self:center;justify-self:center;margin:0;padding:4px;gap:3px;min-height:54px;border-radius:18px;z-index:1}
+.nav-item{padding:8px 12px;min-height:43px;gap:7px;font-size:12px;border-radius:13px;flex-direction:row}
+.nav-item svg{width:18px;height:18px}
+.workbench{height:100%;width:100%;max-width:1080px;display:grid;grid-template-rows:minmax(0,1fr) 40px;gap:0;margin:auto}
+.bench-heading,.bookmarks,.page-number,.page-corner{display:none}
+.book-stage{height:100%;min-height:0;padding:4px 7px 9px;display:flex}
+.book-board{height:100%;width:100%;min-height:0;grid-template-columns:1fr 1fr;border-radius:8px 12px 12px 8px}
+.paper-sheet{height:100%;min-height:0;padding:22px 30px 22px;overflow:hidden}
+.paper-left{display:block;padding-right:34px}
+.paper-right{padding-left:34px;touch-action:pan-y}
+.sheet-content{height:100%!important;min-height:0!important;max-height:none!important;overflow:hidden!important;padding:0}
+.book-pager{height:40px;min-height:40px;display:flex;align-items:center;justify-content:space-between;padding:0 6px;margin:0;gap:8px;color:#7a8f80}
+.book-pager button{height:38px;min-height:38px;min-width:44px;padding:6px 8px;border:0;background:transparent;display:flex;align-items:center;justify-content:center;gap:4px;font-size:11px;color:#58796b}
+.pager-info{font-size:10px;text-align:center;min-width:0;line-height:1.4}
+.pager-info strong{font-size:11px;font-weight:400;color:#365d51}
+.pager-info span{display:block;font-size:9px;color:#93a18d;letter-spacing:1px}
+.storage-alert{position:absolute;top:2px;left:10px;right:10px;margin:0;z-index:25;max-height:90px;overflow:auto;font-size:11px}
+.cover-view{height:100%;display:grid;grid-template-rows:minmax(0,1fr) 48px;overflow:hidden}
+.cover-intro,.cover-caption{display:none}
+.cover-desk{height:100%;min-height:0;padding:18px 20px 20px}
+.passport-object{height:min(100%,530px);width:auto;aspect-ratio:322/444;max-width:calc(100vw - 74px)}
+.passport-cover{padding:8% 8% 7%;justify-content:center;overflow:hidden}
+.cover-title{font-size:clamp(28px,5.4dvh,43px);letter-spacing:8px}
+.cover-subtitle{font-size:clamp(8px,1.2dvh,11px);margin:10px 0 10px;letter-spacing:4px}
+.cover-emblem{width:48%;height:auto;margin:10px 0 12px;max-height:36%}
+.cover-owner{font-size:11px;margin:6px 0 12px}
+.open-passport{min-height:42px;font-size:12px;padding:9px 18px}
+.cover-status{margin:0;gap:16px;align-items:center;font-size:11px}
+.cover-status strong{font-size:23px}
+.cover-status>span+span{padding-left:16px}
+.cover-desk::after{bottom:18px}
+.section-title{font-size:25px;line-height:1.4;letter-spacing:1px;margin:8px 0 9px}
+.eyebrow{font-size:10px;letter-spacing:2px}
+.landscape{max-height:34%;margin:16px auto}
+.identity-row{margin:18px 0}.identity-avatar{width:55px;height:67px;font-size:29px}
+.identity-name{font-size:23px}.stat-triplet{padding:15px 0;margin:14px 0}.stat-triplet strong{font-size:30px}
+.home-page{height:100%;display:flex;flex-direction:column;gap:10px}
+.home-welcome{display:flex;align-items:baseline;justify-content:space-between;gap:8px;min-height:27px}
+.home-welcome h2{font-family:var(--serif);font-size:23px;font-weight:400;letter-spacing:1px;overflow-wrap:anywhere}
+.home-welcome span{font-size:10px;color:#92a087;white-space:nowrap}
+.home-page .stat-triplet{margin:0;padding:11px 0;flex-shrink:0}
+.home-page .stat-triplet strong{font-size:28px}.home-page .stat-triplet span{font-size:10px}
+.home-ticket{flex:1;min-height:0;display:grid;grid-template-rows:auto auto minmax(30px,1fr) auto;border:1px solid #d5ddcb;background:#f4f7eb;padding:15px 20px;border-radius:3px;text-align:center;position:relative}
+.home-ticket .ticket-author{margin-top:3px}.home-ticket .ticket-title{font-size:26px;margin:7px 0 1px;line-height:1.35}
+.home-ticket .landscape{height:100%;width:auto;max-height:100%;max-width:100%;margin:0 auto;align-self:center;min-height:0;padding:8px 0}
+.home-ticket .eyebrow{font-size:10px;letter-spacing:2px}
+.home-ticket .button{min-height:43px;align-self:end;margin-top:6px}
+.home-bottom{display:grid;grid-template-columns:1fr 1fr;gap:9px;flex-shrink:0}
+.home-bottom .button{min-height:42px;font-size:12px;padding:8px 10px}
+.home-bottom .button small{font-size:10px;opacity:.7}
+.library-page{height:100%;display:flex;flex-direction:column;gap:9px}
+.library-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.library-heading h2{font-family:var(--serif);font-size:23px;letter-spacing:1px;font-weight:400}
+.library-heading span{font-size:10px;color:#899b82;white-space:nowrap}
+.search-field{margin:0;flex-shrink:0}.search-field input{min-height:40px;height:40px;font-size:13px}.search-field svg{top:11px}
+.library-filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;flex-shrink:0}
+.library-filters select{min-height:35px;height:35px;padding:5px 9px;font-size:11px;background:#f4f7ec;border-color:#d8e0ce;border-radius:7px}
+#poem-results{flex:1;min-height:0;overflow:hidden}.list-count{margin:0 0 5px;font-size:10px}
+.poem-row{padding:8px 0;min-height:57px;height:57px;gap:9px}.poem-row-title{font-size:18px;line-height:1.3;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}.poem-row p{font-size:10px;margin-top:2px}.poem-row .row-index{font-size:13px;width:22px}.poem-row .pill{font-size:9px;padding:2px 6px}.poem-row>svg{width:12px}
+.practice-page{height:100%;display:flex;flex-direction:column;gap:0;min-height:0}
+.poem-topline{min-height:30px;flex-shrink:0;gap:6px}.reading-step{font-size:10px;letter-spacing:1px;gap:7px}.reading-step i{width:13px}.poem-topline .inline-actions{gap:6px}.toggle-chip{min-height:32px;padding:5px 7px;font-size:10px}.poem-topline .toggle-chip svg{width:13px;height:13px}
+.poem-heading{margin:8px 0 5px;flex-shrink:0}.poem-heading h2{font-size:27px;line-height:1.4;letter-spacing:2px;overflow-wrap:anywhere}.poem-heading.long h2{font-size:23px;letter-spacing:1px}.poem-heading.very-long h2{font-size:17px;line-height:1.45;letter-spacing:.5px}.poem-meta{font-size:10px;line-height:1.4;margin-top:4px;letter-spacing:1px}
+.poem-lines,.poem-lines.with-pinyin,.verse-small .poem-lines,.verse-small .poem-lines.with-pinyin{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;margin:8px 0;overflow:hidden}
+.poem-line,.poem-lines.with-pinyin .poem-line,.verse-small .poem-line,.verse-small .poem-lines.with-pinyin .poem-line{font-size:24px;line-height:1.4;letter-spacing:1px;white-space:normal;overflow-wrap:anywhere;min-height:0;max-width:100%;width:100%;text-align:center;flex-shrink:0}
+.poem-line.revealable{min-height:34px;padding:3px 13px;position:relative;border-radius:5px}
+.poem-line[data-action]{border:0;background:transparent;padding:3px 13px;position:relative;border-radius:5px;color:inherit;font-family:var(--serif);min-height:34px}
+.py{font-size:10px;line-height:1.35;letter-spacing:.2px;word-spacing:2px;margin-bottom:2px}
+.masked-word{display:inline-block;vertical-align:baseline}.masked-word::after{left:2px;right:2px;bottom:3px}
+.poem-line .hint-eye{position:absolute;right:0;top:12px;width:12px;height:12px}
+.practice-controls{flex-shrink:0;padding-top:10px;margin-top:auto}.practice-controls .inline-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.practice-controls .button.small{min-height:36px;font-size:11px;padding:7px 9px}.practice-controls .button.primary{margin-top:8px;min-height:42px;font-size:13px}
+.practice-status{font-size:10px;line-height:1.4;margin:6px 0 0;flex-shrink:0;min-height:14px}.page-range{font-size:9px;color:#9ba58b;text-align:center;min-height:13px;margin-top:3px;flex-shrink:0}
+.challenge-page{height:100%;display:flex;flex-direction:column;gap:10px}.challenge-page .section-title{margin:0;font-size:25px}.challenge-page .eyebrow{font-size:10px}
+.challenge-list{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:12px;margin:4px 0 0;flex:1;min-height:0}
+.challenge-tile{min-width:0;min-height:0;border:1px solid #d6dfca;border-radius:10px;background:#f3f7eb;flex-direction:column;align-items:flex-start;justify-content:center;gap:9px;padding:15px;text-align:left}
+.challenge-symbol{width:34px;height:39px;border-radius:18px 18px 5px 5px}.challenge-symbol svg{width:20px;height:20px}.challenge-tile h3{font-size:19px;line-height:1.4}.challenge-tile p{font-size:10px;line-height:1.6;margin-top:4px}.challenge-tile>svg{display:none}.challenge-page>.text-button{align-self:center;flex-shrink:0;padding:3px}
+.game-page{height:100%;display:flex;flex-direction:column;min-height:0}.game-page>.row-label{margin:0;flex-shrink:0;min-height:26px}.game-page .progress-track{margin:5px 0 11px;flex-shrink:0;height:3px}.game-page .question-source{font-size:10px;margin:0;flex-shrink:0}.game-page .question-prompt{font-size:25px;margin:15px 0;line-height:1.5;letter-spacing:1px;flex-shrink:0;overflow-wrap:anywhere}
+.game-page .answer-options{gap:8px;flex:1;justify-content:center;min-height:0}.game-page .answer-option{min-height:43px;padding:8px;font-size:19px;line-height:1.4;letter-spacing:1px;white-space:normal}.game-page .answer-feedback{min-height:28px;font-size:11px;line-height:1.5;margin:9px 0;flex-shrink:0}.game-page>.button{flex-shrink:0;min-height:42px}.game-page .duel-scores{margin:0;min-height:38px;flex-shrink:0;justify-content:space-between}.game-page .duel-scores>div{display:flex;gap:7px;align-items:baseline;padding:3px 5px}.game-page .duel-scores strong{font-size:23px}.game-page .duel-scores span{font-size:11px}.game-page .player-turn{font-size:17px;margin:6px 0 2px;flex-shrink:0}.game-page .poem-heading{margin:8px 0 4px}.game-page .poem-heading h2{font-size:24px}.game-page .poem-heading.long h2{font-size:21px}.game-page .poem-heading.very-long h2{font-size:16px}.game-page .poem-lines{margin:7px 0}.game-page .practice-status{margin:5px 0}
+.game-hints{display:flex;justify-content:center;gap:8px;flex-shrink:0}.game-hints .button{min-height:34px;padding:6px 11px;font-size:11px}
+.family-confirm{font-size:11px;margin:7px 0;padding:7px 9px;flex-shrink:0;line-height:1.4;align-items:center;min-height:34px}.family-confirm input{margin:0;width:17px;min-height:17px;height:17px}
+.game-outcomes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;flex-shrink:0;margin-top:6px}.game-outcomes .button{font-size:11px;padding:8px 4px;min-height:41px}
+.sequence-target{min-height:0;margin:12px 0;padding:10px;flex-shrink:0;gap:5px}.sequence-slot{min-height:28px;line-height:1.5;font-size:18px}.sequence-pool{gap:7px;margin:7px 0;flex:1;align-content:center}.sequence-piece{font-size:17px;min-height:36px;padding:6px 9px;line-height:1.4;max-width:100%}.sequence-actions{flex-shrink:0;margin:7px 0 0}.sequence-actions .button{min-height:36px;font-size:11px}
+.sequence-game .sequence-target{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0;padding:8px}.sequence-game .sequence-slot{font-size:15px;min-height:36px;line-height:1.35;display:flex;align-items:center;justify-content:center;border:1px solid #dde6d1;border-radius:4px;padding:4px;overflow-wrap:anywhere}.sequence-game .sequence-pool{display:grid;grid-template-columns:1fr 1fr;gap:6px;align-content:center;margin:3px 0}.sequence-game .sequence-piece{font-size:15px;letter-spacing:0;min-height:38px;padding:5px;white-space:normal}.sequence-game .poem-heading{margin:4px 0}.sequence-game .poem-heading h2{font-size:22px}.sequence-game .poem-heading.long h2{font-size:18px}.sequence-game .poem-heading.very-long h2{font-size:16px}.sequence-game .sequence-actions{margin:5px 0}.sequence-game .answer-feedback{font-size:10px;margin:5px 0;min-height:20px}.result-page .result-items{overflow:hidden}
+.result-page{height:100%;display:flex;flex-direction:column;gap:9px;min-height:0}.result-hero{padding:4px 0 6px;flex-shrink:0}.result-hero>svg{width:28px;height:28px;margin:0 auto 8px}.result-hero .section-title{font-size:23px;margin:4px 0}.result-number{font-size:54px}.result-label{font-size:11px}.result-items{margin:0;flex:1;min-height:0;overflow:auto}.result-item{padding:8px 0}.result-page>.inline-actions{margin-top:6px!important;flex-shrink:0}.result-page>.note{font-size:10px;line-height:1.5}
+.collection-page{height:100%;display:flex;flex-direction:column;gap:9px}.collection-page .section-title{font-size:24px;margin:0}.collection-page .filter-row{margin:0;flex-shrink:0}.badge-grid{margin:8px 0 0;gap:9px 8px;flex:1;min-height:0;align-content:start}.stamp-button{min-height:135px;padding:5px;gap:6px}.stamp{width:100px;height:100px;flex-shrink:0}.stamp-button>span{font-size:13px;line-height:1.4;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.stamp-button>small{font-size:9px}.stamp .stamp-title{font-size:17px}.stamp .stamp-sub{font-size:8px;max-width:76px}.stamp .stamp-date{font-size:8px}.collection-page .empty-state{display:flex;flex:1;flex-direction:column;justify-content:center;padding:8px}.collection-page .empty-state p{font-size:11px}
+.toast{bottom:calc(76px + env(safe-area-inset-bottom));font-size:12px}.dialog-inner{padding:24px}.dialog-actions .button{min-height:42px}.dialog-description{font-size:12px}.outcome-options{gap:8px;margin:12px 0}.outcome-button{min-height:58px;padding:11px}.stamp.large{width:140px;height:140px;margin:15px auto}
+dialog{max-height:calc(var(--app-height,100dvh) - 24px)}
+@media(max-height:650px){.game-page .duel-scores{display:none}.game-page .progress-track{margin:3px 0 6px}.family-confirm{margin:5px 0;min-height:32px;padding:6px 8px}.game-outcomes .button{min-height:38px}}
+@media(max-width:850px){
+ .app-shell{padding:env(safe-area-inset-top) 13px env(safe-area-inset-bottom);grid-template-rows:46px minmax(0,1fr) 62px}
+ .brand{font-size:19px;gap:6px}.brand-mark{width:24px;height:28px;font-size:19px}.context-label{font-size:11px}.profile-button{min-width:36px;min-height:36px}
+ .main-nav{min-height:51px;border-radius:16px;padding:4px;max-width:440px}.nav-item{flex-direction:row;gap:5px;font-size:10px;padding:8px 7px;min-height:41px}.nav-item svg{width:17px;height:17px}
+ .paper-left{display:none}.book-board{display:block}.book-board::after{left:0;width:10px;transform:none}.paper-right{border-radius:7px 12px 12px 7px;padding:17px 22px 18px}.book-stage{padding:3px 5px 8px}.book-board::before{inset:4px -4px -6px 1px}
+ .workbench{max-width:540px;grid-template-rows:minmax(0,1fr) 38px}.book-pager{height:38px}.book-pager button{height:36px;min-height:36px;font-size:10px}
+ .poem-heading h2{font-size:26px}.poem-heading.long h2{font-size:22px}.poem-heading.very-long h2{font-size:17px}
+ .poem-line,.poem-lines.with-pinyin .poem-line,.verse-small .poem-line,.verse-small .poem-lines.with-pinyin .poem-line{font-size:23px;line-height:1.4;letter-spacing:1px}
+ .passport-object{height:min(100%,500px);max-width:calc(100vw - 75px)}.passport-cover{padding:7% 8% 6%}.cover-owner{font-size:10px}.cover-status{font-size:10px;gap:12px}.cover-status strong{font-size:22px}.cover-status>span+span{padding-left:12px}
+ .home-welcome h2{font-size:21px}.home-page{gap:9px}.home-ticket{padding:12px 17px}.home-ticket .ticket-title{font-size:25px}.home-bottom .button{font-size:11px}
+ .poem-row{min-height:55px;height:55px;padding:7px 0}.library-page{gap:8px}.library-heading h2{font-size:22px}.poem-row-title{font-size:18px}.poem-row .pill{font-size:8px}
+ .challenge-list{gap:10px}.challenge-tile{padding:12px;gap:8px}.challenge-tile h3{font-size:18px}.challenge-tile p{font-size:10px}.challenge-page .section-title{font-size:23px}
+ .game-page .question-prompt{font-size:23px}.game-page .answer-option{font-size:18px}.game-page .poem-line{font-size:22px}
+ .fallback-leaf{width:100%;left:0}.stamp-button{min-height:133px}.stamp{width:100px;height:100px}
+}
+@media(max-width:360px){.app-shell{padding-left:10px;padding-right:10px;grid-template-rows:43px minmax(0,1fr) 59px}.paper-right{padding:15px 18px 16px}.nav-item{font-size:10px;gap:4px;padding:7px 6px}.brand{font-size:18px}.context-label{font-size:10px}.poem-line,.poem-lines.with-pinyin .poem-line,.verse-small .poem-line,.verse-small .poem-lines.with-pinyin .poem-line{font-size:22px}.poem-heading h2{font-size:25px}.poem-heading.long h2{font-size:21px}.poem-heading.very-long h2{font-size:16px}.reading-step{font-size:9px;gap:6px}.reading-step i{width:9px}.poem-topline .toggle-chip{padding:4px 6px;font-size:9px}.home-ticket .ticket-title{font-size:23px}.home-welcome h2{font-size:20px}.home-page .stat-triplet strong{font-size:25px}.home-page .stat-triplet span{font-size:9px}.challenge-tile h3{font-size:17px}.game-outcomes .button{font-size:10px}.game-page .answer-option{font-size:17px}.sequence-piece{font-size:16px}.library-filters select{font-size:10px}.poem-row-title{font-size:17px}}
+@media(max-height:650px){.paper-sheet{padding-top:13px;padding-bottom:14px}.poem-heading{margin:5px 0 2px}.poem-heading h2{font-size:24px}.poem-heading.long h2{font-size:20px}.poem-lines,.poem-lines.with-pinyin{gap:6px;margin:5px 0}.poem-topline{min-height:27px}.practice-controls{padding-top:7px}.practice-controls .button.primary{min-height:38px;margin-top:6px}.practice-controls .button.small{min-height:33px}.practice-status{font-size:9px;margin-top:4px}.page-range{font-size:8px}.challenge-tile{padding:10px;gap:5px}.challenge-symbol{width:28px;height:32px}.challenge-tile h3{font-size:16px}.challenge-tile p{font-size:9px}.challenge-page .section-title{font-size:20px}.game-page .question-prompt{margin:9px 0;font-size:21px}.game-page .answer-option{min-height:38px;padding:6px;font-size:17px}.game-page .answer-options{gap:6px}.game-page .answer-feedback{min-height:23px;font-size:10px;margin:6px 0}.game-page>.button{min-height:38px}.home-page{gap:7px}.home-page .stat-triplet{padding:7px 0}.home-ticket{padding:9px 15px}.home-ticket .ticket-title{font-size:22px}.home-ticket .button,.home-bottom .button{min-height:38px}.result-number{font-size:44px}}
+@media(max-height:480px){.app-shell{grid-template-rows:37px minmax(0,1fr) 49px}.workbench{grid-template-rows:minmax(0,1fr) 32px}.book-pager{height:32px}.main-nav{min-height:43px}.nav-item{min-height:34px;padding:5px 10px}.paper-sheet{padding:8px 18px}.paper-left{display:none}.book-board{display:block}.poem-topline{min-height:23px}.poem-heading h2{font-size:20px}.poem-heading.long h2{font-size:18px}.poem-meta{font-size:9px;margin-top:1px}.poem-heading{margin:2px 0}.practice-controls .inline-actions{display:none}.practice-controls{padding-top:4px}.practice-controls .button.primary{min-height:34px;margin-top:3px}.practice-status,.page-range{display:none}.home-page .stat-triplet{display:none}.home-welcome{min-height:22px}.home-ticket{grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr;text-align:left;gap:5px}.home-ticket .landscape{display:none}.home-ticket .button{grid-column:2;grid-row:1/3;align-self:center}.home-bottom .button{min-height:32px}.challenge-page .eyebrow,.challenge-page>.section-title{display:none}.challenge-list{margin:0;gap:7px}.challenge-tile{flex-direction:row;align-items:center;gap:9px;padding:7px}.challenge-tile p{display:none}.challenge-page>.text-button{display:none}.game-page .progress-track{margin:2px 0 4px}.game-page .row-label{min-height:20px}.game-page .question-prompt{font-size:18px;margin:3px 0}.game-page .answer-options{display:grid;grid-template-columns:1fr 1fr;gap:6px}.game-page .answer-option{font-size:16px;min-height:34px}.game-page .answer-feedback{margin:2px 0;min-height:18px}.game-page>.button{min-height:32px}}

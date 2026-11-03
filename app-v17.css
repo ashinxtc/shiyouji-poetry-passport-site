@@ -1,0 +1,22 @@
+/* Main tabs select destinations. Paper turns stay inside the selected content. */
+[hidden]{display:none!important}
+.workbench.without-pager{grid-template-rows:minmax(0,1fr)}
+.reader-back{display:flex;align-items:center;gap:var(--spacing-50);min-height:44px;padding:var(--spacing-75) var(--spacing-50);border:0;background:transparent;color:var(--teal-dark);font:500 14px/20px var(--sans);cursor:pointer;white-space:nowrap}
+.home-welcome{gap:var(--spacing-75)}
+.home-welcome .text-button{white-space:nowrap;min-height:44px;font-size:12px}
+.home-reason{display:grid;gap:var(--spacing-50);text-align:left}
+.home-reason .eyebrow{color:var(--teal-dark);font-weight:500}
+.home-reason p{color:var(--muted);margin:0}
+.home-ticket{gap:var(--spacing-75);border-radius:8px}
+.home-bottom .button{min-height:44px}
+.my-heading{display:flex;justify-content:space-between;align-items:center;gap:var(--spacing-75);min-height:36px}
+.my-heading h2{margin:0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.collection-page>.stat-triplet{margin:var(--spacing-75) 0;padding:var(--spacing-75) 0;flex-shrink:0}
+.collection-page>.stat-triplet strong{font-size:20px;line-height:28px}
+.collection-page>.stat-triplet span{font-size:12px;line-height:16px}
+.grade-curriculum{margin-top:var(--spacing-200);min-height:44px}
+.book-pager button{min-height:38px}
+@media(max-width:850px){.reader-back{font-size:12px}.home-welcome h2{font-size:20px}.my-heading .text-button{font-size:12px}.home-reason p{line-height:16px}}
+@media(max-height:650px){.home-reason{gap:var(--spacing-25)}.home-ticket{gap:var(--spacing-50)}.home-welcome h2{font-size:18px}.home-reason p{font-size:12px;line-height:16px}.home-page .stat-triplet{margin:0;padding:var(--spacing-50) 0}.my-heading{min-height:28px}.collection-page>.stat-triplet{margin:var(--spacing-50) 0;padding:var(--spacing-50) 0}}
+
+.single-page{width:100%;text-align:center}.nav-item{min-height:44px}

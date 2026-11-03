@@ -1,0 +1,299 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "kind": "synthetic",
+  "engineVersion": "7.3.1",
+  "items": [
+    {
+      "id": "primary-001",
+      "ok": true,
+      "bytes": 96192
+    },
+    {
+      "id": "primary-002",
+      "ok": true,
+      "bytes": 130464
+    },
+    {
+      "id": "primary-003",
+      "ok": true,
+      "bytes": 92736
+    },
+    {
+      "id": "primary-004",
+      "ok": true,
+      "bytes": 61488
+    },
+    {
+      "id": "primary-005",
+      "ok": true,
+      "bytes": 62496
+    },
+    {
+      "id": "primary-006",
+      "ok": true,
+      "bytes": 76320
+    },
+    {
+      "id": "primary-018",
+      "ok": true,
+      "bytes": 189216
+    },
+    {
+      "id": "primary-019",
+      "ok": true,
+      "bytes": 79920
+    },
+    {
+      "id": "primary-020",
+      "ok": true,
+      "bytes": 76032
+    },
+    {
+      "id": "primary-023",
+      "ok": true,
+      "bytes": 78768
+    },
+    {
+      "id": "primary-024",
+      "ok": true,
+      "bytes": 75600
+    },
+    {
+      "id": "primary-025",
+      "ok": true,
+      "bytes": 74448
+    },
+    {
+      "id": "primary-026",
+      "ok": true,
+      "bytes": 110160
+    },
+    {
+      "id": "primary-027",
+      "ok": true,
+      "bytes": 64368
+    },
+    {
+      "id": "primary-028",
+      "ok": true,
+      "bytes": 79920
+    },
+    {
+      "id": "primary-034",
+      "ok": true,
+      "bytes": 87840
+    },
+    {
+      "id": "primary-031",
+      "ok": true,
+      "bytes": 78912
+    },
+    {
+      "id": "primary-035",
+      "ok": true,
+      "bytes": 77616
+    },
+    {
+      "id": "primary-036",
+      "ok": true,
+      "bytes": 78192
+    },
+    {
+      "id": "primary-038",
+      "ok": true,
+      "bytes": 64368
+    },
+    {
+      "id": "primary-039",
+      "ok": true,
+      "bytes": 79632
+    },
+    {
+      "id": "primary-040",
+      "ok": true,
+      "bytes": 79056
+    },
+    {
+      "id": "primary-041",
+      "ok": true,
+      "bytes": 64224
+    },
+    {
+      "id": "primary-042",
+      "ok": true,
+      "bytes": 62928
+    },
+    {
+      "id": "primary-045",
+      "ok": true,
+      "bytes": 75456
+    },
+    {
+      "id": "primary-046",
+      "ok": true,
+      "bytes": 78048
+    },
+    {
+      "id": "primary-047",
+      "ok": true,
+      "bytes": 75888
+    },
+    {
+      "id": "primary-048",
+      "ok": true,
+      "bytes": 74016
+    },
+    {
+      "id": "primary-049",
+      "ok": true,
+      "bytes": 66240
+    },
+    {
+      "id": "primary-050",
+      "ok": true,
+      "bytes": 78048
+    },
+    {
+      "id": "primary-051",
+      "ok": true,
+      "bytes": 80064
+    },
+    {
+      "id": "primary-052",
+      "ok": true,
+      "bytes": 83376
+    },
+    {
+      "id": "primary-053",
+      "ok": true,
+      "bytes": 88128
+    },
+    {
+      "id": "primary-054",
+      "ok": true,
+      "bytes": 83088
+    },
+    {
+      "id": "primary-055",
+      "ok": true,
+      "bytes": 82656
+    },
+    {
+      "id": "primary-056",
+      "ok": true,
+      "bytes": 77904
+    },
+    {
+      "id": "primary-057",
+      "ok": true,
+      "bytes": 67824
+    },
+    {
+      "id": "primary-058",
+      "ok": true,
+      "bytes": 77904
+    },
+    {
+      "id": "primary-059",
+      "ok": true,
+      "bytes": 73728
+    },
+    {
+      "id": "primary-060",
+      "ok": true,
+      "bytes": 86688
+    },
+    {
+      "id": "primary-061",
+      "ok": true,
+      "bytes": 80064
+    },
+    {
+      "id": "primary-062",
+      "ok": true,
+      "bytes": 80784
+    },
+    {
+      "id": "primary-064",
+      "ok": true,
+      "bytes": 86112
+    },
+    {
+      "id": "primary-065",
+      "ok": true,
+      "bytes": 75312
+    },
+    {
+      "id": "primary-066",
+      "ok": true,
+      "bytes": 80352
+    },
+    {
+      "id": "primary-067",
+      "ok": true,
+      "bytes": 77616
+    },
+    {
+      "id": "primary-068",
+      "ok": true,
+      "bytes": 78624
+    },
+    {
+      "id": "primary-069",
+      "ok": true,
+      "bytes": 79488
+    },
+    {
+      "id": "primary-070",
+      "ok": true,
+      "bytes": 72144
+    },
+    {
+      "id": "primary-071",
+      "ok": true,
+      "bytes": 78336
+    },
+    {
+      "id": "primary-072",
+      "ok": true,
+      "bytes": 75168
+    },
+    {
+      "id": "primary-073",
+      "ok": true,
+      "bytes": 61920
+    },
+    {
+      "id": "primary-075",
+      "ok": true,
+      "bytes": 75744
+    },
+    {
+      "id": "primary-074",
+      "ok": true,
+      "bytes": 78624
+    },
+    {
+      "id": "primary-063",
+      "ok": true,
+      "bytes": 76608
+    },
+    {
+      "id": "primary-018-excerpt",
+      "ok": true,
+      "bytes": 68544
+    },
+    {
+      "id": "primary-037-excerpt",
+      "ok": true,
+      "bytes": 74592
+    },
+    {
+      "id": "primary-063-v2",
+      "ok": true,
+      "bytes": 77760
+    }
+  ],
+  "completed": 58,
+  "failed": 0
+}

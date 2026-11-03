@@ -1,0 +1,2838 @@
+{
+  "style": "淡彩水墨诗境",
+  "batch": 9,
+  "totalPoems": 468,
+  "availableCount": 59,
+  "items": [
+    {
+      "poemId": "tang-001",
+      "title": "登鹳雀楼",
+      "label": "楼台、黄河与落日",
+      "alt": "《登鹳雀楼》诗境插画：楼台上的旅人远眺层山与黄河，落日隐入山后",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-001-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "084804da9fe0c407fb6225e80de10bae29f6a32dc2393da2e37095cc0a398020"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-001-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36120,
+          "sha256": "0a9b8c342139f7809b145721b5f42b42a5878559347d7847f8ca41995983c1d2"
+        },
+        {
+          "src": "./illustrations/tang-001-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 126146,
+          "sha256": "b1bb439f90feebd2a502d7f52e78d2c6a22efc3efa0030d8944de9084beb14b0"
+        },
+        {
+          "src": "./illustrations/tang-001-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 282812,
+          "sha256": "44ba7d50a42b6433e86df97067219784d95cb034524713e34b61de7f48a9c3c8"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-002",
+      "title": "春晓",
+      "label": "雨后落花与啼鸟",
+      "alt": "《春晓》诗境插画：雨后的春日庭院，两只鸟停在花枝上，地面散落花瓣",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-002-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "de40e7d87f787775eb01fdb63b8b5c8379c0f11a8ede797888c3cd18f55ba196"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-002-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 46924,
+          "sha256": "7856fe8adebd4677fcf327ba0100a85e4bad0b02622fe0b4c8caed0557cc1d8e"
+        },
+        {
+          "src": "./illustrations/tang-002-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 140076,
+          "sha256": "45660d722ceda7d20ff408c1c640c4bbdd900ffd470f4cd2b1541142a449f570"
+        },
+        {
+          "src": "./illustrations/tang-002-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 268512,
+          "sha256": "9e9da4c78f29014a662f3fda93ebf60c35db85ee560fdd6ac69ba6cc57237735"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-003",
+      "title": "静夜思",
+      "label": "床前月光与思乡旅人",
+      "alt": "《静夜思》诗境插画：静夜中的旅人坐在床边望月，窗前月光洒在地面",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-003-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "24dffebb2fa66688b581268e6146746b10f1febd023d850901f29b573cc769b6"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-003-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24504,
+          "sha256": "aba519d7a2e20b176d552dd50c1da4048edf8fa62338ba26b955ab3f428feee1"
+        },
+        {
+          "src": "./illustrations/tang-003-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 94368,
+          "sha256": "a1bd1b957bcd2ec0c35a16051e81541d1e3be832b7bbc67a886c08a5fbdcb45f"
+        },
+        {
+          "src": "./illustrations/tang-003-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 242154,
+          "sha256": "e9ad9f89fe6382f405fc88f6ce911f6be0e087c3a1032cda611f19794536ee4d"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-004",
+      "title": "江雪",
+      "label": "孤舟、蓑笠与寒江雪",
+      "alt": "《江雪》诗境插画：雪覆盖群山和江岸，一位戴斗笠披蓑衣的老翁独坐小舟垂钓，四周无人无鸟",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-004-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cfd44057b2bbcee480231c9dd13bf9ee6b021cb65168cef14e2225a949e30063"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-004-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36030,
+          "sha256": "3ab436b62e52f03c62333968a8afc36b021d5ea783235ac9ce16a33d2a5a90c4"
+        },
+        {
+          "src": "./illustrations/tang-004-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 127964,
+          "sha256": "33128ca0233bb134fb35db7aae4505d1620eb1efa264c9cbba530e6bf5bab8da"
+        },
+        {
+          "src": "./illustrations/tang-004-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 286096,
+          "sha256": "0326a5080d4c12598ce750bdfb99b0ea84d0fa62a3c415744e744ba3abd6cfe4"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-005",
+      "title": "寻隐者不遇",
+      "label": "松下问路与云深山径",
+      "alt": "《寻隐者不遇》诗境插画：旅人在古松下向童子问路，童子指向云雾环绕的深山，采药的隐者没有出现在画面里",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-005-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "07e4ea23e99a3426ae92d87248ef1a5d2513e20ea69deaad285c0449d6e037ce"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-005-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 58338,
+          "sha256": "d7ec130714f2e5461b8310841f72041339ac0c45ebe06a8ef75c4bf13889bdc3"
+        },
+        {
+          "src": "./illustrations/tang-005-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 201438,
+          "sha256": "055990d75fabd768853f486b15a9341df966f1970968e8601a0af2fe22e7d2f4"
+        },
+        {
+          "src": "./illustrations/tang-005-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 434460,
+          "sha256": "7688f98dd5dd4a40b2d6759735751ed59c982336c1f61ae55a6c493a9072cd42"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-004",
+      "title": "咏鹅",
+      "label": "白鹅、红掌与绿水清波",
+      "alt": "《咏鹅》诗境插画：三只白鹅曲颈游在碧绿水面，红色脚掌在清水中划出涟漪",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-004-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f9983473e0eefab23172c0582d1edcc53e6e0bfd557aea8eb9f110d44035b3fb"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-004-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 49666,
+          "sha256": "bd4734e162f1b1002b8d7426eedd4ce26da696d1f27c897c9866e82848967a93"
+        },
+        {
+          "src": "./illustrations/primary-004-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 149850,
+          "sha256": "f5f3125e3dda0d22ee749f8cf5328a68bbc591592015de9dc55e240ea2aaba57"
+        },
+        {
+          "src": "./illustrations/primary-004-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 291454,
+          "sha256": "8a08ca51d2c2a80d9f65e8eb562bce38221e93e66f671261808fdbbf74f71348"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-001",
+      "title": "江南",
+      "label": "田田莲叶与鱼戏其间",
+      "alt": "《江南》诗境插画：盛夏水乡的荷叶层层铺开，几尾小鱼穿梭在清澈水面下，远处有一叶采莲小舟",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-001-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bec348794325e25be0745df2ae011ce6bd2f75d0a08041929e22887c3d0f5e01"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-001-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 49584,
+          "sha256": "4f92a8565be9b881679c6fefa53da330ef9865b473564943bb750ec075c32b9c"
+        },
+        {
+          "src": "./illustrations/primary-001-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 156686,
+          "sha256": "6528d6e35840d67ea9c9f05372f889e1b7ec8cac5e6feea12b4351b19d51f58b"
+        },
+        {
+          "src": "./illustrations/primary-001-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 314048,
+          "sha256": "21a76fcba818e0aecde2b611b8f32ba6a1cf05d7d58384fcc27a4e2cbadb27ed"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-063-v2",
+      "title": "小池",
+      "label": "新荷尖角与停驻蜻蜓",
+      "alt": "《小池》诗境插画：一只蜻蜓停在刚露出水面的尖尖小荷叶上，细泉流入树阴映照的小池",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-063-v2-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "59990e1e6f4ee41553f2802d01eaaabda995cec852df1a037554d88fb051c937"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-063-v2-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 53676,
+          "sha256": "9630d1aaf470fc7fe0f10a45ce970249912ff4321649ce3d27c7d5ae69c19dc6"
+        },
+        {
+          "src": "./illustrations/primary-063-v2-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 160478,
+          "sha256": "1969b57373c2eadebcce67f082062839323dfa71c7f61c77134b2d1108a7c159"
+        },
+        {
+          "src": "./illustrations/primary-063-v2-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 316076,
+          "sha256": "a49904648908ce0bf89b7c1e768d0c0cb1455b957d52d27ca4e63f7e895010ed"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-041",
+      "title": "悯农",
+      "label": "午日锄禾与碗中米粒",
+      "alt": "《悯农》诗境插画：烈日下农人俯身锄禾，汗水滴入庄稼根部的泥土，前景一碗朴素米饭呼应珍惜粮食",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-041-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a1ba78dfb73bd60e77f4cd49cfb24c544a6f0cae3f4a27f7546f3ac955ca2a59"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-041-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51974,
+          "sha256": "aabb0ae4984ed3f875c4c9b341d3691c248a5ebbfc7d02c5fe11f5a82a5d17a3"
+        },
+        {
+          "src": "./illustrations/primary-041-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 163166,
+          "sha256": "876a10281f223f9a5850018d745baa989465182ef5bfbb1783bbf0c6b0ce041c"
+        },
+        {
+          "src": "./illustrations/primary-041-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 321206,
+          "sha256": "f1b71ecba7a316d3cebbeb080b92a09eae81c45cdf3503a610cbf641d0096684"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-005",
+      "title": "风",
+      "label": "风过江面与倾斜竹林",
+      "alt": "《风》诗境插画：江边的竹林随风向一侧倾斜，秋叶被卷起，水面泛出层层风浪",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-005-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "899a345790d26e150ff7be5acb780dd5f651e9731dc3faf34086aaeaaf15be96"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-005-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 58658,
+          "sha256": "707c91c7eee47c04699a60613d182e46b3ab43ca8a8b440d153ae272ddc9b823"
+        },
+        {
+          "src": "./illustrations/primary-005-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 197224,
+          "sha256": "2f37af7c11c8dddd78165f4cbbb722893eb450399d0925abfe67384b76d73984"
+        },
+        {
+          "src": "./illustrations/primary-005-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 428972,
+          "sha256": "127db4f4f606d9b68b0cc1a1d4f2528950693f1b4bd0d09df9927910a495973e"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-020",
+      "title": "赠汪伦",
+      "label": "桃花潭畔的踏歌送别",
+      "alt": "《赠汪伦》诗境插画：小舟上的李白回身向岸边的汪伦致意，岸边友人踏歌送别，潭水清澈深远",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-020-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "31dd0b11d7d72f684b508d8f7c44c8882ea29bc78860b9907a5a0e94eea87c9d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-020-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 56066,
+          "sha256": "c04b91a7db209265d21fbc773b3478e78b3ebaf4d31766af96555b761e0410c6"
+        },
+        {
+          "src": "./illustrations/primary-020-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 183230,
+          "sha256": "a3cc925bd897e4a363e30e93e97eafef28f0b03f1868ed67b3fa1a9b9d1673a4"
+        },
+        {
+          "src": "./illustrations/primary-020-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 362902,
+          "sha256": "7ccfba939a4974137523cde7bd4a2cb18ba12f6e865b494932dd1321fed56861"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-038",
+      "title": "池上",
+      "label": "采莲归来的小艇与浮萍水路",
+      "alt": "《池上》诗境插画：小娃撑着载有白莲的小艇归来，船后被拨开的浮萍留下清楚的一道水路",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-038-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "409b709151318c6b18118aa8e3b6cc7cdb5b6f75ecda996e2979209905a9ec81"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-038-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 66578,
+          "sha256": "99c8cd4d6acf8e371568d2485842dd4f31cf7c45ab669678539ed74af9773f52"
+        },
+        {
+          "src": "./illustrations/primary-038-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 222782,
+          "sha256": "0c58c8c071301fd87dd25da940dbce40ee461181464ea23eb135f81dc872abaa"
+        },
+        {
+          "src": "./illustrations/primary-038-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 446524,
+          "sha256": "cc0fa3a354661c79fb692715e3774bdbd64ba3236f886d8b0eeedd15de582f92"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-019",
+      "title": "望庐山瀑布",
+      "label": "香炉峰紫烟与飞流瀑布",
+      "alt": "《望庐山瀑布》诗境插画：阳光照亮缭绕淡紫水雾的香炉峰，一道高瀑从山崖飞泻，白练似银河垂落",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-019-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e691959c1847d04b28e7a8bb60a3b8389b74c9d93b26fe22eef23b0ab2a2a320"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-019-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 50088,
+          "sha256": "9c8b0227b5fcd7220b859993ff289657d4912a1ec3eada09e0a101943501eef5"
+        },
+        {
+          "src": "./illustrations/primary-019-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 172860,
+          "sha256": "1a2c4ddbac8aa2fce951f2a08c841e89388055f2ad551bb9b54adf74bdfd94b2"
+        },
+        {
+          "src": "./illustrations/primary-019-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 375050,
+          "sha256": "b01c0578538e8014200fd129eed5dbed4cb9649597892c1b4ab046a7de570d8f"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-018-excerpt",
+      "title": "古朗月行（节选）",
+      "label": "童子眼中的白玉月盘",
+      "alt": "《古朗月行（节选）》诗境插画：童子站在安静庭院里仰望圆月，明净月亮如白玉盘，淡淡云气围绕远处山影",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-018-excerpt-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "972ba620a17c104d1994db892fbc2b9e9844d48604a94099ab00b7e4b8c63547"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-018-excerpt-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 55530,
+          "sha256": "6ffdacfc5721bff294f4e87417df9a714dc04c4234af12ac9c11ac2459c83ade"
+        },
+        {
+          "src": "./illustrations/primary-018-excerpt-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 190998,
+          "sha256": "93869fb1162c391c80e81e746e1c745abfdf0d574d0141c9f4fc9f4fc6a5a6d4"
+        },
+        {
+          "src": "./illustrations/primary-018-excerpt-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 413706,
+          "sha256": "f071c6075cbd581fcf4ea08c886bcfedafb42f4f097b0c75a5d6f4d8eb2009cb"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-003",
+      "title": "敕勒歌",
+      "label": "穹庐苍天与风吹草低",
+      "alt": "《敕勒歌》诗境插画：阴山下广阔草原与苍天相接，风压低长草，露出散布其间的牛羊",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-003-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b061ac54471c4aa3d4923485a513adba39cd314d63d0719aacdd681c0652c9f7"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-003-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 45032,
+          "sha256": "6d79684297569686f090c429bf0199fa484d6a3a6f574bb352553255a3581006"
+        },
+        {
+          "src": "./illustrations/primary-003-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 147024,
+          "sha256": "6d0c30feb506c6c6d0dff7f44087d76d63ad59ab8198ae1bcbb6ea861e241698"
+        },
+        {
+          "src": "./illustrations/primary-003-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 313056,
+          "sha256": "791445cc97d352c23e0103a9b08e31ffbcbcb1efa139a5ef4a2dd43484d868ff"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-040",
+      "title": "小儿垂钓",
+      "label": "草映小儿与无声招手",
+      "alt": "《小儿垂钓》诗境插画：蓬发小童侧坐草边垂钓，远处路人问路，小童轻轻摆手示意不要惊动水中的鱼",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-040-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9462f55d0750bdab3e935564c04e8aa4b60101454b1ff0e91739501922254a9a"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-040-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 61052,
+          "sha256": "d4c3c6cd24c9ab0acc80560523baceea7b5384ee9bd7d97ab8a0d1112f839b4c"
+        },
+        {
+          "src": "./illustrations/primary-040-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 192348,
+          "sha256": "f1a499f6e8de6254a30c7ec8a5afe69405f42257437a4dc1d0c6a6c09e99b3ce"
+        },
+        {
+          "src": "./illustrations/primary-040-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 384546,
+          "sha256": "96b6ffe4d80179fe5a9ae3aa428d9f531f910b1ced00288285e9a54bb9c296ae"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-006",
+      "title": "咏柳",
+      "label": "碧玉新柳与万条绿绦",
+      "alt": "《咏柳》诗境插画：一株春柳垂下细长嫩绿柳条，微风轻拂新叶，河面映着清新的柳影",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-006-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28138dd83bec1e855dbcd66dae4e14aeeec59a5f736084fb2fb12d9c27b9aff7"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-006-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 58392,
+          "sha256": "ae35d24966135a0ea30cdb207709770ccbc29d4c4b06efd21e00e4028030b0bd"
+        },
+        {
+          "src": "./illustrations/primary-006-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 203268,
+          "sha256": "6993b03486496e8651e3bde6cb6af1b38b68b90077ce2d2f3645054eda963d47"
+        },
+        {
+          "src": "./illustrations/primary-006-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 422994,
+          "sha256": "e13f33878b9b54d4d96448a5a6d15e5d6eef4c228e9ed7232c3b8de7835a2b6c"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-075",
+      "title": "村居",
+      "label": "春烟杨柳与放学纸鸢",
+      "alt": "《村居》诗境插画：春日村外杨柳轻拂河堤，几个放学的孩子趁东风放纸鸢，远处村舍隐在薄雾里",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-075-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3df66018faaf97ec85641406336b86fc07398c1286b36e874e5c2f354b5c2386"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-075-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 54392,
+          "sha256": "8e7088eaa82c74011785dc1b936eff7578db9a704aee57b5f4833372bcdcdda5"
+        },
+        {
+          "src": "./illustrations/primary-075-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 181464,
+          "sha256": "d875255814f914bb967291aa8e4580bf2a615f7a4e234aef0efc29eb623e8c0c"
+        },
+        {
+          "src": "./illustrations/primary-075-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 374440,
+          "sha256": "4e1543dc814a5425ac4c4290b2b5702b5759ed4e39f3f9b77e0f0e6ab717de23"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-037-excerpt",
+      "title": "赋得古原草送别（节选）",
+      "label": "枯草火痕与春日新芽",
+      "alt": "《赋得古原草送别（节选）》诗境插画：旧草与黑色火痕间长出鲜嫩绿芽，春风吹过连绵草地，表现野草重新生长的生命力",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-037-excerpt-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "16085bbcfbbea4d0d25ff3d283d7dc1a0a73e8241d0a5a3d46767e9de8c4a483"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-037-excerpt-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 57896,
+          "sha256": "246e8e6b261ee381bb56cb1114188c3f7a0cd2e783381dd4a83d70110ab66b60"
+        },
+        {
+          "src": "./illustrations/primary-037-excerpt-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 186554,
+          "sha256": "aca7db12c650d251ba1f7e60a69202ff70818a04c38d3703935160030522cafe"
+        },
+        {
+          "src": "./illustrations/primary-037-excerpt-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 356108,
+          "sha256": "321e16f518de15f57afb316d6aafa3829cdbbc803c97a68718b9cb7ab5b550b1"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-025",
+      "title": "绝句",
+      "label": "黄鹂翠柳与窗外雪山泊船",
+      "alt": "《绝句》诗境插画：窗外翠柳上两只黄鹂鸣叫，一行白鹭飞向蓝天，远处雪山和江边停泊的船只同入画中",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-025-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0244310f168bae918f788b323e86b75b28bfb2be898f900150321b00b71d7edb"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-025-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51046,
+          "sha256": "ffccb5d6dc5cd8885fc560a16251ff713942d72f263142fcdac9da565e550397"
+        },
+        {
+          "src": "./illustrations/primary-025-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 173002,
+          "sha256": "0fafde5321397bc79edc4aeb78312fee8bccc46dc9c4931aaf142b8604e52e4f"
+        },
+        {
+          "src": "./illustrations/primary-025-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 370904,
+          "sha256": "b599923a3260068792466fa0f40ebd6afa8f1758974bc3fd0afd89a5b5df017b"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-064",
+      "title": "晓出净慈寺送林子方",
+      "label": "接天碧叶与映日红荷",
+      "alt": "《晓出净慈寺送林子方》诗境插画：盛夏西湖的碧绿莲叶铺向远处天际，阳光照亮一片明艳红荷，水面与远山笼在清晨薄雾里",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-064-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2078f9aa698152d74802f4fd6318fb0b4a90331c8655653fb139b40fe663b72f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-064-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 46614,
+          "sha256": "83ec489a8b8624797c51819849afacbc722ef3aa68894b381261e713de2f71d4"
+        },
+        {
+          "src": "./illustrations/primary-064-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 162564,
+          "sha256": "b3e06127195c5203a1e05c01d15cbb11dc196f4cb44e3c176140f4cfc76cc7c4"
+        },
+        {
+          "src": "./illustrations/primary-064-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 335470,
+          "sha256": "89cf0ad21da17e2ee3172ca411264daa350a333ce4acdeda22c970962c132df7"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-042",
+      "title": "悯农",
+      "label": "丰收田野与农人的清贫饭碗",
+      "alt": "《悯农》诗境插画：金黄田野和谷垛显出丰收，近处农人坐在简陋屋檐下，面前粗陶碗里只有少量米饭",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-042-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "739237847b74fbfbd1740d026bd8a21e6217716d90d06314a59b27c172d309a3"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-042-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 52774,
+          "sha256": "364f80a4ba8a7b95bc2f367c1eb0aa597da5fa28238c29e7f7ca56d65d08f379"
+        },
+        {
+          "src": "./illustrations/primary-042-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 176994,
+          "sha256": "9dc4d5e4582815f2aec609e2e31f94d29835a1537b9cbd5772fad99e729ce034"
+        },
+        {
+          "src": "./illustrations/primary-042-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 369308,
+          "sha256": "83c9ae627c50f9683765126f87e99e6e82dc757992c33cf3dcbdd6ab6c4b8d08"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-049",
+      "title": "江上渔者",
+      "label": "江边鱼盘与风波中的渔舟",
+      "alt": "《江上渔者》诗境插画：江岸小亭的桌上摆着一盘鱼，远处渔人驾一叶小舟在起伏风浪中劳作",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-049-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "91df15b26cb6ca8d707e8dfd9a904c27083e96875c847d241c76d1a87057ae5d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-049-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 57082,
+          "sha256": "8aafe471a2c56065c018438a8e52c11c60e6b0543b66f086b8504841b22b53d5"
+        },
+        {
+          "src": "./illustrations/primary-049-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 203684,
+          "sha256": "07a0e44350b02c0d25d13bd9f4719f751f818caae9dcb18c20e6b20c3d157ed6"
+        },
+        {
+          "src": "./illustrations/primary-049-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 431768,
+          "sha256": "a0ffa690de02f42575064fbdcb4a0df1e1c729f1b0e04d2a8596f2c2ffdeb8d5"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-073",
+      "title": "所见",
+      "label": "黄牛背上的牧童与树间鸣蝉",
+      "alt": "《所见》诗境插画：牧童稳坐黄牛背上，发现树间的蝉后停下歌声，安静地仰头凝望",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-073-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "81a589599dc3972320e61778824af137932b16a8c795a288a7e229900584bf6f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-073-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 59852,
+          "sha256": "103f722317a4c43de2777257b3bb0bd48d65fe408eb7c59b2b37ab3cbdfa08c2"
+        },
+        {
+          "src": "./illustrations/primary-073-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 195708,
+          "sha256": "cb0458810a9de3a7eb33b35ae621dfc147047a497005264abf19cd09de4b2482"
+        },
+        {
+          "src": "./illustrations/primary-073-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 408428,
+          "sha256": "c43d567de32369a17237272ac5de7861285bbcd89636eed46bc228860a7c72d9"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-035",
+      "title": "望洞庭",
+      "label": "秋月湖光与银盘青螺",
+      "alt": "《望洞庭》诗境插画：秋夜洞庭湖静如银镜，月光洒在水面，远处一座青绿小岛宛如盘中的青螺",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-035-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3e2deb960d8b23ae5902987f2d7cf785d6c698b7f18b2403631afec951e07042"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-035-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 34056,
+          "sha256": "4cc2b36f45bbd5116a798fc9cf23193f1ff1dc5d8f8bd6a06ea1b808f37da9d1"
+        },
+        {
+          "src": "./illustrations/primary-035-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 119520,
+          "sha256": "2175495da63223d1e6b4ec050f841de56d737445ebc7b5a4aa938af55a68e76b"
+        },
+        {
+          "src": "./illustrations/primary-035-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 252206,
+          "sha256": "64f3a79675f319e098fceb7e270d550e2e1e73f83b2175be384ea6b7dd4d1e7a"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-045",
+      "title": "山行",
+      "label": "白云人家与霜红枫林",
+      "alt": "《山行》诗境插画：石径斜上秋山，白云深处隐约有人家，路边停着木车，红枫铺开温暖的秋色",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-045-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "30d0b88d7285c8e2d9cbbe4844d6e38887555430a57b8bbfcac998c47ef64c86"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-045-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 68934,
+          "sha256": "683e0bd6b73d1fcab81bcb57223e1d1ec32a1c62acd011441eab2dda5b7316f2"
+        },
+        {
+          "src": "./illustrations/primary-045-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 247360,
+          "sha256": "62553df2dc54c538d1474228e1ef35ab6ba764a62c9f508172ee76f0f08805a8"
+        },
+        {
+          "src": "./illustrations/primary-045-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 537982,
+          "sha256": "fb08b24390dcbf788ab32ffecf4b3e0d09fc5e75f89e531c0fc993b70a68e115"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-013",
+      "title": "早发白帝城",
+      "label": "彩云高城与峡江轻舟",
+      "alt": "《早发白帝城》诗境插画：清晨彩云笼着高处的古城，一叶轻舟沿峡江前行，两岸青山层叠，林间隐约可见猿影",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-013-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0e0308f3abd335e48758a77897adacb9aa8ccf84bdcdbe6aa36ca11823d855f1"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-013-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 57408,
+          "sha256": "82dc8932a8b19ca8a905ef701b8635073183b6a912567e6c24d0a539244f1ded"
+        },
+        {
+          "src": "./illustrations/tang-013-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 199438,
+          "sha256": "8f6821ad9b2f6db94e1c9faeef55bfe9aa97c5ba2ee12bb2f68426dccefbbe99"
+        },
+        {
+          "src": "./illustrations/tang-013-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 426818,
+          "sha256": "5f440ee3de67440ec4d9b297c758cd9870bd91f33082f0011b218021c93ce5d8"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-005",
+      "title": "鹿柴",
+      "label": "深林返照与青苔微光",
+      "alt": "《鹿柴》诗境插画：幽深山林中没有人影，傍晚的一束斜光穿过树干，照亮石上与地面的青苔",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-005-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b2d53f2711e7ea8d328c02284327dee5c93a52412675413c64a245495d494360"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-005-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 69156,
+          "sha256": "d65ab3744ec1850fdc189334291efa5edddeb6fe0c911177e44fd9b76307e51b"
+        },
+        {
+          "src": "./illustrations/ts3b-005-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 235544,
+          "sha256": "cd87229fee5371b4492829c6b87253dbb1205230f29dfbe18784d32447a37931"
+        },
+        {
+          "src": "./illustrations/ts3b-005-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 488790,
+          "sha256": "7233af2c66921f18211698250ad5fe911681dfc75f6a8944aa1ece677bea959f"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-023",
+      "title": "望天门山",
+      "label": "两岸青山与日边孤帆",
+      "alt": "《望天门山》诗境插画：两岸青山对峙，碧绿江水穿山而过，远处阳光照亮一片驶来的白帆",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-023-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b2b062c1d61e14811ffd5ae34713172722d77ef2cfb7680233c6c19bddad6055"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-023-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51378,
+          "sha256": "869974c1fc3beac8e3f9b04271a422f82f68000ca0b598f244ddbe0dca85ec91"
+        },
+        {
+          "src": "./illustrations/primary-023-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 171824,
+          "sha256": "de426825613c26fafde36084131af854840e155833963fab1b71c7c2fd8478dd"
+        },
+        {
+          "src": "./illustrations/primary-023-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 359734,
+          "sha256": "7fbe77a1803699ac96114b431eba80a941b0437d80dbb5b266dede98ec9e43a8"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-054",
+      "title": "饮湖上初晴后雨",
+      "label": "晴光雨雾间的西湖山色",
+      "alt": "《饮湖上初晴后雨》诗境插画：西湖一侧水光明亮，远山渐被柔和雨雾笼罩，湖岸亭影与水面相映",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-054-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9d383b5e2551009638eb6cd8425befbe59c63a1350433149c0ef5ef53d727b09"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-054-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 46230,
+          "sha256": "d519e75bfe345bc0ee22bd8211c5b4cb56ed08440fbde39c22f7a867eed9fe4f"
+        },
+        {
+          "src": "./illustrations/primary-054-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 158474,
+          "sha256": "c8099cce22c879862b4fa477b00977bb2adeaa0accb683b0e9c8afed2a44b6a7"
+        },
+        {
+          "src": "./illustrations/primary-054-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 325292,
+          "sha256": "6e503b398982a7d76d42d7e89fd8492a7c3e05df0d85f524616d7241c44990e4"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-027",
+      "title": "绝句",
+      "label": "春日飞燕与沙暖鸳鸯",
+      "alt": "《绝句》诗境插画：春日溪畔花草清新，燕子衔着湿泥飞过，温暖沙洲上一对鸳鸯相依休憩",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-027-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ac1d4bd9fe8a7f1ea9d43fbc75618a13121a7b6cd48844a3c9040356fd5d2ceb"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-027-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 57716,
+          "sha256": "7a1c826a218a000f775e11228479620d629b3e65349b49b87645a622c903fe2f"
+        },
+        {
+          "src": "./illustrations/primary-027-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 187952,
+          "sha256": "2cae86aaf0000b24ed52334d4cfe075874442896c194f8711ec8b26cb3f32778"
+        },
+        {
+          "src": "./illustrations/primary-027-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 391918,
+          "sha256": "b93314c26687a063e1512f09f37e572156d22c8d3f61e00b8935b1395c0c4eb8"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-055",
+      "title": "惠崇春江晚景",
+      "label": "竹外桃花与春江游鸭",
+      "alt": "《惠崇春江晚景》诗境插画：竹林外几枝桃花初开，几只鸭子游在春江暖水里，岸边蒌蒿与新芦芽细嫩",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-055-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4463d4c3c1606ec3d8ec8b76dac712031dddef41053aa47dd9ff312fa85e523c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-055-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 57838,
+          "sha256": "10334789fe3d5aebf5b347896ef603c232f9006ecbd73b707abf38c1bbaec875"
+        },
+        {
+          "src": "./illustrations/primary-055-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 194850,
+          "sha256": "2e15dbd442bde1c31aac663fe7db6d82c3aff676ac95393ed00ede2bb8ed57b9"
+        },
+        {
+          "src": "./illustrations/primary-055-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 408674,
+          "sha256": "233adf82d539654335134ec0b33fadae220af3cd4bf9ca09153c3c55708856f8"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-058",
+      "title": "三衢道中",
+      "label": "黄梅晴日与溪尽山行",
+      "alt": "《三衢道中》诗境插画：黄梅初熟的晴日，小舟泊在溪边，旅人沿绿荫山路前行，树间黄鹂点出初夏的生机",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-058-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "25ac373e45e6f7b2576f70fbe592d5c066769bdb5b552c2b7d3a8db876b2fcdd"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-058-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 64558,
+          "sha256": "448289b9db6deec619d2b41f392b168f90f8c4b6bc27bceab25ca73d7d1ef18a"
+        },
+        {
+          "src": "./illustrations/primary-058-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 228866,
+          "sha256": "101e823c4101a40738460b229c992b9a959769c708f595b6dea549c5e859104b"
+        },
+        {
+          "src": "./illustrations/primary-058-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 488318,
+          "sha256": "9cef7ca3dda0e92cd4ec0a317a296e39cbbf6969d34d9676f4139d09554f2618"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-039",
+      "title": "忆江南",
+      "label": "江花映日与碧水春光",
+      "alt": "《忆江南》诗境插画：红日照亮江岸春花，碧绿江水映着水乡村舍与远山，呈现记忆中的江南春景",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-039-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fecbd5a94e33f3886ac04312e600411f0d2a4b8f21f3aa463849c8109ff18d3d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-039-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 61376,
+          "sha256": "cc8522402eb7f9e7c10f3b31c8e668119e9454385b04b94b6d65712294dc823a"
+        },
+        {
+          "src": "./illustrations/primary-039-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 209304,
+          "sha256": "670d8dd4ebbece4781ee707de5f9bfa775a18536a6867b50fab5d98328496950"
+        },
+        {
+          "src": "./illustrations/primary-039-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 453448,
+          "sha256": "287bdba496432da354fdf9ae352cda0712b1ae02adb8359e0fb07af9f2ee6f11"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-060",
+      "title": "滁州西涧",
+      "label": "幽草深树与雨急横舟",
+      "alt": "《滁州西涧》诗境插画：春雨中的西涧水势渐急，幽草与深树映着岸边，一只空舟横在无人渡口",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-060-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "db66c067a11fdb60f3b6882f0fdc2098215abb8444fa148a6d03e3936616aa8d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-060-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 64476,
+          "sha256": "5e7c0b7e985d1521b75363fd948ccd7c2fa18bf85837a1a3c2630725ab5a265e"
+        },
+        {
+          "src": "./illustrations/ts3b-060-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 226430,
+          "sha256": "614d42bae12d89321371653e5d0353079ddeb20ffd8bd1634b7e2b185088de8a"
+        },
+        {
+          "src": "./illustrations/ts3b-060-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 478472,
+          "sha256": "26ee979287876521315683febb9d640c99a732604052f131a43912c0b7c39247"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-050",
+      "title": "元日",
+      "label": "新年晨光与换新桃符",
+      "alt": "《元日》诗境插画：新年早晨的古朴院门前，大人换上新的桃符，孩子在一旁迎春，地上爆竹纸屑与淡烟点出节日气氛",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-050-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "848079d23f9183a3e682b4fc2e9db1c7557cf67a7bca8511784143bfdfe54488"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-050-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 61576,
+          "sha256": "2a73c5f0e7315b48281ca6dd3d847695a2489664e061dbb170ad6e9c2e0acdb1"
+        },
+        {
+          "src": "./illustrations/primary-050-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 206362,
+          "sha256": "7a1d8927fdc328fadad84ec69678d496eca5e9cb0a546e11b34355c3fb6cc01c"
+        },
+        {
+          "src": "./illustrations/primary-050-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 431768,
+          "sha256": "7468f61255ee8d2b9eec6f8f41282b173dc8380456931882b614c8b2408778de"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-046",
+      "title": "清明",
+      "label": "细雨问路与杏花远村",
+      "alt": "《清明》诗境插画：细雨中的旅人撑伞问路，牧童指向杏花掩映的村舍，春野与淡雾连成安静的远景",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-046-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "97c082492148a13b5672ea41e843cc33d16f29bf4157b8db2d367e1853397289"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-046-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 54876,
+          "sha256": "15bf7513beb59523be63e445837f054c36b712b188e06b4a7f6419ae05801166"
+        },
+        {
+          "src": "./illustrations/primary-046-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 184586,
+          "sha256": "304b11ee30394868674b191d0d14d998c434d19fbbe9341b4b04499552694b89"
+        },
+        {
+          "src": "./illustrations/primary-046-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 400888,
+          "sha256": "1651141201d981ae0b997fd394a6b3f7a3ab3af8905d87b87cba1ae1815cdecf"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-011",
+      "title": "九月九日忆山东兄弟",
+      "label": "异乡秋思与远山登高",
+      "alt": "《九月九日忆山东兄弟》诗境插画：异乡旅人独自望向秋山，远处登高的家人身影与秋叶相映，寄托重阳思亲的心情",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-011-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "76d79e8ce73b71ed4618a6d9f121c8e9081b4c87230c96a20c1fe269fda3e8cb"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-011-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 53076,
+          "sha256": "235e2c7f3b765b064b02c343f9b73a7cd55e61c1fdd253169f9a232858cb3987"
+        },
+        {
+          "src": "./illustrations/tang-011-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 177530,
+          "sha256": "5fedcf8f3c4869523e4a19d8bf6e82875721c8e535d0355d2e18b9e7b245880b"
+        },
+        {
+          "src": "./illustrations/tang-011-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 375846,
+          "sha256": "db283f226a42cee9a7d8f37160ac585eec00001cdb5aa9bbcfd2aba972ff2052"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-056",
+      "title": "题西林壁",
+      "label": "庐山层岭与身在山中",
+      "alt": "《题西林壁》诗境插画：旅人沿山间小径仰望高低错落的庐山，近处岩壁与远处层岭呈现不同的山势",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-056-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "de09efd517ff8ed12081931cbc5ce12cfb05bdb1a952d923b9287c3af0ed64de"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-056-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43510,
+          "sha256": "87ec500c68febbe0da34e6f68e6a75a2fc9c501ee88a61f528f55078d633cb28"
+        },
+        {
+          "src": "./illustrations/primary-056-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 147576,
+          "sha256": "7ebb201a9435c9e50b7331972e01ca1cd8d750a35477c45df3fdc20c0046faf7"
+        },
+        {
+          "src": "./illustrations/primary-056-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 317650,
+          "sha256": "02890258bd48b6f2356b72d3e44967c66305b0a7e75161ad442873e09b8cbdf0"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-044",
+      "title": "嫦娥",
+      "label": "烛影、星河与月宫清影",
+      "alt": "《嫦娥》诗境插画：室内烛光映着云母屏风，窗外星河渐淡，远月中的嫦娥身影安静而遥远",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-044-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8762dd71c57ca0ef2be898b17d1b1fc482cbdfc511b041fb0a0675e0907fb05c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-044-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 33142,
+          "sha256": "677e565815b38c490faf89afc11de0772c2c96e229d4d9353a3a05872a265566"
+        },
+        {
+          "src": "./illustrations/ts3b-044-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 119948,
+          "sha256": "19ccb63885419bd8e985b9b31c36248cb706b19335ad2f448420e491464e0469"
+        },
+        {
+          "src": "./illustrations/ts3b-044-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 275166,
+          "sha256": "9c922a0decc81aca5f922bf485c60cbbfdc056fa6cfcaa013a62468702e6d27f"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-012",
+      "title": "黄鹤楼送孟浩然之广陵",
+      "label": "春日送别与天际孤帆",
+      "alt": "《黄鹤楼送孟浩然之广陵》诗境插画：黄鹤楼旁的送行人望向春日长江，一叶孤帆渐远，岸边花木映着辽阔水天",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-012-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e70b76747006a6257e8e7c794761b578439e3e0bd2f5bb161830efa6c9a18dea"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-012-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 38620,
+          "sha256": "f495835177437d1d01d09858c44f5e334e7b70bb1aa635e68550e168c8166fa5"
+        },
+        {
+          "src": "./illustrations/tang-012-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 133178,
+          "sha256": "1c3341cd6ee381fe6a8ae69bd92a3d24de24fe78cff1a447c564e853216a9203"
+        },
+        {
+          "src": "./illustrations/tang-012-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 287842,
+          "sha256": "43eb599cea70606fe87aa071bdbde38214fa5a000f249e387e53837f9a9fdcc9"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-033",
+      "title": "凉州词",
+      "label": "边塞夜色与琵琶军帐",
+      "alt": "《凉州词》诗境插画：边塞军营的夜色里，玉色杯盏与琵琶映着灯光，几位将士在远处安静休憩",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-033-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fdb8bac4c2c25478f32b5ffd8ea900dabb99a43c7afe2c4157173519acecc29c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-033-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43146,
+          "sha256": "6e4d4bd74806236927ce431e7df7c4b6d6889d9459479f4ebbd68f0d5dfdd0a6"
+        },
+        {
+          "src": "./illustrations/ts3b-033-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 148432,
+          "sha256": "1adab656a237a58880339773117fafdeafc39618ebbd515f9b161564c206c568"
+        },
+        {
+          "src": "./illustrations/ts3b-033-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 322524,
+          "sha256": "65b31d8ea06eb43efaba4a337710d340408f331244cd1be17082d24f87ae0387"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-277",
+      "title": "出塞·秦时明月汉时关",
+      "label": "秦汉明月与边关远山",
+      "alt": "《出塞·秦时明月汉时关》诗境插画：明月照着古老边关与蜿蜒城墙，远处骑马的将士守望层层山岭",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-277-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "148418028c867a1716ee539589aea8848529ef94f667d0631a17d2852f5420b2"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-277-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 41418,
+          "sha256": "d4c8a1650bf859e61cf0239b0d0645db90fa44b014f0610f1c93b96f3a6ea430"
+        },
+        {
+          "src": "./illustrations/ts3b-277-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 141386,
+          "sha256": "926eb67449e498341f7e4c16adc5b1d5a88d4c1bb11874566ad193a06823a4c1"
+        },
+        {
+          "src": "./illustrations/ts3b-277-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 307102,
+          "sha256": "f8afc1ac60a03b2b82764454324dddcd268f580e5ae0a53c095e2f266f251096"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-057",
+      "title": "夏日绝句",
+      "label": "江岸停马与不渡之志",
+      "alt": "《夏日绝句》诗境插画：项羽与战马停在江岸，隔水远望江东，空渡船与辽阔江面衬出沉思的身影",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-057-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5bf9e22237b3b63fbcd4c5c5095d4ae6c4fcfe3654eb67baf37e30efb198b048"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-057-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43872,
+          "sha256": "52d8a475b32fde7eb14ca36d450591f7ead14702d8c6c8ef7cac2bf313c40fed"
+        },
+        {
+          "src": "./illustrations/primary-057-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 149886,
+          "sha256": "1cd3263b4439b9aba7c955d9b4436f30ca4c7fbb62ff10eb5c367710ebcb8d31"
+        },
+        {
+          "src": "./illustrations/primary-057-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 329994,
+          "sha256": "6dd009e74fa61f1340de9e96e07159fb160ec40178b1a1c53918ea0107fbc50b"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-024",
+      "title": "别董大",
+      "label": "黄云暮雪与知己送别",
+      "alt": "《别董大》诗境插画：黄云与风雪笼罩旷野，两位旅人在路边送别，远空雁群掠过淡淡日光",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-024-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b10ad4fb9582c02298e776bbd368571410a92dde2da6bb02177cf64b9e4be445"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-024-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 37606,
+          "sha256": "38397224ba3e7eec1ceeb460ba3eadc354f0dbeebba83aec760394cda8fccb7e"
+        },
+        {
+          "src": "./illustrations/primary-024-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 123716,
+          "sha256": "8e781c6505ed08103a84cc10011aac75b771f40cc11f2328b81cb7b185aac1fa"
+        },
+        {
+          "src": "./illustrations/primary-024-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 252904,
+          "sha256": "c43d8d68b9963d4e1843297134384af30f421237892c1cef96a5f3315ce719cb"
+        }
+      ]
+    },
+    {
+      "poemId": "school-d828e7791ba1ece5",
+      "title": "画鸡",
+      "label": "白羽红冠与清晨村落",
+      "alt": "《画鸡》诗境插画：一只红冠白羽的雄鸡昂首站在村口石阶上，晨光中远处屋舍的门扇渐次打开",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-d828e7791ba1ece5-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f3b15aa567a00d7993b45af1ff2da0e72590b7d64ac116d3e7b6ab91fc3b8ad3"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-d828e7791ba1ece5-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 38532,
+          "sha256": "742c63720ef93166661967f54e4149766ef54247ec67f37453f7f9b461adfb5c"
+        },
+        {
+          "src": "./illustrations/school-d828e7791ba1ece5-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 121674,
+          "sha256": "cb236e8b64b4b23b218ef5e47a9e52e29279148b286185ff0e0a02f3c28d10d3"
+        },
+        {
+          "src": "./illustrations/school-d828e7791ba1ece5-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 246062,
+          "sha256": "091de45b22a59ec900b698ae1e331a3429e7a87d958d2b52139cb4c3214ab1b5"
+        }
+      ]
+    },
+    {
+      "poemId": "school-f2bc6d0e8bafa30f",
+      "title": "梅花",
+      "label": "墙角寒梅与暗香",
+      "alt": "《梅花》诗境插画：冬日灰墙转角伸出数枝白梅，枝头花瓣与墙脚薄雪相映",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-f2bc6d0e8bafa30f-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "02908e8b32a75319de1df311f953c3d77eb2c19b4894b8e7a4f572c2c6679bf0"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-f2bc6d0e8bafa30f-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 34402,
+          "sha256": "cb1b098558d747b320092eda8ab6a5ee53ba43ada1c4a6cf09c6710e21569c90"
+        },
+        {
+          "src": "./illustrations/school-f2bc6d0e8bafa30f-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 116548,
+          "sha256": "f5883ec4aeb64e4b819dde7647f4622a421e4b98d843b28700a86162c5951bf5"
+        },
+        {
+          "src": "./illustrations/school-f2bc6d0e8bafa30f-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 250074,
+          "sha256": "999f7845e8c1d56517079455f6cadeffc0a1f76bbb106d3cc6d1810328e537ba"
+        }
+      ]
+    },
+    {
+      "poemId": "school-1d034109b0a9004b",
+      "title": "夜宿山寺",
+      "label": "山寺高楼与近星夜色",
+      "alt": "《夜宿山寺》诗境插画：旅人站在山巅寺楼的木栏旁，群山云海之上星空近在眼前",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-1d034109b0a9004b-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ed1efe32b339d65fb5f3e751d6b4b380ef5082ddbf7d1a4142e1584094490840"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-1d034109b0a9004b-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43762,
+          "sha256": "3b0057afe4fabb039e9751647cf4940020b4c693b50087465386cdf4ce8a9376"
+        },
+        {
+          "src": "./illustrations/school-1d034109b0a9004b-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 162936,
+          "sha256": "c2ee6fdeb3ebc1bcc07314109a86f4b7444daf0fbce970a7f034c8c82afe20ae"
+        },
+        {
+          "src": "./illustrations/school-1d034109b0a9004b-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 394778,
+          "sha256": "14ee7d4a446397c554a0105de00d3449cc98fcbc4a12ae1c21761bab778fb6ac"
+        }
+      ]
+    },
+    {
+      "poemId": "school-835a8664387f4f5f",
+      "title": "夜书所见",
+      "label": "秋夜篱灯与寻蟋蟀的孩子",
+      "alt": "《夜书所见》诗境插画：秋夜江边院落中，两个孩子提灯在篱笆旁寻蟋蟀，梧桐叶随风飘落",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-835a8664387f4f5f-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "307a8a4a4235cd2b61aaea25fc2d68bd7853f6f3d6191a4c8a6fe39d4e0d9a6f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-835a8664387f4f5f-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 55680,
+          "sha256": "46ed37031b26bd796916c2e35ece856b4f2b267ac5241c1e5d94b82a1ba3f292"
+        },
+        {
+          "src": "./illustrations/school-835a8664387f4f5f-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 189078,
+          "sha256": "c7de3dfcfc0889fce27254f8e30416e22f901c7e033c275901f7f7a063ceb6f7"
+        },
+        {
+          "src": "./illustrations/school-835a8664387f4f5f-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 413146,
+          "sha256": "5e9b82356924cae22a3a3579a4a8c841fc755a7603c0183086436de0179dc737"
+        }
+      ]
+    },
+    {
+      "poemId": "school-a449e6d43155af6e",
+      "title": "舟夜书所见",
+      "label": "渔灯孤光与碎金江面",
+      "alt": "《舟夜书所见》诗境插画：无月夜色中一叶渔舟亮着孤灯，微风吹皱江面，灯影散成点点碎金",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-a449e6d43155af6e-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f1a29439b14cb42d0ccf29907018b7e5aa147e16fb6fc4001ed8645218efc1b0"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-a449e6d43155af6e-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 26972,
+          "sha256": "97d5555b0a708fc4cfa5a9972732d1d4fcc1c6bda886409ae4dd9c13619eeb59"
+        },
+        {
+          "src": "./illustrations/school-a449e6d43155af6e-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 95922,
+          "sha256": "24a442848e0c14c11f04619b1e212ae0b9711e822b185aeb74b24f6c1110cf53"
+        },
+        {
+          "src": "./illustrations/school-a449e6d43155af6e-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 226924,
+          "sha256": "8d684310fbc9111f0d71611fde289cdf64623f84d57eacc20d4ed4dfd6717b91"
+        }
+      ]
+    },
+    {
+      "poemId": "school-e0fb5e2d086f9f28",
+      "title": "采莲曲",
+      "label": "荷叶罗裙与花间采莲人",
+      "alt": "《采莲曲》诗境插画：两位采莲少女乘小舟穿行荷塘，碧绿罗裙隐入荷叶，粉荷映着脸庞",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-e0fb5e2d086f9f28-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1d6e5ad4334a3a8aa97e56ef422e4e127cd5458c40bad6ccd9d70c8431a34ab0"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-e0fb5e2d086f9f28-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 45570,
+          "sha256": "60d45d466d46323d73b6c4b103403f531f82ab25bf0ddc86faecab52554a2ab5"
+        },
+        {
+          "src": "./illustrations/school-e0fb5e2d086f9f28-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 143644,
+          "sha256": "3badbcd4f057c43838337bdbe605c8e4eeb95223ad014ed367260edfada807e5"
+        },
+        {
+          "src": "./illustrations/school-e0fb5e2d086f9f28-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 277122,
+          "sha256": "07316811423406e0ef93d05cc658515b8674d31e09f34a09abb943a85f26e19f"
+        }
+      ]
+    },
+    {
+      "poemId": "school-69c45d0f1e1531fd",
+      "title": "大林寺桃花",
+      "label": "山寺迟春与初盛桃花",
+      "alt": "《大林寺桃花》诗境插画：山中寺院旁桃花刚刚盛开，旅人沿石径走近，远处山下春色渐淡",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-69c45d0f1e1531fd-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4cf6df04eef3f3e6de0b72c41c484d8db09e2b49329dbfd40229a6f98b52c956"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-69c45d0f1e1531fd-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51194,
+          "sha256": "a3f0580abd518e814fe6156bed59af706925a0410358300b1ead92041eb535d4"
+        },
+        {
+          "src": "./illustrations/school-69c45d0f1e1531fd-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 172778,
+          "sha256": "b500cfdf99d2338480f9372ddac2c1578fc8c2b80887b788b6979e9caafce1e8"
+        },
+        {
+          "src": "./illustrations/school-69c45d0f1e1531fd-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 370612,
+          "sha256": "7bd0e316e089258a210cb41a3c71ed6e8713ec4e9db11ac5ecadfa36ced39e14"
+        }
+      ]
+    },
+    {
+      "poemId": "school-e5fed84c6fe9698d",
+      "title": "浪淘沙（其七）",
+      "label": "秋潮回山与雪白浪堆",
+      "alt": "《浪淘沙（其七）》诗境插画：江海交汇处的秋潮涌向山脚，白浪翻卷着浅色沙沫，远处水势回向海门",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-e5fed84c6fe9698d-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "316e0f578b82f86e5c9d702527df22db87475cc6891ee14a8bf8173f8b437997"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-e5fed84c6fe9698d-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 46840,
+          "sha256": "97fdde1e770c16c07aeb97648cf76f847cee50a4f545a9842ca9aa381b7bef5e"
+        },
+        {
+          "src": "./illustrations/school-e5fed84c6fe9698d-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 169342,
+          "sha256": "8fb37db38bbf7ea5d2eaccf9acdbc5a765acef96c835eea6c025e4e1d78d490e"
+        },
+        {
+          "src": "./illustrations/school-e5fed84c6fe9698d-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 367680,
+          "sha256": "11b03cb4ea96640211a959b2f047d33d54fe2e26d98f6e9ce5a780d8ee32c486"
+        }
+      ]
+    },
+    {
+      "poemId": "school-260aede008e5e229",
+      "title": "赠刘景文",
+      "label": "残荷傲菊与橙黄橘绿",
+      "alt": "《赠刘景文》诗境插画：深秋园中荷叶已枯、菊枝傲立，近处橙黄与青绿的柑橘挂满枝头",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-260aede008e5e229-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b3e196091b69f95e123e0c618a10191d9e6c73610f324c842c59b7af2ae3dea4"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-260aede008e5e229-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 58550,
+          "sha256": "e7f05841423d14225153ca999ab89df04c41ff887cf7d28b3b1dbca7838d09b0"
+        },
+        {
+          "src": "./illustrations/school-260aede008e5e229-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 185254,
+          "sha256": "196cd4aabce4a2f0ec15e9be078b4a38890c36b424cbb6694be696cc5297178c"
+        },
+        {
+          "src": "./illustrations/school-260aede008e5e229-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 374214,
+          "sha256": "54cd06cef7aea1445cc45cd12df9ce3e49717fcea69b0b51aca3bf6f1893bc48"
+        }
+      ]
+    },
+    {
+      "poemId": "school-a19e6a7c55e61078",
+      "title": "暮江吟",
+      "label": "半江红霞与露珠新月",
+      "alt": "《暮江吟》诗境插画：暮色中的江面一半碧绿、一半映红，岸草挂着晶亮露珠，一弯新月浮在天边",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-a19e6a7c55e61078-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e57133839ebf88656e24cf67f8f28a19e78d5caa75676ed03a09b862a5204394"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-a19e6a7c55e61078-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 35944,
+          "sha256": "f344bb5d58aca76527a014d63fb0584146974efee15e4c19cbfc9d48763a80dc"
+        },
+        {
+          "src": "./illustrations/school-a19e6a7c55e61078-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 123648,
+          "sha256": "e324b157b43608ec0d5de329c5b46e0b6a2c838400fc9a7ebc88bdd58b27d01e"
+        },
+        {
+          "src": "./illustrations/school-a19e6a7c55e61078-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 275422,
+          "sha256": "c4c5de0b1450b763f545d2eb51449f39c12e88fb97fd3eff308c544007bc9d23"
+        }
+      ]
+    },
+    {
+      "poemId": "school-20c2ab02e7ce2deb",
+      "title": "雪梅",
+      "label": "雪白梅香与诗人停笔",
+      "alt": "《雪梅》诗境插画：清雪覆着淡粉梅枝，窗边诗人停笔赏看，梅花与白雪各有风姿",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-20c2ab02e7ce2deb-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bdb79a813518d4c2dd9e6e6f7fc672b06f6f640bdda0c16b372944248540e691"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-20c2ab02e7ce2deb-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42154,
+          "sha256": "0b01b6fe60604a988c2366318bfc4c29c31f9fc2fc8115638e0ece0936a1a9fa"
+        },
+        {
+          "src": "./illustrations/school-20c2ab02e7ce2deb-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 139796,
+          "sha256": "7c8004f80c02709d3df167e8e515612608e05b46f9d358bbe1a1d1df2e74f3e9"
+        },
+        {
+          "src": "./illustrations/school-20c2ab02e7ce2deb-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 290270,
+          "sha256": "7280d7d2327778439932075514e855feb507437a6341febc440fba65aadede3a"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-062",
+      "title": "四时田园杂兴",
+      "label": "梅杏初夏与篱间蝶影",
+      "alt": "《四时田园杂兴》诗境插画：初夏篱边梅子金黄、杏果饱满，麦田泛白，蜻蜓和蝴蝶飞过安静小径",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-062-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "314f1b1d34280accb6429cf915a8f2d88eaacf95626ff27a4c2cffcc309bf44e"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-062-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 55758,
+          "sha256": "d866b8c1a5edb9ea82dcb4929f881dfebcbf9e7426aa6bbd4144498deda816e6"
+        },
+        {
+          "src": "./illustrations/primary-062-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 183034,
+          "sha256": "2f2158ed047b3ada006976a03d5c52401d81120009d3d96bb1820f8c4d3176f9"
+        },
+        {
+          "src": "./illustrations/primary-062-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 383552,
+          "sha256": "3818de2eda01179ca07c319b2b8c101b876feb7baf4cf7fab5d9cce7dffbc2d5"
+        }
+      ]
+    },
+    {
+      "poemId": "school-9691bd2a88af077d",
+      "title": "宿新市徐公店",
+      "label": "疏篱深径与追蝶童子",
+      "alt": "《宿新市徐公店》诗境插画：一个孩子沿疏篱小径追逐黄蝶，蝴蝶飞入金黄菜花间，树枝刚抽新叶",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-9691bd2a88af077d-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a3aebd913221231f0220091ea2c7736a604a45c7bf7317898f3fe30d8cfe08ca"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-9691bd2a88af077d-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 49828,
+          "sha256": "9f9a145f8d7c11f36b54c6fb2e8e99ceb7064a4ba1270748443304879eef2dea"
+        },
+        {
+          "src": "./illustrations/school-9691bd2a88af077d-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 162440,
+          "sha256": "b1a0887e493afa053fb2cb966878bd61d6691fb40e4447dd56b4490139adee02"
+        },
+        {
+          "src": "./illustrations/school-9691bd2a88af077d-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 335140,
+          "sha256": "f0a55b9fff819c615d975df01a3b6ab64761237e08f51d4becf06ae54f4fba30"
+        }
+      ]
+    },
+    {
+      "poemId": "school-3d4bf4c50c51414e",
+      "title": "清平乐·村居",
+      "label": "溪边茅屋与一家闲忙",
+      "alt": "《清平乐·村居》诗境插画：低矮茅屋旁老夫妇相伴交谈，三个儿子分别锄豆、编鸡笼、卧剥莲蓬",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-3d4bf4c50c51414e-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d78eb2a4470a5b8aee6f42b2380e06dc6634c9b6a9717c36937d82f7ea18a4f9"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-3d4bf4c50c51414e-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 56706,
+          "sha256": "1cd5a524085c2877db1e75c3a50f5eb698dbfc61a5e81b0dbdb97aa618666eca"
+        },
+        {
+          "src": "./illustrations/school-3d4bf4c50c51414e-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 206612,
+          "sha256": "abb38290c46a306633e283906193ad35cf6d79911bb86b3db7e9514b5b137ef7"
+        },
+        {
+          "src": "./illustrations/school-3d4bf4c50c51414e-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 457502,
+          "sha256": "a1298ee7b720e71a7f7d3431918df9d5e98dd6d0ecf81fcf3d53987fcaebc903"
+        }
+      ]
+    }
+  ],
+  "missingIllustrationPoemIds": [
+    "tang-006",
+    "tang-007",
+    "tang-008",
+    "tang-009",
+    "tang-010",
+    "tang-014",
+    "tang-015",
+    "tang-016",
+    "tang-017",
+    "tang-018",
+    "tang-019",
+    "tang-020",
+    "ts3b-000",
+    "ts3b-002",
+    "ts3b-009",
+    "ts3b-011",
+    "ts3b-013",
+    "ts3b-014",
+    "ts3b-015",
+    "ts3b-018",
+    "ts3b-020",
+    "ts3b-021",
+    "ts3b-022",
+    "ts3b-024",
+    "ts3b-025",
+    "ts3b-026",
+    "ts3b-027",
+    "ts3b-028",
+    "ts3b-029",
+    "ts3b-030",
+    "ts3b-031",
+    "ts3b-034",
+    "ts3b-035",
+    "ts3b-036",
+    "ts3b-037",
+    "ts3b-040",
+    "ts3b-041",
+    "ts3b-042",
+    "ts3b-043",
+    "ts3b-046",
+    "ts3b-047",
+    "ts3b-048",
+    "ts3b-049",
+    "ts3b-050",
+    "ts3b-051",
+    "ts3b-052",
+    "ts3b-053",
+    "ts3b-054",
+    "ts3b-055",
+    "ts3b-056",
+    "ts3b-057",
+    "ts3b-058",
+    "ts3b-059",
+    "ts3b-061",
+    "ts3b-062",
+    "ts3b-063",
+    "ts3b-064",
+    "ts3b-065",
+    "ts3b-066",
+    "ts3b-068",
+    "ts3b-069",
+    "ts3b-071",
+    "ts3b-072",
+    "ts3b-073",
+    "ts3b-074",
+    "ts3b-075",
+    "ts3b-076",
+    "ts3b-077",
+    "ts3b-078",
+    "ts3b-079",
+    "ts3b-080",
+    "ts3b-081",
+    "ts3b-082",
+    "ts3b-083",
+    "ts3b-084",
+    "ts3b-085",
+    "ts3b-086",
+    "ts3b-087",
+    "ts3b-088",
+    "ts3b-089",
+    "ts3b-090",
+    "ts3b-091",
+    "ts3b-092",
+    "ts3b-093",
+    "ts3b-094",
+    "ts3b-095",
+    "ts3b-096",
+    "ts3b-097",
+    "ts3b-098",
+    "ts3b-099",
+    "ts3b-100",
+    "ts3b-101",
+    "ts3b-102",
+    "ts3b-103",
+    "ts3b-104",
+    "ts3b-105",
+    "ts3b-106",
+    "ts3b-107",
+    "ts3b-108",
+    "ts3b-109",
+    "ts3b-110",
+    "ts3b-111",
+    "ts3b-112",
+    "ts3b-113",
+    "ts3b-114",
+    "ts3b-115",
+    "ts3b-116",
+    "ts3b-117",
+    "ts3b-118",
+    "ts3b-119",
+    "ts3b-120",
+    "ts3b-121",
+    "ts3b-122",
+    "ts3b-123",
+    "ts3b-124",
+    "ts3b-125",
+    "ts3b-126",
+    "ts3b-127",
+    "ts3b-128",
+    "ts3b-129",
+    "ts3b-130",
+    "ts3b-131",
+    "ts3b-132",
+    "ts3b-133",
+    "ts3b-134",
+    "ts3b-135",
+    "ts3b-136",
+    "ts3b-137",
+    "ts3b-138",
+    "ts3b-139",
+    "ts3b-140",
+    "ts3b-141",
+    "ts3b-142",
+    "ts3b-143",
+    "ts3b-144",
+    "ts3b-145",
+    "ts3b-146",
+    "ts3b-147",
+    "ts3b-148",
+    "ts3b-149",
+    "ts3b-150",
+    "ts3b-151",
+    "ts3b-152",
+    "ts3b-153",
+    "ts3b-154",
+    "ts3b-155",
+    "ts3b-156",
+    "ts3b-157",
+    "ts3b-158",
+    "ts3b-159",
+    "ts3b-160",
+    "ts3b-161",
+    "ts3b-162",
+    "ts3b-163",
+    "ts3b-164",
+    "ts3b-165",
+    "ts3b-166",
+    "ts3b-167",
+    "ts3b-168",
+    "ts3b-169",
+    "ts3b-170",
+    "ts3b-171",
+    "ts3b-172",
+    "ts3b-173",
+    "ts3b-174",
+    "ts3b-175",
+    "ts3b-176",
+    "ts3b-177",
+    "ts3b-178",
+    "ts3b-179",
+    "ts3b-180",
+    "ts3b-181",
+    "ts3b-182",
+    "ts3b-183",
+    "ts3b-184",
+    "ts3b-185",
+    "ts3b-186",
+    "ts3b-187",
+    "ts3b-188",
+    "ts3b-189",
+    "ts3b-190",
+    "ts3b-191",
+    "ts3b-192",
+    "ts3b-193",
+    "ts3b-194",
+    "ts3b-195",
+    "ts3b-196",
+    "ts3b-197",
+    "ts3b-198",
+    "ts3b-199",
+    "ts3b-200",
+    "ts3b-201",
+    "ts3b-202",
+    "ts3b-203",
+    "ts3b-204",
+    "ts3b-205",
+    "ts3b-206",
+    "ts3b-207",
+    "ts3b-208",
+    "ts3b-209",
+    "ts3b-210",
+    "ts3b-211",
+    "ts3b-212",
+    "ts3b-213",
+    "ts3b-214",
+    "ts3b-215",
+    "ts3b-216",
+    "ts3b-217",
+    "ts3b-218",
+    "ts3b-219",
+    "ts3b-220",
+    "ts3b-221",
+    "ts3b-222",
+    "ts3b-223",
+    "ts3b-224",
+    "ts3b-225",
+    "ts3b-226",
+    "ts3b-227",
+    "ts3b-228",
+    "ts3b-229",
+    "ts3b-230",
+    "ts3b-231",
+    "ts3b-232",
+    "ts3b-233",
+    "ts3b-234",
+    "ts3b-235",
+    "ts3b-236",
+    "ts3b-237",
+    "ts3b-238",
+    "ts3b-239",
+    "ts3b-240",
+    "ts3b-241",
+    "ts3b-242",
+    "ts3b-243",
+    "ts3b-244",
+    "ts3b-245",
+    "ts3b-246",
+    "ts3b-247",
+    "ts3b-248",
+    "ts3b-249",
+    "ts3b-250",
+    "ts3b-251",
+    "ts3b-252",
+    "ts3b-253",
+    "ts3b-254",
+    "ts3b-255",
+    "ts3b-256",
+    "ts3b-257",
+    "ts3b-258",
+    "ts3b-259",
+    "ts3b-260",
+    "ts3b-261",
+    "ts3b-262",
+    "ts3b-263",
+    "ts3b-264",
+    "ts3b-265",
+    "ts3b-266",
+    "ts3b-267",
+    "ts3b-268",
+    "ts3b-269",
+    "ts3b-270",
+    "ts3b-271",
+    "ts3b-272",
+    "ts3b-273",
+    "ts3b-274",
+    "ts3b-275",
+    "ts3b-276",
+    "ts3b-278",
+    "ts3b-279",
+    "ts3b-280",
+    "ts3b-282",
+    "ts3b-283",
+    "ts3b-284",
+    "ts3b-285",
+    "ts3b-286",
+    "ts3b-287",
+    "ts3b-288",
+    "ts3b-289",
+    "ts3b-290",
+    "ts3b-291",
+    "ts3b-292",
+    "ts3b-293",
+    "ts3b-294",
+    "ts3b-295",
+    "ts3b-296",
+    "ts3b-297",
+    "ts3b-298",
+    "ts3b-299",
+    "ts3b-300",
+    "ts3b-301",
+    "ts3b-302",
+    "ts3b-303",
+    "ts3b-304",
+    "ts3b-305",
+    "ts3b-306",
+    "ts3b-307",
+    "ts3b-308",
+    "ts3b-309",
+    "ts3b-310",
+    "ts3b-311",
+    "ts3b-313",
+    "ts3b-314",
+    "ts3b-315",
+    "ts3b-316",
+    "ts3b-317",
+    "ts3b-318",
+    "ts3b-319",
+    "primary-002",
+    "primary-018",
+    "primary-026",
+    "primary-028",
+    "primary-034",
+    "primary-031",
+    "primary-036",
+    "primary-047",
+    "primary-048",
+    "primary-051",
+    "primary-052",
+    "primary-053",
+    "primary-059",
+    "primary-060",
+    "primary-061",
+    "primary-065",
+    "primary-066",
+    "primary-067",
+    "primary-068",
+    "primary-069",
+    "primary-070",
+    "primary-071",
+    "primary-072",
+    "primary-074",
+    "school-8860aec60d893863",
+    "school-8cbcf3c33dbed537",
+    "school-0f82b179d0f2132f",
+    "school-6a80fe437be7839f",
+    "school-915dae06b46a305c",
+    "school-76f32dee7356c045",
+    "school-cabb9ecbc2699b6e",
+    "school-60e5bd7ff995954f",
+    "school-65796a49cc153bdb",
+    "school-407ca14c5feef8fe",
+    "school-8dd65f86e7bb2e13",
+    "school-75637220323fcf0e-excerpt",
+    "school-1d7fbd1e12aaa100",
+    "school-1b87966b1f7ceb3f",
+    "school-2334b3e8b582e87f",
+    "school-31c1fbaaa35d7390",
+    "school-7a3033b2092a55ac",
+    "school-22ef7e81c1bd9b44",
+    "school-3b7a539e995ac8f7",
+    "school-b6805dfdc3179318",
+    "school-de623c41a1212951",
+    "school-96eaa253586bb1b8",
+    "school-cdea68e20344bee0",
+    "school-67d22026ba00c4ce",
+    "school-265c99ce9f54ce8f",
+    "school-3520b19ef9a81930",
+    "school-03b5e2cc25a383a9",
+    "school-63922539cfe7e7d3",
+    "school-d7f7e55413685b42",
+    "school-1096e01fedcfa5c3",
+    "school-08e544296750ce7e",
+    "school-0bc5eb66a51b87fd",
+    "school-de18cde7d193ac10",
+    "school-1aff845edbcbf3b0",
+    "school-327b833a363da1fc",
+    "school-4ec3872206ee0bfc",
+    "school-8dc8fe71eb888249",
+    "school-06e8a60c68cbe816",
+    "school-525e6a885d08caeb",
+    "school-7bebb95475c8fee7",
+    "school-9dcd76997d1f6271",
+    "school-8a6540bb25d87f98",
+    "school-b63206f5fc8dfe64",
+    "school-0b141cf92e91965d",
+    "school-63ef51e38d6b7e40",
+    "school-df5e14ddda4963a6",
+    "school-a071374749e8bd5a",
+    "school-9c2444eec694fced",
+    "school-18fe6e579c07065a",
+    "school-d0fa884573f06ee1",
+    "school-173ea2f681818af4",
+    "school-6f1c5a1a5c2b34f5",
+    "school-345dd0ab9940a834",
+    "school-f35bcc5fe86f3a5f",
+    "school-460be206408f62b5",
+    "school-60b1a2b8dc7dc2aa",
+    "school-6f015edb5abf1223",
+    "school-c3a86bf37871b739",
+    "school-452c9e3bb254c6f0",
+    "school-e83346761102087b",
+    "school-46869a81354f3b69",
+    "school-0d4e9c09f993db5b",
+    "school-1446d4fcade33598",
+    "school-56f2d20a96821e06",
+    "school-cfbc76d58e7ba11c",
+    "school-684cc1801287abb4",
+    "school-e77936d31caf7a1e",
+    "school-969e24c36811eb6e",
+    "school-3e9d5e1f59248bbf",
+    "school-1662a5e1a339373e",
+    "school-2bd36cac1043028a",
+    "school-c23c2293518de582",
+    "school-613f48d105962513",
+    "school-445555cf912431bf",
+    "school-21494f6c64f376c2",
+    "school-0a632dc0f167a25a",
+    "school-fafc8048bf7c0aa6",
+    "school-4ee315969c43627c"
+  ]
+}

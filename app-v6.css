@@ -1,0 +1,4 @@
+.passport-object{transform:translate(var(--cover-x,0px),var(--cover-y,0px)) rotateY(-9deg) rotateX(5deg) rotateZ(-5deg) scale(var(--cover-fit,1));transition:none}
+.cover-envelope{position:absolute;inset:0 -10px -10px -1px;visibility:hidden;pointer-events:none}
+.open-passport{min-height:var(--spacing-600)}
+@media(max-height:480px){.passport-object{width:322px;height:160px;max-width:calc(100vw - 96px);aspect-ratio:auto}.passport-cover{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr auto;gap:var(--spacing-75) var(--spacing-200);padding:var(--spacing-100) var(--spacing-200);text-align:center}.cover-emblem,.cover-subtitle{display:none}.cover-title{font-size:24px;line-height:32px;letter-spacing:var(--spacing-50);margin:0;grid-column:1;grid-row:1}.cover-owner{font-size:12px;line-height:16px;letter-spacing:0;margin:0;grid-column:1;grid-row:2}.open-passport{grid-column:2;grid-row:1/3;min-height:48px;padding:var(--spacing-75) var(--spacing-100)}}
