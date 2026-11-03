@@ -1,18 +1,18 @@
 {
   "app": "shiyouji",
-  "version": 24,
-  "sourceCommit": "dcc4c671bab5975f19b41871d8b833fab3c6f686",
+  "version": 25,
+  "sourceCommit": "069c77bf77d854802a3196d57193a9966c7f72cd",
   "frontend": "github-pages",
   "assets": [
     {
       "path": "account-ui.js",
       "bytes": 6224,
-      "sha256": "435e879a6888926bbeb173ea5a2eaa78de238cc977686645ccc1e82a6b25d5cb"
+      "sha256": "06ff6989a9f991bcab18db1a0a7eb50e0da1995e68795784567b5675b0046a0c"
     },
     {
       "path": "accounts.js",
       "bytes": 22637,
-      "sha256": "5117c69ed59eab8e24d45557b775a0d2fc3d03483fb3cf637666d0c9a309f4ca"
+      "sha256": "ed8153e2858372028f73ce5b7068b15648480d075b18854b9dc41a9184e289a4"
     },
     {
       "path": "api.js",
@@ -96,13 +96,13 @@
     },
     {
       "path": "app.js",
-      "bytes": 107405,
-      "sha256": "8e6bd8ee6521e8fe1d4c60641bdf0c0a8c0bfca7fe4a25ddfdcafdfdee10b8cc"
+      "bytes": 107217,
+      "sha256": "6bc846835cff1fbbf85205e5d56f2c20d4d2480aae9ad6b6f57131e934ebd8a8"
     },
     {
       "path": "art.js",
       "bytes": 3953,
-      "sha256": "9e555c4dabeed2b0bd20fb25c40966f9b84983900d1a714327171eb93eb410b6"
+      "sha256": "66f16f60522739ee2492eb5cdeeea516769164b223c6c4f1170dcea089e6f411"
     },
     {
       "path": "audio/primary-001.mp3",
@@ -2006,8 +2006,8 @@
     },
     {
       "path": "credits.json",
-      "bytes": 26008,
-      "sha256": "97ea89516ce684213958219c9306afb632d9d27d0bfa1a89fb2e1dfd7dd8341c"
+      "bytes": 26324,
+      "sha256": "cdb0a898db8e17903987f22dd5e0df9c3602f8ea3c9f517481d8c98284c36bb9"
     },
     {
       "path": "curriculum-audio-index.json",
@@ -2022,7 +2022,7 @@
     {
       "path": "curriculum.js",
       "bytes": 2285,
-      "sha256": "832178c16745a29107736dedd0bf8361f6509aab08ee4699e079e014fb3f1cca"
+      "sha256": "c83c21bc2de889880e3a031c2313036152a7777bae7ff7fd27107e6a797a7f7f"
     },
     {
       "path": "curriculum.json",
@@ -3042,7 +3042,7 @@
     {
       "path": "index.html",
       "bytes": 3511,
-      "sha256": "2af1e7f75874de63595806e2818fca42985a2879a52b3d7142a619b382199598"
+      "sha256": "8bd15413fd1687f378d44c7d6ad6bf38760decb3764836f6338c86b01efb62a3"
     },
     {
       "path": "manifest.webmanifest",
@@ -3052,7 +3052,7 @@
     {
       "path": "navigation.js",
       "bytes": 2374,
-      "sha256": "a75c0beca4bb71e7ee7bdf8471c56b9cbb31b30587d83e3bf5e23302dd8d9f1a"
+      "sha256": "8ca632323434b9442733231be05a4f97914153c503dce2f38c640661011e5254"
     },
     {
       "path": "pagination.js",
@@ -3081,13 +3081,13 @@
     },
     {
       "path": "recitation.js",
-      "bytes": 4879,
-      "sha256": "a8bd403ec47bbbb35a3889d2a209914817889bd30c589d887fbc416b2445f306"
+      "bytes": 8180,
+      "sha256": "6a8bd50694bf4326c99b1268a146c1452096d4547a1ca2e9216f1dc5981b230f"
     },
     {
       "path": "speech-phonetics.json",
-      "bytes": 402549,
-      "sha256": "e9ae60341310ffaa5bcc19ee00b79161be756ed886aa6f9900628becea15e05b"
+      "bytes": 837671,
+      "sha256": "76fb0956d953945d2109923c5e9b1c8172231acc2684e1a4f5c4f4efaa4706af"
     },
     {
       "path": "speech-variants.json",
@@ -3097,17 +3097,17 @@
     {
       "path": "store.js",
       "bytes": 9685,
-      "sha256": "f99856bcbf99dd68574b25fe59b309a4b7934eb60db373e9c0b38d8db1f33dd0"
+      "sha256": "e6fced8b0176df5ba5a4f9b619d76e85d83489171dace10db885df03e5863f0b"
     },
     {
       "path": "sw.js",
-      "bytes": 3775,
-      "sha256": "ad5ffb8925f811800244e2a3dac8b5a0e31b25a91a1313918d6a514dfd69fb4d"
+      "bytes": 3815,
+      "sha256": "49bf7ee9d4e335395d1c69c37ba7ac294cecbc7e24821504ae96002eca77f41d"
     },
     {
       "path": "sync-core.js",
       "bytes": 8073,
-      "sha256": "db53d8660e66e4e9d0ad1557194cd837395925d4f3b27cbe4196784b0c83c353"
+      "sha256": "ec733b28c12d124cc4f39223d84ee04e752064ff7f73a1ff7024dc9e1665317c"
     },
     {
       "path": "textbook-poems.json",
@@ -3160,6 +3160,11 @@
       "sha256": "ddbe6082ec3cf979db47e5af549d2849c5d6182b3e005ef91ce1dbb9eb122f11"
     },
     {
+      "path": "vendor/pypinyin-LICENSE.txt",
+      "bytes": 1105,
+      "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c"
+    },
+    {
       "path": "vendor/three-LICENSE.txt",
       "bytes": 1081,
       "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
@@ -3176,8 +3181,8 @@
     },
     {
       "path": "voice-ui.js",
-      "bytes": 15054,
-      "sha256": "2668cdc4d0bcf3859fd249e3a5ce1d1454a07f9f81673aee4f8d2670d56e5a26"
+      "bytes": 16209,
+      "sha256": "af28f01ee3351b1c1a6c87bc2d217c52e95fad33732e732be0ca1877a9ceff91"
     },
     {
       "path": "voice.js",

@@ -1363,5 +1363,13 @@
       "model"
     ],
     "otherPoems": "使用通用诗境，专属插画尚未配置"
+  },
+  "speechCorrection": {
+    "library": "pypinyin",
+    "version": "0.55.0",
+    "source": "https://github.com/mozillazg/python-pinyin",
+    "license": "MIT",
+    "licenseFile": "./vendor/pypinyin-LICENSE.txt",
+    "purpose": "离线语音转写同音校正，不改变教材拼音的人工核查状态"
   }
 }
