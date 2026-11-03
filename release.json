@@ -1,18 +1,18 @@
 {
   "app": "shiyouji",
-  "version": 25,
-  "sourceCommit": "069c77bf77d854802a3196d57193a9966c7f72cd",
+  "version": 26,
+  "sourceCommit": "5fcd7926dc0106b4c12cbd13b867ce24fa0beea8",
   "frontend": "github-pages",
   "assets": [
     {
       "path": "account-ui.js",
       "bytes": 6224,
-      "sha256": "06ff6989a9f991bcab18db1a0a7eb50e0da1995e68795784567b5675b0046a0c"
+      "sha256": "fb0c895ec5470ae89befeabbee3d3360523004625b57b0f13004307b4eae93c7"
     },
     {
       "path": "accounts.js",
       "bytes": 22637,
-      "sha256": "ed8153e2858372028f73ce5b7068b15648480d075b18854b9dc41a9184e289a4"
+      "sha256": "f621ab1bcd9f75f79e32defec7e3e27a2c40d5b9f04ceea7b014c752f7979a9f"
     },
     {
       "path": "api.js",
@@ -97,12 +97,12 @@
     {
       "path": "app.js",
       "bytes": 107217,
-      "sha256": "6bc846835cff1fbbf85205e5d56f2c20d4d2480aae9ad6b6f57131e934ebd8a8"
+      "sha256": "d3a274ffbecb20ea2c4c36c41bcf4f9123e1035e42af21498110e836efff288e"
     },
     {
       "path": "art.js",
       "bytes": 3953,
-      "sha256": "66f16f60522739ee2492eb5cdeeea516769164b223c6c4f1170dcea089e6f411"
+      "sha256": "f974000555e435f7aa0bcc0fad1f623e61855e86e3cee3ac0048b3dc7f0b1faa"
     },
     {
       "path": "audio/primary-001.mp3",
@@ -2022,7 +2022,7 @@
     {
       "path": "curriculum.js",
       "bytes": 2285,
-      "sha256": "c83c21bc2de889880e3a031c2313036152a7777bae7ff7fd27107e6a797a7f7f"
+      "sha256": "ea591f17cad8f7cdab324bcadde0d345625538ec46bc77e7ecd36ff24578e62d"
     },
     {
       "path": "curriculum.json",
@@ -2056,8 +2056,8 @@
     },
     {
       "path": "illustrations/manifest.json",
-      "bytes": 102592,
-      "sha256": "630e3c404285c64fff444328082cafcb20e9f24c664081cea12c2bbf50bb74f3"
+      "bytes": 111154,
+      "sha256": "0d3fe9177c3b0328911aa8fd7f57cf195403ef8df55ce70af7879c1dd4f5779f"
     },
     {
       "path": "illustrations/primary-001-v1-1536.webp",
@@ -2253,6 +2253,36 @@
       "path": "illustrations/primary-028-v1-960.webp",
       "bytes": 180678,
       "sha256": "b457408cf7afcceaf55dffb6b0aec19b354c78009982edaf5525cf6857043241"
+    },
+    {
+      "path": "illustrations/primary-031-v1-1536.webp",
+      "bytes": 297980,
+      "sha256": "339c361bdd717ef77b09bfae81d6e0a3d24f1150101d3be93d4bdd5453c74d73"
+    },
+    {
+      "path": "illustrations/primary-031-v1-480.webp",
+      "bytes": 38662,
+      "sha256": "a6f21327fec7b11e3c32ee81e01f71e4aab2ebfe9175b85a65d9e6a34b63c91e"
+    },
+    {
+      "path": "illustrations/primary-031-v1-960.webp",
+      "bytes": 137096,
+      "sha256": "1833163ab0f9a35c5e49bed4bddba80bbd96e043dee61fad517eefdf9a267b08"
+    },
+    {
+      "path": "illustrations/primary-034-v1-1536.webp",
+      "bytes": 325004,
+      "sha256": "6485cd13d103a01f0e51bf5f7725e9702957f2bb41207e707cc31fb9284a09a6"
+    },
+    {
+      "path": "illustrations/primary-034-v1-480.webp",
+      "bytes": 38204,
+      "sha256": "582e54a3be7f47789259a7268cce9e5c9ef4339a7a5e8e79c5ec11fbbad24cf4"
+    },
+    {
+      "path": "illustrations/primary-034-v1-960.webp",
+      "bytes": 143220,
+      "sha256": "f44e859ded86a138bd1f4caebcbb3faa5c06a59aedb33b67e18773f3bdf0a725"
     },
     {
       "path": "illustrations/primary-035-v1-1536.webp",
@@ -2705,6 +2735,21 @@
       "sha256": "da762b7d9a4cb629889f636e9240e916cd8ab5ab8cbf01c255da5b1c1f3d4262"
     },
     {
+      "path": "illustrations/school-8cbcf3c33dbed537-v1-1536.webp",
+      "bytes": 388456,
+      "sha256": "cf9ee3cf99c86b7cdde8fe9240aea0731766a8deb5683c5c396cbff9499e7cda"
+    },
+    {
+      "path": "illustrations/school-8cbcf3c33dbed537-v1-480.webp",
+      "bytes": 48656,
+      "sha256": "c3d831307593e846871e92e009b698b39b98636ffe2e177d037c03c4d8105419"
+    },
+    {
+      "path": "illustrations/school-8cbcf3c33dbed537-v1-960.webp",
+      "bytes": 173494,
+      "sha256": "9dcede847e93d7f0b28129a0458ca5dffb5fc432753f48fb53b8fa3b6c31428c"
+    },
+    {
       "path": "illustrations/school-9691bd2a88af077d-v1-1536.webp",
       "bytes": 335140,
       "sha256": "f0a55b9fff819c615d975df01a3b6ab64761237e08f51d4becf06ae54f4fba30"
@@ -2930,6 +2975,36 @@
       "sha256": "8f6821ad9b2f6db94e1c9faeef55bfe9aa97c5ba2ee12bb2f68426dccefbbe99"
     },
     {
+      "path": "illustrations/tang-014-v1-1536.webp",
+      "bytes": 382846,
+      "sha256": "b42c682f3e8bc13b640643dd10c107877ec0b33124dbef4c9534fa5816e1bef6"
+    },
+    {
+      "path": "illustrations/tang-014-v1-480.webp",
+      "bytes": 41642,
+      "sha256": "41f7746f5fe46b05ef16b03335cc411fb2a51fbd9e6b6090c9deaf0d98d00d12"
+    },
+    {
+      "path": "illustrations/tang-014-v1-960.webp",
+      "bytes": 160708,
+      "sha256": "0a03f0d74eb785a2b86c801f1b4397e3c5ba37556ceef385e612bdd60383664e"
+    },
+    {
+      "path": "illustrations/tang-016-v1-1536.webp",
+      "bytes": 250340,
+      "sha256": "c4d4c9580dd62f033d74cc0834870085c47821421841c7b43c1f686d872326e9"
+    },
+    {
+      "path": "illustrations/tang-016-v1-480.webp",
+      "bytes": 34606,
+      "sha256": "d6715967a1a9df3d1b21206bfcc9a2b881065f3e8b1d8244523082d2d1c87dd4"
+    },
+    {
+      "path": "illustrations/tang-016-v1-960.webp",
+      "bytes": 115302,
+      "sha256": "ba1b71c57d5a10c4634277ad92746b6f0c27da55de8ce816d59a4bb65ef2387c"
+    },
+    {
       "path": "illustrations/ts3b-005-v1-1536.webp",
       "bytes": 488790,
       "sha256": "7233af2c66921f18211698250ad5fe911681dfc75f6a8944aa1ece677bea959f"
@@ -3005,6 +3080,21 @@
       "sha256": "614d42bae12d89321371653e5d0353079ddeb20ffd8bd1634b7e2b185088de8a"
     },
     {
+      "path": "illustrations/ts3b-088-v1-1536.webp",
+      "bytes": 501264,
+      "sha256": "f5e85a3678fd4a88a133082291ff2389280950841bd59532464431b46f658eb3"
+    },
+    {
+      "path": "illustrations/ts3b-088-v1-480.webp",
+      "bytes": 56048,
+      "sha256": "f0ce508efbc0def27f7934e70042b2e29893b1a322b2712994376dd4fac6abdb"
+    },
+    {
+      "path": "illustrations/ts3b-088-v1-960.webp",
+      "bytes": 213522,
+      "sha256": "14fe960e71d8ce4682376c40a10e9c63f32b34611bd507202030838bed40d908"
+    },
+    {
       "path": "illustrations/ts3b-277-v1-1536.webp",
       "bytes": 307102,
       "sha256": "f8afc1ac60a03b2b82764454324dddcd268f580e5ae0a53c095e2f266f251096"
@@ -3036,13 +3126,13 @@
     },
     {
       "path": "illustrations.js",
-      "bytes": 89187,
-      "sha256": "08f2842468a430bc1cb6442b53c3b171983b116d090f1741134a9ac6d8d9ff49"
+      "bytes": 97380,
+      "sha256": "451811bce7a23b4bcc908f6d30ee1483d3636522ab0502d4a1c600b84ef1513a"
     },
     {
       "path": "index.html",
       "bytes": 3511,
-      "sha256": "8bd15413fd1687f378d44c7d6ad6bf38760decb3764836f6338c86b01efb62a3"
+      "sha256": "765811eea7d5c4a278aa2c5cf8fa77a4f0eb9dc0f4d8841207cf575c801eb158"
     },
     {
       "path": "manifest.webmanifest",
@@ -3052,7 +3142,7 @@
     {
       "path": "navigation.js",
       "bytes": 2374,
-      "sha256": "8ca632323434b9442733231be05a4f97914153c503dce2f38c640661011e5254"
+      "sha256": "5f2d70a9a12a64ceaabd52d95eee6d71b5376c6612c45a3eb9fcfb9cdb63ca3c"
     },
     {
       "path": "pagination.js",
@@ -3097,17 +3187,17 @@
     {
       "path": "store.js",
       "bytes": 9685,
-      "sha256": "e6fced8b0176df5ba5a4f9b619d76e85d83489171dace10db885df03e5863f0b"
+      "sha256": "c3aac6b6b0bdbed68c6a4fcc30f00edb54fce1edd7d2b61dceb379d8cbdf8cab"
     },
     {
       "path": "sw.js",
-      "bytes": 3815,
-      "sha256": "49bf7ee9d4e335395d1c69c37ba7ac294cecbc7e24821504ae96002eca77f41d"
+      "bytes": 3801,
+      "sha256": "002e7310c46959b155ba7458e871ca9ff9b5f82164d2efe89bd9fd2566e8a10c"
     },
     {
       "path": "sync-core.js",
       "bytes": 8073,
-      "sha256": "ec733b28c12d124cc4f39223d84ee04e752064ff7f73a1ff7024dc9e1665317c"
+      "sha256": "83bc9bebf8183b5b80399de0ac95d1f3bac82a2591c8a2d76b736fe3b06d81e9"
     },
     {
       "path": "textbook-poems.json",
@@ -3182,7 +3272,7 @@
     {
       "path": "voice-ui.js",
       "bytes": 16209,
-      "sha256": "af28f01ee3351b1c1a6c87bc2d217c52e95fad33732e732be0ca1877a9ceff91"
+      "sha256": "339d003d038ca74747e157dd1add2e25bc1b84b77c275315596884f8d72ae4b0"
     },
     {
       "path": "voice.js",

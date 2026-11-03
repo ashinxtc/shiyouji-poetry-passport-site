@@ -1,16 +1,16 @@
-import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=25';
-import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=25';
-import {MAIN_TABS,rootTab,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=25';
-import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=25';
-import {BookMotion} from './book.js?v=25';
-import {PassportEffects} from './effects.js?v=25';
-import {versePages,listPageSize,stampPageSize} from './pagination.js?v=25';
+import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=26';
+import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=26';
+import {MAIN_TABS,rootTab,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=26';
+import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=26';
+import {BookMotion} from './book.js?v=26';
+import {PassportEffects} from './effects.js?v=26';
+import {versePages,listPageSize,stampPageSize} from './pagination.js?v=26';
 
-import {ReadingTracker} from './reading.js?v=25';
-import {VoiceUI,speechCorrectionDetails} from './voice-ui.js?v=25';
-import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=25';
-import {accountPanel,profileRows,deletedRows} from './account-ui.js?v=25';
-import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=25';
+import {ReadingTracker} from './reading.js?v=26';
+import {VoiceUI,speechCorrectionDetails} from './voice-ui.js?v=26';
+import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=26';
+import {accountPanel,profileRows,deletedRows} from './account-ui.js?v=26';
+import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=26';
 
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -131,7 +131,7 @@ function poemText(p,{mode=ui.reading,hint=ui.hint,revealed=ui.revealed,game=fals
 }
 async function loadPinyin(){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),5000);
-  try{const r=await fetch('./pinyin.json?v=25',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
+  try{const r=await fetch('./pinyin.json?v=26',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
   catch{pinyinLoadError='拼音资料暂未加载，联网后可以重试。';return false;}
   finally{clearTimeout(timer);}
 }
@@ -426,7 +426,7 @@ function historyDialog(){showDialog('我的挑战记录','按挑战类型和题�
 function download(text,filename){const url=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);}
 async function importBackup(file){if(!file)return;const targetContext=accounts?.context()??null;if(file.size>1024*1024){say('文件过大，请选择应用导出的 JSON 备份。');return;}try{const checked=validateData(JSON.parse(await file.text()),poems.map(p=>p.id));if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有导入其他账号。');return;}const count=summary(checked,poems).independent.length;showDialog('导入这本护照？',`${escape(checked.profile.name)}的备份包含 ${count} 首独立背出的诗。导入只替换当前学习账号，其他账号不受影响。`, '<p class="note">建议先导出当前护照，以便需要时恢复。</p><div class="dialog-actions"><button class="button" data-action="export">先导出当前记录</button><button class="button primary" id="confirm-import">替换并导入</button></div>');$('#confirm-import').addEventListener('click',()=>{if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有写入其他账号。');return;}data=checked;invalidRaw=null;persist();ui.game=null;ui.route='passport';resetPractice();closeDialog();render();say('护照已导入，欢迎继续旅程。');});}catch(e){say('导入失败：'+e.message);}}
 async function creditsDialog(){
-  const credits=await fetch('./credits.json?v=25').then(r=>r.json()).catch(()=>null);
+  const credits=await fetch('./credits.json?v=26').then(r=>r.json()).catch(()=>null);
   showDialog('诗文来源与使用说明','诗游记 · 唐诗三百首全本',`<div class="source-list"><p>完整接入 chinese-poetry 的《唐诗三百首》文件，共 ${poems.filter(p=>p.sourceIndex!==null).length} 个条目；小学课标及一至九年级教材补充诗词另存正文与来源。各篇保留原文、作者、来源顺序和附记；附记不混入背诵题目。</p><p>读诗页保留拼音入口；已配置的诗可开关拼音，其余明确提示待补，避免自动注音误导孩子。阅读提示仅在已配置的诗中提供；逐句译注尚未配置。</p><p>“朗读”播放应用提供的 AI 合成 MP3，无需安装手机语音包。首次播放需要联网，已播放的音频可以离线缓存。新打开一首诗、开始背诵或离开页面时会停止播放。</p><p>手机页面固定在屏幕内，长诗、诗单、收藏和成绩按页展示。左右滑动纸面或点页脚按钮，只翻当前诗文、诗单或印章；功能区使用底部导航切换。长诗按页阅读；录音背诵一次核对全文，不必为了结束录音翻到底。</p><p>录音背诵会联网转写，再按读音核对；同音误字自动还原为原诗文字，原始转写可单独查看。漏句、错序或读音未匹配时可回听核对，不作声学发音评分。完成阅读需要覆盖全文并主动确认，或完成整首语音核对。接句、排序成绩单独记录。学习记录按账号保存，可通过诗游记专用同步码跨设备同步。</p><p>${POEM_ILLUSTRATIONS.length} 幅专属诗境已上线，由 AI 生成；未完成的诗篇仍用通用插画，覆盖清单公开保留。手机在独立诗境页看完整配图，左右翻页进入正文；点按配图可放大。浏览配图不计入完成阅读。</p><details><summary>开源许可与数据核对</summary><p><a href="./vendor/chinese-poetry-LICENSE.txt" target="_blank" rel="noopener">诗词数据许可</a> · <a href="./vendor/three-LICENSE.txt" target="_blank" rel="noopener">Three.js</a> · <a href="./vendor/html2canvas-LICENSE.txt" target="_blank" rel="noopener">html2canvas</a> · <a href="./vendor/pypinyin-LICENSE.txt" target="_blank" rel="noopener">pypinyin</a></p><pre>${escape(JSON.stringify(credits?.corpus||null,null,2))}</pre></details></div>`);
 }
 function bindSwipe(){
@@ -572,9 +572,9 @@ window.addEventListener('storage',e=>{if(accounts||e.key!==STORAGE_KEY||!e.newVa
 document.addEventListener('visibilitychange',()=>{if(document.hidden){stopSpeech();void voiceUI.background();}});
 async function boot(){
   try{
-    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=25');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
+    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=26');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
     if(!Array.isArray(poems)||!poems.length||new Set(poems.map(p=>p.id)).size!==poems.length)throw new Error('诗单格式无效');
-    [speechVariants,speechPhonetics]=await Promise.all(['speech-variants','speech-phonetics'].map(name=>fetch(`./${name}.json?v=25`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
+    [speechVariants,speechPhonetics]=await Promise.all(['speech-variants','speech-phonetics'].map(name=>fetch(`./${name}.json?v=26`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
     let migrated=false;
     try{const current=localStorage.getItem(STORAGE_KEY),legacy=!current?localStorage.getItem(LEGACY_STORAGE_KEY):null,raw=current||legacy;if(raw){try{data=validateData(JSON.parse(raw),poems.map(p=>p.id));migrated=!!legacy;}catch{invalidRaw=raw;}}}catch{storageFailed=true;}
     try{accounts=new PoetryAccounts(poems.map(p=>p.id),{onChange:accountChanged});data=accounts.initialize(data);dataContext=accounts.context();dataBaseline=structuredClone(data);accounts.start();}catch(error){accountsError=error.message;accounts=null;say('多账号数据未能读取，原始数据已保留。');}
@@ -592,7 +592,7 @@ async function boot(){
     ui.opened=false;ui.route='passport';recordNavigation(false);render();
     if(migrated)persist();
     if(migrated)say('旧记录已保留：浏览不再计入完成阅读，背诵印章继续保留。');
-    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=25').catch(()=>{});
+    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=26').catch(()=>{});
     window.__SHIYOUJI__=Object.freeze({snapshot:()=>structuredClone(data),renderer:()=>motion.mode,poemCount:poems.length});
   }catch(error){main.innerHTML=`<div class="empty-state"><h1>这次没能打开护照</h1><p>${escape(error.message)}，请联网后重新打开。</p><button class="button primary" onclick="location.reload()">重新打开</button></div>`;}
 }

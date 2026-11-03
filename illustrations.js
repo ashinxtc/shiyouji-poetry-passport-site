@@ -2663,6 +2663,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "3120f1a2ae3e3767f8962b5c978b895e6c7e7e8313018625af975fd5fcf5d4f0"
       }
     ]
+  },
+  {
+    "poemId": "school-8cbcf3c33dbed537",
+    "title": "乞巧",
+    "label": "七夕穿针与鹊桥星河",
+    "alt": "《乞巧》诗境插画：七夕庭院里女孩们迎着秋月穿红线，远处星河间隐约可见鹊桥与牵牛织女的身影",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-8cbcf3c33dbed537-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2f924f66a3a69fca658681e80aaa36c861514da6aa22e6b6a61d12c96526b419"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-8cbcf3c33dbed537-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 48656,
+        "sha256": "c3d831307593e846871e92e009b698b39b98636ffe2e177d037c03c4d8105419"
+      },
+      {
+        "src": "./illustrations/school-8cbcf3c33dbed537-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 173494,
+        "sha256": "9dcede847e93d7f0b28129a0458ca5dffb5fc432753f48fb53b8fa3b6c31428c"
+      },
+      {
+        "src": "./illustrations/school-8cbcf3c33dbed537-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 388456,
+        "sha256": "cf9ee3cf99c86b7cdde8fe9240aea0731766a8deb5683c5c396cbff9499e7cda"
+      }
+    ]
+  },
+  {
+    "poemId": "tang-016",
+    "title": "游子吟",
+    "label": "灯下密缝与临行衣衫",
+    "alt": "《游子吟》诗境插画：慈母在灯下为即将远行的儿子细密缝补衣衫，门外春草沐浴暖阳",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/tang-016-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f6e5ed62660df3b5299093d88938fd251612e70ca1a43bf4337c74f678c25fce"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/tang-016-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34606,
+        "sha256": "d6715967a1a9df3d1b21206bfcc9a2b881065f3e8b1d8244523082d2d1c87dd4"
+      },
+      {
+        "src": "./illustrations/tang-016-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115302,
+        "sha256": "ba1b71c57d5a10c4634277ad92746b6f0c27da55de8ce816d59a4bb65ef2387c"
+      },
+      {
+        "src": "./illustrations/tang-016-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 250340,
+        "sha256": "c4d4c9580dd62f033d74cc0834870085c47821421841c7b43c1f686d872326e9"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-088",
+    "title": "山居秋暝",
+    "label": "松间明月与石上清泉",
+    "alt": "《山居秋暝》诗境插画：雨后秋山中明月照过松枝，清泉流过石面，远处浣女归来，莲叶间小舟轻行",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-088-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c6e30c673383eaeac181af07b643b6ad1a547756375a8f389ff2e4535c582493"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-088-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 56048,
+        "sha256": "f0ce508efbc0def27f7934e70042b2e29893b1a322b2712994376dd4fac6abdb"
+      },
+      {
+        "src": "./illustrations/ts3b-088-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 213522,
+        "sha256": "14fe960e71d8ce4682376c40a10e9c63f32b34611bd507202030838bed40d908"
+      },
+      {
+        "src": "./illustrations/ts3b-088-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 501264,
+        "sha256": "f5e85a3678fd4a88a133082291ff2389280950841bd59532464431b46f658eb3"
+      }
+    ]
+  },
+  {
+    "poemId": "tang-014",
+    "title": "枫桥夜泊",
+    "label": "江枫渔火与夜泊客船",
+    "alt": "《枫桥夜泊》诗境插画：深秋夜里客船泊在江边，红枫与几盏渔火倒映水面，远处寒山寺隐在薄雾中",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/tang-014-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "98d8c09914bbfe6c1c6602936294fd841c7af5344615aa4b53daa6ebc2d1008f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/tang-014-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 41642,
+        "sha256": "41f7746f5fe46b05ef16b03335cc411fb2a51fbd9e6b6090c9deaf0d98d00d12"
+      },
+      {
+        "src": "./illustrations/tang-014-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 160708,
+        "sha256": "0a03f0d74eb785a2b86c801f1b4397e3c5ba37556ceef385e612bdd60383664e"
+      },
+      {
+        "src": "./illustrations/tang-014-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 382846,
+        "sha256": "b42c682f3e8bc13b640643dd10c107877ec0b33124dbef4c9534fa5816e1bef6"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-034",
+    "title": "早春呈水部张十八员外",
+    "label": "天街细雨与初生草色",
+    "alt": "《早春呈水部张十八员外》诗境插画：早春细雨润湿古城街道，远处地面透出浅绿，近处只有零星细小草芽",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-034-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b8a95679fe21644beb730d32eb3ccaf842970b71f8ba5eaa83076961e63a6e7c"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-034-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38204,
+        "sha256": "582e54a3be7f47789259a7268cce9e5c9ef4339a7a5e8e79c5ec11fbbad24cf4"
+      },
+      {
+        "src": "./illustrations/primary-034-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 143220,
+        "sha256": "f44e859ded86a138bd1f4caebcbb3faa5c06a59aedb33b67e18773f3bdf0a725"
+      },
+      {
+        "src": "./illustrations/primary-034-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 325004,
+        "sha256": "6485cd13d103a01f0e51bf5f7725e9702957f2bb41207e707cc31fb9284a09a6"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-031",
+    "title": "渔歌子",
+    "label": "白鹭桃溪与风雨垂钓",
+    "alt": "《渔歌子》诗境插画：西塞山前白鹭掠过桃花流水，戴青箬笠、披绿蓑衣的渔翁在细雨中安然垂钓",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-031-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4e970837de3162146b5da2eaae34f2de6966ea3442423312d4d95f8c7c216bef"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-031-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38662,
+        "sha256": "a6f21327fec7b11e3c32ee81e01f71e4aab2ebfe9175b85a65d9e6a34b63c91e"
+      },
+      {
+        "src": "./illustrations/primary-031-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 137096,
+        "sha256": "1833163ab0f9a35c5e49bed4bddba80bbd96e043dee61fad517eefdf9a267b08"
+      },
+      {
+        "src": "./illustrations/primary-031-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 297980,
+        "sha256": "339c361bdd717ef77b09bfae81d6e0a3d24f1150101d3be93d4bdd5453c74d73"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
