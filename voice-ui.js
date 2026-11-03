@@ -1,6 +1,6 @@
-import {apiUrl} from './api.js?v=22';
-import {VoiceSession,voiceCapabilities} from './voice.js?v=22';
-import {compareRecitation} from './recitation.js?v=22';
+import {apiUrl} from './api.js?v=23';
+import {VoiceSession,voiceCapabilities} from './voice.js?v=23';
+import {compareRecitation} from './recitation.js?v=23';
 
 export class VoiceUI {
   constructor({dialog,icon,escape,showDialog,onConfirmed,onManual,speechMode,variants,phonetics}){

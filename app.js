@@ -1,16 +1,16 @@
-import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=22';
-import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=22';
-import {MAIN_TABS,rootTab,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=22';
-import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=22';
-import {BookMotion} from './book.js?v=22';
-import {PassportEffects} from './effects.js?v=22';
-import {versePages,listPageSize,stampPageSize} from './pagination.js?v=22';
+import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=23';
+import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=23';
+import {MAIN_TABS,rootTab,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=23';
+import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=23';
+import {BookMotion} from './book.js?v=23';
+import {PassportEffects} from './effects.js?v=23';
+import {versePages,listPageSize,stampPageSize} from './pagination.js?v=23';
 
-import {ReadingTracker} from './reading.js?v=22';
-import {VoiceUI} from './voice-ui.js?v=22';
-import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=22';
-import {accountPanel,profileRows,deletedRows} from './account-ui.js?v=22';
-import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=22';
+import {ReadingTracker} from './reading.js?v=23';
+import {VoiceUI} from './voice-ui.js?v=23';
+import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=23';
+import {accountPanel,profileRows,deletedRows} from './account-ui.js?v=23';
+import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=23';
 
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -20,7 +20,7 @@ let curriculum=null,pinyinCatalog=null,pinyinLoadError=null;
 const outcomeNames={independent:'独立背出',hinted:'提醒后背出',learning:'继续练习'};
 let poems=[],data=initialData(),invalidRaw=null,storageFailed=false,toastTimer=null,speaking=false;
 let accounts=null,accountsError=null,dataContext=null,dataBaseline=null,accountRenderPending=false,accountOperation=false;
-let navigationReady=false,navigationEntry=null,pendingHistory=null,pendingChallengeBack=null,restoringHistory=false;
+let navigationReady=false,navigationEntry=null,pendingHistory=null,pendingChallengeBack=null,restoringHistory=false,entryNavigation=null;
 const ui={opened:false,route:'passport',readerFrom:'library',returnKey:null,lastPoemId:null,poemId:null,reading:'read',artPage:false,hint:'none',revealed:new Set(),hints:0,filter:'适合我',search:'',game:null,busy:false,stampFilter:'poems',versePage:0,gameVersePage:0,listPage:0,collectionPage:0,resultPage:0,suppressClickUntil:0};
 const motion=new BookMotion(()=>data.settings.motion);
 const effects=new PassportEffects(()=>data.settings.motion);
@@ -42,7 +42,6 @@ function persist(){
   try{if(accounts){const saved=accounts.saveCurrent(data,dataContext,dataBaseline);data=saved.data;dataBaseline=structuredClone(data);}localStorage.setItem(STORAGE_KEY,JSON.stringify(data));storageFailed=false;$('#save-status').textContent=accounts?.code()?'进度已保存在本机，正在同步':'进度已保存在这台设备';return true;}
   catch{storageFailed=true;$('#save-status').textContent='保存失败，请导出备份';say('本次未能写入设备，请在设置里导出备份。');return false;}
 }
-const COVER_KEY='shiyouji.cover.opened.v1';
 function navSnapshot(){return {app:'shiyouji-navigation-v1',context:dataContext,opened:ui.opened,route:ui.route,poemId:ui.poemId,readerFrom:ui.readerFrom,returnKey:ui.returnKey,lastPoemId:ui.lastPoemId,artPage:ui.artPage,versePage:ui.versePage,filter:ui.filter,search:ui.search,category:ui.category||'',listPage:ui.listPage,collectionPage:ui.collectionPage,stampFilter:ui.stampFilter};}
 function recordNavigation(push=false){
   if(!navigationReady)return;
@@ -50,7 +49,7 @@ function recordNavigation(push=false){
   history[push?'pushState':'replaceState']({poetryNav:entry},'',navigationHash(ui.route,ui.poemId));navigationEntry=entry;
 }
 function refreshNavigation(){const old=history.state?.poetryNav;if(navigationReady&&!old?.overlay&&old?.context===dataContext&&old.route===ui.route&&(ui.route!=='practice'||old.poemId===ui.poemId))recordNavigation(false);}
-function saveSession(){try{sessionStorage.setItem('shiyouji.session',JSON.stringify(navSnapshot()));if(ui.opened)localStorage.setItem(COVER_KEY,'true');}catch{/* Learning records have their own explicit save path. */}refreshNavigation();}
+function saveSession(){try{sessionStorage.setItem('shiyouji.session',JSON.stringify(navSnapshot()));}catch{/* Learning records have their own explicit save path. */}refreshNavigation();}
 function restoreNavigation(entry){
   stopSpeech();if(voiceUI.flow)voiceUI.close();if(dialog.open)closeDialog();resetPractice();
   const valid=entry?.app==='shiyouji-navigation-v1'&&entry.context===dataContext;
@@ -90,7 +89,7 @@ function sound(kind='page'){
 }
 function updateChrome(){
   $('#header-name').textContent=data.profile.name;$('#profile-initial').textContent=[...data.profile.name][0]||'诗';
-  $('#context-label').textContent={passport:'学习首页',library:'选诗',practice:'读诗 · 背诗',challenge:'背诵挑战',stamps:'我的护照'}[ui.route]||'我的护照';
+  $('#context-label').textContent=!ui.opened?'我的护照':{passport:'学习首页',library:'选诗',practice:'读诗 · 背诗',challenge:'背诵挑战',stamps:'我的护照'}[ui.route]||'我的护照';
   document.body.classList.toggle('reduce-motion',!data.settings.motion);
   const route=rootTab(ui.route,ui.readerFrom);
   const back=$('#reader-back');back.hidden=ui.route!=='practice';back.innerHTML=icon('left',18)+'返回'+(MAIN_TABS.find(([r])=>r===ui.readerFrom)?.[2]||'选诗');back.setAttribute('aria-label',back.textContent);$('.brand').hidden=ui.route==='practice';
@@ -104,7 +103,8 @@ function stampMarkup(p,{large=false,fresh=false,pending=false}={}){
   const a=recentSuccess(p),date=a?localDay(a.at).replaceAll('-','.'):'等待你的足迹';
   return `<div class="stamp ${large?'large':''} ${fresh?'is-new':''} ${pending?'pending':''}"><span class="stamp-sub">${escape(p.title)}</span><span class="stamp-title">${pending?'尚待启程':'独立背出'}</span><span class="stamp-date">${date}</span></div>`;
 }
-function coverView(){const s=stats();return `<section class="cover-view view-enter" aria-label="我的护照封面"><div class="cover-intro"><p>把读完的风景，变成记得的诗。</p></div><div class="cover-desk"><div class="passport-object" id="passport-object"><div class="passport-cover"><h1 class="cover-title">诗游记</h1><div class="cover-subtitle">我的诗词护照</div>${emblem()}<div class="cover-owner">${escape(data.profile.name)}的诗词旅程</div><button class="open-passport" data-action="open">翻开我的护照</button></div></div></div><p class="cover-caption">每背会一首，就留下一个印记。</p><div class="cover-status"><span><strong>${s.independent.length}</strong>首独立背出</span><span><strong>${s.remembered.length}</strong>首隔天记得</span><span><strong>${new Set(poems.filter(p=>!p.archived).map(p=>p.workId||p.id)).size}</strong>篇等你探索</span></div></section>`;}
+function coverStatus(s=stats()){return `<span><strong>${s.independent.length}</strong>首独立背出</span><span><strong>${s.remembered.length}</strong>首隔天记得</span><span><strong>${new Set(poems.filter(p=>!p.archived).map(p=>p.workId||p.id)).size}</strong>篇等你探索</span>`;}
+function coverView(){const s=stats();return `<section class="cover-view view-enter" aria-label="我的护照封面"><div class="cover-intro"><p>把读完的风景，变成记得的诗。</p></div><div class="cover-desk"><div class="passport-object" id="passport-object"><div class="passport-cover"><h1 class="cover-title">诗游记</h1><div class="cover-subtitle">我的诗词护照</div>${emblem()}<div class="cover-owner">${escape(data.profile.name)}的诗词旅程</div><button class="open-passport" data-action="open">翻开我的护照</button></div></div></div><p class="cover-caption">每背会一首，就留下一个印记。</p><div class="cover-status">${coverStatus(s)}</div></section>`;}
 function leftIdentity(){const s=stats(),last=[...s.independent].sort((a,b)=>new Date(recentSuccess(b).at)-new Date(recentSuccess(a).at))[0];return `<div class="eyebrow">诗词旅人 · 个人页</div><h2 class="section-title">属于我的，<br>一程又一程。</h2><div class="identity-row"><div class="identity-avatar">${escape([...data.profile.name][0])}</div><div><div class="identity-name">${escape(data.profile.name)}</div><p class="small">${profileGradeLabel(data.profile)}</p></div></div>${statMarkup()}<p class="note">“独立背出”按当前版本核对，节选单独标注，同一作品不重复计数。<br>“隔天仍记得”来自之后日期的再次独立背诵。</p>${last?`<div class="last-stamp"><div class="mini-seal">记</div><div><div class="small">最近背出 · ${escape(last.title)}</div><div class="note">${localDay(recentSuccess(last).at)} · ${confirmationLabel(recentSuccess(last).confirmation)}</div></div></div>`:`<div class="guide-label">第一枚印章，等你留下。</div>`}<div class="passport-serial">SHI YOU JI · 诗游记</div>`;}
 function leftScene(title,subtitle,theme='山河',extra='',poem=null){return `<div class="eyebrow">${escape(subtitle)}</div><h2 class="section-title">${title}</h2>${poem?poemArtwork(poem):landscape(theme)}${extra||'<p class="poetic-caption">山河很远，<br>诗句就在心里。</p>'}`;}
 function homeRight(){
@@ -131,7 +131,7 @@ function poemText(p,{mode=ui.reading,hint=ui.hint,revealed=ui.revealed,game=fals
 }
 async function loadPinyin(){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),5000);
-  try{const r=await fetch('./pinyin.json?v=22',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
+  try{const r=await fetch('./pinyin.json?v=23',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
   catch{pinyinLoadError='拼音资料暂未加载，联网后可以重试。';return false;}
   finally{clearTimeout(timer);}
 }
@@ -244,7 +244,16 @@ function render(){
   accountRenderPending=false;
   updateChrome();
   const warning=storageFailed?'<div class="storage-alert" role="alert">进度暂时未能保存，请在家长设置中导出备份。</div>':invalidRaw!==null?'<div class="storage-alert" role="alert">旧记录无法读取，原始内容已保留。请在家长设置中处理备份。</div>':'';
-  if(!ui.opened){main.innerHTML=warning+coverView();effects.cover(main);saveSession();return;}
+  if(!ui.opened){
+    const cover=main.querySelector('.cover-view');
+    if(cover){
+      // Keep the cover and its button mounted while cloud status changes.
+      main.querySelector('.storage-alert')?.remove();if(warning)main.insertAdjacentHTML('afterbegin',warning);
+      cover.querySelector('.cover-owner').textContent=data.profile.name+'的诗词旅程';
+      cover.querySelector('.cover-status').innerHTML=coverStatus();
+    }else{main.innerHTML=warning+coverView();effects.cover(main);}
+    saveSession();return;
+  }
   let left,right;
   switch(ui.route){
     case 'library':left=leftScene('翻过一页，<br>再见一首诗。','唐诗与教材诗词','山河',`<p class="poetic-caption">${poems.filter(p=>!p.archived).length} 个读背篇目，<br>一页一页慢慢读。</p><div class="rule"></div><p class="note">按诗体或学习情况筛选，<br>也可以搜索诗名、诗人与诗句。</p>`);right=libraryRight();break;
@@ -297,7 +306,7 @@ function closeDialog(){dialog.close();discardDialogHistory();}
 function accountChanged(event){
   if(!accounts||event.spaceId!==accounts.spaceId)return;
   const current=accounts.current(),context=accounts.context(),changed=context!==dataContext;
-  if(changed){const managing=!!dialog.querySelector('#account-list,[data-action=account-delete-confirm]');if(voiceUI.flow)voiceUI.close();stopSpeech();ui.game=null;resetPractice();ui.route='passport';ui.opened=true;ui.lastPoemId=null;ui.returnKey=null;ui.readerFrom='library';ui.search='';ui.filter='适合我';ui.category='';ui.listPage=0;if(dialog.open&&!managing){closeDialog();say('学习账号已切换，旧账号的操作窗口已关闭。');}}
+  if(changed){const managing=!!dialog.querySelector('#account-list,[data-action=account-delete-confirm]');if(voiceUI.flow)voiceUI.close();stopSpeech();ui.game=null;resetPractice();ui.route='passport';entryNavigation=null;ui.lastPoemId=null;ui.returnKey=null;ui.readerFrom='library';ui.search='';ui.filter='适合我';ui.category='';ui.listPage=0;if(dialog.open&&!managing){closeDialog();say('学习账号已切换，旧账号的操作窗口已关闭。');}}
   data=current;dataContext=context;dataBaseline=structuredClone(data);if(changed)recordNavigation(false);
   const status=accounts.status(),label=$('#account-sync-status');if(label)label.textContent=status.message;
   const list=$('#account-list');if(list)list.innerHTML=profileRows(accounts,escape,levelNames,!!ui.game&&!ui.game.done);
@@ -417,7 +426,7 @@ function historyDialog(){showDialog('我的挑战记录','按挑战类型和题�
 function download(text,filename){const url=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);}
 async function importBackup(file){if(!file)return;const targetContext=accounts?.context()??null;if(file.size>1024*1024){say('文件过大，请选择应用导出的 JSON 备份。');return;}try{const checked=validateData(JSON.parse(await file.text()),poems.map(p=>p.id));if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有导入其他账号。');return;}const count=summary(checked,poems).independent.length;showDialog('导入这本护照？',`${escape(checked.profile.name)}的备份包含 ${count} 首独立背出的诗。导入只替换当前学习账号，其他账号不受影响。`, '<p class="note">建议先导出当前护照，以便需要时恢复。</p><div class="dialog-actions"><button class="button" data-action="export">先导出当前记录</button><button class="button primary" id="confirm-import">替换并导入</button></div>');$('#confirm-import').addEventListener('click',()=>{if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有写入其他账号。');return;}data=checked;invalidRaw=null;persist();ui.game=null;ui.route='passport';resetPractice();closeDialog();render();say('护照已导入，欢迎继续旅程。');});}catch(e){say('导入失败：'+e.message);}}
 async function creditsDialog(){
-  const credits=await fetch('./credits.json?v=22').then(r=>r.json()).catch(()=>null);
+  const credits=await fetch('./credits.json?v=23').then(r=>r.json()).catch(()=>null);
   showDialog('诗文来源与使用说明','诗游记 · 唐诗三百首全本',`<div class="source-list"><p>完整接入 chinese-poetry 的《唐诗三百首》文件，共 ${poems.filter(p=>p.sourceIndex!==null).length} 个条目；小学课标及一至九年级教材补充诗词另存正文与来源。各篇保留原文、作者、来源顺序和附记；附记不混入背诵题目。</p><p>读诗页保留拼音入口；已配置的诗可开关拼音，其余明确提示待补，避免自动注音误导孩子。阅读提示仅在已配置的诗中提供；逐句译注尚未配置。</p><p>“朗读”播放应用提供的 AI 合成 MP3，无需安装手机语音包。首次播放需要联网，已播放的音频可以离线缓存。新打开一首诗、开始背诵或离开页面时会停止播放。</p><p>手机页面固定在屏幕内，长诗、诗单、收藏和成绩按页展示。左右滑动纸面或点页脚按钮，只翻当前诗文、诗单或印章；功能区使用底部导航切换。长诗按页阅读；录音背诵一次核对全文，不必为了结束录音翻到底。</p><p>录音背诵会联网转写并核对内容，差异或识别不确定时请回听复核，不作发音评分。完成阅读需要覆盖全文并主动确认，或完成整首语音核对。接句、排序成绩单独记录。学习记录按账号保存，可通过诗游记专用同步码跨设备同步。</p><p>${POEM_ILLUSTRATIONS.length} 幅专属诗境已上线，由 AI 生成；未完成的诗篇仍用通用插画，覆盖清单公开保留。手机在独立诗境页看完整配图，左右翻页进入正文；点按配图可放大。浏览配图不计入完成阅读。</p><details><summary>开源许可与数据核对</summary><p><a href="./vendor/chinese-poetry-LICENSE.txt" target="_blank" rel="noopener">诗词数据许可</a> · <a href="./vendor/three-LICENSE.txt" target="_blank" rel="noopener">Three.js</a> · <a href="./vendor/html2canvas-LICENSE.txt" target="_blank" rel="noopener">html2canvas</a></p><pre>${escape(JSON.stringify(credits?.corpus||null,null,2))}</pre></details></div>`);
 }
 function bindSwipe(){
@@ -463,7 +472,7 @@ document.addEventListener('click',async e=>{
   const a=el.dataset.action;
   if(a?.startsWith('account-')){await accountAction(el);return;}
   switch(a){
-    case 'open':{ui.busy=true;const object=$('#passport-object');object?.classList.add('opening');sound('page');if(data.settings.motion&&!matchMedia('(prefers-reduced-motion: reduce)').matches)await new Promise(r=>setTimeout(r,900));ui.opened=true;ui.route='passport';ui.busy=false;render();break;}
+    case 'open':{ui.busy=true;const object=$('#passport-object');object?.classList.add('opening');sound('page');if(data.settings.motion&&!matchMedia('(prefers-reduced-motion: reduce)').matches)await new Promise(r=>setTimeout(r,900));ui.busy=false;if(entryNavigation){const entry=entryNavigation;entryNavigation=null;restoreNavigation(entry);}else{ui.opened=true;ui.route='passport';render();recordNavigation(false);}break;}
     case 'close-book':if(dialog.open)closeDialog();if(ui.game&&!ui.game.done){await navigate('passport');break;}stopSpeech();ui.opened=false;ui.route='passport';render();recordNavigation(false);break;
     case 'profile':profileDialog();break;
     case 'reader-back':backFromPoem();break;
@@ -563,20 +572,27 @@ window.addEventListener('storage',e=>{if(accounts||e.key!==STORAGE_KEY||!e.newVa
 document.addEventListener('visibilitychange',()=>{if(document.hidden){stopSpeech();void voiceUI.background();}});
 async function boot(){
   try{
-    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=22');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
+    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=23');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
     if(!Array.isArray(poems)||!poems.length||new Set(poems.map(p=>p.id)).size!==poems.length)throw new Error('诗单格式无效');
-    [speechVariants,speechPhonetics]=await Promise.all(['speech-variants','speech-phonetics'].map(name=>fetch(`./${name}.json?v=22`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
+    [speechVariants,speechPhonetics]=await Promise.all(['speech-variants','speech-phonetics'].map(name=>fetch(`./${name}.json?v=23`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
     let migrated=false;
     try{const current=localStorage.getItem(STORAGE_KEY),legacy=!current?localStorage.getItem(LEGACY_STORAGE_KEY):null,raw=current||legacy;if(raw){try{data=validateData(JSON.parse(raw),poems.map(p=>p.id));migrated=!!legacy;}catch{invalidRaw=raw;}}}catch{storageFailed=true;}
     try{accounts=new PoetryAccounts(poems.map(p=>p.id),{onChange:accountChanged});data=accounts.initialize(data);dataContext=accounts.context();dataBaseline=structuredClone(data);accounts.start();}catch(error){accountsError=error.message;accounts=null;say('多账号数据未能读取，原始数据已保留。');}
     ui.poemId=poems[0].id;
-    try{const session=JSON.parse(sessionStorage.getItem('shiyouji.session')||'null');ui.opened=localStorage.getItem(COVER_KEY)==='true'||!!session?.opened;if(session?.context===dataContext){ui.lastPoemId=session.lastPoemId||null;ui.filter=session.filter||'适合我';ui.search=session.search||'';ui.category=session.category||'';ui.listPage=session.listPage||0;}}catch{}
+    try{const session=JSON.parse(sessionStorage.getItem('shiyouji.session')||'null');if(session?.context===dataContext){ui.lastPoemId=session.lastPoemId||null;ui.filter=session.filter||'适合我';ui.search=session.search||'';ui.category=session.category||'';ui.listPage=session.listPage||0;}}catch{}
     navigationReady=true;
     const entry=history.state?.poetryNav,linked=locationRoute(location.hash,poems.filter(p=>!p.archived).map(p=>p.id));
-    if(entry?.context===dataContext&&linked&&entry.route===linked.route&&(linked.route!=='practice'||entry.poemId===linked.poemId)){restoreNavigation(entry);}else{if(linked){ui.route=linked.route;ui.poemId=linked.poemId||ui.poemId;ui.opened=true;ui.readerFrom='library';if(ui.route==='practice'){ui.lastPoemId=ui.poemId;ui.artPage=hasArtPage(currentPoem());}}recordNavigation(false);render();}
+    // Each new document starts closed. Session/history keep learning context,
+    // but never dismiss the passport cover, including for returning sync users.
+    if(linked?.route==='practice'){
+      entryNavigation=entry?.context===dataContext&&entry.route==='practice'&&entry.poemId===linked.poemId
+        ? {...entry,opened:true}
+        : {...navSnapshot(),...linked,opened:true,readerFrom:'library',returnKey:null,lastPoemId:linked.poemId,versePage:0,artPage:hasArtPage(poems.find(p=>p.id===linked.poemId))};
+    }
+    ui.opened=false;ui.route='passport';recordNavigation(false);render();
     if(migrated)persist();
     if(migrated)say('旧记录已保留：浏览不再计入完成阅读，背诵印章继续保留。');
-    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=22').catch(()=>{});
+    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=23').catch(()=>{});
     window.__SHIYOUJI__=Object.freeze({snapshot:()=>structuredClone(data),renderer:()=>motion.mode,poemCount:poems.length});
   }catch(error){main.innerHTML=`<div class="empty-state"><h1>这次没能打开护照</h1><p>${escape(error.message)}，请联网后重新打开。</p><button class="button primary" onclick="location.reload()">重新打开</button></div>`;}
 }

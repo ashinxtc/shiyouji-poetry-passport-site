@@ -1,18 +1,18 @@
 {
   "app": "shiyouji",
-  "version": 22,
-  "sourceCommit": "6f7c2ef103556f078dfe971f526dead22711ecf6",
+  "version": 23,
+  "sourceCommit": "ff692f4874790b3d5f80239efc6e12fc9890475f",
   "frontend": "github-pages",
   "assets": [
     {
       "path": "account-ui.js",
       "bytes": 6224,
-      "sha256": "ff439fd10402ea664c159467c11b7a7b07bb177134aca87dbba74479211fa9da"
+      "sha256": "814426942fb9594225918d238af3cb5146703ff92e80452773e3e79206f03ec6"
     },
     {
       "path": "accounts.js",
       "bytes": 22637,
-      "sha256": "4955a4f8a2aa17922a3482f8f9c60d35eaddb6073f928089fc89e1e77a4297f0"
+      "sha256": "3663e1883b0049fe1db28038590dacde62b91aa9b9916b06eeab3a63d9e6db49"
     },
     {
       "path": "api.js",
@@ -96,13 +96,13 @@
     },
     {
       "path": "app.js",
-      "bytes": 106682,
-      "sha256": "d05c8074308434842fc8e34f440be70b6f4299db0d4f605e54161d9885e74948"
+      "bytes": 107405,
+      "sha256": "2334d2e2047813b92726ebbbd64426419692a038747974ce6ca4b998bcf7306e"
     },
     {
       "path": "art.js",
       "bytes": 3953,
-      "sha256": "5a34b2415949246f4f8adb9f642e4e4e0d2073e66c02bf6c39aef3d0ad342353"
+      "sha256": "3b67f37218d566d7af875616c086051cb3d4f75c262858011b8e140c69e777ca"
     },
     {
       "path": "audio/primary-001.mp3",
@@ -2022,7 +2022,7 @@
     {
       "path": "curriculum.js",
       "bytes": 2285,
-      "sha256": "dd9452b383c060ad3c7e0a8bf380056ff0b9a349bd11783d42717e0661ab6a93"
+      "sha256": "61771c070754e7680f4ffeee468b2e710bc5e7855a0b1a9b0d5a622379d1043a"
     },
     {
       "path": "curriculum.json",
@@ -2952,7 +2952,7 @@
     {
       "path": "index.html",
       "bytes": 3511,
-      "sha256": "a84ca1d0c216561540d78bd396bfe5dd028ea288af3415ae9912863103518187"
+      "sha256": "e7ba4111a486a9de7a9961966112b8dfc7421dd4f19e41830cf33beba923e68f"
     },
     {
       "path": "manifest.webmanifest",
@@ -2962,7 +2962,7 @@
     {
       "path": "navigation.js",
       "bytes": 2374,
-      "sha256": "148cd95e69d0bf11183dbf540181d4a03bbee138faf0f4181feb86811ebe3158"
+      "sha256": "ea665f52e613e717351528dad99738003b72325e70fb1cc6790019f5850577ba"
     },
     {
       "path": "pagination.js",
@@ -3007,17 +3007,17 @@
     {
       "path": "store.js",
       "bytes": 9685,
-      "sha256": "dcf5c6619059098b80403b71c0f323ac971deb5a71d0e59a19b776a6948aa6ea"
+      "sha256": "d24e52885ce2be2daaca17af7955aa61b67989dec4d864c5f0b83d41d740b6c1"
     },
     {
       "path": "sw.js",
-      "bytes": 3776,
-      "sha256": "4db155b2f44c1b73ae01299baff66a2e7dcbd708541ea242e4ee1b35cb93b304"
+      "bytes": 3775,
+      "sha256": "180fc32d6089a174592a8c6420db356d0318c0220a660baf8eef32bd3ebfc48f"
     },
     {
       "path": "sync-core.js",
       "bytes": 8073,
-      "sha256": "c0bfeb2f61ebb291b683a7049f56489040491609501a22e72eb3a86026f62308"
+      "sha256": "192c92b04d07a2cc160fb0ad5f0cbbc125512dcc4bdaa76a51fd9243e66d3d54"
     },
     {
       "path": "textbook-poems.json",
@@ -3087,7 +3087,7 @@
     {
       "path": "voice-ui.js",
       "bytes": 15054,
-      "sha256": "110acd1e3254cf6adc02885683bc65e9deb2bf4daf0a053b7961c67bccded44e"
+      "sha256": "28c4c63180cce4e27e4dccf80eab82738817f5201bb46b01b74f5d160c3582de"
     },
     {
       "path": "voice.js",
