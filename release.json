@@ -1,7 +1,7 @@
 {
   "app": "shiyouji",
   "version": 23,
-  "sourceCommit": "ff692f4874790b3d5f80239efc6e12fc9890475f",
+  "sourceCommit": "ddfebdb15beaeea8829b13f073c9d56760f374b9",
   "frontend": "github-pages",
   "assets": [
     {
