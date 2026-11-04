@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 13,
+  "batch": 14,
   "totalPoems": 468,
-  "availableCount": 83,
+  "availableCount": 89,
   "items": [
     {
       "poemId": "tang-001",
@@ -3406,6 +3406,252 @@
           "sha256": "3611ae0acf9ea588ae720ca9c398831fe580e437cef40cfc95d7c6c0180ca8be"
         }
       ]
+    },
+    {
+      "poemId": "tang-018",
+      "title": "宿建德江",
+      "label": "烟渚泊舟与江月近人",
+      "alt": "《宿建德江》诗境插画：暮色里小舟泊在雾气轻笼的沙洲边，旅人静坐船中，清江倒映一轮小月",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-018-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "09d72ed91421fa2bf3207f56ea9717a6f742eeaebb97ea6387e0a173a50ae08c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-018-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36928,
+          "sha256": "2d8c199def17fe7589811d756b4432052779e87de89785a5e0f884684e21e7d7"
+        },
+        {
+          "src": "./illustrations/tang-018-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 142884,
+          "sha256": "e0db011353b6fff87b73877b0ef6095d34a1c432e68ae202f4752e388e40cb1d"
+        },
+        {
+          "src": "./illustrations/tang-018-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 343998,
+          "sha256": "614910dfed69473d3ad01a424bee82dff6e9cc386bb0f52da26a470431ffe11f"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-053",
+      "title": "六月二十七日望湖楼醉书",
+      "label": "翻墨骤云与雨过湖天",
+      "alt": "《六月二十七日望湖楼醉书》诗境插画：西湖骤雨如珠落入近处小船，阵风吹开墨云，远处望湖楼下的水面渐与天空相接",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-053-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "32dbefe454a215cf008d299f5eb68612135fe552997a94573095134604b088da"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-053-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43052,
+          "sha256": "ef59e750daf21748c5ca58372b43b7ca311ffec3cbef57250271f0e0495bc046"
+        },
+        {
+          "src": "./illustrations/primary-053-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 163438,
+          "sha256": "f68c23fa6b9f353c3509dccbef080e8167cf27da1de0a1feaf65877ea9abd48d"
+        },
+        {
+          "src": "./illustrations/primary-053-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 375192,
+          "sha256": "d0de3ada17ba8d66d6070148713b54445dc8e6ef60c6fdcfdd98793bbcf544a2"
+        }
+      ]
+    },
+    {
+      "poemId": "school-76f32dee7356c045",
+      "title": "西江月·夜行黄沙道中",
+      "label": "稻香蛙鸣与月下溪桥",
+      "alt": "《西江月·夜行黄沙道中》诗境插画：明月照着稻田与弯曲小路，清风惊起枝头喜鹊，诗人转过溪桥望见林边茅店",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-76f32dee7356c045-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "45acf2186a9acf7b47eff22d0fa928f53745b24bdffda10e630164dda647d89d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-76f32dee7356c045-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 56956,
+          "sha256": "e0ff6ade89ae8966e83d225f2f4dfe82c0c46bef237e0ac7cf71fd29e6e5c573"
+        },
+        {
+          "src": "./illustrations/school-76f32dee7356c045-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 203764,
+          "sha256": "33d35aa782974f437cf2600b57f1b5d428f4c8020d3efda92f64cbf4420a6d9d"
+        },
+        {
+          "src": "./illustrations/school-76f32dee7356c045-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 452412,
+          "sha256": "2bf3924b1e951707c3926f3ece0351265447a8ba6f9ef6da0139811210ba1805"
+        }
+      ]
+    },
+    {
+      "poemId": "school-cabb9ecbc2699b6e",
+      "title": "观书有感（其二）",
+      "label": "春水新涨与大舟轻行",
+      "alt": "《观书有感（其二）》诗境插画：春雨后江水上涨，一艘高舷木船轻快行在江心，岸边新柳与远山映入水中",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-cabb9ecbc2699b6e-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7ff53dac67fd19a4c6898fb59e48286032a40f7bb13aa9abda979a0c5ad16515"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-cabb9ecbc2699b6e-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42614,
+          "sha256": "d067ff6c550ffe62c990794f1f9dbbad8d990d6e5f415e573e1d78ebf056949b"
+        },
+        {
+          "src": "./illustrations/school-cabb9ecbc2699b6e-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 149276,
+          "sha256": "7f0a04d711cdec0c3fc686671aa886ab281481e9fa5086278e855633d9c4c24b"
+        },
+        {
+          "src": "./illustrations/school-cabb9ecbc2699b6e-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 330066,
+          "sha256": "7c6624fcc06caa1018066ce24169632bda2a4f4ba90a5c8f81ea7087dfc81fac"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-017",
+      "title": "渭城曲",
+      "label": "朝雨柳色与客舍送别",
+      "alt": "《渭城曲》诗境插画：朝雨初歇，客舍外柳色清新，两位友人举杯惜别，行囊与远行的马静候一旁",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-017-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "30e91a6e4700ebfd3ad32075413193c980200aec0c2539d6787fda0f36e33859"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-017-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51648,
+          "sha256": "9430d37f41a771405beee645da389f1b43529693e6b11b6c98c5bf5e7eaa3789"
+        },
+        {
+          "src": "./illustrations/tang-017-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 183392,
+          "sha256": "8cf01844cde5a68564e2aacbbca0b9b97d9ed89289901de122304877042b9669"
+        },
+        {
+          "src": "./illustrations/tang-017-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 411950,
+          "sha256": "cdccb0dbfac038c0d0b06e1c4836d585c17936f96a380a14a79c1fcef5fe4567"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-036",
+      "title": "浪淘沙",
+      "label": "九曲黄河与天际星河",
+      "alt": "《浪淘沙》诗境插画：黄河挟沙奔涌，曲折伸向云天，远处云霞与淡淡星河相接，呼应诗人的奇幻想象",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-036-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0dbf3263b789eade7e79b731df9f639dea35995b27bd0881dd323d9bbcd17f26"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-036-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43918,
+          "sha256": "4cca60edf8f4771d7c744ad6847bbf897bbd3d3c5963dbc763a1bfcab26817bb"
+        },
+        {
+          "src": "./illustrations/primary-036-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 152066,
+          "sha256": "ec4e5e94a71df6766718dfa3d52193e3d3df258b2cdc9ad9c498e295dde069dc"
+        },
+        {
+          "src": "./illustrations/primary-036-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 334846,
+          "sha256": "a5bf1d672a08dcc5e89f8957b57bd168168e61afa69bd6e61af8a4be0eb302eb"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -3415,8 +3661,6 @@
     "tang-009",
     "tang-010",
     "tang-015",
-    "tang-017",
-    "tang-018",
     "tang-019",
     "tang-020",
     "ts3b-000",
@@ -3712,17 +3956,13 @@
     "primary-002",
     "primary-018",
     "primary-026",
-    "primary-036",
     "primary-047",
     "primary-051",
     "primary-052",
-    "primary-053",
     "primary-065",
     "primary-068",
     "primary-071",
     "primary-072",
-    "school-76f32dee7356c045",
-    "school-cabb9ecbc2699b6e",
     "school-60e5bd7ff995954f",
     "school-65796a49cc153bdb",
     "school-407ca14c5feef8fe",
