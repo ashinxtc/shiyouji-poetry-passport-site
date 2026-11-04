@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 12,
+  "batch": 13,
   "totalPoems": 468,
-  "availableCount": 77,
+  "availableCount": 83,
   "items": [
     {
       "poemId": "tang-001",
@@ -3160,6 +3160,252 @@
           "sha256": "c4c11b9cfcbd0c03be7a17a9ec66e7513e014a87cc4975e567ecd180d3d3d111"
         }
       ]
+    },
+    {
+      "poemId": "primary-059",
+      "title": "示儿",
+      "label": "灯下嘱托与北望山河",
+      "alt": "《示儿》诗境插画：年迈的诗人在灯下向家人轻声嘱托，窗外层山向北延伸，神情平静而牵挂",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-059-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "456ccc60c5c19de463253f747aeb06c2d9c6b45a9f706d0778fc95c7961d6e96"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-059-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 38320,
+          "sha256": "b6806b607f22b492934fa979112d9833246d5aa6cb7f8459a62b3e60302fb813"
+        },
+        {
+          "src": "./illustrations/primary-059-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 120878,
+          "sha256": "b0c5a479b9b332e244e85264e5cd9c3df51bfddcbb54825000541c15e8fcf53b"
+        },
+        {
+          "src": "./illustrations/primary-059-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 234754,
+          "sha256": "a6adafb9cd5d48ee35bbcb2e6b5171303a73fb691f9ffbcca1938f8e4a241c2f"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-067",
+      "title": "题临安邸",
+      "label": "西湖楼台与诗人忧思",
+      "alt": "《题临安邸》诗境插画：西湖边楼台层叠，远处人们歌舞宴游，近处诗人独立栏边，望着湖山沉思",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-067-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "45b41d71e7fbb64216e6b27df6f94c09d9ea21719423a86389f957c3b37bb489"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-067-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 45524,
+          "sha256": "314849e309e4a8eb59bdcc0598a8422153339b14dc1cb5849f1d2fb40211df4e"
+        },
+        {
+          "src": "./illustrations/primary-067-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 163000,
+          "sha256": "604bb431c0987a8954d5c1076977125b9084ae47dfa93089a428f60c26916725"
+        },
+        {
+          "src": "./illustrations/primary-067-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 368018,
+          "sha256": "6f708420e18f02c50392ba28cbf26244ebd97239621eb64f21b6e06806031248"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-074",
+      "title": "己亥杂诗",
+      "label": "风雷初动与求贤心愿",
+      "alt": "《己亥杂诗》诗境插画：风起云涌的原野上，诗人眺望天际，几匹马静立，远处不同衣着的人们沿路走来",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-074-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "48357ff7f90182b8c4067a465720d8e71130d7aa0db459b895ca8bbd13ab53b5"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-074-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51204,
+          "sha256": "940d967d6edfcba52fdd41e3e141d04bdfbd9d2ec93ed8462ebd687421ce5430"
+        },
+        {
+          "src": "./illustrations/primary-074-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 174288,
+          "sha256": "be787412abb07068c1ba27d4f50940e1ca679ee71e210da1b7eb9cccc4f7d86a"
+        },
+        {
+          "src": "./illustrations/primary-074-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 391752,
+          "sha256": "afa9a02726637ace9714da59403b1fbdef80c662373e66282eea1290e3c2d4c6"
+        }
+      ]
+    },
+    {
+      "poemId": "school-915dae06b46a305c",
+      "title": "从军行",
+      "label": "长云雪山与边关坚守",
+      "alt": "《从军行》诗境插画：长云笼罩青海远处的雪山，边城外将士披着磨旧的甲衣守望，黄沙沿地面掠过",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-915dae06b46a305c-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1c9239ae5106bbd5a78661811482167d1b1d984dec89b106e69fc49d2fe8a7e9"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-915dae06b46a305c-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 40282,
+          "sha256": "d34054c48f832a0d1b72f4c20068d842cfbc27c231dc7f5a45d539694f2a5280"
+        },
+        {
+          "src": "./illustrations/school-915dae06b46a305c-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 159382,
+          "sha256": "0b41386e5f5ab97a4b0305e642feebe3f6e2f6c4900cf303e6d76584dc9a33f4"
+        },
+        {
+          "src": "./illustrations/school-915dae06b46a305c-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 386682,
+          "sha256": "078c6e6818ed36d0230c5b94321c8d5ba894612e6d5d17501989b56bc18dd510"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-060",
+      "title": "秋夜将晓出篱门迎凉有感",
+      "label": "拂晓篱门与山河遥望",
+      "alt": "《秋夜将晓出篱门迎凉有感》诗境插画：拂晓时诗人走出简朴篱门，远处大河与高山铺展，河岸上的百姓向南遥望",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-060-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "89d4a1a45121ecef6a8ae5ab1590f9a4963a5235d3178f2bc1a4764bed332e1b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-060-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 47922,
+          "sha256": "8c16244a65c83781885036585d698af475d31e9f57cb0686c2aa04ddafccda83"
+        },
+        {
+          "src": "./illustrations/primary-060-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 168756,
+          "sha256": "6179240d6818521676e7bb0cf63cbaa9873c4257d9805308795f4b71d8462330"
+        },
+        {
+          "src": "./illustrations/primary-060-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 342452,
+          "sha256": "ea8a81ee3cb84b30b429469f9b4a56f698ec8db943b6413604588068a54f503c"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-188",
+      "title": "闻官军收河南河北",
+      "label": "闻讯喜泪与归乡行装",
+      "alt": "《闻官军收河南河北》诗境插画：诗人收到好消息后喜极而泣，妻儿笑着围在身边，诗卷与归乡行装放在桌旁",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-188-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "91214de228d6c05f17e84314bc88f66d4128a7b579a24740db0906500dcdb02a"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-188-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51862,
+          "sha256": "007e36b7e9d01b7be40dec92366f41c107dcbad882cacc92cff910b0649a82bb"
+        },
+        {
+          "src": "./illustrations/ts3b-188-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 181640,
+          "sha256": "3bc434b26a8ce2093b16263d0dd0e8e1ca59311100cfc95e6f2ebb770af51baf"
+        },
+        {
+          "src": "./illustrations/ts3b-188-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 400476,
+          "sha256": "3611ae0acf9ea588ae720ca9c398831fe580e437cef40cfc95d7c6c0180ca8be"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -3337,7 +3583,6 @@
     "ts3b-185",
     "ts3b-186",
     "ts3b-187",
-    "ts3b-188",
     "ts3b-189",
     "ts3b-190",
     "ts3b-191",
@@ -3472,15 +3717,10 @@
     "primary-051",
     "primary-052",
     "primary-053",
-    "primary-059",
-    "primary-060",
     "primary-065",
-    "primary-067",
     "primary-068",
     "primary-071",
     "primary-072",
-    "primary-074",
-    "school-915dae06b46a305c",
     "school-76f32dee7356c045",
     "school-cabb9ecbc2699b6e",
     "school-60e5bd7ff995954f",
