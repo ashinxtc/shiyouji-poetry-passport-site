@@ -1,9 +1,10 @@
-import {STAGE_NAMES,stageForGrade} from './grades.js?v=29';
+import {STAGE_NAMES,stageForGrade} from './grades.js?v=30';
+import {headingRequirements,HEADING_FIELDS} from './recitation-options.js?v=30';
 export const STORAGE_KEY='shiyouji.passport.v3';
 export const LEGACY_STORAGE_KEY='shiyouji.passport.v1';
 export const SCHEMA=2;
 export const DAY=86400000;
-export function initialData(){return {schema:SCHEMA,profile:{name:'小诗友',stage:'low',grade:null},settings:{pinyin:true,motion:true,sound:false,speechMode:'cloud'},entries:{},games:[],createdAt:new Date().toISOString(),migration:null};}
+export function initialData(){return {schema:SCHEMA,profile:{name:'小诗友',stage:'low',grade:null},settings:{pinyin:true,motion:true,sound:false,speechMode:'cloud',recitationHeading:headingRequirements()},entries:{},games:[],createdAt:new Date().toISOString(),migration:null};}
 export function localDay(value=new Date()){const d=new Date(value);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
 export function nextDue(now,days){const d=new Date(now);d.setDate(d.getDate()+days);d.setHours(0,0,0,0);return d.toISOString();}
 export function validateData(raw,poemIds){
@@ -18,6 +19,7 @@ export function validateData(raw,poemIds){
   for(const key of ['pinyin','motion','sound']){if(typeof raw.settings[key]!=='boolean')throw new Error('备份缺少偏好设置');out.settings[key]=raw.settings[key];}
   if(!legacy&&!['cloud','record-only'].includes(raw.settings.speechMode))throw new Error('备份缺少语音识别设置');
   out.settings.speechMode=legacy?'cloud':raw.settings.speechMode;
+  out.settings.recitationHeading=headingRequirements(raw.settings.recitationHeading,{strict:true});
   for(const [id,entry] of Object.entries(raw.entries)){
     if(!ids.has(id))throw new Error('备份包含当前诗单以外的诗');
     if(!entry||!Array.isArray(entry.attempts)||entry.attempts.length>500||typeof entry.seen!=='boolean')throw new Error('背诵记录格式无效');
@@ -50,7 +52,14 @@ function validateReading(proof,id){
 }
 function validateSpeechEvidence(e,id){
   if(!e||e.poemId!==id||e.engine!=='@cf/openai/whisper-large-v3-turbo'||e.status!=='matched'||!e.finalized||!Number.isInteger(e.expectedChars)||e.expectedChars<1||e.matchedUnits!==e.expectedChars||!Number.isInteger(e.matchedChars)||e.matchedChars<0||e.matchedChars>e.expectedChars||e.recognizedChars!==e.expectedChars||!Number.isFinite(e.durationMs)||e.durationMs<Math.max(1000,e.expectedChars*90))throw new Error('语音核对记录缺少完整依据');
-  return {poemId:id,engine:e.engine,status:e.status,finalized:true,expectedChars:e.expectedChars,matchedChars:e.matchedChars,matchedUnits:e.matchedUnits,recognizedChars:e.recognizedChars,matchBasis:e.matchBasis||'characters',durationMs:Math.round(e.durationMs),confidence:Number.isFinite(e.confidence)?e.confidence:null};
+  let heading=null;
+  if(e.heading!==undefined&&e.heading!==null){
+    if(!e.heading.requirements||!e.heading.matched||HEADING_FIELDS.some(({key})=>typeof e.heading.requirements[key]!=='boolean'))throw new Error('背诵信息核对依据缺失');
+    const requirements=headingRequirements(e.heading.requirements,{strict:true}),matched={};
+    for(const {key} of HEADING_FIELDS){if(requirements[key]&&e.heading.matched?.[key]!==true)throw new Error('所选诗名、朝代或作者尚未核对通过');matched[key]=requirements[key]?true:null;}
+    heading={requirements,matched};
+  }
+  return {poemId:id,engine:e.engine,status:e.status,finalized:true,expectedChars:e.expectedChars,matchedChars:e.matchedChars,matchedUnits:e.matchedUnits,recognizedChars:e.recognizedChars,matchBasis:e.matchBasis||'characters',durationMs:Math.round(e.durationMs),confidence:Number.isFinite(e.confidence)?e.confidence:null,heading};
 }
 export function markSeen(data,id){if(!data.entries[id])data.entries[id]={seen:true,reading:null,attempts:[],dueAt:null};else data.entries[id].seen=true;}
 export function completeReading(data,id,proof,at=new Date().toISOString()){

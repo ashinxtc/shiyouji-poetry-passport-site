@@ -3647,6 +3647,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "a5bf1d672a08dcc5e89f8957b57bd168168e61afa69bd6e61af8a4be0eb302eb"
       }
     ]
+  },
+  {
+    "poemId": "primary-047",
+    "title": "江南春",
+    "label": "莺啼水村与烟雨楼台",
+    "alt": "《江南春》诗境插画：江南水村绿树映着红花，黄莺停在枝间，酒旗随风轻摆，远处寺院楼台隐入烟雨",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-047-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3bf93ba49b9a02465130e6c7876dd13a5af0345df7768d37146aa69bda124307"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-047-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44374,
+        "sha256": "a983ffcc0bbb2b6141e8f842fb5b5d85c762a96a605140a9ee12e579dd04d906"
+      },
+      {
+        "src": "./illustrations/primary-047-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 161890,
+        "sha256": "692f1c17b9c1ec8bca40ce5ee0a03dcc14a4778da46213bb210f6067798f3247"
+      },
+      {
+        "src": "./illustrations/primary-047-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 360918,
+        "sha256": "5032349330ade6108b9febc8426a5028562a6457e006ab1181522494cbb5ad89"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-052",
+    "title": "书湖阴先生壁",
+    "label": "净院花畦与护田青山",
+    "alt": "《书湖阴先生壁》诗境插画：茅屋前庭院洁净，主人栽下整齐花畦，溪水绕着绿田，两座青山仿佛迎门而来",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-052-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cc89ba63a5e00393d301e648817bc68a271d35e58fc4c6d82e3b3984738aac60"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-052-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 46662,
+        "sha256": "37ab286a4843b55cb12e5962c2064da4bc593c3ce393baa60cab2cafd3371750"
+      },
+      {
+        "src": "./illustrations/primary-052-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 163584,
+        "sha256": "9aa99385bb0e15c31a94205a5a28e3ac99ecbf0052e49afd3c3128da842a01e6"
+      },
+      {
+        "src": "./illustrations/primary-052-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 355774,
+        "sha256": "44a6f6c2be49b031145e8c49e67bc7b36fda946420471143807cad70311fc3dc"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-126",
+    "title": "过故人庄",
+    "label": "田家相聚与绿树青山",
+    "alt": "《过故人庄》诗境插画：两位老友在农家窗边相聚，桌上摆着鸡黍，窗外是菜圃禾场、环村绿树和远处青山",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-126-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fb54d9fe1fb10c5febbdfd55e7a0b2d54bb31510da5c22d1bae866aa78ab8e27"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-126-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 47184,
+        "sha256": "59c35f53c5b6b22bfaee5a902c804b15e480bbe9590622536f35fb198cf8383a"
+      },
+      {
+        "src": "./illustrations/ts3b-126-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 169570,
+        "sha256": "4b0e6bab017f42bc70a0c23df22400d816b2fa76321c22e2dabd3239666ed56e"
+      },
+      {
+        "src": "./illustrations/ts3b-126-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 380844,
+        "sha256": "20e73001554c2af12fc484130549eea782098904ee45a8d7885ef1865ef761d4"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-077",
+    "title": "寒食",
+    "label": "飞花御柳与暮色传烛",
+    "alt": "《寒食》诗境插画：春城花瓣随东风飘落，宫墙边御柳轻斜，暮色里使者护着烛火送往朱门宅院",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-077-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "968d5e73488a69e4bd9264e879de3bd64374fef7903a665ee2691458cc65d277"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-077-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44272,
+        "sha256": "7602df41332b9b10ef8e11bd03c9bf05fff6b2d4ee1dab9f0440786598005c23"
+      },
+      {
+        "src": "./illustrations/ts3b-077-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 166390,
+        "sha256": "7b2865676570ab4a04b1a220be9b744c7e51a142a2560407862943ced3d40c18"
+      },
+      {
+        "src": "./illustrations/ts3b-077-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 381632,
+        "sha256": "b60a783483c32f4093fd6f7e7e3b5a639b052e32a94ee8340916608935cd72a4"
+      }
+    ]
+  },
+  {
+    "poemId": "school-60e5bd7ff995954f",
+    "title": "迢迢牵牛星",
+    "label": "织机停梭与盈盈星河",
+    "alt": "《迢迢牵牛星》诗境插画：织女停下织梭，隔着清浅星河遥望彼岸牵牛的身影，织机旁未成的素绢轻垂",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-60e5bd7ff995954f-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d15e9a3cd757c41563feb0607e41ee01faba2c2dc515bc7a64708de8696073d1"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-60e5bd7ff995954f-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35304,
+        "sha256": "da5782fb977d38d078e1b16980155632f80b4709bee869d860d98a6c1767a71d"
+      },
+      {
+        "src": "./illustrations/school-60e5bd7ff995954f-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 126642,
+        "sha256": "5d19b3dbfe8b917528051072d93411d0e46331e80101e6fac68411f93c9edb79"
+      },
+      {
+        "src": "./illustrations/school-60e5bd7ff995954f-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 285848,
+        "sha256": "734c49c26c22f27353d5399ea44033d84ad63ebf13a319bef386a6679503588f"
+      }
+    ]
+  },
+  {
+    "poemId": "school-65796a49cc153bdb",
+    "title": "十五夜望月",
+    "label": "桂露无声与中庭望月",
+    "alt": "《十五夜望月》诗境插画：月光洒白安静庭院，桂树上栖着乌鸦，细露润湿桂花，诗人在廊边遥望秋月",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-65796a49cc153bdb-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "32791d9f4f660047eaa9fbc3fb0691003ee02e84dabd71f3e9c69e90c3b71600"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-65796a49cc153bdb-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 52424,
+        "sha256": "ff545c0ce0943da2f11ad8a368123e7b94d4851c1e69eef3dd4c88d2b7a45073"
+      },
+      {
+        "src": "./illustrations/school-65796a49cc153bdb-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 190644,
+        "sha256": "6f05f27c34a6507abaee926ba189f1ef482b6fe3982c10b32828119766a9d373"
+      },
+      {
+        "src": "./illustrations/school-65796a49cc153bdb-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 442036,
+        "sha256": "0fdbca49838885ad83bd53f2a63d4236f566eb226d957728f722c9eb92bd4332"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));

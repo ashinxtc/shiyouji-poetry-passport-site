@@ -1,0 +1,11 @@
+.voice-heading-options{width:100%;min-width:0;border:1px solid var(--line);border-radius:8px;background:var(--paper);margin:0;padding:var(--spacing-100);text-align:left}
+.voice-heading-options legend{padding:0 var(--spacing-50);color:var(--teal-dark)}
+.voice-heading-options p{margin-top:var(--spacing-75)}
+.voice-heading-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--spacing-75)}
+.voice-heading-option{display:flex;align-items:center;justify-content:center;gap:var(--spacing-50);min-height:44px;padding:var(--spacing-50);border:1px solid var(--line);border-radius:8px;font-size:14px;line-height:20px;color:var(--teal-dark);cursor:pointer}
+.voice-heading-option:has(input:checked){border-color:var(--teal);background:var(--desk)}
+.voice-heading-option:has(input:disabled){color:var(--muted);cursor:default}
+.voice-heading-option input{flex-shrink:0;margin:0}
+.voice-heading-active main .poem-heading{visibility:hidden}
+.voice-heading-options~.voice-notice{flex-shrink:0}
+@media(max-height:650px){.voice-intro:has(.voice-heading-options){justify-content:flex-start;gap:var(--spacing-75)}.voice-intro:has(.voice-heading-options) .voice-emblem{display:none}.voice-heading-options{padding:var(--spacing-75)}.voice-heading-options p{margin-top:var(--spacing-50)}}
