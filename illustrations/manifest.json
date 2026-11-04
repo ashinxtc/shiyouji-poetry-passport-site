@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 15,
+  "batch": 16,
   "totalPoems": 468,
-  "availableCount": 95,
+  "availableCount": 101,
   "items": [
     {
       "poemId": "tang-001",
@@ -3898,6 +3898,252 @@
           "sha256": "0fdbca49838885ad83bd53f2a63d4236f566eb226d957728f722c9eb92bd4332"
         }
       ]
+    },
+    {
+      "poemId": "primary-002",
+      "title": "长歌行",
+      "label": "晨露园葵与向海川流",
+      "alt": "《长歌行》诗境插画：晨光照着菜园中的葵叶，露珠将晞，少年在窗边用功，远处河流向海而去",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-002-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "07bf6a1f69b5dc781417e3dfef279fe091f822f37bc30231f03a21f42e02d531"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-002-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 52618,
+          "sha256": "5b1540763bb901c3eebaf545fdf7eb03d476860c7d7f3838025628a8690439fe"
+        },
+        {
+          "src": "./illustrations/primary-002-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 177050,
+          "sha256": "66eda6f22a69f13a9ef6c8b250eda67e85db42d64a8e9b4b7b2e171dc59e1577"
+        },
+        {
+          "src": "./illustrations/primary-002-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 381570,
+          "sha256": "bc2b0524133189743c111f551e143ee1eb01e808b6a3033342a8d5f150e31377"
+        }
+      ]
+    },
+    {
+      "poemId": "school-407ca14c5feef8fe",
+      "title": "马诗",
+      "label": "钩月燕山与清秋骏马",
+      "alt": "《马诗》诗境插画：燕山下沙地在月光中洁白如雪，一匹骏马迎着秋风蓄势待行，天边悬着钩月",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-407ca14c5feef8fe-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "61b9f312efe7e568d620b955cb75186c9e3f505bab333bbea0a6eec5a87ce450"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-407ca14c5feef8fe-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24376,
+          "sha256": "767178e27077a6032033e43fe9166a7c974a1a93c8c553793cd856a0319ebafb"
+        },
+        {
+          "src": "./illustrations/school-407ca14c5feef8fe-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 94838,
+          "sha256": "a3642dedeed036f6c5f04ee25cb5f65d724804d9475f17bd411c8eb66d9eb653"
+        },
+        {
+          "src": "./illustrations/school-407ca14c5feef8fe-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 234992,
+          "sha256": "1d63dfc76c50fb820cd09327cff206c016107fa4271ea8cf6643277868b4f8b7"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-071",
+      "title": "石灰吟",
+      "label": "深山石料与清白石灰",
+      "alt": "《石灰吟》诗境插画：山脚石场旁堆着浅色石料，远处石窑燃着炉火，近处木盘中的石灰洁白细腻",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-071-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bf6ebbec1e17384bd3e07ff55fffabe02bd9f2c950ecd3aa979ed1229a424be8"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-071-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 54512,
+          "sha256": "a71a6c18437ad0f657a9ef0f5dcb500efd0e18b32dbb1625b3090a7122f6c1cf"
+        },
+        {
+          "src": "./illustrations/primary-071-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 200162,
+          "sha256": "2341bb2eba08fdded5aee2f2b4a2ad5e65d72ebe1c0d9fb21e4805eae9176d69"
+        },
+        {
+          "src": "./illustrations/primary-071-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 459372,
+          "sha256": "97f1e9b4f0e4ede9ca4a583b95f305078a2c0f88a6d6cb13792626ed568d082a"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-072",
+      "title": "竹石",
+      "label": "破岩立根与劲竹迎风",
+      "alt": "《竹石》诗境插画：几竿青竹从岩石裂缝中扎根而生，风吹叶动，竹身依然挺立，远山隐入薄雾",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-072-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "969cfda5ce604743ec6dd003b8ba6a3f7dda2a43a7a1fbcbe8bbc4f02bc16bad"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-072-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 35574,
+          "sha256": "29bd383ac24b534fe32e4696cf3c427b6759419f4e832088b37687dd319a4a2b"
+        },
+        {
+          "src": "./illustrations/primary-072-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 117234,
+          "sha256": "3e0deb0e0089a4f3345efa7d3ff3e5c5ba41c49295d7568c97ff4e1c864e5bae"
+        },
+        {
+          "src": "./illustrations/primary-072-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 258016,
+          "sha256": "4b7d12b3042f15c45633f6fee454bdec18e7153f742226427650981864c99e89"
+        }
+      ]
+    },
+    {
+      "poemId": "school-75637220323fcf0e-excerpt",
+      "title": "采薇（节选）",
+      "label": "霏雪归途与旧柳乡思",
+      "alt": "《采薇（节选）》诗境插画：风雪里归人裹着旧斗篷缓缓前行，路旁柳枝已疏，远处村舍的微光牵着乡思",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-75637220323fcf0e-excerpt-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "966e790125e835cc99c97b781ac47d3ca4e042da2d0465a815df07ceef5e97fd"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-75637220323fcf0e-excerpt-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 40810,
+          "sha256": "db6598a0187cbbea3770d9b8be6028eec71c91253adcfba99eb4639cec0f3474"
+        },
+        {
+          "src": "./illustrations/school-75637220323fcf0e-excerpt-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 146804,
+          "sha256": "f28ba277ff29a48104dcd1da3ac90b959dd36797dfe116260907661aa31eda79"
+        },
+        {
+          "src": "./illustrations/school-75637220323fcf0e-excerpt-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 319460,
+          "sha256": "59e4a85ac4b22296cc873f5605ee7957ffb7f68d95cc884cdd7e2d1f8d969123"
+        }
+      ]
+    },
+    {
+      "poemId": "primary-026",
+      "title": "春夜喜雨",
+      "label": "细雨润春与江船独火",
+      "alt": "《春夜喜雨》诗境插画：春夜细雨悄悄润湿花枝与田野，暗云下江船一盏暖灯独明，湿红花低垂在近处",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/primary-026-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d2c548f60c597efcc3e64708b20acc6f24e1dc57f0e3c60ba30d7238432aee92"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/primary-026-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42878,
+          "sha256": "63ca2e480f83b35e7f13192068bf55d4ea16bf56bd6a9bacc15a3c4cd163ade8"
+        },
+        {
+          "src": "./illustrations/primary-026-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 163236,
+          "sha256": "1976fb6861938a0439cfa8e008da947a3e1accbf117cc25c4802b3f76e979fdf"
+        },
+        {
+          "src": "./illustrations/primary-026-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 376834,
+          "sha256": "e62a3ff63c3b2ed25388abab2dc59cc6d3a6cf1c9664f99c466c5ae10169fa0b"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -4197,17 +4443,11 @@
     "ts3b-316",
     "ts3b-317",
     "ts3b-319",
-    "primary-002",
     "primary-018",
-    "primary-026",
     "primary-051",
     "primary-065",
     "primary-068",
-    "primary-071",
-    "primary-072",
-    "school-407ca14c5feef8fe",
     "school-8dd65f86e7bb2e13",
-    "school-75637220323fcf0e-excerpt",
     "school-1d7fbd1e12aaa100",
     "school-1b87966b1f7ceb3f",
     "school-2334b3e8b582e87f",

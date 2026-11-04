@@ -1,0 +1,21 @@
+.has-account-switcher .context-label{display:none}
+.has-account-switcher .header-actions{gap:var(--spacing-75);min-width:0}
+.account-switcher{display:flex;align-items:center;gap:var(--spacing-75);min-width:0;min-height:40px;padding:var(--spacing-50) var(--spacing-100);border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--teal-dark);font:500 14px/20px var(--sans);cursor:pointer}
+.account-switch-avatar{display:grid;place-items:center;flex-shrink:0;width:24px;height:24px;border-radius:50%;background:var(--desk);font:500 14px/20px var(--sans)}
+.account-switch-name{min-width:0;max-width:8em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.account-switch-label{font:400 12px/16px var(--sans);color:var(--muted);white-space:nowrap}
+.account-switch-caret{display:flex;flex-shrink:0;transform:rotate(90deg)}
+.quick-account-dialog{width:min(420px,calc(100vw - 24px));max-height:calc(var(--app-height,100dvh) - 24px)}
+.quick-account-dialog .dialog-inner{display:flex;flex-direction:column;gap:var(--spacing-100);max-height:calc(var(--app-height,100dvh) - 24px);padding:var(--spacing-300)}
+.quick-account-dialog .dialog-description{margin:0}
+.quick-profile-list{display:grid;gap:var(--spacing-100);overflow:auto;overscroll-behavior:contain;min-height:0;max-height:min(384px,50dvh)}
+.quick-profile-row{display:flex;align-items:center;gap:var(--spacing-100);width:100%;min-width:0;min-height:64px;padding:var(--spacing-100);border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);text-align:left}
+.quick-profile-row.selected{border-color:var(--teal);background:var(--desk)}
+.quick-profile-avatar{display:grid;place-items:center;flex-shrink:0;width:36px;height:36px;border-radius:50%;background:var(--desk);color:var(--teal-dark);font:500 18px/28px var(--sans)}
+.quick-profile-row.selected .quick-profile-avatar{background:var(--paper)}
+.quick-profile-text{display:grid;gap:var(--spacing-25);min-width:0;overflow-wrap:anywhere}
+.quick-profile-text small{display:block;color:var(--muted)}
+.quick-profile-current{margin-left:auto;flex-shrink:0;color:var(--teal-dark)}
+.quick-account-manage{flex-shrink:0;min-height:44px}
+@media(max-width:850px){.account-switcher{min-height:36px;gap:var(--spacing-50);padding:var(--spacing-50) var(--spacing-75)}.account-switch-name{max-width:5em}.has-account-switcher .app-header{gap:var(--spacing-75)}}
+@media(max-width:360px){.account-switch-name{max-width:4em}.account-switch-avatar{width:20px;height:20px;font-size:12px;line-height:16px}.account-switcher{padding:var(--spacing-50)}.has-account-switcher .header-actions{gap:var(--spacing-50)}.quick-account-dialog .dialog-inner{padding:var(--spacing-200)}}
