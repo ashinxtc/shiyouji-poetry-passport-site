@@ -4139,6 +4139,211 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "e62a3ff63c3b2ed25388abab2dc59cc6d3a6cf1c9664f99c466c5ae10169fa0b"
       }
     ]
+  },
+  {
+    "poemId": "primary-051",
+    "title": "泊船瓜洲",
+    "label": "江南新绿与泊舟思归",
+    "alt": "《泊船瓜洲》诗境插画：春风吹绿江岸，诗人静坐泊舟中遥望层山，明月与清江相映，柳枝轻拂水面",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-051-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "08aa9d2664242589a5e5697a745a89cccdd8ae3d7ac6bbc7e7c9b2a7454acce8"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-051-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44550,
+        "sha256": "a17bc7383ba1bfb3af1cdc17555c4158615e57ccaa30470f7d1969031929a25d"
+      },
+      {
+        "src": "./illustrations/primary-051-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 163740,
+        "sha256": "5b77bfb74b3a05af1f36b31d0b7fa5ee441a2506171d1ad032e32b50b0858b43"
+      },
+      {
+        "src": "./illustrations/primary-051-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 363796,
+        "sha256": "3fe68f0dfcf98da53b27faddd9781bdc287c276a45d7250a2f71193bcff8c2df"
+      }
+    ]
+  },
+  {
+    "poemId": "primary-068",
+    "title": "游园不值",
+    "label": "柴扉轻扣与红杏出墙",
+    "alt": "《游园不值》诗境插画：诗人站在苍苔小径上轻扣紧闭柴门，一枝红杏从朴素院墙上探出，带来满园春意",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/primary-068-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f2bbd65309aec39579f9636f864823582a53acb3c7fede2424e3e87afc65f6ca"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/primary-068-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30452,
+        "sha256": "e267744143a93a2340dd4a5699a615f55c0f4507707f141cfea8e5f79f598c99"
+      },
+      {
+        "src": "./illustrations/primary-068-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 105998,
+        "sha256": "f3cbb786066bde16793bf73ed423ba91276a08dfbd544d15f96814050a13d3c4"
+      },
+      {
+        "src": "./illustrations/primary-068-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 241794,
+        "sha256": "768b268ad4428626a720e5930cff02717312dd8b867059ddf93c376c8f3f727e"
+      }
+    ]
+  },
+  {
+    "poemId": "school-1d7fbd1e12aaa100",
+    "title": "卜算子·送鲍浩然之浙东",
+    "label": "眉山眼水与惜春送友",
+    "alt": "《卜算子·送鲍浩然之浙东》诗境插画：两位友人在江岸惜别，清水横展如眼波，远山柔曲似眉峰，春花随风轻轻飘落",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-1d7fbd1e12aaa100-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "75e510429e366cc62fe55892540db23e5fe9b4206a7326407f93125631df6c3f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-1d7fbd1e12aaa100-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45956,
+        "sha256": "3d992f4ec9637cb4a72d721b7f1e4aef8e79b149e5d1d8d07a0d0771e87b6aee"
+      },
+      {
+        "src": "./illustrations/school-1d7fbd1e12aaa100-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 164202,
+        "sha256": "7340e933f49b2a7156bd7d4a8c8246c5600a719b71252a4ba0ed1bbcff5920fa"
+      },
+      {
+        "src": "./illustrations/school-1d7fbd1e12aaa100-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 372078,
+        "sha256": "ae6c8dffdd4122a63ba62afab014eb9cd5586b002e70aaa922eff1ba5e520751"
+      }
+    ]
+  },
+  {
+    "poemId": "school-1b87966b1f7ceb3f",
+    "title": "浣溪沙（山下兰芽短浸溪）",
+    "label": "兰芽浅溪与松间暮雨",
+    "alt": "《浣溪沙（山下兰芽短浸溪）》诗境插画：短短兰芽浸在山下清溪旁，松间沙路洁净，诗人迎着暮雨缓步前行，子规在枝间轻啼",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-1b87966b1f7ceb3f-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3dc05482ae4e51290bc15caa1a84c4aabcc56b4dc0003de633030829fe4df420"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-1b87966b1f7ceb3f-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 50406,
+        "sha256": "cb91526324ec5b776fa435849c9248e8aa3b8cf3c22c0c2f3c6ae904fb298a71"
+      },
+      {
+        "src": "./illustrations/school-1b87966b1f7ceb3f-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 179710,
+        "sha256": "1e55396a9fe39376393e3980a80594b01e17f78a80c75086ef53929b993b8492"
+      },
+      {
+        "src": "./illustrations/school-1b87966b1f7ceb3f-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 393236,
+        "sha256": "66912a5ba13c192477a2104bc9de497c96b1cae2abf077be815c63e1537f77cf"
+      }
+    ]
+  },
+  {
+    "poemId": "school-2334b3e8b582e87f",
+    "title": "清平乐（春归何处）",
+    "label": "蔷薇风影与黄鹂寻春",
+    "alt": "《清平乐（春归何处）》诗境插画：暮春小径渐远，蔷薇轻摇，一只黄鹂随风飞过花枝，落瓣与新叶留住淡淡春意",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-2334b3e8b582e87f-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4755d0b2914366c57ed92581a987daeed2c4171fa163398a8e822e5033f72eaa"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-2334b3e8b582e87f-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37710,
+        "sha256": "904123e00e4b83196d66986873b722ada7d51e6dbde58ba823fea573c3d6884d"
+      },
+      {
+        "src": "./illustrations/school-2334b3e8b582e87f-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 123512,
+        "sha256": "b2f55bb662a63dcb9598d8d632b0d90ad3e44b018cf72568d28318b6793b7024"
+      },
+      {
+        "src": "./illustrations/school-2334b3e8b582e87f-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 254972,
+        "sha256": "d7050ddece39f5eca13a5a1a9390ce2396ccd57dcfd845fd373af3baf89209c7"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
