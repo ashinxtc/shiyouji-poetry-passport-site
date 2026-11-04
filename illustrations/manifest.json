@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 17,
+  "batch": 18,
   "totalPoems": 468,
-  "availableCount": 106,
+  "availableCount": 112,
   "items": [
     {
       "poemId": "tang-001",
@@ -4349,6 +4349,252 @@
           "sha256": "d7050ddece39f5eca13a5a1a9390ce2396ccd57dcfd845fd373af3baf89209c7"
         }
       ]
+    },
+    {
+      "poemId": "school-31c1fbaaa35d7390",
+      "title": "观沧海",
+      "label": "碣石秋海与涌起的洪波",
+      "alt": "《观沧海》诗境插画：一位披风旅人立于海边高岩，秋风吹过繁茂树木，海潮在远处山岛间翻涌",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-31c1fbaaa35d7390-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "865b20713ae15e7c1900acfe3b24b529ed40520b30448c5922fc5bf18ac26501"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-31c1fbaaa35d7390-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42246,
+          "sha256": "b03dcb3870e46865e97ef1eefd8ec841cd4aadeacadf809746368a52f3250583"
+        },
+        {
+          "src": "./illustrations/school-31c1fbaaa35d7390-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 154790,
+          "sha256": "e595918fd95e994a1be2fddab00c3cf965077f6de2eb0a69ee970e64ddf0bd96"
+        },
+        {
+          "src": "./illustrations/school-31c1fbaaa35d7390-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 358944,
+          "sha256": "58cb94fd6805a385fe995bd6af47f5190f32a0ca0f9b227f2bc3d43ae53fb28a"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-090",
+      "title": "次北固山下",
+      "label": "残夜初日与绿水行舟",
+      "alt": "《次北固山下》诗境插画：青山外的江面潮平岸阔，一叶张帆小舟迎着初升的日光，归雁飞过天际",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-090-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0d363066290cf3d1ad7a75c3cc87a1d3786782be6005fcd48cdb77ca193bee8b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-090-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31780,
+          "sha256": "1fded9a7cc3b59c804afa241e19f1b72f4e9fd3e31f383adc2a500103985edd8"
+        },
+        {
+          "src": "./illustrations/ts3b-090-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 117908,
+          "sha256": "268db07a7ff09c4c042e0308d0880664a732259dcf053d48d9c0c11385cce0ff"
+        },
+        {
+          "src": "./illustrations/ts3b-090-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 260806,
+          "sha256": "5f9fa370dd4c63ff4595cde19c650a84800e2604a6b535d18af9a2ca23eb8450"
+        }
+      ]
+    },
+    {
+      "poemId": "school-7a3033b2092a55ac",
+      "title": "闻王昌龄左迁龙标遥有此寄",
+      "label": "暮春明月与遥寄的愁心",
+      "alt": "《闻王昌龄左迁龙标遥有此寄》诗境插画：暮春江岸的旅人望向远方明月，细小柳絮落在流水旁，一只子规停在树枝间",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-7a3033b2092a55ac-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "90f1fbba9439303de6d8a505bdf1c8ff0623199c9e6de0aaa327b361d40cfda3"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-7a3033b2092a55ac-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 37050,
+          "sha256": "e7f3fb6e9acf034e0501cc983a121593e72a69adef8ddd0bae53b6780200ac1a"
+        },
+        {
+          "src": "./illustrations/school-7a3033b2092a55ac-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 138118,
+          "sha256": "a7dfb118f3bdac171c3b5a143a4c654b9526d12bc6b8cb508554f33c8466fe2a"
+        },
+        {
+          "src": "./illustrations/school-7a3033b2092a55ac-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 338346,
+          "sha256": "582d1fdeda5da3fe86a08a7bd055ab5e6827029ccdca181e4ce56e2f97db741e"
+        }
+      ]
+    },
+    {
+      "poemId": "school-22ef7e81c1bd9b44",
+      "title": "天净沙·秋思",
+      "label": "小桥流水与秋日羁旅",
+      "alt": "《天净沙·秋思》诗境插画：夕阳下的古道上，旅人牵着瘦马经过老树枯藤，远处小桥旁坐落着临水人家",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-22ef7e81c1bd9b44-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e30056cae95e0452597d20abdff3c851aa0a77dc5cc2e876f57b5d0185c0b3c5"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-22ef7e81c1bd9b44-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 47270,
+          "sha256": "9589bf087d3e93957853a89d536a48b81099c6655295c0d9ce0c3bed01f2e81e"
+        },
+        {
+          "src": "./illustrations/school-22ef7e81c1bd9b44-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 176226,
+          "sha256": "d940c53b7b90a481a0b42013ed381566982ba428565465e0c47ac8a493b486cb"
+        },
+        {
+          "src": "./illustrations/school-22ef7e81c1bd9b44-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 417966,
+          "sha256": "22bb90cfa83c73693da2e7482fdadc0ef47637aaac37cffcbda9723d6fbc02f7"
+        }
+      ]
+    },
+    {
+      "poemId": "school-3b7a539e995ac8f7",
+      "title": "峨眉山月歌",
+      "label": "峨眉半月与夜航江水",
+      "alt": "《峨眉山月歌》诗境插画：半轮秋月映入清流，一叶小舟顺着峨眉山下的江水驶向远处层叠的峡山",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-3b7a539e995ac8f7-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9af5f0fd0937d6ec0a6657570471decdbc427ddb8d95db0d2e02937882c93f84"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-3b7a539e995ac8f7-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31896,
+          "sha256": "8d3675154a8e220adaef702794d1078e90c78b438d0a8946250aa378c4b7e434"
+        },
+        {
+          "src": "./illustrations/school-3b7a539e995ac8f7-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 126940,
+          "sha256": "33e4578121ecba40b466834078c98712a2f9d1762feadf6e3a526459944133c6"
+        },
+        {
+          "src": "./illustrations/school-3b7a539e995ac8f7-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 323186,
+          "sha256": "776d102377f14118accc4e4da33fc0c8c51498e50542e56b35537140e1a62586"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-048",
+      "title": "江南逢李龟年",
+      "label": "江南落花与故人重逢",
+      "alt": "《江南逢李龟年》诗境插画：暮春江南的流水小径旁，两位年长故人停步相逢，花瓣从枝头落向石阶与水面",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-048-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2515efee1a63c4c3dc3f361457475a1163b5c2fa3e6e9b5b7495ca157b2b233d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-048-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 41030,
+          "sha256": "7a28a48b3d26cccf683e832f16fde373c21904aa1c4279805909ce39356eeffd"
+        },
+        {
+          "src": "./illustrations/ts3b-048-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 150336,
+          "sha256": "82cd0c204e0d8205f85c9776430122328bec5c487d99a6ac2ed93244129dff07"
+        },
+        {
+          "src": "./illustrations/ts3b-048-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 352680,
+          "sha256": "1cd98ad550f47bd254e5d3874a26a012a86da44cbc04302c9931b691a35841bc"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -4388,7 +4634,6 @@
     "ts3b-043",
     "ts3b-046",
     "ts3b-047",
-    "ts3b-048",
     "ts3b-049",
     "ts3b-050",
     "ts3b-051",
@@ -4425,7 +4670,6 @@
     "ts3b-086",
     "ts3b-087",
     "ts3b-089",
-    "ts3b-090",
     "ts3b-091",
     "ts3b-092",
     "ts3b-093",
@@ -4651,10 +4895,6 @@
     "primary-018",
     "primary-065",
     "school-8dd65f86e7bb2e13",
-    "school-31c1fbaaa35d7390",
-    "school-7a3033b2092a55ac",
-    "school-22ef7e81c1bd9b44",
-    "school-3b7a539e995ac8f7",
     "school-b6805dfdc3179318",
     "school-de623c41a1212951",
     "school-96eaa253586bb1b8",
