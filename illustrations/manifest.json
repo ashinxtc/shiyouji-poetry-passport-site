@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 21,
+  "batch": 22,
   "totalPoems": 468,
-  "availableCount": 132,
+  "availableCount": 138,
   "items": [
     {
       "poemId": "tang-001",
@@ -5415,6 +5415,252 @@
           "sha256": "e0b9def4df700f524e6b8390e34c8da44334f83b6f92b5fcd47fe88c02117986"
         }
       ]
+    },
+    {
+      "poemId": "school-0bc5eb66a51b87fd",
+      "title": "野望",
+      "label": "秋野落晖与归牧人家",
+      "alt": "《野望》诗境插画：薄暮的秋野间，诗人独立山坡，牧人赶着牛犊归村，远处骑马猎人沿小路返回，层山染着落晖",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-0bc5eb66a51b87fd-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "00023c1bea3a3f60be828b105d4cafb97af4cd36ed054ce08d8b35cae46f3567"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-0bc5eb66a51b87fd-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 39902,
+          "sha256": "8892761485a3f05f257da9746657682cfd223bdafef935106844da90e24cb76f"
+        },
+        {
+          "src": "./illustrations/school-0bc5eb66a51b87fd-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 149572,
+          "sha256": "ce8e6fc3608b3f9d12ebd956433c3f868fa6f2000a1afcba8177da74bc02dfe6"
+        },
+        {
+          "src": "./illustrations/school-0bc5eb66a51b87fd-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 347316,
+          "sha256": "c30739ea69c7cf5c44dc97d0b9c0904fb177fe1f98fbd58af749b88afe35043f"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-201",
+      "title": "登黄鹤楼",
+      "label": "江楼暮望与烟波乡愁",
+      "alt": "《登黄鹤楼》诗境插画：江边古楼上，诗人望向汉阳树影和芳草洲渚，落日余光渐隐，烟波漫过宽阔江面",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-201-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "af30cb15145c99a93f3c915c9966b2f643458fee2984a30e25e49c4781f386dc"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-201-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24972,
+          "sha256": "abf82dcca88b50c1b02310c3c7c03fce1418a2f42f66b48dfda6d0c632a7d509"
+        },
+        {
+          "src": "./illustrations/ts3b-201-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 92362,
+          "sha256": "203447ebf404e4624bb1c8ec74fbaa84e0826e5ebb1b55c86c875068723ef5fe"
+        },
+        {
+          "src": "./illustrations/ts3b-201-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 212904,
+          "sha256": "e9902fb08df4dbd3389339f39668fa909a198fff06b2ec803ea229f7917e5462"
+        }
+      ]
+    },
+    {
+      "poemId": "school-de18cde7d193ac10",
+      "title": "使至塞上",
+      "label": "大漠孤烟与长河落日",
+      "alt": "《使至塞上》诗境插画：开阔大漠中一缕孤烟直上，长河尽头悬着圆圆落日，出使旅人与小车沿边地古道行进",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-de18cde7d193ac10-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0d8c734b927a5df697c2b6836962fda887e50a45eeaf44a870664f4472c1e8d5"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-de18cde7d193ac10-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19838,
+          "sha256": "20b656d4fc304688fada3dbbad6f74dd61c109265c9df1567d4fed7c97cc5067"
+        },
+        {
+          "src": "./illustrations/school-de18cde7d193ac10-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 80954,
+          "sha256": "1f94d102bbff937a45daf35d9c158e0f81157d98283450ebb1956e4269b5c65e"
+        },
+        {
+          "src": "./illustrations/school-de18cde7d193ac10-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 213562,
+          "sha256": "71ec95d9cbd01158467965d816e58140cd62fd51b8ec65b6eb3e79d8dab41ff6"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-100",
+      "title": "渡荆门送别",
+      "label": "出峡江阔与故水送舟",
+      "alt": "《渡荆门送别》诗境插画：小舟驶出层山，前方江面向开阔平野铺展，月影在水中映成明镜，轻云在远方层叠",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-100-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "830bf89186a968bac3dac3b2baa8625423b3b38a17c7f9f5d357eacc44806571"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-100-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32168,
+          "sha256": "f957e121c66d1117f8ebc13baca6d54a3f21eb1cac9ded7bd12aa1d4ddcfa1d9"
+        },
+        {
+          "src": "./illustrations/ts3b-100-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 118242,
+          "sha256": "6b753cd71a594edddbd1254db46063655d61947cb23d1f4944002e9280b0a724"
+        },
+        {
+          "src": "./illustrations/ts3b-100-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 277960,
+          "sha256": "5df27ff009f239d3993b39ea46b7ca95b433b28ef502d0752bb1934c1fca81b0"
+        }
+      ]
+    },
+    {
+      "poemId": "school-1aff845edbcbf3b0",
+      "title": "钱塘湖春行",
+      "label": "早莺新燕与白沙春堤",
+      "alt": "《钱塘湖春行》诗境插画：早春湖畔，新燕衔泥掠过浅草，黄莺停在向阳树枝，旅人骑马沿绿杨掩映的白沙堤缓行",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-1aff845edbcbf3b0-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cf83af3d4816a09a9a57cce683a7576e84274f94d5c18d33680bef4ab50d951c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-1aff845edbcbf3b0-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36648,
+          "sha256": "48d9953afc95246021a5026d3dc687b45d5f6afbc1119e3a02dc59c49f88017a"
+        },
+        {
+          "src": "./illustrations/school-1aff845edbcbf3b0-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 127818,
+          "sha256": "a2413a1de25bb0b6bead9ce9f8fcd8233f0c8a1729fda35aad1e93dfd7e9a55a"
+        },
+        {
+          "src": "./illustrations/school-1aff845edbcbf3b0-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 284770,
+          "sha256": "625e993ba6069a93e07d26714d5af03c5cbab406c48611ec3a0200288649467c"
+        }
+      ]
+    },
+    {
+      "poemId": "school-327b833a363da1fc",
+      "title": "饮酒（其五）",
+      "label": "东篱采菊与悠见南山",
+      "alt": "《饮酒（其五）》诗境插画：朴素茅屋旁的东篱下，诗人俯身采菊又抬眼望山，傍晚山气渐起，归鸟结伴飞向林间",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-327b833a363da1fc-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c273c8989fc7746ff3310ad771b61eacfa323f802d9c6556013e9fe7402395ed"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-327b833a363da1fc-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43360,
+          "sha256": "49a48cf06f5fe25fb893553778cfe2ec474e607d7c604b7c7f7e31e67b23fb56"
+        },
+        {
+          "src": "./illustrations/school-327b833a363da1fc-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 153612,
+          "sha256": "850f26ba778c6984063054bf7844f5dfcf62b3eccf83c46e240083f1102b3a10"
+        },
+        {
+          "src": "./illustrations/school-327b833a363da1fc-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 338846,
+          "sha256": "2d30ee7cb63a60beaaf470bea46f5250f56f0e99999a9e40a7839a0639918f79"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -5493,7 +5739,6 @@
     "ts3b-097",
     "ts3b-098",
     "ts3b-099",
-    "ts3b-100",
     "ts3b-101",
     "ts3b-102",
     "ts3b-103",
@@ -5592,7 +5837,6 @@
     "ts3b-198",
     "ts3b-199",
     "ts3b-200",
-    "ts3b-201",
     "ts3b-202",
     "ts3b-203",
     "ts3b-204",
@@ -5707,10 +5951,6 @@
     "primary-018",
     "primary-065",
     "school-8dd65f86e7bb2e13",
-    "school-0bc5eb66a51b87fd",
-    "school-de18cde7d193ac10",
-    "school-1aff845edbcbf3b0",
-    "school-327b833a363da1fc",
     "school-4ec3872206ee0bfc",
     "school-8dc8fe71eb888249",
     "school-06e8a60c68cbe816",
