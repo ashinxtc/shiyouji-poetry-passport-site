@@ -5656,6 +5656,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "2d30ee7cb63a60beaaf470bea46f5250f56f0e99999a9e40a7839a0639918f79"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-116",
+    "title": "春望",
+    "label": "春城草木与乱世思家",
+    "alt": "《春望》诗境插画：白发诗人立在春草蔓生的旧城墙边，眼前花枝初绽，惊鸟飞过，远山依旧。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-116-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "667f546bf922d9a977aa270b8bfeee12086f6ec029802a5d73186d192edf3804"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-116-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45026,
+        "sha256": "c8e2c016e890f4423ad1acfe68f1fbd79e34cfce9bb21c94244820dd5b3fb0c8"
+      },
+      {
+        "src": "./illustrations/ts3b-116-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 163254,
+        "sha256": "26a09203d961c1d34650d2a50824996d3ec2e8e5d0afbfbbfd5dfa1ebf0dc9ec"
+      },
+      {
+        "src": "./illustrations/ts3b-116-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 376362,
+        "sha256": "3b20d1b4dbe8459e4d89b540770e474e24860122da2d7726258a1f6cc8ecb786"
+      }
+    ]
+  },
+  {
+    "poemId": "school-4ec3872206ee0bfc",
+    "title": "雁门太守行",
+    "label": "黑云压城与金鳞甲光",
+    "alt": "《雁门太守行》诗境插画：边城上方黑云低压，一线斜阳照亮守军甲片，半卷红旗在寒风中扬起。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-4ec3872206ee0bfc-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5da8a313f656553ea291018bd5e1248c809fbf3b1ff7ffedbe2f4a7467a0ea45"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-4ec3872206ee0bfc-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 33656,
+        "sha256": "421950e71490b83622bbe44063412eab70dc127332cbc03fd6204d91d28110f3"
+      },
+      {
+        "src": "./illustrations/school-4ec3872206ee0bfc-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 134320,
+        "sha256": "b5647f2174bf9a7bbb7bb0fafcad65e7564d703c6efe5890cccf9435aca2d7a8"
+      },
+      {
+        "src": "./illustrations/school-4ec3872206ee0bfc-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 336142,
+        "sha256": "720701d5337adcf07594d7f9572f16f828133898cdbb26a647dfeb3f4693e985"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-056",
+    "title": "赤壁",
+    "label": "折戟沉沙与江岸怀古",
+    "alt": "《赤壁》诗境插画：江边旅人俯身拂去断戟上的沙土，身旁江水轻涌，对岸赤褐色石壁隐在薄雾里。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-056-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d6be8dfcac71e5b6ffe35f5d7c7a6085150fae2ed3c309063865b8d9656b3f3b"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-056-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35438,
+        "sha256": "9e4064c300250cff08874c13a5c36e470be9dee348b6ae30e736a0948b2d989f"
+      },
+      {
+        "src": "./illustrations/ts3b-056-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 138464,
+        "sha256": "494c599f10b172bf4a75e05879df31e8b4dc6188a1f528f5d47b0ff373b2ec41"
+      },
+      {
+        "src": "./illustrations/ts3b-056-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 348102,
+        "sha256": "cf84683133579aa5e02c836d2d6e502c012efb3f44b6bc3b8defde8d8d4f3c53"
+      }
+    ]
+  },
+  {
+    "poemId": "school-8dc8fe71eb888249",
+    "title": "渔家傲（天接云涛连晓雾）",
+    "label": "星河千帆与九万里鹏风",
+    "alt": "《渔家傲（天接云涛连晓雾）》诗境插画：晓雾与云涛间，小舟乘风向远方三座仙山行去，星河下有群帆，大鹏振翅高飞。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-8dc8fe71eb888249-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "90e8f6159a657c697b631550e9c3f3877f4fffac446d9d690d88a12554427eb8"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-8dc8fe71eb888249-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25238,
+        "sha256": "f1c48f3d1b4a93380a661e85444886cba5f5e401d07d6f897ad757413f41569f"
+      },
+      {
+        "src": "./illustrations/school-8dc8fe71eb888249-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 95096,
+        "sha256": "7891a87b4688ce823912cb0c95954a92e0d79d4a17aa6b85cce2932f2b49c3ce"
+      },
+      {
+        "src": "./illustrations/school-8dc8fe71eb888249-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 234562,
+        "sha256": "ed8d7fa9debff12489929e739f7a973a1c9dc34120cd448e365f4566687bb02c"
+      }
+    ]
+  },
+  {
+    "poemId": "school-06e8a60c68cbe816",
+    "title": "庭中有奇树",
+    "label": "折花盈袖与远路相思",
+    "alt": "《庭中有奇树》诗境插画：幽静庭院里，一位古人将折下的花枝贴近衣袖，透过敞开的院门望向远路。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-06e8a60c68cbe816-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3d977225bbd8167ca011069d2c301cd0c687b3213cd2deb7b5b9c135d3262a90"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-06e8a60c68cbe816-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37446,
+        "sha256": "528013e45a8a48ab498453432845ace2651df3445fbd32f80f4bfd55d1e232be"
+      },
+      {
+        "src": "./illustrations/school-06e8a60c68cbe816-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 133582,
+        "sha256": "335b99e57acbb37232e3673d368d80d2d973c6f9153dd5241c16a21de940c0a6"
+      },
+      {
+        "src": "./illustrations/school-06e8a60c68cbe816-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 307616,
+        "sha256": "a5050b60157ac4e697153bf661fcb135a3c7d5a08184ef0327b60fa3418bd0e9"
+      }
+    ]
+  },
+  {
+    "poemId": "school-525e6a885d08caeb",
+    "title": "龟虽寿",
+    "label": "老骥伏枥与志在千里",
+    "alt": "《龟虽寿》诗境插画：灰鬃老马在马厩中抬头望向远山古道，门外池塘边有一只小龟。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-525e6a885d08caeb-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aa84f7374e7c3d897c924cc9cbdbb8a26b14f4644f855c7b1ce87260c4024d8b"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-525e6a885d08caeb-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40464,
+        "sha256": "911a9abaafa33911402691f83a5cc574ff462a92efd975646fd45a8daf0e5661"
+      },
+      {
+        "src": "./illustrations/school-525e6a885d08caeb-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 157360,
+        "sha256": "f26c637ae6de29b2bb5d98ca3ee0503ab6719f7e0419ff8369859786d113dcfd"
+      },
+      {
+        "src": "./illustrations/school-525e6a885d08caeb-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 377816,
+        "sha256": "ae51633ec969fed1054615c16b0d09d802edfa2399ae9b9cf13c25e36801332b"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
