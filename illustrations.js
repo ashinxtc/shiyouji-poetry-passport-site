@@ -6358,7 +6358,7 @@ export const POEM_ILLUSTRATIONS=[
     "poemId": "school-173ea2f681818af4",
     "title": "式微",
     "label": "薄暮泥径与归心",
-    "alt": "《式微》诗境插画：暮色渐沉，两个身着粗衣的人停在湿泥小路上，望向远处亮着微光的村舍。",
+    "alt": "《式微》诗境插画：暮色渐沉，两个身着粗衣的人停在湿泥小路上，望向远处亮着微光的村舍。路面散着浅水洼和被泥水抹开的浅痕。",
     "aiGenerated": true,
     "generationMode": "built-in image_gen",
     "model": null,
@@ -6366,32 +6366,32 @@ export const POEM_ILLUSTRATIONS=[
       "model"
     ],
     "original": {
-      "path": "assets/illustrations/originals/school-173ea2f681818af4-v1.png",
+      "path": "assets/illustrations/originals/school-173ea2f681818af4-v2.png",
       "width": 1536,
       "height": 1024,
-      "sha256": "e7565afa2a42724ba63179c8e39fddd0607f219fd383d7ea2ad25adcd432550b"
+      "sha256": "8e9d7746fe013cba7d0423b3643777b0daf3b69c0ec5d798b38db958c356c9ee"
     },
     "variants": [
       {
-        "src": "./illustrations/school-173ea2f681818af4-v1-480.webp",
+        "src": "./illustrations/school-173ea2f681818af4-v2-480.webp",
         "width": 480,
         "height": 320,
-        "bytes": 27268,
-        "sha256": "2ec13cab99efceb3f79405ec1ca0b601dc94374607074df17337b9582e836aae"
+        "bytes": 22966,
+        "sha256": "9a27931e0328af01d6f65cac60cad6fc4d298db9c97e2bd23bd95478509b4ce6"
       },
       {
-        "src": "./illustrations/school-173ea2f681818af4-v1-960.webp",
+        "src": "./illustrations/school-173ea2f681818af4-v2-960.webp",
         "width": 960,
         "height": 640,
-        "bytes": 107594,
-        "sha256": "06cd9cb941e88e10acacf2d84d788ae2115654462a11419cda48e5e75aa9bd4e"
+        "bytes": 83150,
+        "sha256": "1fdc7aa99ae3b1dbed1b456181bd562a6149a380e4071bec8ef8f644c9404061"
       },
       {
-        "src": "./illustrations/school-173ea2f681818af4-v1-1536.webp",
+        "src": "./illustrations/school-173ea2f681818af4-v2-1536.webp",
         "width": 1536,
         "height": 1024,
-        "bytes": 257884,
-        "sha256": "7d086d3324d82dd3bbb19ef60f7ac131c51507b53ed60250554f9c079853162b"
+        "bytes": 167348,
+        "sha256": "2679c50e77d5a955857be63030658720637b326b9c3c9bca47b323a174482a27"
       }
     ]
   }
