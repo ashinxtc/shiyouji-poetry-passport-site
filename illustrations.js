@@ -5082,6 +5082,334 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "dde6975fefb9690b3858ef5cccfdf35115f13b18d1e1b6af9b3e473a31579926"
       }
     ]
+  },
+  {
+    "poemId": "tang-007",
+    "title": "竹里馆",
+    "label": "幽篁独坐与明月相照",
+    "alt": "《竹里馆》诗境插画：月光穿过幽深竹林，诗人独坐石上抚琴，身旁无人，竹影洒落林间空地",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/tang-007-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "36f881a200b5b4fc186bb1a9ae3ef454c0676dfad3d46018b8e0eb90a6e77df3"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/tang-007-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39882,
+        "sha256": "8b66cae7a8626b446f3bceafb1d332e51ea4419074b7acb156cfa10ce57acadd"
+      },
+      {
+        "src": "./illustrations/tang-007-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 134676,
+        "sha256": "843ce34ac9cea3e46eb607901498ab87daaa1b2b527e1dae6d90cffe156ef969"
+      },
+      {
+        "src": "./illustrations/tang-007-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 298384,
+        "sha256": "626130db8777f96058eeabc8bdc9079591a6afbf2f00606e7ec9d47e429adaa5"
+      }
+    ]
+  },
+  {
+    "poemId": "school-63922539cfe7e7d3",
+    "title": "春夜洛城闻笛",
+    "label": "洛城春夜与笛声思乡",
+    "alt": "《春夜洛城闻笛》诗境插画：春夜的洛阳街巷中，旅人停步侧耳，远处院落窗边隐约有人吹笛，柳枝随风轻拂",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-63922539cfe7e7d3-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "04c1e7f119c3c0fcc48b3776b19e6fab1c37fb8cf332c3755bf1c85c547966a2"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-63922539cfe7e7d3-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32656,
+        "sha256": "bd0206e0bc8b6b33ef9e6e0f672cf5b32c15862e92ce2d690ff65831bbd011cd"
+      },
+      {
+        "src": "./illustrations/school-63922539cfe7e7d3-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 120668,
+        "sha256": "2c4a3b8dc6cf3a2cfe5ca16098c69ade77b32dd1e48c3ef1b4d613ff1b78a2b5"
+      },
+      {
+        "src": "./illustrations/school-63922539cfe7e7d3-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 291498,
+        "sha256": "d1c12e9574c678034463690b6481a677a15229cbb0f5b6dccd384a3512dfab41"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-037",
+    "title": "逢入京使",
+    "label": "马上相逢与托语平安",
+    "alt": "《逢入京使》诗境插画：漫长驿道上，两位骑马旅人停步相逢，一人带着思乡的神情托对方传话，远处关山绵延",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-037-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "df4af94d4feb26e39bc725d4efa28233946ee97f11da15c26b1f06267059ded9"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-037-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30598,
+        "sha256": "34b53d0cf88646dfec2ebc9a65acdb57dabefd36e577f8d83bd000cb29d86bba"
+      },
+      {
+        "src": "./illustrations/ts3b-037-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 108206,
+        "sha256": "a4b27837e279c59af258c14b59bc2f24f82962efa1ec080477114fe4f416f220"
+      },
+      {
+        "src": "./illustrations/ts3b-037-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 245808,
+        "sha256": "d3f1cae06ac4c9d2f95469286fb96ebb6488d098e453eccdb402131cb5801118"
+      }
+    ]
+  },
+  {
+    "poemId": "school-d7f7e55413685b42",
+    "title": "晚春",
+    "label": "红紫芳菲与杨花榆荚",
+    "alt": "《晚春》诗境插画：暮春庭园里红紫花木竞相开放，白色柳絮与薄圆榆荚在微风中飞舞，绿叶映着明亮春光",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-d7f7e55413685b42-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7e85eade5407e466e92c21f8232c4f1ad1e31ecae31820eaaa88c6ae6058fe2b"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-d7f7e55413685b42-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 55048,
+        "sha256": "3a201f80646053529b56f7afb285a0b523f163136581f0b9b0eaec1e96edba18"
+      },
+      {
+        "src": "./illustrations/school-d7f7e55413685b42-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 202468,
+        "sha256": "e2a163aaba9e66cb12638b650737b044c1a35b8a877d54caadd8980562cbbf7e"
+      },
+      {
+        "src": "./illustrations/school-d7f7e55413685b42-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 463368,
+        "sha256": "15dae3121f444f7a203da8ce8d5f98cb8b02f021164c9f3d1bc6bde92f83787d"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-057",
+    "title": "泊秦淮",
+    "label": "烟水夜泊与隔江灯影",
+    "alt": "《泊秦淮》诗境插画：秦淮河上薄雾笼罩沙岸，诗人的小舟停在近岸，隔江酒家映出微弱灯光与歌者身影",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-057-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f41b7c6c99c3b48dc32525756345b1104a181252a06b5d452e6a0455077b879f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-057-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32220,
+        "sha256": "e84c3e3f5c0f4059c9d336a866b0dc0485d7806696dddd983e55e561912d89b6"
+      },
+      {
+        "src": "./illustrations/ts3b-057-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 120710,
+        "sha256": "c68530b3b1ff519c5358972395e18609718fb4d1c35276a0f011ad5cc9a664c5"
+      },
+      {
+        "src": "./illustrations/ts3b-057-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 281054,
+        "sha256": "a1b29a933bc7cee98ca16bc79fa65e275f56e0cb772d96ebb2b338d46d0c32ca"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-041",
+    "title": "贾生",
+    "label": "宣室夜谈与前席问询",
+    "alt": "《贾生》诗境插画：夜半殿室内，帝王从席上微微前倾向贾谊问话，贾谊端坐应答，朴素灯火映着安静的殿柱",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-041-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "089a0a078b72be49868ee433ac6214cd1803f297f1d505406bbb5aec8714e71d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-041-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32838,
+        "sha256": "8ab120f2f43990f77c0d0e60052c0a3f292fe5053716b3636c756d6c2f2852ca"
+      },
+      {
+        "src": "./illustrations/ts3b-041-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 131094,
+        "sha256": "ee4bad88a57766f020eb582e33e29d1fcb259a1234d5b92e8943603365fdfae0"
+      },
+      {
+        "src": "./illustrations/ts3b-041-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 335962,
+        "sha256": "888fd997ad462fa2e0c12ab616080dcb899f15a37347b954b12fc823d48caf7e"
+      }
+    ]
+  },
+  {
+    "poemId": "school-1096e01fedcfa5c3",
+    "title": "过松源晨炊漆公店（其五）",
+    "label": "万山围路与一岭接一岭",
+    "alt": "《过松源晨炊漆公店（其五）》诗境插画：拄杖旅人沿石径下岭，前方一座山后又现一座山，蜿蜒小路在重重青山间延伸",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-1096e01fedcfa5c3-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4030434bd1b7be2a7b90259dc8df6fc4553079f6f97b0164ad11ddac40a4d701"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-1096e01fedcfa5c3-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 36490,
+        "sha256": "2271b573aa6f34b54f52aecce9ac75c14c36c17e52280fa3750dd33f44d62404"
+      },
+      {
+        "src": "./illustrations/school-1096e01fedcfa5c3-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 129352,
+        "sha256": "beae8f73d65d7983a5a0c11caf6571d886977fadb1156b4df7a0dc9b5330e15f"
+      },
+      {
+        "src": "./illustrations/school-1096e01fedcfa5c3-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 299446,
+        "sha256": "112f02eef96a432129e3adf737deaefa1876fdeb5ca9eb13f2fb1d543cc91811"
+      }
+    ]
+  },
+  {
+    "poemId": "school-08e544296750ce7e",
+    "title": "约客",
+    "label": "黄梅夜雨与闲敲棋子",
+    "alt": "《约客》诗境插画：黄梅雨夜，诗人在窗边棋桌前独候，手中轻敲棋子；窗外青草池塘旁有青蛙，灯芯结着小小灯花",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-08e544296750ce7e-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "19cf0e93a96ba1af1d68e3903acb83b495ff04e86bd8c4fc834f1e1a5f3e31d8"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-08e544296750ce7e-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34792,
+        "sha256": "2c6bcf63bdfef8c86a8c4fd8d848d3699c97ad90f31e4ca04ebd9b126dcaa96b"
+      },
+      {
+        "src": "./illustrations/school-08e544296750ce7e-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 132228,
+        "sha256": "751be273b1f9f31fd8cd124d73d094d38921c835e2e046a4dbc5dc5d35da8dea"
+      },
+      {
+        "src": "./illustrations/school-08e544296750ce7e-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 332318,
+        "sha256": "e0b9def4df700f524e6b8390e34c8da44334f83b6f92b5fcd47fe88c02117986"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
