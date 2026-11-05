@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 24,
+  "batch": 25,
   "totalPoems": 468,
-  "availableCount": 150,
+  "availableCount": 156,
   "items": [
     {
       "poemId": "tang-001",
@@ -6153,6 +6153,252 @@
           "sha256": "7586b240aa55d8a6db623e9fc50e6fe7cce0b30c6958036c01b3a886776bb2d5"
         }
       ]
+    },
+    {
+      "poemId": "school-df5e14ddda4963a6",
+      "title": "关雎",
+      "label": "河洲双鸟与参差荇菜",
+      "alt": "《关雎》诗境插画：一对水鸟停在河心沙洲，近处浮着青绿的荇菜，一位采菜人从小舟探手拨开水叶。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-df5e14ddda4963a6-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "029e821a45d6fd9387635657ba312a658e97523665b95acd7c62cd7f7706d203"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-df5e14ddda4963a6-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30456,
+          "sha256": "e26fda9a9e043f1f0b5eed5221d9df08cd19b31b4a90b3eccb9f49a15d8bfab1"
+        },
+        {
+          "src": "./illustrations/school-df5e14ddda4963a6-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 116332,
+          "sha256": "83edcda9d9caa63db24a15f8d8c7d081cddc2beb69da3dfd49300a63dff75ea4"
+        },
+        {
+          "src": "./illustrations/school-df5e14ddda4963a6-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 262934,
+          "sha256": "64e209abfc855663a101bed1447403c14608d14b18543f3b45d5a0f2d4c2982c"
+        }
+      ]
+    },
+    {
+      "poemId": "school-a071374749e8bd5a",
+      "title": "蒹葭",
+      "label": "白露成霜与伊人隔水",
+      "alt": "《蒹葭》诗境插画：秋晨的芦苇带着薄霜，水面浮着淡雾，远岸有一个若隐若现的人影。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-a071374749e8bd5a-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "472b06f0e39d170c4a389886092cd3522f93cac6539b5cba5ca8f505f098cf0d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-a071374749e8bd5a-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24432,
+          "sha256": "7970d69d4d143a59c14080ca7974597af6fd4aa5cb429de4fd3f8927e0046b8a"
+        },
+        {
+          "src": "./illustrations/school-a071374749e8bd5a-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 96800,
+          "sha256": "f09cb4960a37158fa6dca4d21a758b4eac9d1cf149b35af779415be09116f31d"
+        },
+        {
+          "src": "./illustrations/school-a071374749e8bd5a-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 237156,
+          "sha256": "6b436d345f9234dfb40414f13574e2e52f432c1046dd13385013ecdd8bf6f011"
+        }
+      ]
+    },
+    {
+      "poemId": "school-9c2444eec694fced",
+      "title": "石壕吏",
+      "label": "夜访柴门与老妇陈词",
+      "alt": "《石壕吏》诗境插画：夜里，老妇站在简陋柴门前向来吏陈说，提灯照亮门槛，村巷深处仍是暗的。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-9c2444eec694fced-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "de7e309957daf883d189dc70a6658a3f545f78fe8cd64c4b366ee260884068ec"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-9c2444eec694fced-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32532,
+          "sha256": "9812abc5fab979389a7acdbfabcccd76556f99f995eaabd3538eef9108cc767d"
+        },
+        {
+          "src": "./illustrations/school-9c2444eec694fced-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 132714,
+          "sha256": "61fb56fe64c39a276be3a76a01ae244b74226d87258604d14469505439bef59d"
+        },
+        {
+          "src": "./illustrations/school-9c2444eec694fced-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 324138,
+          "sha256": "fe3d0c3384c31c516e413786787cd1d1e01091c96f3dbbcc381c1bda8a430f40"
+        }
+      ]
+    },
+    {
+      "poemId": "school-18fe6e579c07065a",
+      "title": "茅屋为秋风所破歌",
+      "label": "秋风卷茅与倚杖望屋",
+      "alt": "《茅屋为秋风所破歌》诗境插画：秋风掀起茅屋顶上的草束，茅草飞向江岸和树梢，诗人拄杖望着残破的屋顶。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-18fe6e579c07065a-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "716208437479aba52440758dc74b7b4eec568864e58709454ca0a0465576a49c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-18fe6e579c07065a-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43106,
+          "sha256": "64edebd0cde4ff4084daa6525dd1f964dae0af04c7f430cf2fdecf2635a28189"
+        },
+        {
+          "src": "./illustrations/school-18fe6e579c07065a-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 161918,
+          "sha256": "5589803c6cd610d0b47617f4c74b423b08329f9d4b3bb2e4c8ad19300530e316"
+        },
+        {
+          "src": "./illustrations/school-18fe6e579c07065a-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 393980,
+          "sha256": "c88ec06ce416cbca3795ef78c4e1bfd1bfae50b53441fe1b8eebbb41315de1d5"
+        }
+      ]
+    },
+    {
+      "poemId": "school-d0fa884573f06ee1",
+      "title": "卖炭翁",
+      "label": "雪辙炭车与市门歇息",
+      "alt": "《卖炭翁》诗境插画：雪后城门外，白发卖炭翁扶着装满木炭的板车，老牛在泥泞车辙旁停歇。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-d0fa884573f06ee1-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8075190edbeb06471b38b174f2eda33a2ff3c0d40ceac88db789cd3e7a443578"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-d0fa884573f06ee1-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 45032,
+          "sha256": "b69d31cfea340adb36f2a67bac64db78856cb8b9d3b3007c2e6c84d359c50ce3"
+        },
+        {
+          "src": "./illustrations/school-d0fa884573f06ee1-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 167498,
+          "sha256": "69db98e49e00013fe46d10cb6d83cb557dc08a84ad271054be28f91079f5a239"
+        },
+        {
+          "src": "./illustrations/school-d0fa884573f06ee1-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 380754,
+          "sha256": "6ba90424cd3c7f69ed3796b3961b23d0e11d5a8703230d99ffecaf3feb901202"
+        }
+      ]
+    },
+    {
+      "poemId": "school-173ea2f681818af4",
+      "title": "式微",
+      "label": "薄暮泥径与归心",
+      "alt": "《式微》诗境插画：暮色渐沉，两个身着粗衣的人停在湿泥小路上，望向远处亮着微光的村舍。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-173ea2f681818af4-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e7565afa2a42724ba63179c8e39fddd0607f219fd383d7ea2ad25adcd432550b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-173ea2f681818af4-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 27268,
+          "sha256": "2ec13cab99efceb3f79405ec1ca0b601dc94374607074df17337b9582e836aae"
+        },
+        {
+          "src": "./illustrations/school-173ea2f681818af4-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 107594,
+          "sha256": "06cd9cb941e88e10acacf2d84d788ae2115654462a11419cda48e5e75aa9bd4e"
+        },
+        {
+          "src": "./illustrations/school-173ea2f681818af4-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 257884,
+          "sha256": "7d086d3324d82dd3bbb19ef60f7ac131c51507b53ed60250554f9c079853162b"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -6441,12 +6687,6 @@
     "primary-018",
     "primary-065",
     "school-8dd65f86e7bb2e13",
-    "school-df5e14ddda4963a6",
-    "school-a071374749e8bd5a",
-    "school-9c2444eec694fced",
-    "school-18fe6e579c07065a",
-    "school-d0fa884573f06ee1",
-    "school-173ea2f681818af4",
     "school-6f1c5a1a5c2b34f5",
     "school-345dd0ab9940a834",
     "school-f35bcc5fe86f3a5f",
