@@ -5902,6 +5902,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "ae51633ec969fed1054615c16b0d09d802edfa2399ae9b9cf13c25e36801332b"
       }
     ]
+  },
+  {
+    "poemId": "school-7bebb95475c8fee7",
+    "title": "赠从弟（其二）",
+    "label": "山松迎风与霜雪坚枝",
+    "alt": "《赠从弟（其二）》诗境插画：山脊上一株青松迎着谷风挺立，枝叶覆有薄霜，远处山谷隐入寒雾。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-7bebb95475c8fee7-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d44bba6d92136856493b2dc341d09b02dc853e8fe44b87dd8562fa21a3015efb"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-7bebb95475c8fee7-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35408,
+        "sha256": "fcd873be5ee50ad624f364e07d5a19f6ce7ee1f79148bd53c264da7f21426038"
+      },
+      {
+        "src": "./illustrations/school-7bebb95475c8fee7-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 137458,
+        "sha256": "df9583b405668061b1389d2b60ac59f28e38151a0ed85f01586ff47c0b48c71a"
+      },
+      {
+        "src": "./illustrations/school-7bebb95475c8fee7-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 330228,
+        "sha256": "33c175a454ab7d49fbf79348ec5f28274ed8db1715f04539d16daf0d563eef25"
+      }
+    ]
+  },
+  {
+    "poemId": "school-9dcd76997d1f6271",
+    "title": "梁甫行",
+    "label": "海边草庐与林野风雨",
+    "alt": "《梁甫行》诗境插画：海边风雨中，一家人沿着林缘小路走向草庐，远处海浪起伏，柴门旁有狐兔经过。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-9dcd76997d1f6271-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4f6fa0358074fe550b7ec43a663363a0cd6d1b7ebca0a46aab67ffbcd00f2c25"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-9dcd76997d1f6271-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 46006,
+        "sha256": "3d62f5b6a3a8a03e18d9bab41880f2581f9db2b889632b8ae7efab2a0b620d86"
+      },
+      {
+        "src": "./illustrations/school-9dcd76997d1f6271-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 183564,
+        "sha256": "96ab59ba4ae34663c3d5f426ec578e6c49c43336b98e804e18eb159eaa0b8acd"
+      },
+      {
+        "src": "./illustrations/school-9dcd76997d1f6271-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 444336,
+        "sha256": "202007d9545c10f0eb58d4fae7317e0064e066a1bba8a8fab06da34f59838484"
+      }
+    ]
+  },
+  {
+    "poemId": "school-8a6540bb25d87f98",
+    "title": "采桑子（轻舟短棹西湖好）",
+    "label": "轻舟微澜与芳草长堤",
+    "alt": "《采桑子（轻舟短棹西湖好）》诗境插画：西湖水面平滑如镜，小舟轻划，短桨拨出细细涟漪，两只水鸟停在近处沙岸。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-8a6540bb25d87f98-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aed6e71f1e7d9596885b3b204f5312a7ae710af1b558224997de29f70e798db3"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-8a6540bb25d87f98-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22524,
+        "sha256": "e81b09145508946c369f85cc7dc020521cba4129eb81c61a4c42f6845dd7eb23"
+      },
+      {
+        "src": "./illustrations/school-8a6540bb25d87f98-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 82776,
+        "sha256": "91464eb32a4ea4c2c5657e6c6d7da162d7ecfed1a8c29730101de5784c93305c"
+      },
+      {
+        "src": "./illustrations/school-8a6540bb25d87f98-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 189198,
+        "sha256": "f0765b1defd084cc01662102c814070a6c5811e6b8d915ef904d234f96a28822"
+      }
+    ]
+  },
+  {
+    "poemId": "school-b63206f5fc8dfe64",
+    "title": "相见欢（金陵城上西楼）",
+    "label": "金陵西楼与秋江夕照",
+    "alt": "《相见欢（金陵城上西楼）》诗境插画：秋日薄暮，诗人独倚金陵城楼栏杆，夕阳照着宽阔江面，远岸渐隐在烟霭中。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-b63206f5fc8dfe64-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c122d50422b88fbcf83aba0ede1c0961a9eed1dd13d2e2ce41441d527ea82761"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-b63206f5fc8dfe64-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28478,
+        "sha256": "54907a5fa22cc00941c54e75239595ea983ef2b6d550280f8074a2b12a2379de"
+      },
+      {
+        "src": "./illustrations/school-b63206f5fc8dfe64-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 112048,
+        "sha256": "02f3e9edaa188e0382c4fd1f6665e9a176e7b49d37025c23b9beff1063bcc34f"
+      },
+      {
+        "src": "./illustrations/school-b63206f5fc8dfe64-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 276442,
+        "sha256": "c37df5fec8e7fa849d16c4fd32736989955e93ae8b1d664844701dc6fd9840ae"
+      }
+    ]
+  },
+  {
+    "poemId": "school-0b141cf92e91965d",
+    "title": "如梦令（常记溪亭日暮）",
+    "label": "藕花深处与惊起鸥鹭",
+    "alt": "《如梦令（常记溪亭日暮）》诗境插画：薄暮的小舟误入密密荷叶与粉荷之间，划桨声惊起水边的鸥鹭，远处隐约可见溪亭。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-0b141cf92e91965d-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "31524d0f9e95883f011452cca21e358a6560c58f1c27381c1a00395d342a568f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-0b141cf92e91965d-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35242,
+        "sha256": "6dc359756120fcc40796b554726283c723ac4122a4079a3f4c042d6425732e48"
+      },
+      {
+        "src": "./illustrations/school-0b141cf92e91965d-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 125272,
+        "sha256": "46c6da822f67e8d8068067cf28e5e156051a9b7e20e07481da62761e56fab3b0"
+      },
+      {
+        "src": "./illustrations/school-0b141cf92e91965d-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 275630,
+        "sha256": "63520f9bc63983dd234a152a00fc1f67ada8177e91dee4964228cdd7752d676b"
+      }
+    ]
+  },
+  {
+    "poemId": "school-63ef51e38d6b7e40",
+    "title": "浣溪沙（一曲新词酒一杯）",
+    "label": "小园落花与似曾归燕",
+    "alt": "《浣溪沙（一曲新词酒一杯）》诗境插画：旧亭旁的诗人独自沿花径缓行，花瓣落在石径上，两只燕子飞回屋檐。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-63ef51e38d6b7e40-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "670eddd2227e3165daca8e7606faabb37cdc7176c3e0a6d26f43382a0c0a4dbb"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-63ef51e38d6b7e40-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 48604,
+        "sha256": "29d7ae3325f7ce397116ecfce3e187ab90e82cce444a7a17fd7689deb52c15a1"
+      },
+      {
+        "src": "./illustrations/school-63ef51e38d6b7e40-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 179850,
+        "sha256": "45a5134a7ffcd39bcf1991cdaccaf991f019b1063c0de4aef497df8d724b41de"
+      },
+      {
+        "src": "./illustrations/school-63ef51e38d6b7e40-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 410180,
+        "sha256": "7586b240aa55d8a6db623e9fc50e6fe7cce0b30c6958036c01b3a886776bb2d5"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
