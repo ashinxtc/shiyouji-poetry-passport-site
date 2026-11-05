@@ -4590,6 +4590,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "1cd98ad550f47bd254e5d3874a26a012a86da44cbc04302c9931b691a35841bc"
       }
     ]
+  },
+  {
+    "poemId": "school-b6805dfdc3179318",
+    "title": "行军九日思长安故园",
+    "label": "秋日登高与故园黄菊",
+    "alt": "《行军九日思长安故园》诗境插画：秋日山坡上，一位行旅诗人独自远望，山下旧园的菊花在荒草与残垣间开放",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-b6805dfdc3179318-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b182a818ec0ab82f261480a6d1eb67357fcf95ff78f7baf2f7cf780cba501385"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-b6805dfdc3179318-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40372,
+        "sha256": "cb35649c51842f9664f0fbc3c06a06a2d45c16e9891594808affb128569c95ef"
+      },
+      {
+        "src": "./illustrations/school-b6805dfdc3179318-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 151190,
+        "sha256": "be527d496844111cd9209152f564e951254030f4446059a3dd81812eac9e694e"
+      },
+      {
+        "src": "./illustrations/school-b6805dfdc3179318-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 360652,
+        "sha256": "77bfe2a02f92be7f261e35d9e76749aa7645c43ce4d89b7742cf97e17e500f18"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-040",
+    "title": "夜上受降城闻笛",
+    "label": "边城霜月与戍人思乡",
+    "alt": "《夜上受降城闻笛》诗境插画：边城城墙外的沙地在月光下泛白，守城将士静望远方，一位吹笛人的身影隐在城楼旁",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-040-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "df4b91a1065ba113ea55737f27ac4dcc6634e27eaec65e17747497ab770a0342"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-040-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24962,
+        "sha256": "56ca571d3bfa662ef95d89eef640312c494d34848484c046df573a6087b02551"
+      },
+      {
+        "src": "./illustrations/ts3b-040-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 102622,
+        "sha256": "8cb12d3fc7b83172e626b64153d7d001f46b5604743be1fe4b8ccd2f9687920e"
+      },
+      {
+        "src": "./illustrations/ts3b-040-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 267610,
+        "sha256": "04547744f00138498109b2e4e1face079a09898cbe98d8248df783583a68de2d"
+      }
+    ]
+  },
+  {
+    "poemId": "school-de623c41a1212951",
+    "title": "秋词（其一）",
+    "label": "晴空白鹤与昂扬秋意",
+    "alt": "《秋词（其一）》诗境插画：明净秋空中，一只白鹤振翅穿过疏云，金黄林木与青山间的诗人仰望高空",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-de623c41a1212951-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fd9820f1b3d90450ac8f8d2f466116232353d02960da926d9a23f2b76c0b8d3c"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-de623c41a1212951-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34242,
+        "sha256": "77f92600977e4089c213e2dea6c0af027dbf14cbc758bc45fa26e02001e4b644"
+      },
+      {
+        "src": "./illustrations/school-de623c41a1212951-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 116006,
+        "sha256": "d465a851861bb1a96999aea4578eee75ca91826685cf64d44b38f93ac773e033"
+      },
+      {
+        "src": "./illustrations/school-de623c41a1212951-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 258110,
+        "sha256": "669a16afca3a37b60e32853ed2d92777a9b39df36876d08d962ef0931a636ced"
+      }
+    ]
+  },
+  {
+    "poemId": "tang-019",
+    "title": "夜雨寄北",
+    "label": "巴山夜雨与西窗烛光",
+    "alt": "《夜雨寄北》诗境插画：旅舍西窗边的诗人独对烛火，窗外细雨落入涨起的秋池，远山隐在夜色中",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/tang-019-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3b04ece8d9b40c9e18c5135d0d4520bd81692247767f22275289c6fbf30121e1"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/tang-019-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34654,
+        "sha256": "9072c7aaafcbe98720f4389ae58b15b162d42fd19cc0a1f6e378775e4c3677e6"
+      },
+      {
+        "src": "./illustrations/tang-019-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 134360,
+        "sha256": "5b4a73fd9ad9dc44d03cdd845050f31dfb78c91528cb1f212b41c8d436d312d9"
+      },
+      {
+        "src": "./illustrations/tang-019-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 333846,
+        "sha256": "1682237775629ec9c3a47aee2f900d537be2566281a01c2913b9260f86e7673c"
+      }
+    ]
+  },
+  {
+    "poemId": "school-96eaa253586bb1b8",
+    "title": "十一月四日风雨大作（其二）",
+    "label": "孤村风雨与铁马入梦",
+    "alt": "《十一月四日风雨大作（其二）》诗境插画：风雨夜的孤村茅屋内，老人安卧；窗外雨雾渐化为远处冰河上的骑马将士，呈现梦中景象",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-96eaa253586bb1b8-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b79a179f2f4bfa60a1657793399693660cbf2bdeb50d55ed3ab39965265159b2"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-96eaa253586bb1b8-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31136,
+        "sha256": "4835708cbfb1274fbc3a5a1b8409c73a99eda7c081bff1ba1ebbd89b342bb73a"
+      },
+      {
+        "src": "./illustrations/school-96eaa253586bb1b8-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 122474,
+        "sha256": "e3c9137d6ab5feebc751c498791431788c556562aac114e385a107454054375d"
+      },
+      {
+        "src": "./illustrations/school-96eaa253586bb1b8-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 293190,
+        "sha256": "b46da01b837bd978fa6272351209d0f8af5d186cd8dc40904a02b7a9e4bf6eae"
+      }
+    ]
+  },
+  {
+    "poemId": "school-cdea68e20344bee0",
+    "title": "潼关",
+    "label": "高云关城与奔涌山河",
+    "alt": "《潼关》诗境插画：层叠群山间的关城上方高云聚拢，黄河穿过开阔原野，古道上的旅人骑马向山隘行去",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-cdea68e20344bee0-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9c8c4f35629112ec7db7876b4ab3a24c40d01450d737a4b43e01329d0f877c17"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-cdea68e20344bee0-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43860,
+        "sha256": "e18bf95eec580434a521ec6189eb779d69f8a2dd0ead0a99065bfb128fa947bd"
+      },
+      {
+        "src": "./illustrations/school-cdea68e20344bee0-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 153626,
+        "sha256": "8fd991b748d3243db82090964b8a006da7cdf18db04e5b475f07beb07cabff4c"
+      },
+      {
+        "src": "./illustrations/school-cdea68e20344bee0-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 341592,
+        "sha256": "a619a62d3c14b9868ff9fea37f83871892ab26ebb1a77299b0ce7ae340d7b597"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
