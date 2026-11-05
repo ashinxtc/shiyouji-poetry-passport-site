@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 25,
+  "batch": 26,
   "totalPoems": 468,
-  "availableCount": 156,
+  "availableCount": 163,
   "items": [
     {
       "poemId": "tang-001",
@@ -6399,6 +6399,293 @@
           "sha256": "2679c50e77d5a955857be63030658720637b326b9c3c9bca47b323a174482a27"
         }
       ]
+    },
+    {
+      "poemId": "school-6f1c5a1a5c2b34f5",
+      "title": "子衿",
+      "label": "城阙久候与青青衣衿",
+      "alt": "《子衿》诗境插画：一位身着青领衣袍的人独在城阙高台上远望，脚下古道一直伸向空旷的田野。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-6f1c5a1a5c2b34f5-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "67cd85aa2b7d5d03712505f5a60591f3e64497ac326fd5a8fd945a2fa5a528ab"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-6f1c5a1a5c2b34f5-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 28170,
+          "sha256": "bc5d29ca97efe7fe7da94db5b5af58f0942f81483d68634a6b58f527935af749"
+        },
+        {
+          "src": "./illustrations/school-6f1c5a1a5c2b34f5-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 112808,
+          "sha256": "87743bf6a2936670daa4d64aa0d98c80621609e63d29a28f2708830f8f5ca16b"
+        },
+        {
+          "src": "./illustrations/school-6f1c5a1a5c2b34f5-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 278876,
+          "sha256": "37a6f175ccdac3008de3408e8950d57fa3f2eaf8a633457d572dc4e81437537b"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-080",
+      "title": "送杜少府之任蜀州",
+      "label": "长安城阙与知己相送",
+      "alt": "《送杜少府之任蜀州》诗境插画：城外岔路上，两位友人执手相别，身后有城阙，前路隐入远山薄雾。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-080-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "80a24c2178b9903af368885353b7e3dfb2f3fd3129bad91c3592565414108696"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-080-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32798,
+          "sha256": "dd04057fb7e5220dd8809d9ef7874cf965e7fff85a3a02a74f398bc22cd88de3"
+        },
+        {
+          "src": "./illustrations/ts3b-080-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 122230,
+          "sha256": "8778d8c02f75fe98ea3297f1299d3b034f39e5a12e2d1ba494f3823b84b730b8"
+        },
+        {
+          "src": "./illustrations/ts3b-080-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 269082,
+          "sha256": "3ceff57d6a5dcf2678a2572a1a1a7716917e4c77c7209c8ac1d3341bf49fccbc"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-128",
+      "title": "望洞庭湖赠张丞相",
+      "label": "云梦湖雾与岳阳远城",
+      "alt": "《望洞庭湖赠张丞相》诗境插画：洞庭湖上水气蒸腾，波浪翻涌，远岸城墙隐在雾中。近岸一人独望，旁边有人垂钓。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-128-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c9dc50b4145da7fdacc28edf84bc670a24414f603c0105af94238b8d92281978"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-128-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31192,
+          "sha256": "781bc4ba6c7591f9c6750bc41a6926ac0a610b6bae0ab8c5f90926dfce27dca1"
+        },
+        {
+          "src": "./illustrations/ts3b-128-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 111652,
+          "sha256": "0be19fe531c3fd188d00e672b520992ce1270d2073d07fc28b62f364d4cd852b"
+        },
+        {
+          "src": "./illustrations/ts3b-128-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 256090,
+          "sha256": "432f1eb990c6503d145daa37365b92d06b36ecc03ce58574e2f097d90d033bf3"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-139",
+      "title": "题破山寺后禅院",
+      "label": "古寺曲径与清潭初照",
+      "alt": "《题破山寺后禅院》诗境插画：清晨的斜光穿过高林，曲折石径通往花木掩映的禅房，静潭映着树影。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-139-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4788405fc6627edefaad539837235e6497b58928c0f2c4a66f4e8427731d7752"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-139-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 50610,
+          "sha256": "b5a235353c8d9fa5fdf2da44166832e9f3949de2067011350906d245e276f92d"
+        },
+        {
+          "src": "./illustrations/ts3b-139-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 186478,
+          "sha256": "f72f1bfdf7d064b529aa9978f1ef0eb6991ef9b51f7de1d40aeb124392226861"
+        },
+        {
+          "src": "./illustrations/ts3b-139-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 430392,
+          "sha256": "e7be429fb411e78e03d9270e6b749ee053fbb5aa01821f0ac495b80004eda50d"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-101",
+      "title": "送友人",
+      "label": "青山白水与落日挥别",
+      "alt": "《送友人》诗境插画：城外青山与白水之间，行人骑马回身挥别，岸边友人举手回应，落日映在河面上。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-101-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f1cecc7b57b58192f8cb605d343800f62034383121d1fe4b6c7954ded1c5546c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-101-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 35338,
+          "sha256": "0b43c6208a44ea8548d82077812bbd675dc503f4d86d1e678e0ed2da17adf9f7"
+        },
+        {
+          "src": "./illustrations/ts3b-101-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 147452,
+          "sha256": "36d7e58bcd0823ed53368c7f2023e366df0996ef5f3e73091135c525e3001c3f"
+        },
+        {
+          "src": "./illustrations/ts3b-101-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 371890,
+          "sha256": "a0e4f5736af7ffdb8cfea325e85122c43b4c1594813f9afcf2ed94baf175aae9"
+        }
+      ]
+    },
+    {
+      "poemId": "school-345dd0ab9940a834",
+      "title": "卜算子·黄州定慧院寓居作",
+      "label": "疏桐缺月与寒水孤鸿",
+      "alt": "《卜算子·黄州定慧院寓居作》诗境插画：弯月照着疏桐，一只孤雁飞过寒水，远处岸边有一人独行。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-345dd0ab9940a834-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e1ccedb297631704adc9f91c518bd27aea99240301eee9184f6e43aa9636e80a"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-345dd0ab9940a834-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 18602,
+          "sha256": "344f966651ca0beb9f77a7a0d5fe560a1736b6b4e24b70b509004a5c89881620"
+        },
+        {
+          "src": "./illustrations/school-345dd0ab9940a834-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 81656,
+          "sha256": "82d77d4b936b792f07bfb93f9d63dcff73177e09e7b743cb7839937ac2cc5a81"
+        },
+        {
+          "src": "./illustrations/school-345dd0ab9940a834-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 220540,
+          "sha256": "dde096b0e00f70fe4fdafaaf29d297184ac8bc38aa6dab66bb84ed4e48c1c649"
+        }
+      ]
+    },
+    {
+      "poemId": "school-f35bcc5fe86f3a5f",
+      "title": "卜算子·咏梅",
+      "label": "驿外断桥与风雨独梅",
+      "alt": "《卜算子·咏梅》诗境插画：雨暮的断桥旁，梅花在风中开放，几片花瓣落在湿泥里。岸边一人望梅，远处露出驿舍。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-f35bcc5fe86f3a5f-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "508c8902c0b810069dcf9e3ad05de9b03c24c752eb3fc6403aa6ce682a3eb9f9"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-f35bcc5fe86f3a5f-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32892,
+          "sha256": "c997a698e172d33acfdbf21d05d789de5e451c91861a23ef419c5450ca6cc821"
+        },
+        {
+          "src": "./illustrations/school-f35bcc5fe86f3a5f-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 131502,
+          "sha256": "c06999fda31922423cacada9d5dda79c6b55c1293bc079c61c3a829c3e9c1900"
+        },
+        {
+          "src": "./illustrations/school-f35bcc5fe86f3a5f-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 332458,
+          "sha256": "1b6a620f4e48a5e2d6d9df58eac00a4c83742fb0e43f3dd13282de94d947736a"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -6458,7 +6745,6 @@
     "ts3b-076",
     "ts3b-078",
     "ts3b-079",
-    "ts3b-080",
     "ts3b-081",
     "ts3b-082",
     "ts3b-083",
@@ -6476,7 +6762,6 @@
     "ts3b-097",
     "ts3b-098",
     "ts3b-099",
-    "ts3b-101",
     "ts3b-102",
     "ts3b-103",
     "ts3b-104",
@@ -6501,7 +6786,6 @@
     "ts3b-124",
     "ts3b-125",
     "ts3b-127",
-    "ts3b-128",
     "ts3b-129",
     "ts3b-130",
     "ts3b-131",
@@ -6512,7 +6796,6 @@
     "ts3b-136",
     "ts3b-137",
     "ts3b-138",
-    "ts3b-139",
     "ts3b-140",
     "ts3b-141",
     "ts3b-142",
@@ -6687,9 +6970,6 @@
     "primary-018",
     "primary-065",
     "school-8dd65f86e7bb2e13",
-    "school-6f1c5a1a5c2b34f5",
-    "school-345dd0ab9940a834",
-    "school-f35bcc5fe86f3a5f",
     "school-460be206408f62b5",
     "school-60b1a2b8dc7dc2aa",
     "school-6f015edb5abf1223",
