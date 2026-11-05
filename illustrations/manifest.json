@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 19,
+  "batch": 20,
   "totalPoems": 468,
-  "availableCount": 118,
+  "availableCount": 124,
   "items": [
     {
       "poemId": "tang-001",
@@ -4841,6 +4841,252 @@
           "sha256": "a619a62d3c14b9868ff9fea37f83871892ab26ebb1a77299b0ce7ae340d7b597"
         }
       ]
+    },
+    {
+      "poemId": "school-67d22026ba00c4ce",
+      "title": "木兰诗",
+      "label": "关山飞渡与木兰远征",
+      "alt": "《木兰诗》诗境插画：身着朴素戎装的木兰策马行过北方关山，远处黄河奔流，群山在晨雾中展开",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-67d22026ba00c4ce-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4d45b205b6fc60d728cfb3fb28cb02d9f8a78095e8a6730b02e28bc1b1260d63"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-67d22026ba00c4ce-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 41150,
+          "sha256": "35880b8ec61941fb11bde325fef822c07b76f8d3edf18873d2a32a4e30dc755e"
+        },
+        {
+          "src": "./illustrations/school-67d22026ba00c4ce-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 155976,
+          "sha256": "03acf042a4ee21dc3d89734725d5e7a566542e2476dc4f15057b1c6001e577d2"
+        },
+        {
+          "src": "./illustrations/school-67d22026ba00c4ce-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 377670,
+          "sha256": "bcd32dab933d86cda3ffa6d86f391ad0a9bf7cec397200d15eeb247abfdfe42f"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-271",
+      "title": "登幽州台歌",
+      "label": "孤台远望与天地悠悠",
+      "alt": "《登幽州台歌》诗境插画：古台上的诗人独立远望，苍茫原野与辽阔天空延伸到远方，台阶旁秋草随风低垂",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-271-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c08c050ae0c2e41f7f2014a4722118647124948fe16695577c8cb3b4e1e31ded"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-271-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 22780,
+          "sha256": "293df46c88aacc081b0501953d61ed643f08309221a5cd12830b91425cb0f7ea"
+        },
+        {
+          "src": "./illustrations/ts3b-271-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 83330,
+          "sha256": "46ac167e33bbd55a2d3f3aa4a271800049a033d776996f7e461cb7a3b249b888"
+        },
+        {
+          "src": "./illustrations/ts3b-271-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 190080,
+          "sha256": "a9c2419473134c650f9a3c97880fbc552f040e2d558ff5978f357317138ac8e3"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-226",
+      "title": "望岳",
+      "label": "岱宗层云与青山远望",
+      "alt": "《望岳》诗境插画：旅人仰望雄伟泰山，山体一侧明亮一侧沉入青影，层云间有归鸟飞向山林",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-226-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2036d6a2cafe5e55ecfa6a3c7fce4f8c84f7ce354965cc822c21b23802f7dae8"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-226-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 46934,
+          "sha256": "71c4c3b75b81838b49a916516d776d53650b8f199755b3aed6bf7290100eca57"
+        },
+        {
+          "src": "./illustrations/ts3b-226-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 176284,
+          "sha256": "44bef61a47c0f73468110c00cf3c316c5553340e327a389120a32adf0f3f4771"
+        },
+        {
+          "src": "./illustrations/ts3b-226-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 417886,
+          "sha256": "bc0061a192171560d50f344554eb55bf3350e95b24470dcef4df506091f6a9da"
+        }
+      ]
+    },
+    {
+      "poemId": "school-265c99ce9f54ce8f",
+      "title": "登飞来峰",
+      "label": "高塔望日与浮云在下",
+      "alt": "《登飞来峰》诗境插画：山巅古塔掩映在层云之上，诗人立在高处望向初升的日光，远处群山渐次展开",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-265c99ce9f54ce8f-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "dd56376621eb863ba4e0db2d31a3181e5af3a9f60ec5ec7198cda9edbefb5bc6"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-265c99ce9f54ce8f-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30544,
+          "sha256": "b4999c3a14bedaf6e82ec830de89335ddd4cd42fde751db8f92b98e32fc71dc5"
+        },
+        {
+          "src": "./illustrations/school-265c99ce9f54ce8f-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 113256,
+          "sha256": "733db87e6290630238e5426b5ee8ed50338899b77ffd82510572ee3b22847405"
+        },
+        {
+          "src": "./illustrations/school-265c99ce9f54ce8f-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 256096,
+          "sha256": "7dc07b2f9face96143d6c5052f467488364bb61cbdb9c9115d9c8e3c0e848433"
+        }
+      ]
+    },
+    {
+      "poemId": "school-3520b19ef9a81930",
+      "title": "游山西村",
+      "label": "柳暗花明与山村迎客",
+      "alt": "《游山西村》诗境插画：曲折山水间的小路绕过浓柳与花枝，一座朴素村庄映入眼帘，村民在院门口迎接拄杖旅人",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-3520b19ef9a81930-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7fd7e852631fb3d1a9fd47971525b436e1ad5cc5918ce35ff4128af4a5de6c49"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-3520b19ef9a81930-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 58536,
+          "sha256": "c5f5e0767c5151e5409f30e71e1d2c3ce7e316b24c902ebd52afa628f089199d"
+        },
+        {
+          "src": "./illustrations/school-3520b19ef9a81930-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 219812,
+          "sha256": "2b7901c706055cdc584edad2b95e1e42dec7400e16bba37559bf24142d25627a"
+        },
+        {
+          "src": "./illustrations/school-3520b19ef9a81930-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 507062,
+          "sha256": "f9ab2a146a20bfc3875e4059fd22f21d3ff2a7ba913a3d56011229fef6794d29"
+        }
+      ]
+    },
+    {
+      "poemId": "school-03b5e2cc25a383a9",
+      "title": "己亥杂诗（其五）",
+      "label": "辞行落红与春泥护花",
+      "alt": "《己亥杂诗（其五）》诗境插画：夕阳下的古道上，辞行旅人骑马远去；近处花瓣落在湿润春泥中，护着枝头新开的花",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-03b5e2cc25a383a9-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "14b3b497453929bb78e166009eb1681cc827b549be3b5092bb9119fbc29b793d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-03b5e2cc25a383a9-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 46482,
+          "sha256": "81e15fd5f22f6c9f38e2702df553d8f555df2867c544c5c325477bf2d260ea46"
+        },
+        {
+          "src": "./illustrations/school-03b5e2cc25a383a9-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 172776,
+          "sha256": "0e0dd068e054d53564daf89372bdfb1b0b3ac88c212d4c8482ad0c95142a542b"
+        },
+        {
+          "src": "./illustrations/school-03b5e2cc25a383a9-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 416492,
+          "sha256": "dde6975fefb9690b3858ef5cccfdf35115f13b18d1e1b6af9b3e473a31579926"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -5047,7 +5293,6 @@
     "ts3b-223",
     "ts3b-224",
     "ts3b-225",
-    "ts3b-226",
     "ts3b-227",
     "ts3b-228",
     "ts3b-229",
@@ -5092,7 +5337,6 @@
     "ts3b-268",
     "ts3b-269",
     "ts3b-270",
-    "ts3b-271",
     "ts3b-272",
     "ts3b-273",
     "ts3b-274",
@@ -5139,10 +5383,6 @@
     "primary-018",
     "primary-065",
     "school-8dd65f86e7bb2e13",
-    "school-67d22026ba00c4ce",
-    "school-265c99ce9f54ce8f",
-    "school-3520b19ef9a81930",
-    "school-03b5e2cc25a383a9",
     "school-63922539cfe7e7d3",
     "school-d7f7e55413685b42",
     "school-1096e01fedcfa5c3",
