@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 27,
+  "batch": 28,
   "totalPoems": 468,
-  "availableCount": 169,
+  "availableCount": 175,
   "items": [
     {
       "poemId": "tang-001",
@@ -6932,6 +6932,252 @@
           "sha256": "101b74aadea8b60ab695a8ded0b656c176ed23b03fa38dd573ff3a5e0172e212"
         }
       ]
+    },
+    {
+      "poemId": "school-c3a86bf37871b739",
+      "title": "商山早行",
+      "label": "茅店残月与板桥薄霜",
+      "alt": "《商山早行》诗境插画：残月下，鸡立在茅店旁。木板桥上覆着薄霜，有几处浅淡脚迹，山路边散着落叶。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-c3a86bf37871b739-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a5fdb25d7db3f0f18eaa3b9687a885e3e79db41ca2c10b9ceb9343a75a867da2"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-c3a86bf37871b739-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43172,
+          "sha256": "c3168aaefeb3bf07b8610591fc5f479d5509b12ee65d0f93167630596ccbd017"
+        },
+        {
+          "src": "./illustrations/school-c3a86bf37871b739-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 175720,
+          "sha256": "d6875bcc11d1315b615e3a4778bb04ca2ed38bd1c262b25dd74505cc5429217c"
+        },
+        {
+          "src": "./illustrations/school-c3a86bf37871b739-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 430772,
+          "sha256": "bc0ddeba44572a3040ed5247a5887d70da13ff2348e53fdaca17de9fed4a4ec2"
+        }
+      ]
+    },
+    {
+      "poemId": "school-452c9e3bb254c6f0",
+      "title": "十五从军征",
+      "label": "归来旧宅与荒庭野谷",
+      "alt": "《十五从军征》诗境插画：白发老兵回到旧宅，庭院长出野谷，井旁蔓草丛生，一只兔子掠过低矮墙洞。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-452c9e3bb254c6f0-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1e3f083a7cd1f1f9d708613c2c7b8430c000bd890a8ae5e108338605b87757f9"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-452c9e3bb254c6f0-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42010,
+          "sha256": "f60f5cbf59f101c6f12e07c5641953156f7c020bfd3cee2ebecc3b258709babb"
+        },
+        {
+          "src": "./illustrations/school-452c9e3bb254c6f0-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 170960,
+          "sha256": "1dfd82d01eddcf9345d6716aced82b7b4710c0fb773f76bc4616bcbfc574f483"
+        },
+        {
+          "src": "./illustrations/school-452c9e3bb254c6f0-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 410470,
+          "sha256": "002a478c081d35494643acfaeaed2e8438e1018f98c8071af26d13e9456eb59f"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-253",
+      "title": "白雪歌送武判官归京",
+      "label": "雪满天山与马行渐远",
+      "alt": "《白雪歌送武判官归京》诗境插画：雪覆枝头如梨花，关口一人望向山路。远行的骑者渐隐在弯道，雪地留下马蹄痕。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-253-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f9bdcae3dd402cc491747f7b9943cfd6a522b90c8e502d07d7d00c5f45f3e37"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-253-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 38354,
+          "sha256": "d22d497de6067b5532833e6a9546d29ea628b192e69df7c6edb3a98c64d390f6"
+        },
+        {
+          "src": "./illustrations/ts3b-253-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 138010,
+          "sha256": "51a76f0e6fbf8dd28395b0335af9fe21c1016ea742c27ddab21f49d8a2eb7eff"
+        },
+        {
+          "src": "./illustrations/ts3b-253-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 321956,
+          "sha256": "a621f890ecd6c75b1070369341e59675b061c90ca6b069d6b258411119fcf50e"
+        }
+      ]
+    },
+    {
+      "poemId": "school-e83346761102087b",
+      "title": "南乡子·登京口北固亭有怀",
+      "label": "北固亭远望与长江奔流",
+      "alt": "《南乡子·登京口北固亭有怀》诗境插画：诗人立在北固亭旁，俯望宽阔江面。江水绕过山脚，流向远处淡雾。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-e83346761102087b-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "78e04d1ed22fd9e77c2fcae23807c1aa3ccbf38bd686f368f236a4598966af59"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-e83346761102087b-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32396,
+          "sha256": "1c5f92c96192b7c3084d5b697fc411b56fbf07cfe0608c126d0304d8347929a0"
+        },
+        {
+          "src": "./illustrations/school-e83346761102087b-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 125642,
+          "sha256": "1854ee715acfdf36c4d1fc382027f6129f40c4b75f296843147aee658809e345"
+        },
+        {
+          "src": "./illustrations/school-e83346761102087b-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 307576,
+          "sha256": "a7c114a4c46a86ae2fcb53afe39341ef58bc103b23500d3e655573b4cbb9cc85"
+        }
+      ]
+    },
+    {
+      "poemId": "school-46869a81354f3b69",
+      "title": "过零丁洋",
+      "label": "零丁风雨与孤舟凝望",
+      "alt": "《过零丁洋》诗境插画：斜雨掠过零丁洋，一人立在古木舟上望向雾中的海岸，近处水面有被雨点打散的浮叶。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-46869a81354f3b69-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "634ddf14881cd076324c25f643fa1c1e7b45646e56d22d1a4d85153272ba5299"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-46869a81354f3b69-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 27742,
+          "sha256": "6a8e090c0038a939c4631ed90f5839856f95c3ac151a9e1a509ab875856052ab"
+        },
+        {
+          "src": "./illustrations/school-46869a81354f3b69-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 110364,
+          "sha256": "0d8b6a2d1421207429318fa1aebc146006f7c277411c207bf92a223ae5713ba6"
+        },
+        {
+          "src": "./illustrations/school-46869a81354f3b69-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 276042,
+          "sha256": "21e180fc09337655ca50f4ab3567884ba5ea3f43a69e63453795e994263d17a3"
+        }
+      ]
+    },
+    {
+      "poemId": "school-0d4e9c09f993db5b",
+      "title": "山坡羊·潼关怀古",
+      "label": "峰峦聚合与黄河怒涛",
+      "alt": "《山坡羊·潼关怀古》诗境插画：高处山道紧贴重叠峰峦，浑黄的河水在山脚翻涌。一人停步望向远处关隘。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-0d4e9c09f993db5b-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "dd3d20a5cb04375b03d47d8692a334aa3baa7a248353a6f0ff57f0f7d3c1c43a"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-0d4e9c09f993db5b-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 41554,
+          "sha256": "7a1a329746cf4723f1c380626e941a237607dc99cb3f7d1300238567404c67ab"
+        },
+        {
+          "src": "./illustrations/school-0d4e9c09f993db5b-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 165476,
+          "sha256": "b4657647ad054a14521206ac0478b0c8362fe919104705a660a8e8db25c2931b"
+        },
+        {
+          "src": "./illustrations/school-0d4e9c09f993db5b-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 395978,
+          "sha256": "e55d7840e5a9676feead8159c43201b737c692064b03ce5b07653993ee79c398"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -7150,7 +7396,6 @@
     "ts3b-250",
     "ts3b-251",
     "ts3b-252",
-    "ts3b-253",
     "ts3b-254",
     "ts3b-255",
     "ts3b-256",
@@ -7213,11 +7458,6 @@
     "primary-018",
     "primary-065",
     "school-8dd65f86e7bb2e13",
-    "school-c3a86bf37871b739",
-    "school-452c9e3bb254c6f0",
-    "school-e83346761102087b",
-    "school-46869a81354f3b69",
-    "school-0d4e9c09f993db5b",
     "school-1446d4fcade33598",
     "school-56f2d20a96821e06",
     "school-cfbc76d58e7ba11c",
