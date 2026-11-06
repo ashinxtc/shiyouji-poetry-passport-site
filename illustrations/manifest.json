@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 28,
+  "batch": 29,
   "totalPoems": 468,
-  "availableCount": 175,
+  "availableCount": 181,
   "items": [
     {
       "poemId": "tang-001",
@@ -7178,6 +7178,252 @@
           "sha256": "e55d7840e5a9676feead8159c43201b737c692064b03ce5b07653993ee79c398"
         }
       ]
+    },
+    {
+      "poemId": "school-1446d4fcade33598",
+      "title": "咸阳城东楼",
+      "label": "溪云日沉与风满高楼",
+      "alt": "《咸阳城东楼》诗境插画：诗人凭着东楼栏杆望向渭水。远处云从溪谷升起，夕阳沉到楼阁背后，近处柳枝被风吹斜。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-1446d4fcade33598-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "acb228dfc804025479e9960d12456f78d22010eddcfeef8f7341875c900314ea"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-1446d4fcade33598-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 35000,
+          "sha256": "44bd21408b1db7a2fc43a889710aba38bd30986ed2e5d609cc68bbcda0efbb4d"
+        },
+        {
+          "src": "./illustrations/school-1446d4fcade33598-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 143126,
+          "sha256": "2817b272e98a6d022b70c55fcf5fd700743c1d9f35d160901732a2a0d814046c"
+        },
+        {
+          "src": "./illustrations/school-1446d4fcade33598-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 342478,
+          "sha256": "c25f51861874cbfe5c0a51d519eba78d9c6c4b1191b87a693a3f6a54e8a01028"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-172",
+      "title": "无题·相见时难别亦难",
+      "label": "烛泪将尽与冷月青鸟",
+      "alt": "《无题·相见时难别亦难》诗境插画：案上一支短烛垂着蜡泪，窗外月色清冷，一只青鸟落在疏枝上。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-172-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "293fe4a0739c55bf612157cc6c03614389732050291a89da773bd63ee489c03f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-172-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23608,
+          "sha256": "12da6a04c857a90490cbb7312c81fd25412032eb17309f0c1ef2ee4036ec6123"
+        },
+        {
+          "src": "./illustrations/ts3b-172-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 100014,
+          "sha256": "6d6096c496e5c65ebecbea92222f0afaa65f7e9590eda73e672ddb5fda5f5cd9"
+        },
+        {
+          "src": "./illustrations/ts3b-172-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 278818,
+          "sha256": "d31e2ef6db7f25a8b3d22d3b35e9f33b13fa89be96163c5d90189e07ba44ddc8"
+        }
+      ]
+    },
+    {
+      "poemId": "school-56f2d20a96821e06",
+      "title": "浣溪沙（漠漠轻寒上小楼）",
+      "label": "小楼轻寒与飞花丝雨",
+      "alt": "《浣溪沙（漠漠轻寒上小楼）》诗境插画：小楼帘角挂在细小的银钩上，半扇画屏淡写流水。窗外花瓣随细雨飘过。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-56f2d20a96821e06-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b667879bfc36245cf5bcbf4f5252ca581dbcc2b4c19059328987168699422960"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-56f2d20a96821e06-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21738,
+          "sha256": "843a2e090972ffce5d6c9914a3f6c08ae6a583ccf2dfe17117a09a8d1fbd1f46"
+        },
+        {
+          "src": "./illustrations/school-56f2d20a96821e06-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 82752,
+          "sha256": "8905390d75cfa4a02f524e834a296c5b0ebc0a78985dd1690265bea73ed9d06d"
+        },
+        {
+          "src": "./illustrations/school-56f2d20a96821e06-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 187198,
+          "sha256": "bc70dab7147a628040f29d2978cdd24b6ab717fe609d7de6d6cba6511dba44bb"
+        }
+      ]
+    },
+    {
+      "poemId": "school-cfbc76d58e7ba11c",
+      "title": "丑奴儿·书博山道中壁",
+      "label": "欲说还休与博山清秋",
+      "alt": "《丑奴儿·书博山道中壁》诗境插画：一人站在博山道旁的高亭中，望向疏林、远山与几片秋叶。亭中空静，远处秋色清淡。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-cfbc76d58e7ba11c-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cddecfd2ac5d7287993173ad42883f6e6d74b10138a70582d31f18dede21d48d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-cfbc76d58e7ba11c-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36886,
+          "sha256": "b0f2ecb3c1f239cefb8e0ac81c0b03af097519bdc264414c18f12a94ef354518"
+        },
+        {
+          "src": "./illustrations/school-cfbc76d58e7ba11c-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 135988,
+          "sha256": "121dc8dbb8a87e841d570c0ce003b9ef1cc24f77c48ef6a342031a7337c2be86"
+        },
+        {
+          "src": "./illustrations/school-cfbc76d58e7ba11c-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 327586,
+          "sha256": "10bf35b3157c0ae3df483c2980616d4e618778a35794b086622c27e8ac09d688"
+        }
+      ]
+    },
+    {
+      "poemId": "school-684cc1801287abb4",
+      "title": "渔家傲·秋思",
+      "label": "长烟落日与孤城闭门",
+      "alt": "《渔家傲·秋思》诗境插画：重重山岭之间，一座边城关门紧闭，远烟在落日下升起，几只雁飞向天边，城外草尖带霜。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-684cc1801287abb4-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7b21ab3b6b1ece78aeb32f397cccd6325fafed6cc51f3ce7d723aefda21cb43f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-684cc1801287abb4-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36278,
+          "sha256": "aa0fc23b89ad1dbf30c6caa272f32c3f328c3bc65bc6ce5c4ac8e4eafdb749ed"
+        },
+        {
+          "src": "./illustrations/school-684cc1801287abb4-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 146064,
+          "sha256": "5b421bfd6dd1c7b1bafa66f3a696d9519f48c080534a7c8d77c8ddf9917097d4"
+        },
+        {
+          "src": "./illustrations/school-684cc1801287abb4-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 367334,
+          "sha256": "ac68430cc4c71c8f671649ab27d1fe7f21d595d3da41adf6711dfd7341542f90"
+        }
+      ]
+    },
+    {
+      "poemId": "school-e77936d31caf7a1e",
+      "title": "江城子·密州出猎",
+      "label": "黄犬苍鹰与出猎平冈",
+      "alt": "《江城子·密州出猎》诗境插画：太守站在平冈上，左手牵黄犬，右臂擎着苍鹰。远处数骑沿山脊行进，秋草被风吹动。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/school-e77936d31caf7a1e-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cc8ec07adeb203a8e5e8ebdd184596b50e21288dc7184236f6b53c27862d3b6f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/school-e77936d31caf7a1e-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42354,
+          "sha256": "5fb025be260089f0997fda7399a413033f84375d07bf0ef4d4311092b0eef96b"
+        },
+        {
+          "src": "./illustrations/school-e77936d31caf7a1e-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 165976,
+          "sha256": "649a145158e0b9471ff368f347cad02180c8fa7377d9f43a17b633c7eeca5b27"
+        },
+        {
+          "src": "./illustrations/school-e77936d31caf7a1e-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 408140,
+          "sha256": "d2fc13f46d830ff45f38ba54fbb9e6066fcc5b7cb816e3c3b2e1284828e1ba9d"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
@@ -7319,7 +7565,6 @@
     "ts3b-169",
     "ts3b-170",
     "ts3b-171",
-    "ts3b-172",
     "ts3b-173",
     "ts3b-174",
     "ts3b-175",
@@ -7458,11 +7703,6 @@
     "primary-018",
     "primary-065",
     "school-8dd65f86e7bb2e13",
-    "school-1446d4fcade33598",
-    "school-56f2d20a96821e06",
-    "school-cfbc76d58e7ba11c",
-    "school-684cc1801287abb4",
-    "school-e77936d31caf7a1e",
     "school-969e24c36811eb6e",
     "school-3e9d5e1f59248bbf",
     "school-1662a5e1a339373e",
