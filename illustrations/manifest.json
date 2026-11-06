@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 30,
+  "batch": 31,
   "totalPoems": 468,
-  "availableCount": 191,
+  "availableCount": 197,
   "items": [
     {
       "poemId": "tang-001",
@@ -7834,15 +7834,255 @@
           "sha256": "f2b0fc4d0dfd0272bd3d2c72b21187d784821ed145d12b0a110e09a5dd7fca1b"
         }
       ]
+    },
+    {
+      "poemId": "tang-006",
+      "title": "相思",
+      "label": "南国春枝与红豆",
+      "alt": "《相思》诗境插画：南国春色中，一枝红豆伸向溪畔。干荚微开，几粒朱红的种子映着新绿。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-006-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9ecc9d9c4aefc1504b11af86c14a37b524e96130c27b9875c170132626c54456"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-006-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21654,
+          "sha256": "36cae9cb500bae49accd7b9ac43d974cc8b36b48663d0b9c3b6641ee12038252"
+        },
+        {
+          "src": "./illustrations/tang-006-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 83310,
+          "sha256": "db1e4cf5eb486dd21e872e1caca53483eada5613f484788c110f7ae146df8bea"
+        },
+        {
+          "src": "./illustrations/tang-006-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 200398,
+          "sha256": "473f683473a172472e079dc8249834288194e25e83d742d1a3a0b65bb90f42d6"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-008",
+      "title": "山中送别",
+      "label": "日暮柴扉与空山",
+      "alt": "《山中送别》诗境插画：暮色中，主人在山间茅屋前轻掩柴扉。蜿蜒的山路已空，只见门旁青草。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-008-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9642dadbc525a177759c8c4bc332268ce01f21123b6c866a45e6c2640a17731b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-008-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 29014,
+          "sha256": "dda9848dd2fa9cd502aff313d06b90375e0d07866cd91768ebdbb1ba81dc7704"
+        },
+        {
+          "src": "./illustrations/tang-008-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 123594,
+          "sha256": "7ffa12e67a8a24efaaf399e93b8f59f5de91647bf89668ef8b85acaee5add621"
+        },
+        {
+          "src": "./illustrations/tang-008-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 310750,
+          "sha256": "5545c5cd1620a235aea0afeec763d255cadc5155f650f29679196ca4a32f3fef"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-009",
+      "title": "问刘十九",
+      "label": "红泥小炉与天欲雪",
+      "alt": "《问刘十九》诗境插画：矮案旁的小红泥炉泛着火光，陶盏里是新酿。窗外暮云低垂，远山将入雪色。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-009-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7162431e895675b2ff2ef241971c44fc2f8a5252c7196d96b1a28036c0e85926"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-009-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 27628,
+          "sha256": "26b808afb9b3e949b1398952d236771268499360082e8e99e643cc9aa226399a"
+        },
+        {
+          "src": "./illustrations/tang-009-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 119946,
+          "sha256": "fe83c402a89297693f8b411da67517ab1c8657b07ec2c13b9f2c643f9e55cd92"
+        },
+        {
+          "src": "./illustrations/tang-009-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 318904,
+          "sha256": "030eb90268b3436d50e9ab85611d2bf6c888171f8745065fb5c62b222bcd6819"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-010",
+      "title": "登乐游原",
+      "label": "古原登高与夕阳将沉",
+      "alt": "《登乐游原》诗境插画：一辆古式马车停在高原边。诗人望向晚霞，落日贴着远处山脊，城郭渐隐于暮色。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-010-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ac11d42ee672b1cda48b14899dfbd31c80ea4ede56fcfafadcdea90bc85c116d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-010-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 28978,
+          "sha256": "7d97f39b22004d1b186a1fc5118c8352c719767a9dc05fad851fada281cd153b"
+        },
+        {
+          "src": "./illustrations/tang-010-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 114404,
+          "sha256": "cbc6b34421809f5282bbbec912a4305177bf2cc7234b0249aa55ad77b9ddfa77"
+        },
+        {
+          "src": "./illustrations/tang-010-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 272360,
+          "sha256": "26eefeeef94b25cd48a0d8ddb2dc959ed1f2f4a17f8e3d7c16fd2af5ee3e48df"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-015",
+      "title": "回乡偶书·其一",
+      "label": "白发归客与村童相问",
+      "alt": "《回乡偶书·其一》诗境插画：白发归人拄杖走到村口，几名孩童笑着向他问话，身后是低墙与熟悉的屋檐。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-015-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b898c88c1728b442899c0d097f2a460f41b642f44d3ba01d2398594bca255979"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-015-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 41254,
+          "sha256": "abae63b4297b2ff5b543de1a5cf90e4a270d17b16987e36946845c52d277ebcd"
+        },
+        {
+          "src": "./illustrations/tang-015-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 161960,
+          "sha256": "51cc250061c528a832f86ef61fdf40b2df8573b8051affecd9546fa210047d43"
+        },
+        {
+          "src": "./illustrations/tang-015-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 389454,
+          "sha256": "3d90281b280f4d2148d3833f277c4768098ac8f44a20dac2fe4f4819f7886b1e"
+        }
+      ]
+    },
+    {
+      "poemId": "tang-020",
+      "title": "杂诗",
+      "label": "绮窗寒梅与故园一问",
+      "alt": "《杂诗》诗境插画：一枝寒梅伸到木格窗前，稀疏花苞中开了几朵，窗棂与远墙都在淡淡冬光里。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/tang-020-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3265e6d7355705873a0fe0eca66e70c8e3bfdaa6baa0fe9c4de3e73c49ed0144"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/tang-020-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 26512,
+          "sha256": "56b585d453a469989d14cad57f0f7e41410910d30aed49cf917797746d667de9"
+        },
+        {
+          "src": "./illustrations/tang-020-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 107626,
+          "sha256": "9c22944c0f6718e51a46697b4098c3b0e0c45f343ed745f3387caab874d66e35"
+        },
+        {
+          "src": "./illustrations/tang-020-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 270286,
+          "sha256": "8e0b2d7c66560196b358b267575eed93fa55cf3c12625fe95d54da0f1fb08cd5"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "tang-006",
-    "tang-008",
-    "tang-009",
-    "tang-010",
-    "tang-015",
-    "tang-020",
     "ts3b-000",
     "ts3b-002",
     "ts3b-009",

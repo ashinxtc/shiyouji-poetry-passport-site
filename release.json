@@ -1,18 +1,18 @@
 {
   "app": "shiyouji",
-  "version": 46,
-  "sourceCommit": "b4f7c7bbd9ac4b88439a5c846f321bd1792eedc7",
+  "version": 47,
+  "sourceCommit": "9c1752cbf0d197ac01cceefbe85268e302cb8baa",
   "frontend": "github-pages",
   "assets": [
     {
       "path": "account-ui.js",
       "bytes": 7717,
-      "sha256": "439492f6ae460bb901eca4cf201cee3bcac2a216a7ae48097ec1abeff54d2d6e"
+      "sha256": "02513ec77a3dab5c186490bf26c625f9f815d745361ff18bcb149caa003f9585"
     },
     {
       "path": "accounts.js",
       "bytes": 22637,
-      "sha256": "5593132660e8bdb9f7f051f6b7817d3a6f501964e7cf9848a886baa702dc297f"
+      "sha256": "d29266282c07d447875264ca13105a7b9251fbdfa4e3a45ce0ec043e56f7318e"
     },
     {
       "path": "api.js",
@@ -107,12 +107,12 @@
     {
       "path": "app.js",
       "bytes": 109986,
-      "sha256": "1004af77809299f40d50660425e56d1faab7e99a0873a1858e01ab86046a23bc"
+      "sha256": "13c0c2f7f2628938ea13669a66183d32c230d79b27c73cf07c3e3dd70dd1ac8f"
     },
     {
       "path": "art.js",
       "bytes": 3953,
-      "sha256": "efe8380f48356d7afcbaaa2113b72af5a5b530ec58592deb4974e802d1b5f914"
+      "sha256": "7f65821ee4149ecf1cc04241b1186921b6189fbcec5a92ae4eec7532b88d3c92"
     },
     {
       "path": "audio/primary-001.mp3",
@@ -2032,7 +2032,7 @@
     {
       "path": "curriculum.js",
       "bytes": 2285,
-      "sha256": "9e0d7c784085e25a751127066ebf09975408d8e510e9132ec1af0a9d0e6d35d5"
+      "sha256": "f3b034be5f0c555f67a566125ebbc9125018466ac1f63f575c49b3f533b8cc4c"
     },
     {
       "path": "curriculum.json",
@@ -2066,8 +2066,8 @@
     },
     {
       "path": "illustrations/manifest.json",
-      "bytes": 287352,
-      "sha256": "bf0b151e273486c51f9a188c701f6e53a02bc4b1768ba513bdf54cb6c6e14e9f"
+      "bytes": 295824,
+      "sha256": "d3f36501025431754b1a61794f458f0a85c395d390d26a8599e303be831400e6"
     },
     {
       "path": "illustrations/primary-001-v1-1536.webp",
@@ -4320,6 +4320,21 @@
       "sha256": "055990d75fabd768853f486b15a9341df966f1970968e8601a0af2fe22e7d2f4"
     },
     {
+      "path": "illustrations/tang-006-v1-1536.webp",
+      "bytes": 200398,
+      "sha256": "473f683473a172472e079dc8249834288194e25e83d742d1a3a0b65bb90f42d6"
+    },
+    {
+      "path": "illustrations/tang-006-v1-480.webp",
+      "bytes": 21654,
+      "sha256": "36cae9cb500bae49accd7b9ac43d974cc8b36b48663d0b9c3b6641ee12038252"
+    },
+    {
+      "path": "illustrations/tang-006-v1-960.webp",
+      "bytes": 83310,
+      "sha256": "db1e4cf5eb486dd21e872e1caca53483eada5613f484788c110f7ae146df8bea"
+    },
+    {
       "path": "illustrations/tang-007-v1-1536.webp",
       "bytes": 298384,
       "sha256": "626130db8777f96058eeabc8bdc9079591a6afbf2f00606e7ec9d47e429adaa5"
@@ -4333,6 +4348,51 @@
       "path": "illustrations/tang-007-v1-960.webp",
       "bytes": 134676,
       "sha256": "843ce34ac9cea3e46eb607901498ab87daaa1b2b527e1dae6d90cffe156ef969"
+    },
+    {
+      "path": "illustrations/tang-008-v1-1536.webp",
+      "bytes": 310750,
+      "sha256": "5545c5cd1620a235aea0afeec763d255cadc5155f650f29679196ca4a32f3fef"
+    },
+    {
+      "path": "illustrations/tang-008-v1-480.webp",
+      "bytes": 29014,
+      "sha256": "dda9848dd2fa9cd502aff313d06b90375e0d07866cd91768ebdbb1ba81dc7704"
+    },
+    {
+      "path": "illustrations/tang-008-v1-960.webp",
+      "bytes": 123594,
+      "sha256": "7ffa12e67a8a24efaaf399e93b8f59f5de91647bf89668ef8b85acaee5add621"
+    },
+    {
+      "path": "illustrations/tang-009-v1-1536.webp",
+      "bytes": 318904,
+      "sha256": "030eb90268b3436d50e9ab85611d2bf6c888171f8745065fb5c62b222bcd6819"
+    },
+    {
+      "path": "illustrations/tang-009-v1-480.webp",
+      "bytes": 27628,
+      "sha256": "26b808afb9b3e949b1398952d236771268499360082e8e99e643cc9aa226399a"
+    },
+    {
+      "path": "illustrations/tang-009-v1-960.webp",
+      "bytes": 119946,
+      "sha256": "fe83c402a89297693f8b411da67517ab1c8657b07ec2c13b9f2c643f9e55cd92"
+    },
+    {
+      "path": "illustrations/tang-010-v1-1536.webp",
+      "bytes": 272360,
+      "sha256": "26eefeeef94b25cd48a0d8ddb2dc959ed1f2f4a17f8e3d7c16fd2af5ee3e48df"
+    },
+    {
+      "path": "illustrations/tang-010-v1-480.webp",
+      "bytes": 28978,
+      "sha256": "7d97f39b22004d1b186a1fc5118c8352c719767a9dc05fad851fada281cd153b"
+    },
+    {
+      "path": "illustrations/tang-010-v1-960.webp",
+      "bytes": 114404,
+      "sha256": "cbc6b34421809f5282bbbec912a4305177bf2cc7234b0249aa55ad77b9ddfa77"
     },
     {
       "path": "illustrations/tang-011-v1-1536.webp",
@@ -4395,6 +4455,21 @@
       "sha256": "0a03f0d74eb785a2b86c801f1b4397e3c5ba37556ceef385e612bdd60383664e"
     },
     {
+      "path": "illustrations/tang-015-v1-1536.webp",
+      "bytes": 389454,
+      "sha256": "3d90281b280f4d2148d3833f277c4768098ac8f44a20dac2fe4f4819f7886b1e"
+    },
+    {
+      "path": "illustrations/tang-015-v1-480.webp",
+      "bytes": 41254,
+      "sha256": "abae63b4297b2ff5b543de1a5cf90e4a270d17b16987e36946845c52d277ebcd"
+    },
+    {
+      "path": "illustrations/tang-015-v1-960.webp",
+      "bytes": 161960,
+      "sha256": "51cc250061c528a832f86ef61fdf40b2df8573b8051affecd9546fa210047d43"
+    },
+    {
       "path": "illustrations/tang-016-v1-1536.webp",
       "bytes": 250340,
       "sha256": "c4d4c9580dd62f033d74cc0834870085c47821421841c7b43c1f686d872326e9"
@@ -4453,6 +4528,21 @@
       "path": "illustrations/tang-019-v1-960.webp",
       "bytes": 134360,
       "sha256": "5b4a73fd9ad9dc44d03cdd845050f31dfb78c91528cb1f212b41c8d436d312d9"
+    },
+    {
+      "path": "illustrations/tang-020-v1-1536.webp",
+      "bytes": 270286,
+      "sha256": "8e0b2d7c66560196b358b267575eed93fa55cf3c12625fe95d54da0f1fb08cd5"
+    },
+    {
+      "path": "illustrations/tang-020-v1-480.webp",
+      "bytes": 26512,
+      "sha256": "56b585d453a469989d14cad57f0f7e41410910d30aed49cf917797746d667de9"
+    },
+    {
+      "path": "illustrations/tang-020-v1-960.webp",
+      "bytes": 107626,
+      "sha256": "9c22944c0f6718e51a46697b4098c3b0e0c45f343ed745f3387caab874d66e35"
     },
     {
       "path": "illustrations/ts3b-005-v1-1536.webp",
@@ -4951,13 +5041,13 @@
     },
     {
       "path": "illustrations.js",
-      "bytes": 266946,
-      "sha256": "87fee15fd362febed148946b25e0bc9075f87e983d3f31dd0a7a2c350c7ad70e"
+      "bytes": 275028,
+      "sha256": "5c50e24139f3e62e98b1ed1f2fec6f16f21da27b98371dc183fc35d74a72170a"
     },
     {
       "path": "index.html",
       "bytes": 3830,
-      "sha256": "ecd090baccf0abaab5f8edd315e16616722c56a5ecd084b5f3574e43aa22fdd7"
+      "sha256": "a0255354716816c7bfa1274ea6239e8ee013a307eaebb90c1e37eb9de27e13e3"
     },
     {
       "path": "manifest.webmanifest",
@@ -4967,7 +5057,7 @@
     {
       "path": "navigation.js",
       "bytes": 2374,
-      "sha256": "2c91be0ad10a7633c13351fd07b05263846987d8511f5b38f7a4335cce4ef95d"
+      "sha256": "acf989a2e2d0848d407d3932a24a10814bc797be873f343a396eed4a47ac84e4"
     },
     {
       "path": "pagination.js",
@@ -4997,7 +5087,7 @@
     {
       "path": "recitation-heading.js",
       "bytes": 5294,
-      "sha256": "141160828514548d3bb444d8b65ae03d423fa98a02e9b2d58b998e54a521abf9"
+      "sha256": "bd1b98f28ed6d48d167d03388df11b5d75f18881268f3543bcf808d77512473c"
     },
     {
       "path": "recitation-options.js",
@@ -5027,17 +5117,17 @@
     {
       "path": "store.js",
       "bytes": 10507,
-      "sha256": "725db47714d883445ec621c1509878234978d359f3b5b16e6978649e533457fa"
+      "sha256": "ca9f34a7423796091cd076781c66c2a62f028f61c13e2720d4516750841793e3"
     },
     {
       "path": "sw.js",
       "bytes": 3935,
-      "sha256": "844f29f9acae2804a85e576797cf559abdbabaf559250bf0a1bb8722afba1b0c"
+      "sha256": "5f7ccfe4670fdfa839c43a935ff2926eebb240077af4cdb9ec9d94f85601ab4e"
     },
     {
       "path": "sync-core.js",
       "bytes": 8073,
-      "sha256": "ebf5635fc4cf15b42d60c0f600f6cf53010907b0432c8e6c8db20f7181952f17"
+      "sha256": "bae87c3b89520267c32258d30b2c5739fdee0b2a75d3aef9ad53b51f2d13c284"
     },
     {
       "path": "textbook-poems.json",
@@ -5112,7 +5202,7 @@
     {
       "path": "voice-ui.js",
       "bytes": 19796,
-      "sha256": "cc2cd3b1103e32b097a75d9e378cd8cbd06438a3169761df16ea109fc7f305b8"
+      "sha256": "010e36a4bf9b2a7cdab80d4728c5d246993f9694b6d8f93dbee016943369ea57"
     },
     {
       "path": "voice.js",
