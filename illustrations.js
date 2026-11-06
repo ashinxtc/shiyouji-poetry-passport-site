@@ -6681,6 +6681,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "1b6a620f4e48a5e2d6d9df58eac00a4c83742fb0e43f3dd13282de94d947736a"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-289",
+    "title": "行路难·金樽清酒斗十千",
+    "label": "长风破浪与云帆沧海",
+    "alt": "《行路难·金樽清酒斗十千》诗境插画：一艘古木帆船迎风越过浪头，远处云层散开，海天间透出亮光。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-289-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2c259c5729f87cfcf3784369797d2d7bd7f15ffe55e647263bc0f465fd025cac"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-289-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31696,
+        "sha256": "4f3183e120e37b14c9de0f07371b2da9e51f41de391929dba662c79896e35a7a"
+      },
+      {
+        "src": "./illustrations/ts3b-289-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 111608,
+        "sha256": "07e96078e93d3c22dcfa27636783c5bc9da6fd5af51f0ff788f9f7c3c118beb9"
+      },
+      {
+        "src": "./illustrations/ts3b-289-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 247416,
+        "sha256": "37a84f84239096573ef932122acd9b7862fb6a525ee16df8c821a1fba72dbda9"
+      }
+    ]
+  },
+  {
+    "poemId": "school-460be206408f62b5",
+    "title": "酬乐天扬州初逢席上见赠",
+    "label": "沉舟侧畔与万木新春",
+    "alt": "《酬乐天扬州初逢席上见赠》诗境插画：江边一截旧船露出水面，远处数帆顺流而过，近岸枯树之后是新绿的春林。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-460be206408f62b5-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c88996247a00013aed7ef67ff122da7042c2544ae2f087a5eeb268cc63221ca2"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-460be206408f62b5-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43370,
+        "sha256": "49773cf7a6151d4bde403df9aec64bbb0b7cf6d3be6f70775221043a8133896e"
+      },
+      {
+        "src": "./illustrations/school-460be206408f62b5-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 171126,
+        "sha256": "b09473e2d99a52a7485191bac843289f63cfc36889ff41d6d154a4cf343dfcc1"
+      },
+      {
+        "src": "./illustrations/school-460be206408f62b5-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 403672,
+        "sha256": "36ad9ebc9a9a55a9a7701203c110885d7908c7ac16e5dd8511dc08fba2942b06"
+      }
+    ]
+  },
+  {
+    "poemId": "school-60b1a2b8dc7dc2aa",
+    "title": "水调歌头（明月几时有）",
+    "label": "把盏问月与千里婵娟",
+    "alt": "《水调歌头（明月几时有）》诗境插画：中秋夜，一位诗人立在临水朱阁上举盏望月，栏外山水相隔，明月照向远方。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-60b1a2b8dc7dc2aa-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "143f91dfd0c8ec97d014fdc05b8dc6df6ea18571ec2e27d210523fe78cc6d35f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-60b1a2b8dc7dc2aa-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26136,
+        "sha256": "0683c9b25ab48ba65077e7ed474e027054cd81a661056310cd7b2a2fd433935a"
+      },
+      {
+        "src": "./illustrations/school-60b1a2b8dc7dc2aa-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 87910,
+        "sha256": "18cb28ac248e4b7f019bc1e23e2bd73f6b916ee4cf890edcfeb21a04a6a0929d"
+      },
+      {
+        "src": "./illustrations/school-60b1a2b8dc7dc2aa-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 184730,
+        "sha256": "7e8fd20eb1369f3b0dd610fca80d21532307a54ef92b95fd9daa894b0d5736f3"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-113",
+    "title": "月夜忆舍弟",
+    "label": "边秋孤雁与故乡明月",
+    "alt": "《月夜忆舍弟》诗境插画：秋夜边地冷清，一人立在露草旁望月，天上孤雁飞过，远处低墙和戍楼隐在夜色中。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-113-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8c1605c7cddf58237632fcaac9832f0a1cc5fd4ac93d9f69e6f8e470d988203a"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-113-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25442,
+        "sha256": "5f841414a51c27d0821fddb5f939f4b5c2cdc79607ab099eb8789bea1345de18"
+      },
+      {
+        "src": "./illustrations/ts3b-113-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 111144,
+        "sha256": "e0bac4a4fb9b87de769921cd2869063cb2950d96e4c86d09d5925386f45c46bf"
+      },
+      {
+        "src": "./illustrations/ts3b-113-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 295266,
+        "sha256": "737175e87b33fdbd8dfe2c14c578dfd11c63b81e40e362333463a5e22031540d"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-206",
+    "title": "长沙过贾谊宅",
+    "label": "斜日寒林与秋草寻宅",
+    "alt": "《长沙过贾谊宅》诗境插画：斜阳穿过疏林，旅人在秋草间走近一处旧宅，远处隐约见水。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-206-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8bf7bdcb8b88e5cddd69c42824a134cd2573581d19aa28fce37ac0ab77dd098a"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-206-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 52270,
+        "sha256": "37110f206fbce1a6c6d52a44d4d4793004b7368f4a47f320023b953924347043"
+      },
+      {
+        "src": "./illustrations/ts3b-206-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 207244,
+        "sha256": "6a86b13dc5f28d2a9df7e077d651821bb9307975d30e5f9405ee879cfb2bf95a"
+      },
+      {
+        "src": "./illustrations/ts3b-206-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 490846,
+        "sha256": "ea969784a46df5b60e6df685bedbea3da2fcaa45262b7045474ced722b038499"
+      }
+    ]
+  },
+  {
+    "poemId": "school-6f015edb5abf1223",
+    "title": "左迁至蓝关示侄孙湘",
+    "label": "云横秦岭与雪拥蓝关",
+    "alt": "《左迁至蓝关示侄孙湘》诗境插画：积雪塞住山道，旅人的马停在关口前，秦岭山腰横着一带低云。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-6f015edb5abf1223-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bf2f972396331a07f4c22631350a94ed04fa158205d1bcd594a209a22df106a9"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-6f015edb5abf1223-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 36436,
+        "sha256": "a050ec69c9b1be6872913db552d076be3faa9ff514248418aa4bbf6465304d11"
+      },
+      {
+        "src": "./illustrations/school-6f015edb5abf1223-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 132142,
+        "sha256": "9b327649d8e39c9dc654edc44d65c0236814f1a687f4b207f6355cf91a5b17cf"
+      },
+      {
+        "src": "./illustrations/school-6f015edb5abf1223-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 301738,
+        "sha256": "101b74aadea8b60ab695a8ded0b656c176ed23b03fa38dd573ff3a5e0172e212"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
