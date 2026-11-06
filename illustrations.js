@@ -7419,6 +7419,416 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "d2fc13f46d830ff45f38ba54fbb9e6066fcc5b7cb816e3c3b2e1284828e1ba9d"
       }
     ]
+  },
+  {
+    "poemId": "school-969e24c36811eb6e",
+    "title": "破阵子·为陈同甫赋壮词以寄之",
+    "label": "挑灯看剑与白发生",
+    "alt": "《破阵子·为陈同甫赋壮词以寄之》诗境插画：白发渐生的词人俯身看剑，案上一盏油灯照亮剑身，窗外夜色沉沉。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-969e24c36811eb6e-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fc90e8e1e9b368d9defad65fb922b338fa64856cc8b428e4fd3193c7876d7b18"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-969e24c36811eb6e-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27766,
+        "sha256": "2ba1e8487d78fc615b11a78858eb2ab977b5727887ff76440576ca00f6c30a2a"
+      },
+      {
+        "src": "./illustrations/school-969e24c36811eb6e-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 118380,
+        "sha256": "5f84af0e28806fc6bb5cc535342258addb36946563f67dd2bcf262e2b810ce81"
+      },
+      {
+        "src": "./illustrations/school-969e24c36811eb6e-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 305004,
+        "sha256": "8ccee8de08f34a6f905b1ebcda550c4e50c083c0f93de3a439ffef19ad659c1e"
+      }
+    ]
+  },
+  {
+    "poemId": "school-3e9d5e1f59248bbf",
+    "title": "满江红（小住京华）",
+    "label": "京华中秋与篱下黄花",
+    "alt": "《满江红（小住京华）》诗境插画：中秋庭院里，黄菊开在疏篱下。一位女子立在石阶上，望向月下屋檐。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-3e9d5e1f59248bbf-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ed55265a8a7367cad4662db3aa6b50f6265cc4241e446ff2bc4b6bd6dcc1676b"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-3e9d5e1f59248bbf-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38890,
+        "sha256": "af6a14aa069defdc2c892840c4a5cfb74e8cb7afa0d3fb3f279d93d7d9ed15aa"
+      },
+      {
+        "src": "./illustrations/school-3e9d5e1f59248bbf-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 148044,
+        "sha256": "94037868236250b046d8fab0cbf931327624a4745705114d136790a7e79b4aec"
+      },
+      {
+        "src": "./illustrations/school-3e9d5e1f59248bbf-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 362624,
+        "sha256": "72f5ce2d83118460826a7de8c0051afb6ad0337aa4ab32d925335934ac612b3e"
+      }
+    ]
+  },
+  {
+    "poemId": "school-1662a5e1a339373e",
+    "title": "定风波（莫听穿林打叶声）",
+    "label": "竹杖芒鞋与山头斜照",
+    "alt": "《定风波（莫听穿林打叶声）》诗境插画：细雨中，诗人披蓑衣、拄竹杖，沿林间小路缓步前行。远处山头已透出一抹斜阳。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-1662a5e1a339373e-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2babfa5972668e08bdfb9be12b715e29da7c7ec9711b482634b61e6c13346782"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-1662a5e1a339373e-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38496,
+        "sha256": "15b4274afa03d9134a242ff6a39111e72bfa28af4c4769fae439e55782b53b92"
+      },
+      {
+        "src": "./illustrations/school-1662a5e1a339373e-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 146048,
+        "sha256": "dd31dae79ab7c3ee7a850d461792d812451f84a221cf196a9e090ba272549cb2"
+      },
+      {
+        "src": "./illustrations/school-1662a5e1a339373e-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 331056,
+        "sha256": "54e49bceed9d1a64ea6f9352d03d08414c9dbdd26317a765bbc466f4f9ec1f80"
+      }
+    ]
+  },
+  {
+    "poemId": "school-2bd36cac1043028a",
+    "title": "临江仙·夜登小阁，忆洛中旧游",
+    "label": "杏花疏影与长沟流月",
+    "alt": "《临江仙·夜登小阁，忆洛中旧游》诗境插画：月影落在桥下流水里，疏疏杏花映着桥栏，一位旧游人倚在桥边吹笛。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-2bd36cac1043028a-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2c704b9070730fa59a442f129944c66dd7c9221b708c47e32435ce87948a187b"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-2bd36cac1043028a-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31564,
+        "sha256": "7a53aaedf5ef5dab825ccd04f73bca5f998238fece7d9bc472facb8ff531656d"
+      },
+      {
+        "src": "./illustrations/school-2bd36cac1043028a-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 129078,
+        "sha256": "588ddc7ea9dbd73f0bb6686d2c24bb37d0004a814e51de63ca92b4f07d2d0128"
+      },
+      {
+        "src": "./illustrations/school-2bd36cac1043028a-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 336644,
+        "sha256": "1b1bb55930aa051c2ec4160eacf6378b40ae5a3608252e7071264bbf55307fc2"
+      }
+    ]
+  },
+  {
+    "poemId": "school-c23c2293518de582",
+    "title": "太常引·建康中秋夜为吕叔潜赋",
+    "label": "飞镜清辉与万里山河",
+    "alt": "《太常引·建康中秋夜为吕叔潜赋》诗境插画：圆月悬在长空，疏桂掩映月边。月光越过层山，落在远处蜿蜒的江河上。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-c23c2293518de582-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d6c15ff3695196bf955e7b437448af20c635bd784b332c09e9b94f25228d036d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-c23c2293518de582-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29740,
+        "sha256": "80180ccb009a3341917803f99b56d16319d52aba166c18e806c49853c5e888eb"
+      },
+      {
+        "src": "./illustrations/school-c23c2293518de582-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115620,
+        "sha256": "2854fd1f311638c4f68521e91add1be6b071ba2aa67cde34c05829c2a9260c46"
+      },
+      {
+        "src": "./illustrations/school-c23c2293518de582-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 286802,
+        "sha256": "30ef1b7d67b03ec306d80ba98eeeaf24698ca566ddcfe278e9963fe354e74d3b"
+      }
+    ]
+  },
+  {
+    "poemId": "school-613f48d105962513",
+    "title": "浣溪沙（身向云山那畔行）",
+    "label": "北风荒垒与旧关斜日",
+    "alt": "《浣溪沙（身向云山那畔行）》诗境插画：一骑迎着北风向云山行去，荒垒边一缕晚烟升起，低斜的夕阳照着旧关城。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-613f48d105962513-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5de35834fa76eacd44911294fcfc8c0e0dad5877f0c12faa779320c8bd2f4b97"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-613f48d105962513-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24222,
+        "sha256": "ecd428b0489dd7572cd301d2fd0390a510a6adf0266d79f6281d986b693698cc"
+      },
+      {
+        "src": "./illustrations/school-613f48d105962513-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 96568,
+        "sha256": "00fb88b0876e2eee0829453e83218aaee2063ef3fdc09341eb6a816b8db3536b"
+      },
+      {
+        "src": "./illustrations/school-613f48d105962513-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 238786,
+        "sha256": "4c43d9d31dbcbdc7fcba4b7cc4f983224daaceb33fe07e153e2b7c0cc5005c4f"
+      }
+    ]
+  },
+  {
+    "poemId": "school-445555cf912431bf",
+    "title": "南安军",
+    "label": "梅岭风雨与湿征衣",
+    "alt": "《南安军》诗境插画：风雨掠过岭间山路，行人披着被雨打湿的衣袍，远望云雾中若隐若现的城郭。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-445555cf912431bf-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0007d37eac020da604fb1913d33af46315357e8aa1e98ae17d168dfc1b35bb56"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-445555cf912431bf-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29032,
+        "sha256": "0a707fc7fff0259797c932222ea392fc480c47ff59ea481fe2d25e2a2c8a262f"
+      },
+      {
+        "src": "./illustrations/school-445555cf912431bf-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115328,
+        "sha256": "ca03875e8f93ee6e8e746cad7b9f767bb449ba73ae83e3f8c43017351b01bba7"
+      },
+      {
+        "src": "./illustrations/school-445555cf912431bf-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 279604,
+        "sha256": "ee2c5b0969de51e5d88e833abb96c92cfa1bbf9f1847147afa08e109e518fc20"
+      }
+    ]
+  },
+  {
+    "poemId": "school-21494f6c64f376c2",
+    "title": "别云间",
+    "label": "回望故乡与云间暮色",
+    "alt": "《别云间》诗境插画：一位年轻人立在江南水岸，回望薄暮中隐约可见的屋瓦与故乡水巷。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-21494f6c64f376c2-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b9f58603d9f0aaa55ff2dd653f63002f9d5242126ea36a0a9b83bb0369fda45d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-21494f6c64f376c2-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27292,
+        "sha256": "e36be8b6092b4fa6902c9cad91c44f0d133e4b693819b38d1d0ed2fa2db45aab"
+      },
+      {
+        "src": "./illustrations/school-21494f6c64f376c2-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 106990,
+        "sha256": "a928e4125b45cde730ae4c10cb62d3f72dbb003788d268f97e702169fe636cc5"
+      },
+      {
+        "src": "./illustrations/school-21494f6c64f376c2-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 252004,
+        "sha256": "cd5b017ac34fcda9b5e664b2b9a3bdb92bf8c600c580ed44e5987cbeb319e8c8"
+      }
+    ]
+  },
+  {
+    "poemId": "school-0a632dc0f167a25a",
+    "title": "山坡羊·骊山怀古",
+    "label": "骊山荒草与萦纡流水",
+    "alt": "《山坡羊·骊山怀古》诗境插画：骊山坡上荒草稀疏，溪水蜿蜒绕过残土与烟树，远处只剩淡淡的山影。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-0a632dc0f167a25a-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "48c52cd1f033d1d193acded80e219ab92aa38c72e3789dfc258c87977a668f60"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-0a632dc0f167a25a-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30686,
+        "sha256": "d6657765c031651f6cc46a994bde836cd22bc6ddbc7d138b0e327b18ed464f7a"
+      },
+      {
+        "src": "./illustrations/school-0a632dc0f167a25a-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 128478,
+        "sha256": "1bff8c75eb6db0efdde00530dd36385ff54b91e20a8c997014eca993b7499451"
+      },
+      {
+        "src": "./illustrations/school-0a632dc0f167a25a-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 333024,
+        "sha256": "a093bbfc57ea3077ef43d4d9f0636b3747066caabe72c69c6059613c5b90790d"
+      }
+    ]
+  },
+  {
+    "poemId": "school-fafc8048bf7c0aa6",
+    "title": "朝天子·咏喇叭",
+    "label": "官船过河与唢呐高声",
+    "alt": "《朝天子·咏喇叭》诗境插画：一艘官船经过河岸，船头有人吹唢呐，岸边百姓停下手里的活望过去，水面小舟纷纷避让。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/school-fafc8048bf7c0aa6-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ae3defd5282fb82aa2182f87502494f53fbcc070dff7a745fd8af34b0130d991"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/school-fafc8048bf7c0aa6-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44782,
+        "sha256": "dbeb8fda2254a51a4aff2336065c335fa7309467d9d5be0951e0fa0f2a203f5d"
+      },
+      {
+        "src": "./illustrations/school-fafc8048bf7c0aa6-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 178138,
+        "sha256": "8505823f7aa4263cc1608e497f66194e43939458689fcf9e0e15702e65615587"
+      },
+      {
+        "src": "./illustrations/school-fafc8048bf7c0aa6-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 424022,
+        "sha256": "f2b0fc4d0dfd0272bd3d2c72b21187d784821ed145d12b0a110e09a5dd7fca1b"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
