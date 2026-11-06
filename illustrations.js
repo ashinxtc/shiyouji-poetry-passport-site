@@ -8075,6 +8075,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "8e0b2d7c66560196b358b267575eed93fa55cf3c12625fe95d54da0f1fb08cd5"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-000",
+    "title": "行宫",
+    "label": "空宫红花与白头旧话",
+    "alt": "《行宫》诗境插画：寂静行宫的旧廊下，两位白发宫人闲坐低语，阶前一簇红花映着空庭。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-000-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9066f87016d9fc776a86d5b68b0c2f34f707fff718c6918eff74c9afdce77107"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-000-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31880,
+        "sha256": "887bb30cfe057d3c1c57a9eb2df62e5e55f2905351e68231182f2996a2e17d6a"
+      },
+      {
+        "src": "./illustrations/ts3b-000-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 136404,
+        "sha256": "924b91870b2896623e4c39a9b2c4f5baabcff6fef5ca5129f99583042155db40"
+      },
+      {
+        "src": "./illustrations/ts3b-000-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 350624,
+        "sha256": "4ed1d49e60470104c3343f72a189744b964d4c6b93cd235bc8a4aca31046b9ff"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-002",
+    "title": "新嫁娘词",
+    "label": "初试羹汤与小姑尝味",
+    "alt": "《新嫁娘词》诗境插画：木案上摆着陶碗，新嫁娘用木勺盛出一点羹汤，请小姑先尝。灶边热气轻轻升起。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-002-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "33a7ef2e03ddaf9fc5560cc58b7a5c091440db44d83b7b3eb962d97a69119e74"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-002-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29868,
+        "sha256": "60d82bfd27ec5780886bb92005e11f6d9bd2008d09924221f73f015dfe0b2ed0"
+      },
+      {
+        "src": "./illustrations/ts3b-002-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 123680,
+        "sha256": "90700212f9352f7d3c09ad8334d5244e7956206c5a1b9c66caf2e27ed42ab866"
+      },
+      {
+        "src": "./illustrations/ts3b-002-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 305156,
+        "sha256": "b3ba1b22e15dbe1fd85043d357c86482b3d69a55c9b2f3185e140350cc27f273"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-009",
+    "title": "哥舒歌",
+    "label": "北斗高悬与临洮夜守",
+    "alt": "《哥舒歌》诗境插画：边地夜色中，守将佩刀立在关垒旁。北斗悬在山脊上方，远处只有淡淡牧地。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-009-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "68fb8b37dcb4b5092073ab5d76f618eb938481ffc7462279c9b2137388efa687"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-009-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13154,
+        "sha256": "fe635fa1d99a5e90e8f3edb38d21fd7fc978655d6f8559a308866cc516a56c56"
+      },
+      {
+        "src": "./illustrations/ts3b-009-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 66822,
+        "sha256": "75cd02c24fae3c1d5afa3ebccaa4a2d96e2d93391f126c8e24bb254a8bcf66fa"
+      },
+      {
+        "src": "./illustrations/ts3b-009-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 202674,
+        "sha256": "d8fa21f11edf0540be0ff68fb75b09afe9ee9225722dc9f9beecd7455bd6ff8f"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-011",
+    "title": "怨情",
+    "label": "卷珠帘与静坐含愁",
+    "alt": "《怨情》诗境插画：一位女子在窗前静坐，手边的珠帘半卷。她微蹙眉，望着窗外空静的庭院。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-011-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e936b14415edb202384678ae933eaee6f281d5564fc9aac36c49d23136d0a10a"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-011-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27162,
+        "sha256": "22a7f139f91830b3729119a1f0ae8d219f133a2d4d06bde6409f35631aca3192"
+      },
+      {
+        "src": "./illustrations/ts3b-011-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 104316,
+        "sha256": "04105b9ef4298b62325432469fcdcb455d01e111b10761f4a633fe10f94d1bbb"
+      },
+      {
+        "src": "./illustrations/ts3b-011-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 255326,
+        "sha256": "c997ee24dbc6d36302d3d97fff231b08911b83ae4be9334dc32dde343b3673e5"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-013",
+    "title": "听筝",
+    "label": "金粟筝柱与指间弦音",
+    "alt": "《听筝》诗境插画：一位乐者坐在窗前弹筝。长形木质琴面上，弦下排着一列小筝柱。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-013-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5f379da656f37a25f9536f0a5d6c834741ff808b4b574797aec9f8d094c11829"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-013-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27572,
+        "sha256": "34f4a7b45d56c271d4fb888e38cdc795c08489d669f6f92d2119555557ac6221"
+      },
+      {
+        "src": "./illustrations/ts3b-013-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 109298,
+        "sha256": "5306d73e5c2f33555efba325557313dd212bfdb7e7562db9920569d277850e5f"
+      },
+      {
+        "src": "./illustrations/ts3b-013-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 277262,
+        "sha256": "4ed209208c9cfcb24cb14fb82b83f5e64fefa70c1f498e20b40baa1462ab264c"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-014",
+    "title": "渡汉江",
+    "label": "江岸将近与欲问还止",
+    "alt": "《渡汉江》诗境插画：归人站在渡口，隔水望见熟悉的村舍。有人从岸边走来，他握着行囊，欲问又止。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-014-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7742e2dfe74b0c785fe8f6d8c225ab45f6440be00fc424b435ab24a8f348805d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-014-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29842,
+        "sha256": "4e5721e6d2560d217e28e8e5a5a5f42998cefacabf1894466e6ec049d8bfee47"
+      },
+      {
+        "src": "./illustrations/ts3b-014-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 123508,
+        "sha256": "b2aae52ff11317b034637ad103fca4bc37567ef085cc1fa8cddda0656ac211a5"
+      },
+      {
+        "src": "./illustrations/ts3b-014-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 309542,
+        "sha256": "af4fd1cb84ab45773ea3ebdf1760034955990f3ace2e41f12f03a6f93433e00a"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));

@@ -1,4 +1,4 @@
-import {validateData,localDay,nextDue} from './store.js?v=47';
+import {validateData,localDay,nextDue} from './store.js?v=48';
 export const APP_ID='shiyouji-poetry-v1';
 export const MAX_PROFILES=20;
 export const MAX_PROFILE_RECORDS=100;
