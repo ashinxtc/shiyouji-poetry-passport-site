@@ -9551,6 +9551,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "f4919d9744012e65d23b61580c2062106ecab4920f633ab219369752ea4fcc3b"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-063",
+    "title": "题金陵渡",
+    "label": "潮落夜江，两三星火",
+    "alt": "《题金陵渡》诗境插画：旅人独坐渡口小楼，斜月照见退潮后露出的浅滩。江对岸，瓜州只有几点灯火。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-063-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "73f5a9db3b41ab189681ba120165690bba3215b64d8350afffbdfcb26e293c06"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-063-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22504,
+        "sha256": "a68fe8ed9202b34eb68c4714ffb9f8630d219dae1f290fccf9605a005912c8eb"
+      },
+      {
+        "src": "./illustrations/ts3b-063-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 98660,
+        "sha256": "ba4477dc776ebbb5f4bde5428d74f426a97819513b249b6b08371ecebdea7826"
+      },
+      {
+        "src": "./illustrations/ts3b-063-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 269756,
+        "sha256": "ab2eb575d275eb72114e2a4d02b1bb558b3479306095551589e9e9251dd6b553"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-064",
+    "title": "赠内人",
+    "label": "玉钗挑灯救飞蛾",
+    "alt": "《赠内人》诗境插画：月光掠过宫树。一位宫人用玉钗轻挑灯芯，好让扑向火光的飞蛾脱身。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-064-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "81c4d4d222b9691606c3ab54b63dae06b61f4647e4f8c74a03db92013155e3f9"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-064-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24580,
+        "sha256": "752c0b5ca2178c5cfdefa924ab74a0d319a2e3dd35c54b5fec1200262c5fbcb6"
+      },
+      {
+        "src": "./illustrations/ts3b-064-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 102294,
+        "sha256": "8d168e379e22d16f7426bbb763eece214d1ad013c96b2cc42b00f8a650008e60"
+      },
+      {
+        "src": "./illustrations/ts3b-064-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 250176,
+        "sha256": "034f4eb718ff92ff5609709cf967b65dabc417e6974674d4b1970c58af597aba"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-065",
+    "title": "集灵台·其一",
+    "label": "晓露红花与帘中微笑",
+    "alt": "《集灵台·其一》诗境插画：晨光斜照集灵台，红花上凝着露水。太真轻掀帘子，含笑走进来。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-065-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "016614463638540a66e8a018b0ae38f2946cc25fd5cca0b4520339840b9ce791"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-065-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 36336,
+        "sha256": "f5876a19c75ab4faadfa3678233e7a0b175c8c6cf3e03cd70e87a2bfa400a4c5"
+      },
+      {
+        "src": "./illustrations/ts3b-065-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 135094,
+        "sha256": "ee7ed2b694e05c1e239e278e64deabd735e3d7403d282d4e2f45a2bdd28b4f01"
+      },
+      {
+        "src": "./illustrations/ts3b-065-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 318966,
+        "sha256": "eafef2b00aae1ff048cbd268c20fef2247fc26aab0e68ef4e313d81c1f84d9ed"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-066",
+    "title": "集灵台·其二",
+    "label": "平明骑马入宫门",
+    "alt": "《集灵台·其二》诗境插画：天刚亮，虢国夫人骑马从宫门入内，妆容清淡，眉间只略施颜色。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-066-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c3fed7ee3ae26943be8f320228576c73580904dc4f82cd6dc112cf337de3adab"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-066-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23034,
+        "sha256": "0337c3943b9e17edf5abcacb42d7346c65d2e93c9e9ebd02146f3780d6c16ef2"
+      },
+      {
+        "src": "./illustrations/ts3b-066-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 101304,
+        "sha256": "1149ed29e0ccfca7b20b7a6622cb5db1ca28da8d19c3dbe1fd8713e946676f8f"
+      },
+      {
+        "src": "./illustrations/ts3b-066-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 273582,
+        "sha256": "9da8d1794b8a86b6e8b5e1ddcbfef6ee2a59c31a0ebcfade22f1bf3a19eb2c49"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-068",
+    "title": "陇西行",
+    "label": "无定河畔与春闺梦",
+    "alt": "《陇西行》诗境插画：春夜里，女子伏在案边睡着。画面远处，无定河岸空无一人，沙石间只留一顶旧盔。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-068-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "af2e78f49ced703d3c55e36575a199aa307cb112ca3f2d8de5518234c7dd0c01"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-068-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22928,
+        "sha256": "1f1abf5fe2a90fe9a060f659b844c05cbc82949a311742e0df6471fa314e36bc"
+      },
+      {
+        "src": "./illustrations/ts3b-068-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 96074,
+        "sha256": "4bddf6dc9d2266336e9cf74e7eb6443e8ae41b94432d90960d89158697d248c7"
+      },
+      {
+        "src": "./illustrations/ts3b-068-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 253108,
+        "sha256": "5565d03a985e56cf37391d5fe61853e81009abb4ebf3ce4e9135199ea32c1239"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-069",
+    "title": "杂诗",
+    "label": "寒食微雨与堤上杜鹃",
+    "alt": "《杂诗》诗境插画：寒食前的细雨落在麦苗和堤柳上。行人撑伞望向远处，近旁柳枝上有一只杜鹃。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-069-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dc929ed7c9e3623c41ba5dc4f8464b313f2d5ef5e1c8a42c827896e0292c71e0"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-069-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43582,
+        "sha256": "ec873bbbd493ac76bab48b9429325cc7d6162db8fe80cc3ecb62a4b5813687e9"
+      },
+      {
+        "src": "./illustrations/ts3b-069-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 163392,
+        "sha256": "88ada1215b66df79600be767ab5952900a7ae43ab92908fc5511e916e65442e3"
+      },
+      {
+        "src": "./illustrations/ts3b-069-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 374360,
+        "sha256": "a6e1e1e79e88496036c49236013a354bf1e51da3fd0e7d1215e3b1816feeed8e"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
