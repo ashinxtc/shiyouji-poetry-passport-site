@@ -1,5 +1,5 @@
-import {compareRecitation,normalizeSpeech} from './recitation.js?v=56';
-import {HEADING_FIELDS,headingRequirements,headingMetadata} from './recitation-options.js?v=56';
+import {compareRecitation,normalizeSpeech} from './recitation.js?v=57';
+import {HEADING_FIELDS,headingRequirements,headingMetadata} from './recitation-options.js?v=57';
 
 // Locate the beginning of the body independently. Omissions or additions inside
 // the poem remain in the body alignment, never supplied from the reference.

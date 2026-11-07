@@ -10289,6 +10289,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "1aed413ec59006d318fe6f4af81bff4915c91121fb1585b8cd3e378a2b9469ab"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-085",
+    "title": "酬张少府",
+    "label": "松风山月，独坐弹琴",
+    "alt": "《酬张少府》诗境插画：松风吹动衣带，山月照着石案上的古琴。水湾深处，一叶渔舟隐在夜色里。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-085-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "045a5efaa68994eaa20d6a82e8f8aa6cb6dd66b74401e47b28b54463bb03ab65"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-085-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 33508,
+        "sha256": "bb9e19fb7d099f0a6b0e727273421056d8dfd03f43ebf56ef73888006b031771"
+      },
+      {
+        "src": "./illustrations/ts3b-085-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 135706,
+        "sha256": "6c4e039b5cf5d49da3678cc0c7019ac6573073f9a1f8577d232f0b7ead20b986"
+      },
+      {
+        "src": "./illustrations/ts3b-085-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 346190,
+        "sha256": "ac6c432aa2024dc2c0a0167c73952b57268dc6c4d3157b6cf90b93b286ebdda2"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-086",
+    "title": "过香积寺",
+    "label": "古木无人径，冷泉入空潭",
+    "alt": "《过香积寺》诗境插画：古木掩着山径，细泉绕过陡石，流进一弯空潭。暮色里只见青松和云峰。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-086-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fbaa7b340f5e6cb724aadd48b809be2ba117dcba6414ac3b5c8ba309d4358f65"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-086-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40036,
+        "sha256": "faa7667730c47d01577ff15e2a166fbcf24e0ec4061ad7fcfa3ae7f4ebad75de"
+      },
+      {
+        "src": "./illustrations/ts3b-086-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 162206,
+        "sha256": "2f97277d70bbe8b0f6b033d6a174755b8e5ec63634f2cc6c5b8af761621d1f60"
+      },
+      {
+        "src": "./illustrations/ts3b-086-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 394812,
+        "sha256": "cb2038b7fe0e278d990dd06c9f989ff8e18acab554f4ec684fa166e08ba74f7b"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-087",
+    "title": "辋川闲居赠裴秀才迪",
+    "label": "柴门晚蝉，渡口残阳",
+    "alt": "《辋川闲居赠裴秀才迪》诗境插画：文士拄杖倚在柴门边。秋水流过渡口，斜阳还在，村里升起一缕炊烟。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-087-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aec17075e1729aefe351246d39a96b0a791772d8f7e41f6e4127645df596cc47"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-087-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42076,
+        "sha256": "48abf9ce054abfcadf8c2d0d426d4af0774413e6706d7a9eb012a20d8e365bc3"
+      },
+      {
+        "src": "./illustrations/ts3b-087-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 159680,
+        "sha256": "e9a0b941f4371ece00bc1722b6e631ae7b3ff3eb3a693c551c31711098282e79"
+      },
+      {
+        "src": "./illustrations/ts3b-087-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 375930,
+        "sha256": "8f1db609cbe909063c789b5aea276a8ee2dbe5062bf98c72ab36716d35eea245"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-089",
+    "title": "归嵩山作",
+    "label": "古渡荒城，归马入秋山",
+    "alt": "《归嵩山作》诗境插画：归人沿清河慢行。暮鸟掠过古渡，夕阳照着荒城与远处的嵩山。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-089-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e019afe02a378a744c73d4cfd0dd3724be43c2149c4f60b7e0146df15ded7e07"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-089-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37620,
+        "sha256": "1d8aac2e50f75159d86998fe6db94602cb385c49089607d9f1fb0c665bab9090"
+      },
+      {
+        "src": "./illustrations/ts3b-089-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 153788,
+        "sha256": "439a5bf526f90f9666cab89eb44e7983b390df36d1677056646dde7e7bc95f8c"
+      },
+      {
+        "src": "./illustrations/ts3b-089-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 379164,
+        "sha256": "f6bf7422c08ef9c64f413a6836951c136b90e064f05bd9a8db13ed94d9ca7027"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-091",
+    "title": "云阳馆与韩绅宿别",
+    "label": "寒雨孤灯，故人惜别",
+    "alt": "《云阳馆与韩绅宿别》诗境插画：老友在馆舍重逢，隔着一盏孤灯相对而坐。窗外寒雨打着深竹，两只酒杯留在桌上。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-091-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "23ce74c5f96f6fe5f49c68021ec25db70c382c7510d4603ddb1e4b1ecee2787d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-091-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30208,
+        "sha256": "561f85864667f68f53bc4de10df843923a5f664f89f67345f48b0b94b9d0e0d9"
+      },
+      {
+        "src": "./illustrations/ts3b-091-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 121074,
+        "sha256": "700529145d731c52350fe16fc07eeabea6cb8dc089136e64dfad7f4ae3276c60"
+      },
+      {
+        "src": "./illustrations/ts3b-091-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 294302,
+        "sha256": "da1c0c65b65421603fd4a36a1394a5796901be745a7d3523bbe66e9cc713580e"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-092",
+    "title": "喜外弟卢纶见宿",
+    "label": "雨中黄叶，灯下白头",
+    "alt": "《喜外弟卢纶见宿》诗境插画：黄叶树立在雨里。清寒小屋中，白发主人提灯迎接来留宿的表弟。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-092-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "18647446c59a7635e90bd78ae99cda6aa4dbc810a52dd446d47e69a6e9911636"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-092-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38112,
+        "sha256": "4e3ff228726d5bcf9b4629f2b7ddc738874d3ca28e0654d6fa7e3d7b66d460b8"
+      },
+      {
+        "src": "./illustrations/ts3b-092-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 147274,
+        "sha256": "be49bdd5ec057274b58afce567e7e925223c63304a466b06cf340808645d6a97"
+      },
+      {
+        "src": "./illustrations/ts3b-092-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 355936,
+        "sha256": "242c758d94ddbfbdedfd99a0da3530bcd129cfefad849d72e5856b0c7cbaaf01"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));

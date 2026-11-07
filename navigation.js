@@ -1,4 +1,4 @@
-import {targetPoems,mastered,poemCurriculumLabel,profileGradeLabel} from './curriculum.js?v=56';
+import {targetPoems,mastered,poemCurriculumLabel,profileGradeLabel} from './curriculum.js?v=57';
 
 export const MAIN_TABS=[['passport','book','首页'],['library','compass','选诗'],['challenge','trophy','挑战'],['stamps','seal','我的']];
 export const rootTab=(route,readerFrom='library')=>route==='practice'?(MAIN_TABS.some(([r])=>r===readerFrom)?readerFrom:'library'):route;
