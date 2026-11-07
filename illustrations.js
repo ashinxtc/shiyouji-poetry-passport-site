@@ -8813,6 +8813,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "700f636d0067c38890cac6506aad601352d234233b75c366764e4a8a44b33691"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-034",
+    "title": "后宫词",
+    "label": "夜坐至天明",
+    "alt": "《后宫词》诗境插画：宫人斜倚熏笼，手里攥着罗巾。远处前殿尚有灯火，窗边已经透出晨光。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-034-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d6070ce39144fb9c2736a4b5f65f885ab67dda470f6562e917b2d3056c4453b2"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-034-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22032,
+        "sha256": "839ede5197822b8497c991b635e70a35327c68be3ef27d1aa7554afae8dc89f6"
+      },
+      {
+        "src": "./illustrations/ts3b-034-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 90808,
+        "sha256": "bad74e8a35754522171d5cd7e5d887ca8ca60a065c0be4bc742ce730d872dcf9"
+      },
+      {
+        "src": "./illustrations/ts3b-034-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 233622,
+        "sha256": "14768217f4c43652981b9dd0f9a45ee523c2363734821e38428577e081b727d1"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-035",
+    "title": "宫中词",
+    "label": "鹦鹉在前，欲言又止",
+    "alt": "《宫中词》诗境插画：花时院门紧闭，两位宫人并肩而立，欲言又止。眼前的鹦鹉正偏头望向她们。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-035-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e8799c1c4166115feb721f2826518391820f987288a65c3b610a7904ae25185d"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-035-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38488,
+        "sha256": "6944764f3df290ea78ef110523c05fe370cf23ec2436689b069db080bc3c0b0e"
+      },
+      {
+        "src": "./illustrations/ts3b-035-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 141206,
+        "sha256": "c6208404c436491f8d29a921bf1dd3ed5413cd13c401aee103642e9bf26b24e6"
+      },
+      {
+        "src": "./illustrations/ts3b-035-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 334098,
+        "sha256": "9a9108481367d3b1f59e87d437456c1bc99a2fc5d44a04ae02658ad1cb6265a2"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-036",
+    "title": "近试上张水部",
+    "label": "新妇低声问画眉",
+    "alt": "《近试上张水部》诗境插画：红烛刚燃尽，新妇妆罢，转头低声问身旁的夫婿，眉画得是否合宜。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-036-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "470483c73291e34a494e396f084b291c84294c4e29d6020580f05c8af1aaba3c"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-036-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32302,
+        "sha256": "57d9ee441960d744105b9050ad019139d95cfa6fdb245ab61a527fffaa7a9b2e"
+      },
+      {
+        "src": "./illustrations/ts3b-036-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 114470,
+        "sha256": "36c3cef9c0e95105d038538a43160c2af0e9acd2c66bb7efa82c9112edc244b1"
+      },
+      {
+        "src": "./illustrations/ts3b-036-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 261610,
+        "sha256": "57d01e19f6233683b7be00e3eeaa0a8003dd77244275a27e5aabf5bd202d7f1d"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-042",
+    "title": "隋宫",
+    "label": "宫锦成帆",
+    "alt": "《隋宫》诗境插画：大船把织锦扬成帆，缓缓经过宽阔的水道。岸边堆着布匹和行装，远处的楼船沿水道排开。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-042-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "67f7bc48fc0fb714e4b0bd9b39fa06b843d7e061893df1aff2f3398d5930fa57"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-042-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 46988,
+        "sha256": "19058897a785d3764b7b1610a3a61d81c648c0741d5be2548627355bb0fe6fbc"
+      },
+      {
+        "src": "./illustrations/ts3b-042-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 177534,
+        "sha256": "fe350782979df75bd59cc37212c24507fae6274188031ade1944a015983d17f3"
+      },
+      {
+        "src": "./illustrations/ts3b-042-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 419552,
+        "sha256": "bc7424bd9eb331ea1636a9427bcd1cc12291d7524e3edf06e6a8936487bc2230"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-043",
+    "title": "瑶池",
+    "label": "瑶池空待",
+    "alt": "《瑶池》诗境插画：绮窗开向云雾中的瑶池，西王母遥望池对岸，长长的山路空无一人。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-043-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f8dec961b06ca37b9cd1c26e80e265cfb02c5d5f73e61cc098e8c0bb8967eacd"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-043-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39698,
+        "sha256": "448ad096864d9ffee6323faca7b719c80db157a164ac347c198a498802fca653"
+      },
+      {
+        "src": "./illustrations/ts3b-043-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 149702,
+        "sha256": "128babdf93f1f863fb7522313ad328762d60a9f0085e95849981e561c2e5eb28"
+      },
+      {
+        "src": "./illustrations/ts3b-043-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 356770,
+        "sha256": "7821f242ce97c9b2186096fcab0469d6a469ec8337c46d6fc860359a19a9d785"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-046",
+    "title": "寄令狐郎中",
+    "label": "秋雨中的远书",
+    "alt": "《寄令狐郎中》诗境插画：秋雨斜打窗外的枝叶，屋里一位文士披衣倚坐，摊开了远方寄来的书信。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-046-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5bad30a559c7fa683a3e072750c99fa5b0b6e5e049d1c5f8d12831653449c8ce"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-046-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40656,
+        "sha256": "d7aedefc053efebd546cc85af230574c1003f7f8f6e1ea5f5aecc67de344b574"
+      },
+      {
+        "src": "./illustrations/ts3b-046-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 158792,
+        "sha256": "8ffbf342e91eefda8bb4076325ad14d26b60d29712155bafd8293833a717dd68"
+      },
+      {
+        "src": "./illustrations/ts3b-046-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 383478,
+        "sha256": "23200ef555384acf41db9eac2cbe915d8b162ce24e0935a1fe1cf10420dadf20"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
