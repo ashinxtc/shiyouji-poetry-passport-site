@@ -8321,6 +8321,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "af4fd1cb84ab45773ea3ebdf1760034955990f3ace2e41f12f03a6f93433e00a"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-015",
+    "title": "八阵图",
+    "label": "江流与不转之石",
+    "alt": "《八阵图》诗境插画：江水卷过浅滩，几组低矮石堆静立在砾石洲上。远处山色渐隐，江面仍在奔流。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-015-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b989a30e40c05db5c08d5ec356c825bc015a141dd6d72aa1e1e5dd1b07b0fc8a"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-015-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 36654,
+        "sha256": "434020b03b81d0fdfb78d6cac2c0cae6b61de4330deee862cd15919cfecced5a"
+      },
+      {
+        "src": "./illustrations/ts3b-015-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 141436,
+        "sha256": "0b2868b22c291d6411586a9f1f1375e601108b4ba09f91bb7390dfda18e28ea4"
+      },
+      {
+        "src": "./illustrations/ts3b-015-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 323720,
+        "sha256": "a2def3d41953610fce64266ac8e70ca995843eae12e657898759ec0c547a94a1"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-018",
+    "title": "春怨",
+    "label": "惊梦黄莺与春日深闺",
+    "alt": "《春怨》诗境插画：春日窗前，女子轻抬一只手。窗外柳枝上一只黄莺刚展翅，淡绿庭院静在晨光里。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-018-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "73ed49f94df33d4a31d9c4e0f4fff9abfca39513aa604aa080a47ee4a43ca841"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-018-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25698,
+        "sha256": "1a753ca02fe20b612560679b6031ed49a996a9c30d44c20734aa74151de99be9"
+      },
+      {
+        "src": "./illustrations/ts3b-018-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 96382,
+        "sha256": "1fe50db67adf60e783033b39710f374f9d9454f954687736ebee624ef18fec36"
+      },
+      {
+        "src": "./illustrations/ts3b-018-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 235846,
+        "sha256": "a75fc8162afa52f41354c1e89c5ada4693591ac3da2e51f1f53e45a358e9201a"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-020",
+    "title": "秋夜寄邱员外",
+    "label": "凉夜散步与空山松子",
+    "alt": "《秋夜寄邱员外》诗境插画：秋夜，一人沿松林小径缓步而行。近处松枝垂下，几粒松子散落在石边，远山笼着薄雾。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-020-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2c1c09d9502d9b2d3577e0fbf138cf6e486e84ef87f8f85bb6380bde7bb7dec1"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-020-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26438,
+        "sha256": "e3d47fa722f02ff4fc3eedcc2eb300b051204409a87e95156472a48238f2b144"
+      },
+      {
+        "src": "./illustrations/ts3b-020-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115482,
+        "sha256": "b54039865867826761a411346ce3a8b31c02594b0ca8f2f5750d11edfac587af"
+      },
+      {
+        "src": "./illustrations/ts3b-020-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 294928,
+        "sha256": "ba3f3132e6ce6214c039078f0d335b76895655c6be5a32e727bf10f5f5e6a112"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-021",
+    "title": "终南望余雪",
+    "label": "阴岭余雪与暮城增寒",
+    "alt": "《终南望余雪》诗境插画：云层之上的终南山背阴处仍覆着雪，林梢映着雪后初晴的微光，城屋已沉入清冷暮色。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-021-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8068144b3bd5df33016a5c7120eae60f009fedac4375c8af9d8ecd70565301d9"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-021-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31122,
+        "sha256": "93f17e76a550929e115c40e39b003bd781e6e49606006d0ea925e7abaed4ec76"
+      },
+      {
+        "src": "./illustrations/ts3b-021-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 123584,
+        "sha256": "4fc0de40d9f58d41b0f058e6958a28e9e28f19e06dca64f1f9c95191246247c1"
+      },
+      {
+        "src": "./illustrations/ts3b-021-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 293132,
+        "sha256": "f2de6a68df61547b9256cc6fee1cefe1b3e62111162d99d4fd4f83feecc91ef5"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-022",
+    "title": "宫词",
+    "label": "深宫旧曲与双泪",
+    "alt": "《宫词》诗境插画：一位宫人在深殿廊内低声唱曲，脸侧隐约有泪痕。屏风与远处坐席都藏在柔暗的光里。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-022-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a8294abcff8047e15c7f6ceaccacfc5e8d2ae66d9d0eec3fe96a185ab86997df"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-022-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 15384,
+        "sha256": "dade9e98ce757a61ac5867ef1d4d72d610231b1bdc6a54078a88255641d78acb"
+      },
+      {
+        "src": "./illustrations/ts3b-022-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 64516,
+        "sha256": "c6f6dd2c2232816f60f633bcd22a11876dca43fede850503f5ea9c4c0490cad7"
+      },
+      {
+        "src": "./illustrations/ts3b-022-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 163740,
+        "sha256": "7e954fb8b9f0b55aa188d000f03afd190fb755b8b8afd8df52a989b04c29d918"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-024",
+    "title": "送崔九",
+    "label": "山径送别与丘壑深处",
+    "alt": "《送崔九》诗境插画：两人在山径分开，一人向更深的山谷走去，另一人立在近处相送。几枝淡桃花掩映着远壑。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-024-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c89097ee7d5c4acea4a82b89ca2a6bc9c512467fed0bf9c6dd1df3c824c7a0bd"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-024-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39094,
+        "sha256": "08f6eeab5f10ebfb0f9ff01137b9088bec95003a7180c6f396110ad31c66a591"
+      },
+      {
+        "src": "./illustrations/ts3b-024-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 160758,
+        "sha256": "4093a063ac3cd2023746a65c8bbc3db8601e4abe7f5c4ef0296fc80df8508a99"
+      },
+      {
+        "src": "./illustrations/ts3b-024-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 388332,
+        "sha256": "faf93724d2072318b4afe9e2001290d840b88e120a20503ca92dd5993e1d5de6"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
