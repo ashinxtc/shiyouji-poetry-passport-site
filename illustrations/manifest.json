@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 38,
+  "batch": 39,
   "totalPoems": 468,
-  "availableCount": 239,
+  "availableCount": 245,
   "items": [
     {
       "poemId": "tang-001",
@@ -9802,15 +9802,255 @@
           "sha256": "a6e1e1e79e88496036c49236013a354bf1e51da3fd0e7d1215e3b1816feeed8e"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-071",
+      "title": "瑶瑟怨",
+      "label": "轻云、远雁与楼中月",
+      "alt": "《瑶瑟怨》诗境插画：夜深难眠，女子坐在竹席边，望着淡云下远去的雁群。月光落进空静的楼阁。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-071-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9c278727e863d618943f539fa56dcf95b5decffe7d401dd3495ae8a1585e7a80"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-071-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20666,
+          "sha256": "e895bcb3a98596cbb791ee5450c8c484d2503f660e1512bd077913e495cea1b5"
+        },
+        {
+          "src": "./illustrations/ts3b-071-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 95948,
+          "sha256": "8262883654b7be7aa6f35b2a086d73f9106c0d25393409c424469085cfbdca12"
+        },
+        {
+          "src": "./illustrations/ts3b-071-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 254156,
+          "sha256": "810ff23defa6b6e139cd345665080b867b86c4bdd7a76c75d6691e57d9898f09"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-072",
+      "title": "月夜",
+      "label": "月照半院，虫声透纱",
+      "alt": "《月夜》诗境插画：春夜的月光只照亮半边屋舍，另一半隐在屋檐下。一只小虫伏在绿纱窗外的新叶上。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-072-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "06f67fc75fc91c3a0e89a496441706b7698ce779049fc5f93fce576bdf9aa650"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-072-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 29760,
+          "sha256": "d69ea6d1666dbb001085934ded02e6aec93c375b66b8361c31c9d8674143ca91"
+        },
+        {
+          "src": "./illustrations/ts3b-072-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 130368,
+          "sha256": "294202e4ba0961e179ba4c1afe44dde246f00d5a818a41eff7cd2c0fbec646d0"
+        },
+        {
+          "src": "./illustrations/ts3b-072-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 335062,
+          "sha256": "b98a31601a34b0aebea75b83a0230795ffa07f19727d05cfb8e82f3517379235"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-073",
+      "title": "春怨",
+      "label": "梨花满地，庭门深闭",
+      "alt": "《春怨》诗境插画：落日透过纱窗，窗边人静望紧闭的院门。晚春的梨花已经落满石地。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-073-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0684a559afb4049f6f6e6e75f463d40274877af65af7b28ebb878c1ead38dbff"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-073-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 26092,
+          "sha256": "3f6cdf05ee5f67831919d55892cda6ea485b4361d8d68695f08103ed2d2cf24c"
+        },
+        {
+          "src": "./illustrations/ts3b-073-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 98872,
+          "sha256": "d9b520cce2e771b2a4b44b62e154f9a201b260d4de20137cdb2c597a3cca833e"
+        },
+        {
+          "src": "./illustrations/ts3b-073-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 237258,
+          "sha256": "78541f840b691ea77a25eb7c3c6be6e47404694a897f0e1ba9957617e661c0b2"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-074",
+      "title": "乌衣巷",
+      "label": "旧堂燕入百姓家",
+      "alt": "《乌衣巷》诗境插画：夕阳斜照乌衣巷，桥边野草开花。两只燕子飞向一户普通人家的低檐。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-074-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a7f69c6e0a571ea835b769cfe8672541d5fd8a64538242b5e0e629c85cd17c06"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-074-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 37584,
+          "sha256": "e02c33031714849697cc4343ce8ea124bfa52d799e42a0cbe42b80faa44ece79"
+        },
+        {
+          "src": "./illustrations/ts3b-074-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 148048,
+          "sha256": "864849963a34b84cf501ada172452a114de5d32050aab912b0fe10fc20add71b"
+        },
+        {
+          "src": "./illustrations/ts3b-074-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 347412,
+          "sha256": "7881cf96866ec7f60312a86d872fcd431d812f1a5d97230a94004a0cb3df69fc"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-075",
+      "title": "春词",
+      "label": "数花时蜻蜓停在玉钗上",
+      "alt": "《春词》诗境插画：女子在院中低头数花，一只蜻蜓停在她发间的玉钗上。身后的朱楼与院门都很安静。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-075-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "88bbfc3f735edd56a4769f4560779e340edc137260fd2b3a8727cc9584342d8b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-075-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 25566,
+          "sha256": "d47f83afc68904f521493a2dc16e1ee029267cf087ee6616e5296e0f358370f1"
+        },
+        {
+          "src": "./illustrations/ts3b-075-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 85276,
+          "sha256": "0fc76ea98c4bfe400317e464a54e8d634e1174ef4b881ab9c0438aa6174689fd"
+        },
+        {
+          "src": "./illustrations/ts3b-075-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 189674,
+          "sha256": "a16f5a35e0adfd6bbc1c350cd484f23ded03d635d5cc228a262adc1efd573348"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-076",
+      "title": "马嵬坡",
+      "label": "马嵬坡上回马",
+      "alt": "《马嵬坡》诗境插画：山坡驿道上，玄宗勒马回望。远处驿舍隐在薄尘里，一枚落地的簪子留在近处。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-076-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b7c2818ccb1e9975dd9c0862fd46fa3c31a26f5f2b954b0542077ffff77c1e7f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-076-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 25200,
+          "sha256": "0e55aab416d958d2f109ca76704524d3c1ed04ec8608a998c6d359e98528a393"
+        },
+        {
+          "src": "./illustrations/ts3b-076-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 102120,
+          "sha256": "8d65254cccece3c41d72ecf8543a76884cbf51fee9f81b04b917f7188a6e48fa"
+        },
+        {
+          "src": "./illustrations/ts3b-076-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 256444,
+          "sha256": "8c57989c5fe084fc2826a6e424d1f386d17b99bb2e1ac180742c83f99b6e0f58"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-071",
-    "ts3b-072",
-    "ts3b-073",
-    "ts3b-074",
-    "ts3b-075",
-    "ts3b-076",
     "ts3b-078",
     "ts3b-079",
     "ts3b-081",

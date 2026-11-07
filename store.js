@@ -1,5 +1,5 @@
-import {STAGE_NAMES,stageForGrade} from './grades.js?v=54';
-import {headingRequirements,HEADING_FIELDS} from './recitation-options.js?v=54';
+import {STAGE_NAMES,stageForGrade} from './grades.js?v=55';
+import {headingRequirements,HEADING_FIELDS} from './recitation-options.js?v=55';
 export const STORAGE_KEY='shiyouji.passport.v3';
 export const LEGACY_STORAGE_KEY='shiyouji.passport.v1';
 export const SCHEMA=2;
