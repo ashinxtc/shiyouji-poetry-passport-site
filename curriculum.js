@@ -1,4 +1,4 @@
-import {GRADE_NAMES,STAGE_NAMES,stageForGrade} from './grades.js?v=51';
+import {GRADE_NAMES,STAGE_NAMES,stageForGrade} from './grades.js?v=52';
 export {GRADE_NAMES,STAGE_NAMES,stageForGrade};
 export const profileGradeLabel=profile=>GRADE_NAMES[profile.grade]||STAGE_NAMES[profile.stage];
 export function gradeOptions(profile,escape){return `<option value="" ${profile.grade===null||profile.grade===undefined?'selected':''}>${STAGE_NAMES[profile.stage]} · 尚未选具体年级</option>`+Object.entries(GRADE_NAMES).map(([g,label])=>`<option value="${g}" ${profile.grade===Number(g)?'selected':''}>${escape(label)}</option>`).join('');}

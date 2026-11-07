@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 35,
+  "batch": 36,
   "totalPoems": 468,
-  "availableCount": 221,
+  "availableCount": 227,
   "items": [
     {
       "poemId": "tang-001",
@@ -9064,15 +9064,255 @@
           "sha256": "23200ef555384acf41db9eac2cbe915d8b162ce24e0935a1fe1cf10420dadf20"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-047",
+      "title": "为有",
+      "label": "云屏与早朝",
+      "alt": "《为有》诗境插画：云纹屏风旁，女子看着身着朝服的人走向门外。窗纸已透出清晨的微光。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-047-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c2b8b835e82e216af4eabf515e334fec7559624942b6d8b0a134d8ff2b03e557"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-047-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 28336,
+          "sha256": "441a0586753947f8809d641426ad7c5c88909ec03d1846379931be44354567c0"
+        },
+        {
+          "src": "./illustrations/ts3b-047-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 112200,
+          "sha256": "1f609b73931d8cbddad99f1f08908fdd35d7589c7e25aee08b8ae0bcb287b050"
+        },
+        {
+          "src": "./illustrations/ts3b-047-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 289078,
+          "sha256": "4168886600fde39ddb748c4ef29e317bc2b9afe591b8740093a45dd699bf208a"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-049",
+      "title": "赠别·其一",
+      "label": "豆蔻梢头与扬州春风",
+      "alt": "《赠别·其一》诗境插画：含苞的豆蔻映着临街的珠帘，春风吹过扬州的长街。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-049-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "31a19bfbab2e7d65cb727c70ffe25693d621a60a3b336269f6bb61ed0881f59b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-049-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 47252,
+          "sha256": "8b0ccd1c8d604edb67b1959cfe1f4707a9ab3c52e6f81f9fcd39298f26f92d47"
+        },
+        {
+          "src": "./illustrations/ts3b-049-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 170780,
+          "sha256": "3b658bee23ab923e1ebb625eaf6e80432df0a55d63ab538f7b1890bee4acfb6c"
+        },
+        {
+          "src": "./illustrations/ts3b-049-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 390456,
+          "sha256": "805b308fce864dec2ae909394721cfad8e31f2d65c22b3ae0d2dabc0103dffde"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-050",
+      "title": "赠别·其二",
+      "label": "惜别的烛泪",
+      "alt": "《赠别·其二》诗境插画：两只酒盏静放在桌上，烛蜡一点点流下，窗外天色渐白。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-050-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7fc99fd800212ac291f2391d37594313d5abc86bfe041dfe34a3c6684be720fc"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-050-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 22680,
+          "sha256": "5f0ce1755a49bd75a480a4d251391cab353664d04540e84236698404b6ad59d4"
+        },
+        {
+          "src": "./illustrations/ts3b-050-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 89442,
+          "sha256": "eeb48d1f70f1d3bf60bf3306795ecdcd0251d5dddacad2e21e7313c8fcffd40e"
+        },
+        {
+          "src": "./illustrations/ts3b-050-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 216196,
+          "sha256": "2986f97a2d0bb0f16ad778e641e15dba528cada17acc4904518cda6de2ddc6c1"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-051",
+      "title": "金谷园",
+      "label": "故园落花逐水",
+      "alt": "《金谷园》诗境插画：荒园石阶边长满春草，夕阳下，几瓣落花顺水漂过，枝头停着一只鸟。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-051-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2cd7f6298039cd7901f73d85ca3cf8c22eb83511a62f56472399dc0381606efc"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-051-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 52272,
+          "sha256": "276bfd4fa01642466443e48cd4f312a7660bb041550b207a22e595b183c0c9e4"
+        },
+        {
+          "src": "./illustrations/ts3b-051-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 202526,
+          "sha256": "ae6b7ce8bfd656bea25624fe8813b398930164948847868c6d7233fb3c1aecbb"
+        },
+        {
+          "src": "./illustrations/ts3b-051-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 494786,
+          "sha256": "bb986c6f757f04547511ebaf6a33403f60f392d84e505aaab1910b91888e2fbf"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-052",
+      "title": "寄扬州韩绰判官",
+      "label": "月桥闻箫",
+      "alt": "《寄扬州韩绰判官》诗境插画：明月照着扬州水道和石桥。桥头有人吹箫，远山隐在水雾后。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-052-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5ffc5be17b37a824efb9952e620621bf2fca1e379c70ef4f7f6aaf9cea4540ae"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-052-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 39860,
+          "sha256": "af1535fa108a9a8b57e7c34e307465acbf064751924cb01e027e06eeea39bb91"
+        },
+        {
+          "src": "./illustrations/ts3b-052-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 166008,
+          "sha256": "7430580dab8192284adc2978ffa3e280044944767b40ed9ecb655712e3507c6a"
+        },
+        {
+          "src": "./illustrations/ts3b-052-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 417438,
+          "sha256": "81c515a3b7495a383884ba11c06b6831773c82d62ee587eddfce24b25d80c7bb"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-053",
+      "title": "遣怀",
+      "label": "扬州如梦",
+      "alt": "《遣怀》诗境插画：一叶小舟离开江南水岸，文士回望雾里的旧楼，身旁只放着酒壶。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-053-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5bd9779d94131f80e4f01de13006395684da2c76e31cab59e10d420b09a85a8f"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-053-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31684,
+          "sha256": "8f7a735cb9a3cb18ab857b8b6510456c25323dad2da4ba0cee36b7f0c0678715"
+        },
+        {
+          "src": "./illustrations/ts3b-053-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 123254,
+          "sha256": "0559b1e876eed472ee1ede46a6664dd3e993b455e9339b407f27fda02f16e143"
+        },
+        {
+          "src": "./illustrations/ts3b-053-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 304008,
+          "sha256": "962680b5f454c6d6107972abe77e5a20b3e15f9ce95c343deb4a629e3f0f7669"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-047",
-    "ts3b-049",
-    "ts3b-050",
-    "ts3b-051",
-    "ts3b-052",
-    "ts3b-053",
     "ts3b-054",
     "ts3b-055",
     "ts3b-058",
