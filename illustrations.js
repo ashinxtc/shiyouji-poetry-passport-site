@@ -8567,6 +8567,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "faf93724d2072318b4afe9e2001290d840b88e120a20503ca92dd5993e1d5de6"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-025",
+    "title": "送灵澈上人",
+    "label": "晚钟送别",
+    "alt": "《送灵澈上人》诗境插画：竹林掩着古寺，僧人背着竹笠，迎着斜阳独自走向青山。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-025-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0c20ff87f91b96ca5f7852557c826e10cc34d02e052d57599434a7ef90310c4f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-025-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45818,
+        "sha256": "14d268e2483e4506074778050d583fc461c036f3342870d9f1e75861665d1527"
+      },
+      {
+        "src": "./illustrations/ts3b-025-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 172616,
+        "sha256": "d072834ff92adc5fdeb13fc3368e20b08d9273c4050ece5833f1ee1bc463c0cc"
+      },
+      {
+        "src": "./illustrations/ts3b-025-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 399612,
+        "sha256": "daf089dcd1e080c01ca51e2c103605b8c5ec72c9d686d600a435187fae7ee41e"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-026",
+    "title": "听弹琴",
+    "label": "七弦松风",
+    "alt": "《听弹琴》诗境插画：一张七弦琴横在膝前，松针随风轻动，听者静坐。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-026-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "466f8b89527fddc350b318dc8a56308312c0af3f2fb2b3c70e27fe4c7549af41"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-026-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40320,
+        "sha256": "157bfba3e14d3a6dfb0382d2e4a4ae9a25c326b683e9b006ecf6a3ca17a64d8e"
+      },
+      {
+        "src": "./illustrations/ts3b-026-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 146842,
+        "sha256": "5668234d0316fd298589a839448dae0e823e973deb41e707b7ef40c9d4fe3487"
+      },
+      {
+        "src": "./illustrations/ts3b-026-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 348832,
+        "sha256": "aeda4611439fd5281cb825a7f5a2de807089dc6c0e1b5aa5ebe14ac438379efb"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-027",
+    "title": "送上人",
+    "label": "孤云野鹤",
+    "alt": "《送上人》诗境插画：孤云与野鹤越过高岭，僧人站在岔路边望着远山。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-027-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7254548cbc93c51df43bb0d59fd5174f3e844ebca084530c7cfc210693acca1e"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-027-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17694,
+        "sha256": "daf1f2663dce9ea94d89966f443d9e967e5facd4885c73eda1954617506b35ca"
+      },
+      {
+        "src": "./illustrations/ts3b-027-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 66992,
+        "sha256": "ee5f759380705f4651719f768a6b626d76960e38e81e0b1b550c7edcb7d17661"
+      },
+      {
+        "src": "./illustrations/ts3b-027-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 157862,
+        "sha256": "485a4b92032b2b2a1c47b1dab10cb0c2cca9a352fc752e7786af83b461c3c534"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-028",
+    "title": "玉台体",
+    "label": "蟢子报喜",
+    "alt": "《玉台体》诗境插画：晨光里，小蜘蛛从窗梁垂下，镜前的人抬眼，像是想起了远行的人。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-028-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "21d837483b1749fdf98a774975432c235cd6d62bd6ea97f6dbac1dbe4b2f353c"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-028-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29534,
+        "sha256": "a678760662dcb064cc429b82cf0541b646dd0898a2ea1284472aedfae350768f"
+      },
+      {
+        "src": "./illustrations/ts3b-028-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115534,
+        "sha256": "db9b241e4d998ed12dc78410ab6df4b02d8e91deeabcc81298242998191b8fee"
+      },
+      {
+        "src": "./illustrations/ts3b-028-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 280510,
+        "sha256": "401663fdd0963d074eafb04b47729cccdfeffe7e03797336e6c5bf4a45d00e7d"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-030",
+    "title": "闺怨",
+    "label": "翠楼见柳",
+    "alt": "《闺怨》诗境插画：春日登楼，本是看景，望见路边新绿的杨柳，才忽然想起远行的丈夫。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-030-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "27f31cced54c18c9731f0073dca9f19abc47632cea907407326aa11929287b52"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-030-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45552,
+        "sha256": "18e63bc57d53e8b960b3a6e47f3bf5a31b5f4d9288d36f5b86b1a8d719a7dfdb"
+      },
+      {
+        "src": "./illustrations/ts3b-030-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 180696,
+        "sha256": "a601db3309e65b787b7e8df09447d6131f8b11cbb8a46b002a6a35ce73d5f140"
+      },
+      {
+        "src": "./illustrations/ts3b-030-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 423856,
+        "sha256": "33c434a81dd15001dbf8897cc2d49a62418b95483a5383c540e945abefac5cf7"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-031",
+    "title": "春宫曲",
+    "label": "月下锦袍",
+    "alt": "《春宫曲》诗境插画：桃花开在井边，明月高悬，帘边送来一袭御赐的锦袍。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-031-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "21f9149beeb245d1d2eba57a7b0752c38983ab15600855fd8a03159da6a0adfb"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-031-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40708,
+        "sha256": "fbf013dc38b56517e1ad5488df7bc7dd005506d5069dbe11d900fea78a2aa3dd"
+      },
+      {
+        "src": "./illustrations/ts3b-031-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 151560,
+        "sha256": "5c77374459829373b753383dea6c7428a103c8eb11b6371beac2c18a17d1595b"
+      },
+      {
+        "src": "./illustrations/ts3b-031-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 375524,
+        "sha256": "700f636d0067c38890cac6506aad601352d234233b75c366764e4a8a44b33691"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
