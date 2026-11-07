@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 39,
+  "batch": 40,
   "totalPoems": 468,
-  "availableCount": 245,
+  "availableCount": 251,
   "items": [
     {
       "poemId": "tang-001",
@@ -10048,15 +10048,255 @@
           "sha256": "8c57989c5fe084fc2826a6e424d1f386d17b99bb2e1ac180742c83f99b6e0f58"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-078",
+      "title": "已凉",
+      "label": "绣帘低垂，凉意初至",
+      "alt": "《已凉》诗境插画：绣帘垂在碧栏外，朱红屏风上画着折枝花。竹席上新铺了锦褥，屋里已有一点秋凉。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-078-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d9be678bd946e8159c6200dc04b2f756f0d3f318e5780466bb6723927ae0f510"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-078-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24024,
+          "sha256": "b2191255eaf34c4de9300aafaed7f895123d0608cb957289e0a98e4622fdff61"
+        },
+        {
+          "src": "./illustrations/ts3b-078-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 99992,
+          "sha256": "e05403b6de96293c34bfa4a90466ec3a54cb082308a623e04144202ac9a26762"
+        },
+        {
+          "src": "./illustrations/ts3b-078-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 269386,
+          "sha256": "8d441bce48c28d73987341507516e725bc2acb4a0afb34fcc0604dcb290087ba"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-079",
+      "title": "宫词",
+      "label": "宫门深锁，黄莺飞过",
+      "alt": "《宫词》诗境插画：宫门高深，庭院仍是春色。几位宫人停在廊下，一只黄莺飞向门外。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-079-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a4ae2d4e6fd41ca7d9d7ad9b055f01589f59289bc62684a04c3bbc5011b2c94c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-079-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36692,
+          "sha256": "df5758f4e28cc5c259a41a0c325ff3dfcc043db8eb5b026728a108ce5ec49e6d"
+        },
+        {
+          "src": "./illustrations/ts3b-079-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 141696,
+          "sha256": "2d8ce8b84a794f6d2dd11fd1cc65afef6422c51b17b2d18183ddac69086952b3"
+        },
+        {
+          "src": "./illustrations/ts3b-079-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 345164,
+          "sha256": "6b287fe4c5d52f40a3623a81a7c79ae85212cbb9ad8ddb645db8f858b9000b38"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-081",
+      "title": "送梓州李使君",
+      "label": "夜雨初收，树杪飞泉",
+      "alt": "《送梓州李使君》诗境插画：夜雨过后，群山树木参天，几道白泉从树梢间泻下。一只杜鹃停在近处枝头。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-081-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bc6d36d58167baa98e2ac75daa8f73a19073ac12f5c75d9a0062a83e855e22a8"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-081-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 46846,
+          "sha256": "6ca812b3d4622c5f428b6c3a9020c4bcf2161a157e25c04cda4bcd234136e00b"
+        },
+        {
+          "src": "./illustrations/ts3b-081-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 179892,
+          "sha256": "98777507d400069e1294da7fb2ec74825741e04e98d2ebce4d16e21b0175dc73"
+        },
+        {
+          "src": "./illustrations/ts3b-081-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 417620,
+          "sha256": "7f5ff69b15e2643f83777707537e0956ed00ffe6f00561bebaba2a33fb645253"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-082",
+      "title": "汉江临眺",
+      "label": "江流天地外，山色有无中",
+      "alt": "《汉江临眺》诗境插画：江面铺向天边，远山淡到几乎看不见。近浦的城郭临着水，像浮在波光里。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-082-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3eb4d584f630c4fb9b2000f846f988fe0be2e21d868ba25b550fc719cdb7904d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-082-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 22446,
+          "sha256": "215bbd140e254efe4b22f1a107fcafed0968c12adb500e1cf1e1ac5617fd0121"
+        },
+        {
+          "src": "./illustrations/ts3b-082-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 86360,
+          "sha256": "ea2ecbca452d7eb14267b7e33ed1126b283b3c95ff2cba45cb3f518690aaabbb"
+        },
+        {
+          "src": "./illustrations/ts3b-082-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 209538,
+          "sha256": "21310de118785f64f5440d3ffb117d71896b717c8916b38359c6f71d5c4118fd"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-083",
+      "title": "终南别业",
+      "label": "水穷处坐看云起",
+      "alt": "《终南别业》诗境插画：走到溪流尽头，文士在石上坐下。林间很静，只有远处的云正从山谷升起。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-083-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7919bda62cdbcfa5ec1505e66757de9625dff7a97d1b6f23e339df3cabd18880"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-083-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31178,
+          "sha256": "e3af49df395a2292d45c1fa7fc4151928d0fa51b0725b87e042faf41fe08ae4e"
+        },
+        {
+          "src": "./illustrations/ts3b-083-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 121368,
+          "sha256": "8b0a77977a2bfbe7d46cd5f775d90dadbeb33147b2efe353b892f5284e475f7d"
+        },
+        {
+          "src": "./illustrations/ts3b-083-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 291314,
+          "sha256": "38179da0007213fc80886814e65f74c99c169ba062f6d626dfb78a3ec2dda5a0"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-084",
+      "title": "终南山",
+      "label": "群壑阴晴，隔水问樵",
+      "alt": "《终南山》诗境插画：远峰耸入云间，山谷一边晴、一边还在雾里。行人隔着溪水向樵夫问路。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-084-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "89b48c65cf895d0473c010ce8699b9a7fa95514a91ae0f19dc8d3ff1cf627dec"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-084-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42716,
+          "sha256": "0ef506e830d1db72486a409f2441615fb60b0fb503eda7f1631d3578192af3ef"
+        },
+        {
+          "src": "./illustrations/ts3b-084-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 160254,
+          "sha256": "8c7428c2efe8d5a004e03a56ec8d025e71d988d8e4bc78a279c47790568db4eb"
+        },
+        {
+          "src": "./illustrations/ts3b-084-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 373136,
+          "sha256": "1aed413ec59006d318fe6f4af81bff4915c91121fb1585b8cd3e378a2b9469ab"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-078",
-    "ts3b-079",
-    "ts3b-081",
-    "ts3b-082",
-    "ts3b-083",
-    "ts3b-084",
     "ts3b-085",
     "ts3b-086",
     "ts3b-087",
