@@ -1,6 +1,6 @@
 import {PHOSPHOR_ICONS} from './vendor/phosphor-icons.js';
-import {illustrationFor} from './illustrations.js?v=52';
-export {illustrationFor,POEM_ILLUSTRATIONS} from './illustrations.js?v=52';
+import {illustrationFor} from './illustrations.js?v=53';
+export {illustrationFor,POEM_ILLUSTRATIONS} from './illustrations.js?v=53';
 export function icon(name,size=20){return `<svg width="${size}" height="${size}" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">${PHOSPHOR_ICONS[name]||PHOSPHOR_ICONS.book}</svg>`;}
 const escapeArt=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function artworkImage(item,className='',loading='lazy'){

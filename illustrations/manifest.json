@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 36,
+  "batch": 37,
   "totalPoems": 468,
-  "availableCount": 227,
+  "availableCount": 233,
   "items": [
     {
       "poemId": "tang-001",
@@ -9310,15 +9310,255 @@
           "sha256": "962680b5f454c6d6107972abe77e5a20b3e15f9ce95c343deb4a629e3f0f7669"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-054",
+      "title": "秋夕",
+      "label": "小扇流萤与秋夜双星",
+      "alt": "《秋夕》诗境插画：秋夜的石阶边，宫人手持轻罗扇，抬头望向星河。几只流萤掠过，屏风旁还有一点烛光。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-054-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fd416725e5570a57376e124b7a7c15373d532f6f58f5b543ffaf1f6cd8c689cb"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-054-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 26986,
+          "sha256": "b243f8ec69c17726b3baf774e1ad017416574301884742a3246f97846583bfb6"
+        },
+        {
+          "src": "./illustrations/ts3b-054-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 116020,
+          "sha256": "d0ee0fcf3047a9af0a51a0a7e13c71608aa016072fbb68d9d7820c17a67af6d4"
+        },
+        {
+          "src": "./illustrations/ts3b-054-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 297744,
+          "sha256": "3d139dbd3151025ef5a121130aed2c2959d33eaac6a2c22b30adce09f7ac9f9c"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-055",
+      "title": "将赴吴兴登乐游原一绝",
+      "label": "乐游原上遥望昭陵",
+      "alt": "《将赴吴兴登乐游原一绝》诗境插画：文士登上乐游原，回望淡烟远山。一片孤云停在山上，前路在坡下延伸。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-055-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4572044707a0d529ea072b741533f6717cdc3506d731a4cad08bb57401e216c5"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-055-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 29934,
+          "sha256": "23a76eba9b8993d9dfde75f5f6e824270032978f342874c7bfc4dbb8407d8326"
+        },
+        {
+          "src": "./illustrations/ts3b-055-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 131674,
+          "sha256": "5422a4a263e5f8fe56da57c114d6954f22cbc02c73f9e74cd83a1ccb9f20ee1f"
+        },
+        {
+          "src": "./illustrations/ts3b-055-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 339388,
+          "sha256": "e572156c9704b93cae37767eb096f74f27da86b7c0e9bc5f3ee75a55f06d0649"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-058",
+      "title": "征人怨",
+      "label": "边塞春雪与长河",
+      "alt": "《征人怨》诗境插画：薄雪还留在边塞的草地上。征人牵马立在风中，远处的黄河绕过黑山。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-058-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "536f4fce3e297a8f6105df050bcb16b837f1582c81df1a7954868f3faede870d"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-058-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30344,
+          "sha256": "54fa7899aad46089fa99ef57617537cf4588f73111949f63dbde193430e812b6"
+        },
+        {
+          "src": "./illustrations/ts3b-058-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 129226,
+          "sha256": "300c2d0db5a8d6257cadb545a1a798b3d0f3596e97ad39cbd6ee7948488efafe"
+        },
+        {
+          "src": "./illustrations/ts3b-058-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 326608,
+          "sha256": "b9e08589e554c58876179429bf1a06d2f23f66c2f2e10268e27d2dd2dc9cc023"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-059",
+      "title": "金陵图",
+      "label": "寒云老木满故城",
+      "alt": "《金陵图》诗境插画：寒云压着金陵故城，老树枝干伸向残墙。一段空荡的石阶通向城门。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-059-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4cc206797f87240a02a7839196fc67a5a2ba592c017d3cf68bc4741a5a197ba0"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-059-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32608,
+          "sha256": "29964e69509d6aac914e12146ea216e7cca1d8fd7d040823aff41c5b593b1e8f"
+        },
+        {
+          "src": "./illustrations/ts3b-059-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 134052,
+          "sha256": "9338731a9fd111f04a2f220aa492b77c33cf4c0ce0517019adbbfe31ef647455"
+        },
+        {
+          "src": "./illustrations/ts3b-059-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 347862,
+          "sha256": "47cd3fb5a8003e5be8b4e8f42239e6b46d896a0469523d2f2f26388074d1a889"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-061",
+      "title": "桃花溪",
+      "label": "石矶问渔，落花随水",
+      "alt": "《桃花溪》诗境插画：野烟掩着远处的桥。岸边人向渔船问路，溪水载着桃花瓣流向山间。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-061-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cb098f67ec56d83ba787eca55685a660a6ad74980042e7497b484eba9601e35b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-061-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 44122,
+          "sha256": "5c5dc7754f206d6eb75dfcffe62eec7c35e654af120df9c4ba37fb5d42205e7c"
+        },
+        {
+          "src": "./illustrations/ts3b-061-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 169878,
+          "sha256": "2e884ee3767f13028bee982c4ba5f76f60c9b97a7bdeef3967c278a4af32b785"
+        },
+        {
+          "src": "./illustrations/ts3b-061-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 388338,
+          "sha256": "5b94403e786462657b882ece8b056d5fa3c50098216c0458cf15da0ff9b3df01"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-062",
+      "title": "寄人",
+      "label": "春庭明月照落花",
+      "alt": "《寄人》诗境插画：曲廊与斜栏围着空庭。月光落在春花和石板上，廊下静无人声。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-062-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "647bc5f1e7cdc7d7983100dffac15c624944b75bf42de66ae62a14a39e710018"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-062-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31540,
+          "sha256": "08a5924bca8bafb21bed8419bb9694d2cab1b1c83d9a0ad3f91300cf822bc011"
+        },
+        {
+          "src": "./illustrations/ts3b-062-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 132040,
+          "sha256": "7643a4ea0fab1ab157e49436d10817bf2e9a2d6db8cd9a8adbac8e5cc701644b"
+        },
+        {
+          "src": "./illustrations/ts3b-062-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 348024,
+          "sha256": "f4919d9744012e65d23b61580c2062106ecab4920f633ab219369752ea4fcc3b"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-054",
-    "ts3b-055",
-    "ts3b-058",
-    "ts3b-059",
-    "ts3b-061",
-    "ts3b-062",
     "ts3b-063",
     "ts3b-064",
     "ts3b-065",
