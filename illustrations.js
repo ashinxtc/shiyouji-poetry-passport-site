@@ -10781,6 +10781,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "a09bfd18bc146749072cf33dce5ede8d3af2e3cf8278769d5255ef557c97b822"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-099",
+    "title": "赠孟浩然",
+    "label": "白首卧松云，长揖敬清芬",
+    "alt": "《赠孟浩然》诗境插画：白发隐士在松下休憩。来客在石径上拱手致意，山雾漫过远处松林，近处几枝野花悄然开放。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-099-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "97483f8cd448d63e9e4a5cb6a328414540dc8a219990e9260eb59aa9d6915af9"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-099-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43996,
+        "sha256": "c73a452f79093698488dd3226c09971422941f1978f748dbf7872b55e176d6d6"
+      },
+      {
+        "src": "./illustrations/ts3b-099-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 168120,
+        "sha256": "462ca64a71ccbd3ab60d222c8c35a276cf896e916108ce7aa58d2a7da2cdae7c"
+      },
+      {
+        "src": "./illustrations/ts3b-099-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 394280,
+        "sha256": "fefcecb8c5be258bd85e5c473c213958ca4fb075650e8dfa87d7770b39c9d143"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-102",
+    "title": "喜见外弟又言别",
+    "label": "山道重逢，秋山又别",
+    "alt": "《喜见外弟又言别》诗境插画：两位亲人带着行囊在山道上相认。暮色渐深，远山一重接一重，路还要向前走。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-102-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9e7af2fc03f7070379be49120537ae8cb8d0b58e5663f8301e00822b1df34ea3"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-102-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43504,
+        "sha256": "15f79723c65b8be6078a9dd61b2ea19ee1ed46aaa1432f3c72ed1a631d9d54ca"
+      },
+      {
+        "src": "./illustrations/ts3b-102-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 172312,
+        "sha256": "2e065df25f09a31a99fc64a49511f159bf5460d5c567f8b5125ee0b889750ffe"
+      },
+      {
+        "src": "./illustrations/ts3b-102-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 419988,
+        "sha256": "2ca71d59a22e5e1f96ef69d959c2b6774f48bbf76748dcdd4935cf7e4a916d58"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-103",
+    "title": "凉思",
+    "label": "露满枝，独倚水槛",
+    "alt": "《凉思》诗境插画：客去后，水面平静得贴近栏杆。文士倚栏久立，近枝凝着露水，夜空里只余疏星。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-103-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d7fe99d27545b32e2c55d0f276d7f227a78dbec67d554c774eeeff7ae59656d3"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-103-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 19410,
+        "sha256": "98be8523f29b1e53e50ea0319165df34fd09543dc3ba70db8da4959ae62c066e"
+      },
+      {
+        "src": "./illustrations/ts3b-103-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 83488,
+        "sha256": "9f2236febe25efc18cce2511aefb728a57f72f1653b08a61d11c3fbd46a206f9"
+      },
+      {
+        "src": "./illustrations/ts3b-103-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 234068,
+        "sha256": "217e2f4e4da846b72593462d3c33d43cce7e09e029c876d3cbbfb5c737c033be"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-104",
+    "title": "北青萝",
+    "label": "寒云访孤僧，茅屋听清磬",
+    "alt": "《北青萝》诗境插画：落叶铺在山路上，访客穿过寒云来到茅屋。屋前孤僧轻敲一口小磬，天色刚暗下来。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-104-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "429de64803070917768f43eb835b18f4fb8281f81a93701195533bce7ead2532"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-104-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 41988,
+        "sha256": "bdd0672f4abda343adadfea3d963352005605981418feb9de59d513d39ee3a30"
+      },
+      {
+        "src": "./illustrations/ts3b-104-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 168932,
+        "sha256": "bc5695cdbe3d7c5556287b7ba9b6b18d847f760dc5448d6df295b3bc4743dbae"
+      },
+      {
+        "src": "./illustrations/ts3b-104-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 426164,
+        "sha256": "3ac948ae34d6170ba4131a96482b0ad0eb03b4fe5a4fdd95ccf23699d74d28d6"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-105",
+    "title": "蝉",
+    "label": "五更疏声，一树碧影",
+    "alt": "《蝉》诗境插画：天色将亮，一只蝉伏在高树的枝上，透明的翅收在背后。深绿叶影外，天边刚透出一点晨光。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-105-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9df9f2f428fef77bcbeba385326b40b216b273ab0b2f3fbd70c24bb64778c27b"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-105-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32036,
+        "sha256": "d31d914c34d77bbf8e8868b1bd72a78b809133753bf8e40ee191d2559859ced0"
+      },
+      {
+        "src": "./illustrations/ts3b-105-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115510,
+        "sha256": "6e62b1f099bb31ea02957c9bf8231b7961f4acb6155d7e810c4b01237f5a206a"
+      },
+      {
+        "src": "./illustrations/ts3b-105-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 271642,
+        "sha256": "ed3b77ebce24b2a4c3d55e3f079062c25f74e938f71b4983e2dcf1c2f4a48d5f"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-106",
+    "title": "风雨",
+    "label": "黄叶风雨，旅舍孤影",
+    "alt": "《风雨》诗境插画：风雨卷着黄叶打过旅舍。窗边的旅人望向远处，雨幕另一侧的楼阁还亮着灯。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-106-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1373a90bfad629ad3013e821905c9d6ffbbcf2545c1bde9f97e28c0bd0e72149"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-106-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39632,
+        "sha256": "293a4330b0e39211852753de8f61e4e09841540c114fae8480c0c918b19156bc"
+      },
+      {
+        "src": "./illustrations/ts3b-106-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 159806,
+        "sha256": "e0f18398c4b4f740c3b156a6e18970201fdef284c132aa511a156620b01b908b"
+      },
+      {
+        "src": "./illustrations/ts3b-106-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 393786,
+        "sha256": "bafdd10dc0b4eec84e0251f46dc59789aa7edcf925941bed08e8ec35e745cd49"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));

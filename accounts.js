@@ -1,6 +1,6 @@
-import {apiUrl} from './api.js?v=58';
-import {initialData} from './store.js?v=58';
-import {APP_ID,clone,same,canonical,initialSpace,newProfile,validateSpace,generateCode,normalizeCode,codeHash,mergeSpaces,chooseConflicts,MAX_PROFILES,MAX_PROFILE_RECORDS,isDeleted} from './sync-core.js?v=58';
+import {apiUrl} from './api.js?v=59';
+import {initialData} from './store.js?v=59';
+import {APP_ID,clone,same,canonical,initialSpace,newProfile,validateSpace,generateCode,normalizeCode,codeHash,mergeSpaces,chooseConflicts,MAX_PROFILES,MAX_PROFILE_RECORDS,isDeleted} from './sync-core.js?v=59';
 export const INDEX_KEY='shiyouji.accounts.index.v1',CODES_KEY='shiyouji.accounts.codes.v1',ACTIVE_KEY='shiyouji.accounts.active.v1',PREFIX='shiyouji.accounts.space.v1:';
 export class PoetryAccounts {
   constructor(poemIds,{storage=globalThis.localStorage,session=globalThis.sessionStorage,fetcher=globalThis.fetch.bind(globalThis),onChange=()=>{}}={}){Object.assign(this,{poemIds,storage,session,fetcher,onChange});this.busy=new Set();this.syncTasks=new Map();this.statuses=new Map();this.timers=new Map();this.cache=new Map();this.active=null;}
