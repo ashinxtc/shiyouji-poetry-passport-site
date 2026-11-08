@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 44,
+  "batch": 45,
   "totalPoems": 468,
-  "availableCount": 275,
+  "availableCount": 281,
   "items": [
     {
       "poemId": "tang-001",
@@ -11278,15 +11278,255 @@
           "sha256": "0a48cd4fa2e4f08e592d0642b5397caada66031fad4c6549f1af922a1c9c5615"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-114",
+      "title": "天末怀李白",
+      "label": "凉风起，秋水阔",
+      "alt": "《天末怀李白》诗境插画：凉风吹动岸上的芦苇和衣角。文士望向涨满秋水的江面，远天有几只鸿雁。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-114-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ad8c061967054f50292b536ae2d1d60f2838135d614adb101008731dcb48f6dc"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-114-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30124,
+          "sha256": "40b4dce0e3f7e1df62e10a9e2e2fa1bce3965237c102ccf07a0d2cce033af89a"
+        },
+        {
+          "src": "./illustrations/ts3b-114-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 114224,
+          "sha256": "eb0ccd0bdd4e18c6daf194df5b037529c4ad05c12a291cc015e6edf1723de8db"
+        },
+        {
+          "src": "./illustrations/ts3b-114-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 274872,
+          "sha256": "a299411571828728a3ab363663933f78bca2b199d6aa662bdf8e1708697879d4"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-115",
+      "title": "月夜",
+      "label": "鄜州独望长安月",
+      "alt": "《月夜》诗境插画：月光照进鄜州的院子，母亲站在窗边望月。两个孩子靠在身旁，还不懂她为何久久不回身。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-115-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "25c2555ebf3dd951b87b0f4a2a5c529e43fc24c1f249228d0cdbd3e6e38d5d77"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-115-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23932,
+          "sha256": "25c01dfa6d2e152f45cc6d2ce9e1ac22138cf168e234097ed01c964530a960fa"
+        },
+        {
+          "src": "./illustrations/ts3b-115-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 106912,
+          "sha256": "e6ad9328f77d77ffb9effca7727054604ff666f0afbeecee3677a8b71a3b2db2"
+        },
+        {
+          "src": "./illustrations/ts3b-115-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 287636,
+          "sha256": "729f2a1b3269b5a4a02f84a3688a68afe2a17beabeccb7837df048aaa3ecb2ea"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-117",
+      "title": "春宿左省",
+      "label": "春夜值宿，明朝有封事",
+      "alt": "《春宿左省》诗境插画：花枝掩着宫墙，归鸟飞过檐角。一位官员在值房守夜，案边放着待呈的封卷。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-117-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "85c2c5d8e97c60b200efdf4c2f90154faa11d365836a3dc666e089cfb0155308"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-117-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30326,
+          "sha256": "f62c71f6bd1e6a16735ace1d2b92c50bcb48290e9a7c05560b8a950ca084cd50"
+        },
+        {
+          "src": "./illustrations/ts3b-117-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 130314,
+          "sha256": "3e66cf55e31aeb3f704a520c61cc7f5552c093cd2fe8cff0b65929689d9b0db8"
+        },
+        {
+          "src": "./illustrations/ts3b-117-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 337612,
+          "sha256": "cf65ed43be743318ae5774e4a23eed07bd670c75ad8e0127f3580ca28b314246"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-118",
+      "title": "旅宿",
+      "label": "寒灯未眠，江门系舟",
+      "alt": "《旅宿》诗境插画：旅人独坐在寒灯旁。窗外的江面笼着薄雾，门前系着一只渔船，远处飞过一只离群的雁。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-118-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cae8ce0d45ab7e6a7ee34c784a6c6ad876160d8b674d375162e7d4c517bb422c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-118-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19910,
+          "sha256": "f8f8efc1215dfe9f62127981694aaaac3d53d66f6b24b19f68de16a4a6cee577"
+        },
+        {
+          "src": "./illustrations/ts3b-118-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 83238,
+          "sha256": "c750b83a31a7e9a8d0e6e6ca50106bb691d280ea89cebdd1e41a8e95f85d3f61"
+        },
+        {
+          "src": "./illustrations/ts3b-118-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 214520,
+          "sha256": "641538c4acfb411f79a2500844122086aafbd1a5535aa5402cdf7f9b7f714f72"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-119",
+      "title": "春宫怨",
+      "label": "临镜慵妆，忆越溪莲",
+      "alt": "《春宫怨》诗境插画：宫人坐在铜镜前，手垂在妆具旁。日光照出浓浓花影，门外一朵荷花让人想起越溪。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-119-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8713186275fd96934dcb694bfd8cd54f578e1bb068221c7e1048931ed3125da9"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-119-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30372,
+          "sha256": "aa14caea428fe6b24a36e62537b8ff765a3695389b82b73c05ae60b4e88161b5"
+        },
+        {
+          "src": "./illustrations/ts3b-119-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 106900,
+          "sha256": "b26c01c592931824db8c8af21a653383cf6a6ae315e3e29cc252fbabc1837624"
+        },
+        {
+          "src": "./illustrations/ts3b-119-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 242938,
+          "sha256": "f50773ee1994c292f60410ee1eab834e0dc8224739c96ad2937de2e5dc915c8c"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-120",
+      "title": "和晋陵陆丞早春游望",
+      "label": "江海初曙，梅柳先春",
+      "alt": "《和晋陵陆丞早春游望》诗境插画：曙色从开阔的水天交界处亮起，江边白梅初开、柳梢泛绿。行人立在堤上，一只黄鸟停在柳枝上。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-120-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ea60387aea89ce3f12d27dacdd679a38e522606cf6bd045adcc9c66059b0a0db"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-120-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 34750,
+          "sha256": "50aa58934f179eb87900fa679103f603a86a087d189cf3cf3d65fff68901800c"
+        },
+        {
+          "src": "./illustrations/ts3b-120-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 130398,
+          "sha256": "62dde14f9bdb6e93a9ccdaab676e1f1886419b67f932fe2d1b84fbc154a5b0f2"
+        },
+        {
+          "src": "./illustrations/ts3b-120-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 309070,
+          "sha256": "6f23b83916861972310c05629869d40f1c46516ccc5066ee9494b69f3b63d0fc"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-114",
-    "ts3b-115",
-    "ts3b-117",
-    "ts3b-118",
-    "ts3b-119",
-    "ts3b-120",
     "ts3b-121",
     "ts3b-122",
     "ts3b-123",
