@@ -1,8 +1,8 @@
-import {apiUrl} from './api.js?v=61';
-import {VoiceSession,voiceCapabilities} from './voice.js?v=61';
-import {compareRecitation} from './recitation.js?v=61';
-import {comparePoemRecitation} from './recitation-heading.js?v=61';
-import {HEADING_FIELDS,headingRequirements,headingMetadata,headingLabels} from './recitation-options.js?v=61';
+import {apiUrl} from './api.js?v=62';
+import {VoiceSession,voiceCapabilities} from './voice.js?v=62';
+import {compareRecitation} from './recitation.js?v=62';
+import {comparePoemRecitation} from './recitation-heading.js?v=62';
+import {HEADING_FIELDS,headingRequirements,headingMetadata,headingLabels} from './recitation-options.js?v=62';
 
 export function headingOptionControls(poem,requirements,escape){
   const meta=headingMetadata(poem),checked=headingRequirements(requirements),missing=HEADING_FIELDS.filter(f=>!meta[f.key].text);

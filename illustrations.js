@@ -11519,6 +11519,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "6f23b83916861972310c05629869d40f1c46516ccc5066ee9494b69f3b63d0fc"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-121",
+    "title": "杂诗三首·其三",
+    "label": "戍营明月，遥念家中",
+    "alt": "《杂诗三首·其三》诗境插画：一名戍卒从土垒边抬头望月。身后是几顶营帐，远处的山影融在夜色里。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-121-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "293310c2993fa35bbb691d4a22b542ec094491d4f157faf481ef4b31504b29b7"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-121-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24200,
+        "sha256": "9bdcc4cfb928f8b3c6a5fe91809fb2dcaab5d11d7a0addaa989bb4a2b4edfba2"
+      },
+      {
+        "src": "./illustrations/ts3b-121-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 114176,
+        "sha256": "f5612b40f5b7011692263d15d617d74d3450b38b62d4211d73b4910668f7318d"
+      },
+      {
+        "src": "./illustrations/ts3b-121-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 320428,
+        "sha256": "f3d6d0f766f539237749debdf7cfe45dd55de6ef9404cbbf23a60cbb93a86a37"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-122",
+    "title": "宿桐庐江寄广陵旧游",
+    "label": "夜流急，月照一孤舟",
+    "alt": "《宿桐庐江寄广陵旧游》诗境插画：两岸山林已入暮色，风吹动江边树叶。月光落在一叶孤舟上，舟旁江流正急。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-122-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f16b0a9c7fc38a7a88937b334a8806fee947d65ad06ea06aa3f07958a42bd39f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-122-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37714,
+        "sha256": "b31366fc872194ed0e5e4a3a7cfe44e056231330da1e2b0f6f4336596c664042"
+      },
+      {
+        "src": "./illustrations/ts3b-122-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 152736,
+        "sha256": "7d4a1067f7a76942c6f334e5746bb6356bfc9a65bbdff87fe180993cf23662f9"
+      },
+      {
+        "src": "./illustrations/ts3b-122-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 371124,
+        "sha256": "66e0a518f4191ef441af1818fc25d823f9a459d0b4e53f9d7f696b4cb5a1dec4"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-123",
+    "title": "留别王维",
+    "label": "芳草去路，故人留别",
+    "alt": "《留别王维》诗境插画：两位朋友在木门外拱手作别。一人负着行囊，脚下的小径穿过一片春草。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-123-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f7e3f566e54d0457829313a0749048e53429817ad339d8a42237f5523580987a"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-123-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28844,
+        "sha256": "72119668f46efe47bbce4c717d94904ae3b3c6e93ec787cda2f34d0911532e45"
+      },
+      {
+        "src": "./illustrations/ts3b-123-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 116842,
+        "sha256": "8238a67d5f1ad8f5579e52e871629cdf3ea6e7adc87fbf538aac7094e96d977b"
+      },
+      {
+        "src": "./illustrations/ts3b-123-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 287572,
+        "sha256": "52fad998230b3b140aa91b3565df3bcfd8866d2f5bcfc6aad7b51a3d49b192b7"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-124",
+    "title": "早寒有怀",
+    "label": "雁过落木，天际孤帆",
+    "alt": "《早寒有怀》诗境插画：北风吹过江岸，枯叶飘落，雁阵南飞。旅人站在渡口，遥望夕色里的孤帆。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-124-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "09d0df4012a24beff13af57b041c2ba3b4529b527f069f9c54af5142d56d50f3"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-124-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22482,
+        "sha256": "fe711b628195f4b77ba95a140a398e4650b5bc6627794431293727efc9c8f13c"
+      },
+      {
+        "src": "./illustrations/ts3b-124-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 91764,
+        "sha256": "2fcd0b6163c37390130152d02b75ed781cb298c63a93e0d39797e2e45454afef"
+      },
+      {
+        "src": "./illustrations/ts3b-124-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 230288,
+        "sha256": "a72cbf41889e6da01e7248a03b031960631e7b1d6a86f64b9ed5c45cd23a2016"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-125",
+    "title": "岁暮归南山",
+    "label": "松月照空窗",
+    "alt": "《岁暮归南山》诗境插画：白发文士独坐在归隐后的旧屋里。松枝横过窗外，岁暮的月光斜照着空窗和旧案。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-125-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9a650af3f1579802d739991d4ba5c3a34af07be2d451eabadc27018fe12d122f"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-125-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21038,
+        "sha256": "e96d8aba7346a3b7afb5750b58b67a0a19a3a3320c3619b5639b54bbfae2d6ea"
+      },
+      {
+        "src": "./illustrations/ts3b-125-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 99066,
+        "sha256": "8ac329aa580bc5ce97c31a0aca1b44c9a9f471c77bfbc696d250025eaf6bd917"
+      },
+      {
+        "src": "./illustrations/ts3b-125-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 269678,
+        "sha256": "ec47d056106dd4f327883ab5185f493095a37be8c513793a610e6862e914eac6"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-127",
+    "title": "秦中寄远上人",
+    "label": "日夕凉风，闻蝉思远",
+    "alt": "《秦中寄远上人》诗境插画：傍晚的风拂过秦中的小院，蝉伏在树枝上。文士独坐门边，身旁是一束柴和将熄的炭火。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-127-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6aecd422b88cc35558572b043b17cc2271c5d10056439983788454db0bf19295"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-127-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 36664,
+        "sha256": "5eb371d1a8475842aa4b52f7e9d114d2ab961fd68b14653e9eb23c83082f0613"
+      },
+      {
+        "src": "./illustrations/ts3b-127-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 125902,
+        "sha256": "270cc7350e11488d09a6df3c96b33aa44687a94949d55d135c59ba839764ccbf"
+      },
+      {
+        "src": "./illustrations/ts3b-127-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 276376,
+        "sha256": "d121524c24bfeb7ca0a08cf10d81890bcd22eac217924d4b4b61ca1813232682"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
