@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 43,
+  "batch": 44,
   "totalPoems": 468,
-  "availableCount": 269,
+  "availableCount": 275,
   "items": [
     {
       "poemId": "tang-001",
@@ -11032,15 +11032,255 @@
           "sha256": "bafdd10dc0b4eec84e0251f46dc59789aa7edcf925941bed08e8ec35e745cd49"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-107",
+      "title": "落花",
+      "label": "客去高阁，斜晖送花",
+      "alt": "《落花》诗境插画：客人已去，高阁外的小园落花纷飞。曲径延向夕阳，一片花瓣落在倚栏人的衣袖上。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-107-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a925ea305356612334dd6a1e5cae698360b76fb291db27a6cb1f5651d64b4381"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-107-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31020,
+          "sha256": "a01c179b04d9a0ee3b71fceda5ffcafab3646feaec4144730629b75965ec96f6"
+        },
+        {
+          "src": "./illustrations/ts3b-107-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 123350,
+          "sha256": "f76e1533b8abfacbfa2a7fb5f7aca14bd080af5638576e5700b6fed04717b109"
+        },
+        {
+          "src": "./illustrations/ts3b-107-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 313960,
+          "sha256": "cc7ed8e61b9371a5f1faabfb8c10785c3a4840b0679be4354b7183f196ff1612"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-108",
+      "title": "登岳阳楼",
+      "label": "凭轩望洞庭，浩水一孤舟",
+      "alt": "《登岳阳楼》诗境插画：白发诗人凭栏远望，洞庭水铺到天边。近楼水面只有一叶小舟。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-108-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "24e063a11f6bc6494fac5cc072cbe1ec7bb12230b721eb50866d073ffdb8f844"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-108-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 22030,
+          "sha256": "a93a5b9cf065a80ae63d9cbe37c0585712dba001d8448d6c10a87c49edd38fdf"
+        },
+        {
+          "src": "./illustrations/ts3b-108-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 87902,
+          "sha256": "e17651beb841266b790c169a02a4d265a35d8c7ea2df07c953098bf27e58d6a0"
+        },
+        {
+          "src": "./illustrations/ts3b-108-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 210550,
+          "sha256": "2b8a86fa84befbb60a3adf206fb5f475aab736f205046017741dfb5e1ea317dc"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-109",
+      "title": "奉济驿重送严公四韵",
+      "label": "驿外长揖，青山又别",
+      "alt": "《奉济驿重送严公四韵》诗境插画：奉济驿外，两人在岔路前拱手道别。随从牵马等在一旁，远处江边隐约可见村舍。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-109-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2efe88e93300d6335594a200a23f56130c875883ceeec32b6252e944e90d1c5e"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-109-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 39430,
+          "sha256": "044e2617321124de11e4227d0b9f203e18166c0e8821080437662e47c46321de"
+        },
+        {
+          "src": "./illustrations/ts3b-109-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 154688,
+          "sha256": "58ab97a60f07c401d011495de7f4ff6959282a7f2ad17fafa374ea79e6c76214"
+        },
+        {
+          "src": "./illustrations/ts3b-109-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 362414,
+          "sha256": "e2c501d2f2d4a4e4646a7a8a67ca227759b2920496984b02c0b270632711b7c7"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-110",
+      "title": "别房太尉墓",
+      "label": "驻马别孤坟，林花随风落",
+      "alt": "《别房太尉墓》诗境插画：诗人下马立在友人的孤坟前。低云掠过林梢，花瓣落下，枝头传来莺声。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-110-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8dc27a6f808585c287535b87fa47b28019b5f130d35fc675e0e6379e4ab34f0b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-110-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 43166,
+          "sha256": "ae5d8c14e0a1cc4e12e6f4e1ef0cf8da639e0ad101f9a4dc27a44addd51548ff"
+        },
+        {
+          "src": "./illustrations/ts3b-110-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 160938,
+          "sha256": "ab9629bf1f01e57c6079947734e8476de219da8c8d86eab9ecc759774eeacb38"
+        },
+        {
+          "src": "./illustrations/ts3b-110-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 373734,
+          "sha256": "f344ce6277a3a5cce4b177288f0139492b428a1d7645bfb8fe8a7be9fc77e2c8"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-111",
+      "title": "旅夜书怀",
+      "label": "星垂平野，月涌大江",
+      "alt": "《旅夜书怀》诗境插画：微风吹动岸边细草，孤舟的高桅立在夜色里。星光低垂，江浪托着月影，一只沙鸥掠水而过。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-111-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f93d694a5f35572d4fafaba9d1f7fd1eec0fc6b17f323cdaa66b3146703cb63"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-111-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23172,
+          "sha256": "e91c2b288ae3ca1a59c8b392c6728a00e6695f69553e4149ad7655fe907329f8"
+        },
+        {
+          "src": "./illustrations/ts3b-111-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 97898,
+          "sha256": "49f01dd42b86b4d4e358c616fd578848e9c834f5bd62847ca99e75bd76bbb0d6"
+        },
+        {
+          "src": "./illustrations/ts3b-111-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 255074,
+          "sha256": "9b73cb9e1117f96c6a6f5cf8ae5c0672df1904901693047a42dcd8d6c457937e"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-112",
+      "title": "至德二载甫自京金光门",
+      "label": "驻马回望千门",
+      "alt": "《至德二载甫自京金光门》诗境插画：旅人勒马回望长安。城楼后屋瓦相接，西郊的土路从脚下伸向远方。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-112-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "64546d48d73ce95b76354ce93298b0751cf7fd5c2067ccc093f19534dd7a0649"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-112-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 37884,
+          "sha256": "c133ced15ab41cf5cc682bdd9a3e39bb4b79d09435b4de506580d17c100f6956"
+        },
+        {
+          "src": "./illustrations/ts3b-112-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 151910,
+          "sha256": "86438382091b3f65d49e844fc81b28e43e9675e59327c7a456538221e37d544a"
+        },
+        {
+          "src": "./illustrations/ts3b-112-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 377918,
+          "sha256": "0a48cd4fa2e4f08e592d0642b5397caada66031fad4c6549f1af922a1c9c5615"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-107",
-    "ts3b-108",
-    "ts3b-109",
-    "ts3b-110",
-    "ts3b-111",
-    "ts3b-112",
     "ts3b-114",
     "ts3b-115",
     "ts3b-117",
