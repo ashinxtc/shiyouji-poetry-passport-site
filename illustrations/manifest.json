@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 46,
+  "batch": 47,
   "totalPoems": 468,
-  "availableCount": 287,
+  "availableCount": 293,
   "items": [
     {
       "poemId": "tang-001",
@@ -11770,15 +11770,255 @@
           "sha256": "d121524c24bfeb7ca0a08cf10d81890bcd22eac217924d4b4b61ca1813232682"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-129",
+      "title": "与诸子登岘山",
+      "label": "登岘山，读羊公碑",
+      "alt": "《与诸子登岘山》诗境插画：几位文士登上岘山，在旧石碑前停步。远处江水退落，露出一带浅滩。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-129-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b7030e4ecf07c81edea256fb108044340bb882657e04349326b9e8aeb8a116eb"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-129-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 39712,
+          "sha256": "6d5e1588b27cbe2c6e99c81a013d0bb94ddac6f5d768e07e748856a426e68fea"
+        },
+        {
+          "src": "./illustrations/ts3b-129-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 159400,
+          "sha256": "f95d0771a889fe5423c80aa3125c832672875b73cfa59f2d8b6cdbf1cd1ab75b"
+        },
+        {
+          "src": "./illustrations/ts3b-129-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 376696,
+          "sha256": "0695a05f5371c23815bb260edb7d9fc441eb60a10bb9076f7b455e0722ad6b40"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-130",
+      "title": "宴梅道士山房",
+      "label": "桃花初开，山房迎客",
+      "alt": "《宴梅道士山房》诗境插画：山房旁的桃花正开，一只青鸟停在枝头。道士在门前迎客，屋里小灶刚生火。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-130-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d8bd40d3d428c080b176bbed20e97c7c1b677113e52116ac15d84d59d6a68194"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-130-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51596,
+          "sha256": "2263cda3b88d031ed75c77c83472adf8c16605c2ea8accac1e4e35bbe51c3b63"
+        },
+        {
+          "src": "./illustrations/ts3b-130-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 195992,
+          "sha256": "a1132c06c68881fe4fa35e5f24b4c9bad35d81f765c06d43ff38a4e204e66ed6"
+        },
+        {
+          "src": "./illustrations/ts3b-130-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 459846,
+          "sha256": "08ebe74350f57f9e33f515e1c65da5c3c47195966ff86a56977b819f6d1de919"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-131",
+      "title": "章台夜思",
+      "label": "孤灯清瑟，残月雁归",
+      "alt": "《章台夜思》诗境插画：孤灯照着瑟弦，一封家书搁在窗边。窗外残月西斜，几只秋雁飞过湿漉漉的屋檐。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-131-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "440db09224eb1a257fc6ac3126be9aece4d4772477c0b9dfd639712a1efec16b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-131-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30944,
+          "sha256": "3424f4130feadfbff0dd3c9ef40a045ac5e41285126e510a56c529588d7c1652"
+        },
+        {
+          "src": "./illustrations/ts3b-131-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 119044,
+          "sha256": "af26884ec45b4db4e996718f236e699bd3012d5607e9e429fad141ca9d640a71"
+        },
+        {
+          "src": "./illustrations/ts3b-131-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 295074,
+          "sha256": "fa3b9921718af6332073b138d245c0407d557a7d1a1eea4648ea0abbbb3401fb"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-132",
+      "title": "淮上喜会梁州故人",
+      "label": "流水十年，欢笑如旧",
+      "alt": "《淮上喜会梁州故人》诗境插画：两位鬓发已斑的故友在淮水边相逢，笑着伸手相迎。秋山和流水都在他们身后。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-132-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "96c5b96a2030b4ceaca91032c17e4f911ec6db56df3f4fe7940bd8514f3070e0"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-132-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36302,
+          "sha256": "56653b4c0c43e64460094f5d6207509b8f49668b0db245adbd8005557bd4f820"
+        },
+        {
+          "src": "./illustrations/ts3b-132-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 133118,
+          "sha256": "68db46126e17cbfb4dfb893ef4d13fae3fd3ced5ba28ae666f110ad10ba7424f"
+        },
+        {
+          "src": "./illustrations/ts3b-132-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 323896,
+          "sha256": "8cb79a8d9d63c98e23244ae446e07a9ff2fbe3c90d75075c40043f02c565dbb3"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-133",
+      "title": "赋得暮雨送李曹",
+      "label": "楚江暮雨，帆重鸟迟",
+      "alt": "《赋得暮雨送李曹》诗境插画：暮雨打湿江帆，舟旁一只鸟贴水飞过。岸边送行的人立在雨里，远树已融进雾中。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-133-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fd6fb78b98fe3f42499310cea0fdfc55dace4c3d2080a963a29e26d171dfb57c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-133-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 25902,
+          "sha256": "2107becdd530e6a2f997d5a42a95d0d7ee21f6204235fdb1ae7482f3dc1bdbad"
+        },
+        {
+          "src": "./illustrations/ts3b-133-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 104702,
+          "sha256": "916468c1fb782ddc89ecaf158fbe24bb21d11c610cc97681fc2e50f76ea35944"
+        },
+        {
+          "src": "./illustrations/ts3b-133-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 245958,
+          "sha256": "30f3d5752140fbf349930dc4bc00501e321437a7d2277b84e7e6e9424c8130ba"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-134",
+      "title": "经邹鲁祭孔子而叹之",
+      "label": "两楹之间，静陈祭奠",
+      "alt": "《经邹鲁祭孔子而叹之》诗境插画：旧堂两根木柱之间摆着祭案，案上陈着礼器。来者在阶前肃立，堂内一片安静。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-134-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a56ce05b86ad8cded032f106ac6dd5f05420530ce30c147e589a071af05a70b1"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-134-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 34446,
+          "sha256": "e3d4df9116a6ac1264237bc63962313c01e5145361d80cd90d71e5de966a7a02"
+        },
+        {
+          "src": "./illustrations/ts3b-134-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 133760,
+          "sha256": "85991aa58a7db7c8c17b11990dcdfe62acb354f38a4f4b440f31779313e5d039"
+        },
+        {
+          "src": "./illustrations/ts3b-134-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 319606,
+          "sha256": "068fcb52e02cf7b4ecd36b87f54693507efe67e8099285d7fd60c65b335dc66a"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-129",
-    "ts3b-130",
-    "ts3b-131",
-    "ts3b-132",
-    "ts3b-133",
-    "ts3b-134",
     "ts3b-135",
     "ts3b-136",
     "ts3b-137",
