@@ -12011,6 +12011,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "068fcb52e02cf7b4ecd36b87f54693507efe67e8099285d7fd60c65b335dc66a"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-135",
+    "title": "灞上秋居",
+    "label": "雨歇空园，寒灯独坐",
+    "alt": "《灞上秋居》诗境插画：灞原的风雨停了，雁群飞过暮空。空院落叶湿润，窗内一人守着一盏寒灯。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-135-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "24dd6d165cb3867a2751fc97bf50f44352d369eee0e05f143232c6203fc5d452"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-135-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 41656,
+        "sha256": "06c91329830d9b00c99bc589a8daea2a7ad9de483fb816e22183735f071ab070"
+      },
+      {
+        "src": "./illustrations/ts3b-135-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 161250,
+        "sha256": "595ca40fd4957c72073d06e50e548e647b3c81c6f680773d5e632acf39a1abde"
+      },
+      {
+        "src": "./illustrations/ts3b-135-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 385220,
+        "sha256": "d223924d69b6cd7879ad81f21e460c60d285b0c528290b4aa9b334bc5385863a"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-136",
+    "title": "楚江怀古三首·其一",
+    "label": "广泽生明月，苍山夹乱流",
+    "alt": "《楚江怀古三首·其一》诗境插画：诗人坐在木舟上，湖面刚升起明月。远处苍山之间，江流推开一层层波纹。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-136-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2f8ecc1abb6285cc7fedc9473016342a32e9d3afbcd47eb22a70b1f3967dbc17"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-136-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28318,
+        "sha256": "9fc3368c044be25b3428faf0c027073073b7c20b49d8e4dcc12b8098d60bb540"
+      },
+      {
+        "src": "./illustrations/ts3b-136-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 109876,
+        "sha256": "b7a6607c9f59251fa063b04e0ac8874c29ffbd8fb0475bda5420600ab196a50e"
+      },
+      {
+        "src": "./illustrations/ts3b-136-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 249642,
+        "sha256": "7212be0c898ac970ad9a3ea140f9474e2c86d2f8b4a9bdc6b585d8f389b64112"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-137",
+    "title": "除夜有怀",
+    "label": "乱山残雪，异乡孤烛",
+    "alt": "《除夜有怀》诗境插画：岁除夜，山坡上还留着残雪。旅人独坐窗前，桌边一支蜡烛照着他的行囊。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-137-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a8d5f5cf79d8a61fc1890ff1d7e94ff324fd2fa7a16d44b0bfcc2fdc77993a20"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-137-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23856,
+        "sha256": "a8c1be0a4edc7567e72a2622d14a05db68acbd4139c22773d7283120a4dd83ae"
+      },
+      {
+        "src": "./illustrations/ts3b-137-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 95076,
+        "sha256": "c096610c2b5aea432b1c9eb1e17589deabb76e5f971129991f3ec66c26c97676"
+      },
+      {
+        "src": "./illustrations/ts3b-137-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 246368,
+        "sha256": "43b05853e186dbbb289bb334c578ec24fcab00bc535d3f007306ba23f307393d"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-138",
+    "title": "孤雁",
+    "label": "暮雨失群，欲下寒塘",
+    "alt": "《孤雁》诗境插画：孤雁掠过寒塘，脚已微微放低，仍在空中迟疑。低云压着沙洲，暮雨将水面打得微皱。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-138-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ceadcf55e58a20836bcb7a9cc4fbe2396c37bc7cc56d093d7c37374995763637"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-138-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13448,
+        "sha256": "e32a793dff64bd738c915edd639a7f58adf11dfd4274b49763c6fa1f93f7b04c"
+      },
+      {
+        "src": "./illustrations/ts3b-138-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 71586,
+        "sha256": "400ae9a846a4fca58e4d350ce657f972923af73a5d5b8c175ed1090c82498fbc"
+      },
+      {
+        "src": "./illustrations/ts3b-138-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 206766,
+        "sha256": "00114e8696a91d25b4eeaeae524a5566360c246d3c1c6104582a6b9539e492c1"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-140",
+    "title": "望月怀远",
+    "label": "海上生明月，天涯共此时",
+    "alt": "《望月怀远》诗境插画：一轮明月从海面升起。披衣的人坐在石岸上，月光沿着水波铺过来。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-140-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d83a9be9af9b74370441ff2b7a61f80c4be4f23ec2f23062956e07bebe399c76"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-140-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16068,
+        "sha256": "53fcd47673eda6ab4c4ab7fef2d863d71d733239d672b96b2d7fbbc4a4e8b7a6"
+      },
+      {
+        "src": "./illustrations/ts3b-140-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 71862,
+        "sha256": "f9d013317cb0061131f2920617772d562825405c8c4fe6629b07491885f746e8"
+      },
+      {
+        "src": "./illustrations/ts3b-140-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 209698,
+        "sha256": "0be8fa7a9664870f9f7150aee02f6e5c311093fc6e75a7661d5f453ba5540be6"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-141",
+    "title": "书边事",
+    "label": "戍楼秋角，边水向南",
+    "alt": "《书边事》诗境插画：夕阳落在边地，征人倚着戍楼。楼下土路仍有客商经过，远处河水绕向旷野。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-141-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9fe9286941267811f9d14227e090866cd4e7c6ec3fa9e565ae5763021f8dd34c"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-141-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37730,
+        "sha256": "afdfb97367f2e91d09536504929667bd2f05fac1c2404b5795883d38115ed3fa"
+      },
+      {
+        "src": "./illustrations/ts3b-141-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 159476,
+        "sha256": "d1fcfdd69976988ccd6d62401ee9ff92e27d5dcc47ff3aba1c828c662c863b09"
+      },
+      {
+        "src": "./illustrations/ts3b-141-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 404928,
+        "sha256": "652b092441b54ac5e68590372af74f04c1385855ca7b4f341fbb63621eb4bfaf"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
