@@ -10535,6 +10535,252 @@ export const POEM_ILLUSTRATIONS=[
         "sha256": "242c758d94ddbfbdedfd99a0da3530bcd129cfefad849d72e5856b0c7cbaaf01"
       }
     ]
+  },
+  {
+    "poemId": "ts3b-093",
+    "title": "贼平后送人北归",
+    "label": "晓月照残垒，故人独北归",
+    "alt": "《贼平后送人北归》诗境插画：天将破晓，白发旅人沿旧关外的小路独自北行。残垒边，一只寒鸟停在枯草上，远山渐露青色。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-093-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "75bfeacf2a49c522af979424e5b96272b41ffa9be32b6e823a54509802ba88fc"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-093-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34648,
+        "sha256": "cbf85cb8c731ed612b53123eabeb10cc810796f53acf13b94d37288402067094"
+      },
+      {
+        "src": "./illustrations/ts3b-093-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 140650,
+        "sha256": "b59b49e355dcfb08ee1c6cefcdc0a169ec130dad6732b28c2916f761a99c92a2"
+      },
+      {
+        "src": "./illustrations/ts3b-093-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 340860,
+        "sha256": "03d62dfc8e7feef88b7cc63d36d03e99d43ee7e79259ab584b08838f63a1f5db"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-094",
+    "title": "赋得古原草送别",
+    "label": "古道晴翠，春草送别",
+    "alt": "《赋得古原草送别》诗境插画：春草漫到古道边，晴翠接着远处的荒城。两人在路口惜别，去路伸向草原深处。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-094-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6b7cc5afe8afd5174dc22680740f42d582f98db8bcd38972e6e84652d665621b"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-094-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39134,
+        "sha256": "c7a175d2926b3b6158cb09d0dd46dface09b48ee405c69c0a96e841f191bd3cb"
+      },
+      {
+        "src": "./illustrations/ts3b-094-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 155972,
+        "sha256": "19cd9b93918f768ab77ff95f44eda2df8e54c8d319434069e3678d7ca93b49eb"
+      },
+      {
+        "src": "./illustrations/ts3b-094-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 361348,
+        "sha256": "7c596732ba35271544bdb85e669be408663e5f2f8a877aca95b70cce5f4c51b7"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-095",
+    "title": "题大庾岭北驿",
+    "label": "南飞雁过岭，驿边梅初开",
+    "alt": "《题大庾岭北驿》诗境插画：旅人立在岭北驿舍旁，抬头望见雁群。山下潮落江静，雾林前已有一枝梅花。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-095-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5a63f9ecd6f3bf24d0a844ce3df58d2a5eb520ff77fa734a3af226a9cf1e63f5"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-095-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31926,
+        "sha256": "9c4a7b2af9d0be6ea1053c059bb23da61e212adc4a864268faeba0f5c211cd63"
+      },
+      {
+        "src": "./illustrations/ts3b-095-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 121408,
+        "sha256": "1cc076609439638c356d18ca83c36febac93dc532c5bd22b5f149a83723cd981"
+      },
+      {
+        "src": "./illustrations/ts3b-095-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 285644,
+        "sha256": "1507e040903ac75b66b57131e9d7e1e2305d4c9118cc9ec6a78f3eb65a0d8db0"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-096",
+    "title": "寄左省杜拾遗",
+    "label": "丹陛分行，暮归花落",
+    "alt": "《寄左省杜拾遗》诗境插画：两位朝臣并肩走下殿阶。石阶上零落着花瓣，檐外一只鸟飞入远空。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-096-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e7e2ed5ac26f3a430262737ad0bf8c30c898165511af261bb92214ca789922c6"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-096-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28374,
+        "sha256": "93562e149649861bc8755c2351442a25c286ab1f09e8e5c0d3edc14601e11323"
+      },
+      {
+        "src": "./illustrations/ts3b-096-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 114420,
+        "sha256": "624999d2848ecc6c13d412ef9846e0c1f123845b231fa09b31ea7faac0f24dc1"
+      },
+      {
+        "src": "./illustrations/ts3b-096-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 272070,
+        "sha256": "2ae94a3634243eaa1424565d47ebb847be0ed44e02a46b41623316ec8a9c4c15"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-097",
+    "title": "听蜀僧浚弹琴",
+    "label": "蜀僧挥弦，万壑松响",
+    "alt": "《听蜀僧浚弹琴》诗境插画：蜀僧在山间拨动古琴，来客静坐听琴。溪水穿过松林，远处暮云渐浓。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-097-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d9b871432683e396d7e720f7d690369ecf0bfdf1db922fc9ef8e01424f1de741"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-097-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44974,
+        "sha256": "ffdd2907715a20aca0418c2675d8d90147bf6376cc290156711263c33a53508d"
+      },
+      {
+        "src": "./illustrations/ts3b-097-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 174234,
+        "sha256": "7ffcaaabf58b37a16286b86b6b324e36e3d993263717c2a114e04a288e658451"
+      },
+      {
+        "src": "./illustrations/ts3b-097-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 419208,
+        "sha256": "1a035b15beeeac31b72a6c255100b0f6f014c43b200730048b49410b6391d4f4"
+      }
+    ]
+  },
+  {
+    "poemId": "ts3b-098",
+    "title": "夜泊牛渚怀古",
+    "label": "秋月夜泊，枫叶将落",
+    "alt": "《夜泊牛渚怀古》诗境插画：舟泊牛渚，旅人站在船头望秋月。近岸的枫叶掠过江面，远天没有一片云。",
+    "aiGenerated": true,
+    "generationMode": "built-in image_gen",
+    "model": null,
+    "missingFields": [
+      "model"
+    ],
+    "original": {
+      "path": "assets/illustrations/originals/ts3b-098-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "369fe4bcfbfcce4987aec62fb4eec1da50783fcd653111c919a683e1c17c4e37"
+    },
+    "variants": [
+      {
+        "src": "./illustrations/ts3b-098-v1-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 20232,
+        "sha256": "92f15db8a2e04b41b5364d8751d199e86bb7bb3f1de804af9f273bc553ab3043"
+      },
+      {
+        "src": "./illustrations/ts3b-098-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 77350,
+        "sha256": "23ec5dc16c8302a7d50ec4da82648ce8769195d63d7f04873f5c2b6f84538d45"
+      },
+      {
+        "src": "./illustrations/ts3b-098-v1-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 197968,
+        "sha256": "a09bfd18bc146749072cf33dce5ede8d3af2e3cf8278769d5255ef557c97b822"
+      }
+    ]
   }
 ];
 const byId=new Map(POEM_ILLUSTRATIONS.map(item=>[item.poemId,item]));
