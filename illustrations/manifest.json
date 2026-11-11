@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 49,
+  "batch": 50,
   "totalPoems": 468,
-  "availableCount": 305,
+  "availableCount": 311,
   "items": [
     {
       "poemId": "tang-001",
@@ -12508,15 +12508,255 @@
           "sha256": "3514d83454cfe2429393829beeb7b5b5630920c1fde354d239829cc724547a8d"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-148",
+      "title": "新年作",
+      "label": "新岁江柳，羁客思乡",
+      "alt": "《新年作》诗境插画：江边柳枝初绿，远岭还笼在风烟里。白发旅人立在江岸，望着水天相接处。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-148-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c246b6ecee9ae215ac8d5b1e9f001cec300de147046aade0d2ac00a63d126acd"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-148-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 36800,
+          "sha256": "57ac6c11e5012e1c996b6ccbf6fcac37a328583b457aa8818c77b66dde7667db"
+        },
+        {
+          "src": "./illustrations/ts3b-148-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 137014,
+          "sha256": "54a43f65d9fafed8a74dfdfca2d16919f33e4d548c85ee75de5a477dbe29930e"
+        },
+        {
+          "src": "./illustrations/ts3b-148-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 309822,
+          "sha256": "c42a9f96cbad106f58268d7418bb9f149786e4ab2ded81f4280fd2cb8f847d67"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-149",
+      "title": "秋日登吴公台上寺远眺",
+      "label": "古台夕阳，云峰隔水",
+      "alt": "《秋日登吴公台上寺远眺》诗境插画：夕阳落在古台旧垒上。野寺的檐角隐在空林里，隔江云峰一层比一层淡。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-149-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "90da2d1cc04b23430e44d0e5a65449f363e47ca652c4aa27f19b452c779ba587"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-149-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 39794,
+          "sha256": "29ef30069f2ad6129edff7102477df24cea43d1f6676839d23de22f33b7a3eef"
+        },
+        {
+          "src": "./illustrations/ts3b-149-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 156288,
+          "sha256": "aa72f3f822ecf194aef06d99d976198f9a0fb2dcf764854efdecf328c979de0b"
+        },
+        {
+          "src": "./illustrations/ts3b-149-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 380648,
+          "sha256": "5a1506cdbd3673c0354940467c82ec12f5ad0583b962842fb4c04e0665de8b4f"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-150",
+      "title": "送李中丞归汉阳别业",
+      "label": "江汉日暮，老将独立",
+      "alt": "《送李中丞归汉阳别业》诗境插画：一位老将携着入鞘的剑立在岸边。暮色笼住江面，前路渐渐看不清。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-150-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d3e137842da8dd11824ed0a6ff729b0f3ec93a8b6d364d4fa9d984951e54f965"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-150-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23288,
+          "sha256": "e2610c97bdf7751a232f93cccb3b0a71465c62af93bf85654a21c152fccbecf2"
+        },
+        {
+          "src": "./illustrations/ts3b-150-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 101830,
+          "sha256": "3324dec9be5dca53a79d51d0012944eda71b7a196bcd76248ba1ffb9b60d6e4d"
+        },
+        {
+          "src": "./illustrations/ts3b-150-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 265686,
+          "sha256": "b79682f53582e527e043973dd308ccaad29847e186c65c0baf94e22710e2569d"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-151",
+      "title": "饯别王十一南游",
+      "label": "烟水阔，一帆远",
+      "alt": "《饯别王十一南游》诗境插画：送行人站在汀洲上挥手，手边一方素巾。江上孤帆渐远，近水浮着几点白色小花。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-151-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0fbc7002ed375adc586b08a766fcbb3c7f9ad802b5bdba060c542ca505ea1dd5"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-151-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20640,
+          "sha256": "913a7fc002eab2f8a3cb9097c04c54dfbaee4bc1d0caeba292b9546c54013af9"
+        },
+        {
+          "src": "./illustrations/ts3b-151-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 88108,
+          "sha256": "f3e8f45cfc275e339a4626c04edbd14ab7b89d48cf40dcb02ab2231ba5de4019"
+        },
+        {
+          "src": "./illustrations/ts3b-151-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 227872,
+          "sha256": "2133cef943e79143fc61722d853040c241b706f38b544150698c12d45a631dbc"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-152",
+      "title": "蜀先主庙",
+      "label": "旧庙三足鼎",
+      "alt": "《蜀先主庙》诗境插画：蜀先主庙里，三足铜鼎静置于堂中。来访的诗人停在门边，光线穿过木柱，照出鼎上的纹饰。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-152-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c533e9470389621c0b7238c7574118abbe0a42fe67a6464e57b89456f46c6d54"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-152-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30992,
+          "sha256": "f2de5705bb0d339ef66b25bf2df2a27f9790cf2c4ae3da3c4475a5ae3e5fdbd2"
+        },
+        {
+          "src": "./illustrations/ts3b-152-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 133860,
+          "sha256": "2d2c8ac6dfcc755a48e767bd9ee0508bbd0a83d31e9a8c5bc15c7b8d2f978424"
+        },
+        {
+          "src": "./illustrations/ts3b-152-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 319562,
+          "sha256": "ec113be3417b1e1cdfd60aa925e2267310a928905b5a7df1c1d84e65f0b3f1c0"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-153",
+      "title": "阙题",
+      "label": "落花随溪，深柳藏书堂",
+      "alt": "《阙题》诗境插画：春溪带着落花流过山路。柳荫深处有间读书堂，一缕清光落在展卷人的衣袖上。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-153-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6d128dc2eb80fe69afb5b50f52d11e989adf8a93c9c4c3f7b21272609af8518c"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-153-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51990,
+          "sha256": "8f68e6082e7c2e5854e0d5362eb8b94fc17c5eb7a84d85231d20deff81e861f7"
+        },
+        {
+          "src": "./illustrations/ts3b-153-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 190504,
+          "sha256": "d24279fb9e9fb96b8ceafbb9646317ae5890e0142f5eb136ad3d66d9cdc4c10b"
+        },
+        {
+          "src": "./illustrations/ts3b-153-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 451046,
+          "sha256": "f38701ade4da6746d264c85ee0e1a6e99ddf18779b40faa0a3e481ee91bace9d"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-148",
-    "ts3b-149",
-    "ts3b-150",
-    "ts3b-151",
-    "ts3b-152",
-    "ts3b-153",
     "ts3b-154",
     "ts3b-155",
     "ts3b-156",
