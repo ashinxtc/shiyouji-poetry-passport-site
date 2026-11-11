@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 48,
+  "batch": 49,
   "totalPoems": 468,
-  "availableCount": 299,
+  "availableCount": 305,
   "items": [
     {
       "poemId": "tang-001",
@@ -12262,15 +12262,255 @@
           "sha256": "652b092441b54ac5e68590372af74f04c1385855ca7b4f341fbb63621eb4bfaf"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-142",
+      "title": "没蕃故人",
+      "label": "废帐残旗，归马独来",
+      "alt": "《没蕃故人》诗境插画：荒营里，一匹归马停在残旗旁。营帐倒伏，远处的城垒沉在薄雾里。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-142-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "58970fcea1b5634ee81fcd98213ae5b49737bcb124ea7ea5658c18b0851a7a9b"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-142-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 25534,
+          "sha256": "a8544656ffd78d0fd6e26257d7fe3d776f6c0352aa0a833965d9ae0128bc9269"
+        },
+        {
+          "src": "./illustrations/ts3b-142-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 115842,
+          "sha256": "73e3ca74d735d2c0a7437bdf6be4009dfccbef2b12a94560e8d016df3db3a222"
+        },
+        {
+          "src": "./illustrations/ts3b-142-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 304958,
+          "sha256": "9f023d5b301fd6823c45c071abb65e9371d59f90785b9032dc2db3510b3e511f"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-143",
+      "title": "秋日赴阙题潼关驿楼",
+      "label": "驿楼红叶，河入秋山",
+      "alt": "《秋日赴阙题潼关驿楼》诗境插画：红叶落在驿楼栏杆旁。旅人望着山间的疏雨，远处一条大河从两山之间流过。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-143-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "236c49d1b09141230ebc74a1704786b127cfba574e406b6f59922a07616815c4"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-143-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 40436,
+          "sha256": "7f75b52f3a7353c5f1620d1162ab708ca5205db37c46bd8607603fb6265b5930"
+        },
+        {
+          "src": "./illustrations/ts3b-143-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 171152,
+          "sha256": "4f141d16478016a7bdbcda7860e905da25f05f7137686ad8032bed3e40b87ff1"
+        },
+        {
+          "src": "./illustrations/ts3b-143-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 426874,
+          "sha256": "a04db5cbf86bff85cbe05e3754ceaaa9a92f45923dc7be7e54057d497c73ea0c"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-144",
+      "title": "早秋",
+      "label": "露中残萤，晓山渐明",
+      "alt": "《早秋》诗境插画：夜色将退，一只萤火虫还在露湿的藤叶旁。远雁掠过微亮的天，层层山影渐渐清楚。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-144-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ad49255a20abd1fadfd5f492e289daa5cdfe9c4e5b2caef458fb7ab0f689e1ee"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-144-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23274,
+          "sha256": "5db0daaad458c5627be191215f2db8a6744c6d7cc341b9c780fd5e6f9e38a305"
+        },
+        {
+          "src": "./illustrations/ts3b-144-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 93204,
+          "sha256": "ede8e6bbe901fb2cf7c2c50883a045b79b96307c67c85560cd2b2141c8687808"
+        },
+        {
+          "src": "./illustrations/ts3b-144-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 228900,
+          "sha256": "ce490c73b0aa11f9aeb552c2e50cb925850c43dbab6257d100e328e0ce08375c"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-145",
+      "title": "送人东游",
+      "label": "故关落叶，渡口孤棹",
+      "alt": "《送人东游》诗境插画：黄叶落过荒戍，送行人留在岸上。小舟已向江心驶去，朝光刚照上远山。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-145-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9ea374f87ef78ada4d2aed7d7039d2ea64036b7997a794c3e49664894ba66126"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-145-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 42504,
+          "sha256": "14591027e0c207d79ad226a710f69515623fdca7192cb1a57202e0e4987a615d"
+        },
+        {
+          "src": "./illustrations/ts3b-145-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 172810,
+          "sha256": "068fa11ce0218a211320ad70bfeb5a3a01cee44a17824e6635dbde28bfe6c3d9"
+        },
+        {
+          "src": "./illustrations/ts3b-145-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 430332,
+          "sha256": "34d6e86fe8064f6ad975e1419d65f3487c74ee9a62f4f689cf8f63b7e48fbdfd"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-146",
+      "title": "寻陆鸿渐不遇",
+      "label": "柴门无人，篱菊未开",
+      "alt": "《寻陆鸿渐不遇》诗境插画：访客停在木门前叩门。篱边的菊只有花苞，桑麻间的小路通往西邻。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-146-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a2bc7d024899c1ff510f884c7761ab8f73db2d809627205b1453a87d54f159ec"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-146-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 56506,
+          "sha256": "05ade05e255c0774313077c6848fccf9c27065ac7fcf27bf19fb234c3f76a01f"
+        },
+        {
+          "src": "./illustrations/ts3b-146-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 226276,
+          "sha256": "9f6be0fc16219f0c47fdb3e50745b8f0d60c8e2bad27ab855bb67e1eb7ff2f59"
+        },
+        {
+          "src": "./illustrations/ts3b-146-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 529798,
+          "sha256": "1164e9868ca0e5ccaa193db310ab6f59bb3e188edae4a13e51c5cb7a7e8de835"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-147",
+      "title": "寻南溪常道士",
+      "label": "雨后松色，溪花忘言",
+      "alt": "《寻南溪常道士》诗境插画：雨后松针颜色更深，清溪旁几朵小花初开。旅人停在水源边，远处春草掩着一扇闲门。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-147-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2843c30fa9834510b3b211e33e1ff25427be823d6f1ec375c812e7e89f096a1a"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-147-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 48236,
+          "sha256": "11ab6a8b05562cf7fb0ef3baa290fd8b3c8c5413ef74bc8bae0618519fe93b71"
+        },
+        {
+          "src": "./illustrations/ts3b-147-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 181864,
+          "sha256": "9b1a78e8f9140aa5b5c42c885930428325051797193291ce13b5de21707556f4"
+        },
+        {
+          "src": "./illustrations/ts3b-147-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 417862,
+          "sha256": "3514d83454cfe2429393829beeb7b5b5630920c1fde354d239829cc724547a8d"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-142",
-    "ts3b-143",
-    "ts3b-144",
-    "ts3b-145",
-    "ts3b-146",
-    "ts3b-147",
     "ts3b-148",
     "ts3b-149",
     "ts3b-150",
