@@ -1,8 +1,8 @@
 {
   "style": "淡彩水墨诗境",
-  "batch": 50,
+  "batch": 51,
   "totalPoems": 468,
-  "availableCount": 311,
+  "availableCount": 317,
   "items": [
     {
       "poemId": "tang-001",
@@ -12754,15 +12754,255 @@
           "sha256": "f38701ade4da6746d264c85ee0e1a6e99ddf18779b40faa0a3e481ee91bace9d"
         }
       ]
+    },
+    {
+      "poemId": "ts3b-154",
+      "title": "送李端",
+      "label": "路出寒云，人归暮雪",
+      "alt": "《送李端》诗境插画：寒云压着旧关，远行人负着行囊走向山路。暮雪初落，送行人仍在衰草边回望。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-154-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "44a0039862a2bea84523ee787727f1d3f44c3d16a5ce4c7dabe37220306f9acc"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-154-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 22910,
+          "sha256": "7492d25aa44126020d414fb3361c22f79aaa40d0e9b57f6537f3d299d7bdd8c1"
+        },
+        {
+          "src": "./illustrations/ts3b-154-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 95574,
+          "sha256": "a1735a0ee3bd0fabd12bb6033771c86d52cf6b5b4691f955851f0ea33809a651"
+        },
+        {
+          "src": "./illustrations/ts3b-154-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 234110,
+          "sha256": "89f42195df93e523a3eb99b861267e8505463ea7666ba8306023943b8d930927"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-155",
+      "title": "送僧归日本",
+      "label": "沧海轻舟，万里一灯",
+      "alt": "《送僧归日本》诗境插画：海天辽阔，一叶木船驶在月色里。僧人端坐船中，身边一盏灯仍亮着。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-155-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "81cecf3fd31879eccce2545aa78da4c3bc43fb0c1fddbae8c297498941603153"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-155-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20456,
+          "sha256": "31fa35db9e306a575bfe3fd59def5e8ca05a42c81cfc6befe5fea33c0df51054"
+        },
+        {
+          "src": "./illustrations/ts3b-155-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 98052,
+          "sha256": "a07c2d152ddeb794170f0a5721e02536a93aee5578f3a858ec1f76c50e56d00e"
+        },
+        {
+          "src": "./illustrations/ts3b-155-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 258622,
+          "sha256": "73bca4e17baff472b2e69d63a68ada443036e5d3f0650116e0886b1f9435cdd1"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-156",
+      "title": "谷口书斋寄杨补阙",
+      "label": "新雨竹色，夕照书斋",
+      "alt": "《谷口书斋寄杨补阙》诗境插画：雨后竹叶还挂着水珠。茅屋前有人清扫小径，浅溪边一只白鹭已经歇下。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-156-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7810920ed63caa1a65e142e863db9bfa899c1edd51f31588b0eef13d93c116e2"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-156-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 51034,
+          "sha256": "e5119f705349db1113e738794820f4550683bcc9e4f80cc9fc73024b6d2455bf"
+        },
+        {
+          "src": "./illustrations/ts3b-156-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 204858,
+          "sha256": "499ac378d0337a2ecdbc9572cba0dd0979fe0098a5f829885d6d47d21fb3640f"
+        },
+        {
+          "src": "./illustrations/ts3b-156-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 498198,
+          "sha256": "5a20a03830243a713b51ad18582e5c614a022dae7356f7f37535f6b62955d528"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-157",
+      "title": "在狱咏蝉",
+      "label": "重露压蝉，隔窗相望",
+      "alt": "《在狱咏蝉》诗境插画：一只蝉伏在露重的枝上，透明的翅紧贴着背。窗内的白发诗人从木栅后望出去。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-157-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7c239da60bc845adc02fb9f25ec5d1636adc64b147643d13acfc50e86fcdad9e"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-157-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 31676,
+          "sha256": "3b2b3d3edb42b0bd41064a091e343b5990598086f19db6c3ca55495a9abbcaa1"
+        },
+        {
+          "src": "./illustrations/ts3b-157-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 128974,
+          "sha256": "15396bfce93d946b0c00928d194f56805c788a48d88dce40e1b7dd8a2500a874"
+        },
+        {
+          "src": "./illustrations/ts3b-157-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 312488,
+          "sha256": "73d868cb61b54e78d1af4a8fe50a26ab617409ed428187537741406c86bb4dfe"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-158",
+      "title": "江乡故人偶集客舍",
+      "label": "客舍月满，故人留话",
+      "alt": "《江乡故人偶集客舍》诗境插画：圆月照着重重城楼。几位江南旧友在客舍偶然相聚，围坐在灯下，聊到深夜。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-158-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cc7079c13b8111aa2559d4cb8f182b5549ff9b12f676bf5085f9201fbf6df8c4"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-158-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32148,
+          "sha256": "bf8d86ee2c109a7389f4002c792990493defc8ca114f19fb3d8bdd24e58fa8d7"
+        },
+        {
+          "src": "./illustrations/ts3b-158-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 134552,
+          "sha256": "04b7d789ba5596fe128f0d631a3f6e0c6c654dc131fd879ca387d98e431d8004"
+        },
+        {
+          "src": "./illustrations/ts3b-158-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 346448,
+          "sha256": "9ffbd25fa26b918fcc7256d16e9c8e35651bcc0e187539890a34bc8b74fe37af"
+        }
+      ]
+    },
+    {
+      "poemId": "ts3b-159",
+      "title": "酬程延秋夜即事见赠",
+      "label": "一雁过星河，月下有砧声",
+      "alt": "《酬程延秋夜即事见赠》诗境插画：一只秋雁飞过星河，月色照着静下来的城。近处小院里，还能看见月下捣衣的人。",
+      "aiGenerated": true,
+      "generationMode": "built-in image_gen",
+      "model": null,
+      "missingFields": [
+        "model"
+      ],
+      "original": {
+        "path": "assets/illustrations/originals/ts3b-159-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1e3fe291cde582770924e745046fee93290d4627d0601645df7df0f6c4171def"
+      },
+      "variants": [
+        {
+          "src": "./illustrations/ts3b-159-v1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 33796,
+          "sha256": "454e16724289e7d5739d820bb11274ecb6105b6969bd14c84c6f74c27aa657e8"
+        },
+        {
+          "src": "./illustrations/ts3b-159-v1-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 148968,
+          "sha256": "b19bd376579e74625b9ef3e3cf95db16cafdfaf09248243f4778d385cb6165e1"
+        },
+        {
+          "src": "./illustrations/ts3b-159-v1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 379786,
+          "sha256": "50bdbe738b8e26da3643cd629f02d3704f11df574c306aee58c87092afd69b4f"
+        }
+      ]
     }
   ],
   "missingIllustrationPoemIds": [
-    "ts3b-154",
-    "ts3b-155",
-    "ts3b-156",
-    "ts3b-157",
-    "ts3b-158",
-    "ts3b-159",
     "ts3b-160",
     "ts3b-161",
     "ts3b-162",
