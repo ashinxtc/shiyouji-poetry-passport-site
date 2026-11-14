@@ -1,17 +1,17 @@
-import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=67';
-import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=67';
-import {MAIN_TABS,rootTab,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=67';
-import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=67';
-import {BookMotion} from './book.js?v=67';
-import {PassportEffects} from './effects.js?v=67';
-import {versePages,listPageSize,stampPageSize} from './pagination.js?v=67';
+import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=68';
+import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=68';
+import {MAIN_TABS,rootTab,bookPageTarget,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=68';
+import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=68';
+import {BookMotion} from './book.js?v=68';
+import {PassportEffects} from './effects.js?v=68';
+import {versePages,listPageSize,stampPageSize} from './pagination.js?v=68';
 
-import {ReadingTracker} from './reading.js?v=67';
-import {VoiceUI,speechCorrectionDetails} from './voice-ui.js?v=67';
-import {headingLabels,headingRequirements} from './recitation-options.js?v=67';
-import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=67';
-import {accountPanel,profileRows,deletedRows,quickAccountHeader,quickProfileRows,quickSwitchTarget} from './account-ui.js?v=67';
-import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=67';
+import {ReadingTracker} from './reading.js?v=68';
+import {VoiceUI,speechCorrectionDetails} from './voice-ui.js?v=68';
+import {headingLabels,headingRequirements} from './recitation-options.js?v=68';
+import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=68';
+import {accountPanel,profileRows,deletedRows,quickAccountHeader,quickProfileRows,quickSwitchTarget} from './account-ui.js?v=68';
+import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=68';
 
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -51,7 +51,7 @@ function recordNavigation(push=false){
 }
 function refreshNavigation(){const old=history.state?.poetryNav;if(navigationReady&&!old?.overlay&&old?.context===dataContext&&old.route===ui.route&&(ui.route!=='practice'||old.poemId===ui.poemId))recordNavigation(false);}
 function saveSession(){try{sessionStorage.setItem('shiyouji.session',JSON.stringify(navSnapshot()));}catch{/* Learning records have their own explicit save path. */}refreshNavigation();}
-function restoreNavigation(entry){
+function applyNavigation(entry){
   stopSpeech();if(voiceUI.flow)voiceUI.close();if(dialog.open)closeDialog();resetPractice();
   const valid=entry?.app==='shiyouji-navigation-v1'&&entry.context===dataContext;
   if(valid){
@@ -60,8 +60,9 @@ function restoreNavigation(entry){
     ui.readerFrom=rootTab('practice',entry.readerFrom);ui.returnKey=entry.returnKey||null;ui.lastPoemId=ui.route==='practice'?ui.poemId:ui.lastPoemId||entry.lastPoemId||null;ui.artPage=!!entry.artPage;ui.versePage=Math.max(0,entry.versePage||0);
     ui.filter=['全部','适合我','课标75篇','唐诗三百首','读完的','会背的','待复习'].includes(entry.filter)?entry.filter:'适合我';ui.search=String(entry.search||'').slice(0,40);ui.category=entry.category||'';ui.listPage=Math.max(0,entry.listPage||0);ui.collectionPage=Math.max(0,entry.collectionPage||0);ui.stampFilter=entry.stampFilter==='badges'?'badges':'poems';
   }else{ui.route='passport';ui.lastPoemId=null;ui.readerFrom='library';ui.returnKey=null;}
-  ui.opened=valid?entry.opened!==false||ui.route!=='passport':true;if(ui.route!=='challenge')ui.game=null;recordNavigation(false);render();
+  ui.opened=valid?entry.opened!==false||ui.route!=='passport':true;if(ui.route!=='challenge')ui.game=null;
 }
+function restoreNavigation(entry){applyNavigation(entry);recordNavigation(false);render();}
 function backFromPoem(){if(history.state?.poetryNav?.returnKey){history.back();return;}void navigate(ui.readerFrom,{replace:true});}
 window.addEventListener('popstate',event=>{
   if(restoringHistory){restoringHistory=false;return;}
@@ -147,7 +148,7 @@ function poemText(p,{mode=ui.reading,hint=ui.hint,revealed=ui.revealed,game=fals
 }
 async function loadPinyin(){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),5000);
-  try{const r=await fetch('./pinyin.json?v=67',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
+  try{const r=await fetch('./pinyin.json?v=68',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
   catch{pinyinLoadError='拼音资料暂未加载，联网后可以重试。';return false;}
   finally{clearTimeout(timer);}
 }
@@ -241,17 +242,44 @@ function verseState(p,game=false){
 }
 function poemHeading(p){return `<div class="poem-heading ${p.title.length>16?'very-long':p.title.length>7?'long':''}"><h2>${escape(p.title)}</h2><p class="poem-meta">${p.dynasty} · ${escape(p.author)}</p></div>`;}
 function collectionSize(){return stampPageSize(sheetMetrics().height-76);}
-function hasPager(){return ui.route==='practice'||ui.route==='library'||ui.route==='stamps'||ui.route==='challenge'&&ui.game&&(ui.game.done||['recite','family'].includes(ui.game.type));}
+function hasPager(){return ui.opened&&(!ui.game||ui.route!=='challenge'||ui.game.done||['recite','family'].includes(ui.game.type));}
 function resultPageSize(){return Math.max(2,Math.min(5,Math.floor((sheetMetrics().height-230)/36)));}
+function libraryPageCount(){return Math.max(1,Math.ceil(filteredPoems().length/listPageSize(sheetMetrics().height)));}
+function collectionPageCount(){
+  const items=ui.stampFilter==='poems'?stats().independent:earnedAchievements();
+  return Math.max(1,Math.ceil(items.length/collectionSize()));
+}
+function resultPageCount(){return Math.max(1,Math.ceil(ui.game.answers.length/resultPageSize()));}
+function bookPageState(){
+  switch(ui.route){
+    case 'library':return {key:'listPage',count:libraryPageCount()};
+    case 'stamps':return {key:'collectionPage',count:collectionPageCount()};
+    case 'challenge':if(ui.game?.done)return {key:'resultPage',count:resultPageCount()};
+  }
+  return {key:null,count:1};
+}
+function bookTurnLabel(target,fallback){
+  if(!target?.route)return fallback;
+  return target.opened?MAIN_TABS.find(([route])=>route===target.route)[2]:'封面';
+}
 function pagerMarkup(){
-  let label='左右滑动，翻一页',detail='',previous=true,next=true;
+  let label='左右滑动翻页',detail='',previous=false,next=false,previousLabel='上一页',nextLabel='下一页';
   if(ui.route==='practice'){const p=currentPoem(),v=verseState(p),withArt=ui.reading==='read'&&hasArtPage(p),art=artPageActive(p);label=`${art?1:v.index+1+Number(withArt)} / ${v.pages.length+Number(withArt)} 页`;detail=art?'诗境 · 左滑读诗':`第 ${v.start+1}–${v.end} 句 · ${p.workId?'本节选':'全诗'} ${p.lines.length} 句`;previous=!!readingPageTarget({direction:-1,atArt:art,hasArt:withArt,index:v.index,count:v.pages.length});next=!!readingPageTarget({direction:1,atArt:art,hasArt:withArt,index:v.index,count:v.pages.length});}
-  else if(ui.route==='library'){const n=Math.max(1,Math.ceil(filteredPoems().length/listPageSize(sheetMetrics().height)));label=`诗单 ${ui.listPage+1} / ${n} 页`;detail='左右滑动翻页';previous=ui.listPage>0;next=ui.listPage<n-1;}
-  else if(ui.route==='stamps'){const a=ui.stampFilter==='poems'?stats().independent:earnedAchievements(),n=Math.max(1,Math.ceil(a.length/collectionSize()));label=`印章 ${ui.collectionPage+1} / ${n} 页`;detail='左右滑动翻页';previous=ui.collectionPage>0;next=ui.collectionPage<n-1;}
-  else if(ui.route==='challenge'&&ui.game){const g=ui.game;if(g.done){const n=Math.max(1,Math.ceil(g.answers.length/resultPageSize()));label=`成绩 ${ui.resultPage+1} / ${n} 页`;previous=ui.resultPage>0;next=ui.resultPage<n-1;}else if(['recite','family'].includes(g.type)){const v=verseState(g.deck[g.index],true);label=`${v.index+1} / ${v.pages.length} 页`;detail=`第 ${v.start+1}–${v.end} 句 · 左右滑动`;previous=v.index>0;next=v.index<v.pages.length-1;}else{label=g.type==='cloze'?`第 ${g.index+1} / ${g.total} 题`:'把诗句排回原位';previous=false;next=g.type==='cloze'&&g.choice!==undefined;}}
-  else{previous=false;next=false;}
-  if(!previous&&!next)return `<div class="pager-info single-page"><strong>${ui.route==='stamps'&&stats().independent.length===0?'暂无背诗印章':label}</strong></div>`;
-  return `<button data-action="page-prev" aria-label="上一页" ${previous?'':'disabled'}>${icon('left',18)}上一页</button><div class="pager-info"><strong>${label}</strong><span>${detail}</span></div><button data-action="page-next" aria-label="下一页" ${next?'':'disabled'}>下一页${icon('right',18)}</button>`;
+  else if(ui.route==='challenge'&&ui.game&&!ui.game.done){
+    const v=verseState(ui.game.deck[ui.game.index],true);
+    label=`${v.index+1} / ${v.pages.length} 页`;detail=`第 ${v.start+1}–${v.end} 句 · 左右滑动`;
+    previous=v.index>0;next=v.index<v.pages.length-1;
+  }else{
+    const {key,count}=bookPageState(),index=key?ui[key]:0;
+    const back=bookPageTarget({route:ui.route,direction:-1,index,count}),forward=bookPageTarget({route:ui.route,direction:1,index,count});
+    previous=!!back;next=!!forward;previousLabel=bookTurnLabel(back,previousLabel);nextLabel=bookTurnLabel(forward,nextLabel);
+    if(key){
+      const title={listPage:'诗单',collectionPage:ui.stampFilter==='badges'?'徽章':'印章',resultPage:'成绩'}[key];
+      label=key==='collectionPage'&&ui.stampFilter==='poems'&&!stats().independent.length?'暂无背诗印章':`${title} ${index+1} / ${count} 页`;
+    }
+  }
+  if(!previous&&!next)return `<div class="pager-info single-page"><strong>${label}</strong></div>`;
+  return `<button data-action="page-prev" ${previous?'':'disabled'}>${icon('left',18)}${previousLabel}</button><div class="pager-info"><strong>${label}</strong>${detail?`<span>${detail}</span>`:''}</div><button data-action="page-next" ${next?'':'disabled'}>${nextLabel}${icon('right',18)}</button>`;
 }
 function updatePager(){const el=$('#book-pager'),show=!!hasPager();if(el){el.hidden=!show;el.innerHTML=show?pagerMarkup():'';}$('.workbench')?.classList.toggle('without-pager',!show);}
 
@@ -270,6 +298,14 @@ function render(){
     }else{main.innerHTML=warning+coverView();effects.cover(main);}
     saveSession();return;
   }
+  let bench=main.querySelector('.workbench');
+  if(!bench){
+    main.innerHTML=`<section class="workbench" aria-label="诗词护照"><div class="book-stage"><div id="book-board" class="book-board"><article class="paper-sheet paper-left"><div class="sheet-content"></div></article><article class="paper-sheet paper-right"><div class="sheet-content" id="right-content"></div></article></div></div><div class="book-pager" id="book-pager"></div></section>`;
+    bench=main.querySelector('.workbench');
+  }
+  main.querySelector('.storage-alert')?.remove();if(warning)main.insertAdjacentHTML('afterbegin',warning);
+  bench.dataset.view=ui.route;
+  bench.classList.toggle('without-pager',!hasPager());
   let left,right;
   switch(ui.route){
     case 'library':left=leftScene('翻过一页，<br>再见一首诗。','唐诗与教材诗词','山河',`<p class="poetic-caption">${poems.filter(p=>!p.archived).length} 个读背篇目，<br>一页一页慢慢读。</p><div class="rule"></div><p class="note">按诗体或学习情况筛选，<br>也可以搜索诗名、诗人与诗句。</p>`);right=libraryRight();break;
@@ -278,25 +314,43 @@ function render(){
     case 'stamps':left=leftScene('会背的诗，<br>值得留下印记。','我的收藏','月色',statMarkup());right=stampsRight();break;
     default:left=leftIdentity();right=homeRight();
   }
-  const bench=main.querySelector('.workbench');
-  if(bench){
-    main.querySelector('.storage-alert')?.remove();if(warning)main.insertAdjacentHTML('afterbegin',warning);
-    bench.dataset.view=ui.route;
-    bench.querySelector('.paper-left > .sheet-content').innerHTML=left;
-    bench.querySelector('#right-content').innerHTML=right;
-    updatePager();
-  }else main.innerHTML=warning+`<section class="workbench ${hasPager()?'':'without-pager'}" data-view="${ui.route}" aria-label="诗词护照"><div class="book-stage"><div id="book-board" class="book-board"><article class="paper-sheet paper-left"><div class="sheet-content">${left}</div></article><article class="paper-sheet paper-right"><div class="sheet-content" id="right-content">${right}</div></article></div></div><div class="book-pager" id="book-pager" ${hasPager()?'':'hidden'}>${hasPager()?pagerMarkup():''}</div></section>`;
-  bindSwipe();saveSession();
+  bench.querySelector('.paper-left > .sheet-content').innerHTML=left;
+  bench.querySelector('#right-content').innerHTML=right;
+  updatePager();saveSession();
 }
-async function transition(change,direction=1){if(ui.busy)return;ui.busy=true;stopSpeech();try{await motion.turn(()=>{change();render();},direction);sound('page');}finally{ui.busy=false;if(pendingHistory){const entry=pendingHistory;pendingHistory=null;restoreNavigation(entry);}else if(pendingViewportRender||accountRenderPending)render();}}
+async function transition(change,direction=1,cover=false){if(ui.busy)return;ui.busy=true;stopSpeech();try{await motion.turn(()=>{change();render();},direction,cover);sound('page');}finally{ui.busy=false;if(pendingHistory){const entry=pendingHistory;pendingHistory=null;restoreNavigation(entry);}else if(pendingViewportRender||accountRenderPending)render();}}
 function resetPractice(){ui.reading='read';ui.artPage=false;ui.hint='none';ui.revealed=new Set();ui.hints=0;ui.versePage=0;}
-async function navigate(route,{force=false,replace=false}={}){
+async function navigate(route,{force=false,replace=false,direction=0,edge}={}){
   if(!dialog.open)discardDialogHistory();
   if(!MAIN_TABS.some(([r])=>r===route))return;
   if(ui.game&&!ui.game.done&&route!=='challenge'&&!force){showDialog('先离开这场挑战？','已记录的单首背诵会保留；未结束的这场挑战不会计入成绩。',`<div class="dialog-actions"><button class="button" data-action="dialog-close">继续挑战</button><button class="button primary" data-action="leave-game" data-route-target="${route}">结束并离开</button></div>`);return;}
   if(ui.route===route&&ui.opened)return;
-  if(route==='challenge'&&ui.game?.done)ui.game=null;
-  stopSpeech();ui.opened=true;ui.route=route;ui.returnKey=null;render();recordNavigation(!replace);announce('已打开'+MAIN_TABS.find(([r])=>r===route)[2]);
+  const change=()=>{
+    if(route==='challenge'&&ui.game?.done)ui.game=null;
+    ui.opened=true;ui.route=route;ui.returnKey=null;entryNavigation=null;
+    if(edge){
+      if(route==='library')ui.listPage=edge==='last'?libraryPageCount()-1:0;
+      if(route==='stamps')ui.collectionPage=0;
+    }
+    recordNavigation(!replace);
+  };
+  if(direction)await transition(change,direction);
+  else{stopSpeech();change();render();}
+  announce('已打开'+MAIN_TABS.find(([r])=>r===route)[2]);
+}
+async function openPassport(){
+  await transition(()=>{
+    if(entryNavigation){applyNavigation(entryNavigation);entryNavigation=null;}
+    else{ui.opened=true;ui.route='passport';}
+    recordNavigation(true);
+  },1,true);
+  announce('已翻开护照');
+}
+async function closePassport(){
+  await transition(()=>{
+    ui.opened=false;ui.route='passport';ui.returnKey=null;ui.game=null;recordNavigation(true);
+  },-1,true);
+  announce('已回到护照封面');
 }
 async function openPoem(id,{recite=false,skipArt=false}={}){
   if(!dialog.open)discardDialogHistory();
@@ -445,45 +499,71 @@ function historyDialog(){showDialog('我的挑战记录','按挑战类型和题�
 function download(text,filename){const url=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);}
 async function importBackup(file){if(!file)return;const targetContext=accounts?.context()??null;if(file.size>1024*1024){say('文件过大，请选择应用导出的 JSON 备份。');return;}try{const checked=validateData(JSON.parse(await file.text()),poems.map(p=>p.id));if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有导入其他账号。');return;}const count=summary(checked,poems).independent.length;showDialog('导入这本护照？',`${escape(checked.profile.name)}的备份包含 ${count} 首独立背出的诗。导入只替换当前学习账号，其他账号不受影响。`, '<p class="note">建议先导出当前护照，以便需要时恢复。</p><div class="dialog-actions"><button class="button" data-action="export">先导出当前记录</button><button class="button primary" id="confirm-import">替换并导入</button></div>');$('#confirm-import').addEventListener('click',()=>{if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有写入其他账号。');return;}data=checked;invalidRaw=null;persist();ui.game=null;ui.route='passport';resetPractice();closeDialog();render();say('护照已导入，欢迎继续旅程。');});}catch(e){say('导入失败：'+e.message);}}
 async function creditsDialog(){
-  const credits=await fetch('./credits.json?v=67').then(r=>r.json()).catch(()=>null);
+  const credits=await fetch('./credits.json?v=68').then(r=>r.json()).catch(()=>null);
   showDialog('诗文来源与使用说明','诗游记 · 唐诗三百首全本',`<div class="source-list"><p>完整接入 chinese-poetry 的《唐诗三百首》文件，共 ${poems.filter(p=>p.sourceIndex!==null).length} 个条目；小学课标及一至九年级教材补充诗词另存正文与来源。各篇保留原文、作者、来源顺序和附记；附记不混入背诵题目。</p><p>读诗页保留拼音入口；已配置的诗可开关拼音，其余明确提示待补，避免自动注音误导孩子。阅读提示仅在已配置的诗中提供；逐句译注尚未配置。</p><p>“朗读”播放应用提供的 AI 合成 MP3，无需安装手机语音包。首次播放需要联网，已播放的音频可以离线缓存。新打开一首诗、开始背诵或离开页面时会停止播放。</p><p>手机页面固定在屏幕内，长诗、诗单、收藏和成绩按页展示。左右滑动纸面或点页脚按钮，只翻当前诗文、诗单或印章；功能区使用底部导航切换。长诗按页阅读；录音背诵一次核对全文，不必为了结束录音翻到底。</p><p>录音背诵会联网转写，再按读音核对；同音误字自动还原为原诗文字，原始转写可单独查看。漏句、错序或读音未匹配时可回听核对，不作声学发音评分。完成阅读需要覆盖全文并主动确认，或完成整首语音核对。接句、排序成绩单独记录。学习记录按账号保存，可通过诗游记专用同步码跨设备同步。</p><p>${POEM_ILLUSTRATIONS.length} 幅专属诗境已上线，由 AI 生成；未完成的诗篇仍用通用插画，覆盖清单公开保留。手机在独立诗境页看完整配图，左右翻页进入正文；点按配图可放大。浏览配图不计入完成阅读。</p><details><summary>开源许可与数据核对</summary><p><a href="./vendor/chinese-poetry-LICENSE.txt" target="_blank" rel="noopener">诗词数据许可</a> · <a href="./vendor/three-LICENSE.txt" target="_blank" rel="noopener">Three.js</a> · <a href="./vendor/html2canvas-LICENSE.txt" target="_blank" rel="noopener">html2canvas</a> · <a href="./vendor/pypinyin-LICENSE.txt" target="_blank" rel="noopener">pypinyin</a></p><pre>${escape(JSON.stringify(credits?.corpus||null,null,2))}</pre></details></div>`);
 }
-function bindSwipe(){
-  const sheet=$('.paper-right');if(!sheet||sheet.dataset.swipeBound)return;sheet.dataset.swipeBound='true';let start=null;
-  sheet.addEventListener('pointerdown',e=>{if(!hasPager()||e.button&&e.pointerType!=='touch'||e.target.closest('input,select,textarea,audio'))return;start={x:e.clientX,y:e.clientY,id:e.pointerId,drag:false};});
-  sheet.addEventListener('pointermove',e=>{if(!start||ui.busy)return;const dx=e.clientX-start.x,dy=e.clientY-start.y;if(Math.abs(dx)>12&&Math.abs(dx)>Math.abs(dy)*1.3){start.drag=true;if(!sheet.hasPointerCapture(e.pointerId))sheet.setPointerCapture(e.pointerId);effects.lift(sheet,dx);e.preventDefault();}},{passive:false});
-  sheet.addEventListener('pointerup',e=>{if(!start)return;effects.release(sheet);const dx=e.clientX-start.x,dy=e.clientY-start.y,drag=start.drag;start=null;if(drag&&Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)*1.3){ui.suppressClickUntil=performance.now()+500;e.preventDefault();pageStep(dx<0?1:-1);}});
-  sheet.addEventListener('pointercancel',()=>{effects.release(sheet);start=null;});
+let swipe=null;
+function clearSwipe(){
+  if(swipe?.sheet)effects.release(swipe.sheet);
+  swipe=null;
 }
+function canTurnPage(){return navigationReady&&!ui.busy&&!dialog.open&&(!ui.opened||hasPager());}
+main.addEventListener('pointerdown',event=>{
+  clearSwipe();
+  if(!event.isPrimary||event.button!==0)return;
+  ui.suppressClickUntil=0;
+  const surface=event.target.closest('.cover-view,.paper-sheet');
+  if(!surface||!canTurnPage()||event.target.closest('input,select,textarea,audio,[contenteditable]'))return;
+  swipe={id:event.pointerId,x:event.clientX,y:event.clientY,surface,sheet:ui.opened?$('.paper-right'):null,drag:false};
+});
+main.addEventListener('pointermove',event=>{
+  if(swipe?.id!==event.pointerId)return;
+  if(!canTurnPage()||!swipe.surface.isConnected){clearSwipe();return;}
+  const dx=event.clientX-swipe.x,dy=event.clientY-swipe.y;
+  if(!swipe.drag){
+    if(Math.abs(dy)>12&&Math.abs(dy)>=Math.abs(dx)){clearSwipe();return;}
+    if(Math.abs(dx)<=12||Math.abs(dx)<=Math.abs(dy)*1.3)return;
+    swipe.drag=true;
+    main.setPointerCapture(event.pointerId);
+  }
+  if(swipe.sheet)effects.lift(swipe.sheet,dx);
+  event.preventDefault();
+},{passive:false});
+main.addEventListener('pointerup',event=>{
+  if(swipe?.id!==event.pointerId)return;
+  const {x,y,drag,surface}=swipe;
+  const dx=event.clientX-x,dy=event.clientY-y;
+  clearSwipe();
+  if(!drag)return;
+  ui.suppressClickUntil=performance.now()+500;
+  if(surface.isConnected&&Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)*1.3)void pageStep(dx<0?1:-1);
+});
+main.addEventListener('pointercancel',event=>{if(swipe?.id===event.pointerId)clearSwipe();});
+main.addEventListener('lostpointercapture',event=>{if(event.target===main&&swipe?.id===event.pointerId)clearSwipe();});
+main.addEventListener('pointerleave',()=>{if(swipe&&!swipe.drag)clearSwipe();});
 async function pageStep(direction){
-  if(ui.busy||!hasPager())return;
+  if(!canTurnPage())return;
+  if(!ui.opened){if(direction>0)await openPassport();return;}
   if(ui.route==='practice'){
     const p=currentPoem(),v=verseState(p),target=readingPageTarget({direction,atArt:artPageActive(p),hasArt:ui.reading==='read'&&hasArtPage(p),index:v.index,count:v.pages.length});
     if(target)await transition(()=>{ui.artPage=target.art;ui.versePage=target.index;},direction);
     else announce(direction>0?'本首诗已到末页，可以开始背诵或选择另一首。':'已经是本首诗的第一页。');return;
   }
-  if(ui.route==='library'){
-    const count=Math.max(1,Math.ceil(filteredPoems().length/listPageSize(sheetMetrics().height))),next=ui.listPage+direction;
-    if(next<0||next>=count){say(next<0?'已经是诗单第一页':'已经是诗单最后一页');return;}
-    await transition(()=>{ui.listPage=next;},direction);return;
-  }
-  if(ui.route==='stamps'){
-    const items=ui.stampFilter==='poems'?stats().independent:earnedAchievements(),count=Math.max(1,Math.ceil(items.length/collectionSize())),next=ui.collectionPage+direction;
-    if(next>=0&&next<count)await transition(()=>{ui.collectionPage=next;},direction);return;
-  }
-  if(ui.route==='challenge'&&ui.game){
-    const g=ui.game;
-    if(g.done){const next=ui.resultPage+direction,count=Math.max(1,Math.ceil(g.answers.length/resultPageSize()));if(next>=0&&next<count)await transition(()=>{ui.resultPage=next;},direction);return;}
-    if(g.type==='recite'||g.type==='family'){
-      const v=verseState(g.deck[g.index],true),next=v.index+direction;
-      if(next>=0&&next<v.pages.length)await transition(()=>{ui.gameVersePage=next;},direction);else if(direction>0)say('背完以后，选择这一遍的表现。');return;
-    }
-    if(g.type==='cloze'&&direction>0){if(g.choice===undefined){say('先选一个答案，再进入下一题。');return;}g.index++;delete g.choice;if(g.index>=g.total)finishGame(g);else await transition(()=>{});return;}
+  if(ui.route==='challenge'&&ui.game&&!ui.game.done){
+    const v=verseState(ui.game.deck[ui.game.index],true),next=v.index+direction;
+    if(next>=0&&next<v.pages.length)await transition(()=>{ui.gameVersePage=next;},direction);
+    else if(direction>0)say('背完以后，选择这一遍的表现。');
     return;
   }
-  // Top-level destinations only change through explicit navigation.
+  const {key,count}=bookPageState(),target=bookPageTarget({route:ui.route,direction,index:key?ui[key]:0,count});
+  if(!target)return;
+  if('page'in target)await transition(()=>{ui[key]=target.page;},direction);
+  else if(!target.opened)await closePassport();
+  else await navigate(target.route,{direction,edge:target.edge});
 }
-document.addEventListener('click',e=>{if(performance.now()<ui.suppressClickUntil&&e.target.closest('.paper-right')){e.preventDefault();e.stopImmediatePropagation();}},true);
+main.addEventListener('click',event=>{
+  if(event.detail&&performance.now()<ui.suppressClickUntil){event.preventDefault();event.stopImmediatePropagation();}
+},true);
 document.addEventListener('click',async e=>{
   const el=e.target.closest('button[data-action],button[data-route],a.brand');if(!el||el.disabled||ui.busy)return;
   if(el.matches('a.brand')){e.preventDefault();await navigate('passport');return;}
@@ -491,8 +571,8 @@ document.addEventListener('click',async e=>{
   const a=el.dataset.action;
   if(a?.startsWith('account-')){await accountAction(el);return;}
   switch(a){
-    case 'open':{ui.busy=true;const object=$('#passport-object');object?.classList.add('opening');sound('page');if(data.settings.motion&&!matchMedia('(prefers-reduced-motion: reduce)').matches)await new Promise(r=>setTimeout(r,900));ui.busy=false;if(entryNavigation){const entry=entryNavigation;entryNavigation=null;restoreNavigation(entry);}else{ui.opened=true;ui.route='passport';render();recordNavigation(false);}break;}
-    case 'close-book':if(dialog.open)closeDialog();if(ui.game&&!ui.game.done){await navigate('passport');break;}stopSpeech();ui.opened=false;ui.route='passport';render();recordNavigation(false);break;
+    case 'open':await openPassport();break;
+    case 'close-book':if(dialog.open)closeDialog();if(ui.game&&!ui.game.done){await navigate('passport');break;}if(ui.opened)await closePassport();break;
     case 'profile':profileDialog();break;
     case 'reader-back':backFromPoem();break;
     case 'cancel-history-back':pendingChallengeBack=null;closeDialog();break;
@@ -591,9 +671,9 @@ window.addEventListener('storage',e=>{if(accounts||e.key!==STORAGE_KEY||!e.newVa
 document.addEventListener('visibilitychange',()=>{if(document.hidden){stopSpeech();void voiceUI.background();}});
 async function boot(){
   try{
-    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=67');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
+    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=68');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
     if(!Array.isArray(poems)||!poems.length||new Set(poems.map(p=>p.id)).size!==poems.length)throw new Error('诗单格式无效');
-    [speechVariants,speechPhonetics,speechHeadings]=await Promise.all(['speech-variants','speech-phonetics','speech-headings'].map(name=>fetch(`./${name}.json?v=67`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
+    [speechVariants,speechPhonetics,speechHeadings]=await Promise.all(['speech-variants','speech-phonetics','speech-headings'].map(name=>fetch(`./${name}.json?v=68`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
     let migrated=false;
     try{const current=localStorage.getItem(STORAGE_KEY),legacy=!current?localStorage.getItem(LEGACY_STORAGE_KEY):null,raw=current||legacy;if(raw){try{data=validateData(JSON.parse(raw),poems.map(p=>p.id));migrated=!!legacy;}catch{invalidRaw=raw;}}}catch{storageFailed=true;}
     try{accounts=new PoetryAccounts(poems.map(p=>p.id),{onChange:accountChanged});data=accounts.initialize(data);dataContext=accounts.context();dataBaseline=structuredClone(data);accounts.start();}catch(error){accountsError=error.message;accounts=null;say('多账号数据未能读取，原始数据已保留。');}
@@ -611,7 +691,7 @@ async function boot(){
     ui.opened=false;ui.route='passport';recordNavigation(false);render();
     if(migrated)persist();
     if(migrated)say('旧记录已保留：浏览不再计入完成阅读，背诵印章继续保留。');
-    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=67').catch(()=>{});
+    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=68').catch(()=>{});
     window.__SHIYOUJI__=Object.freeze({snapshot:()=>structuredClone(data),renderer:()=>motion.mode,poemCount:poems.length});
   }catch(error){main.innerHTML=`<div class="empty-state"><h1>这次没能打开护照</h1><p>${escape(error.message)}，请联网后重新打开。</p><button class="button primary" onclick="location.reload()">重新打开</button></div>`;}
 }

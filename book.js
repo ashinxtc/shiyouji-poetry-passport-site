@@ -12,7 +12,7 @@ function paperCopy(node){
     if(attr.value.includes('url(#'))el.setAttribute(attr.name,attr.value.replace(/url\(#([^)]+)\)/g,(all,id)=>ids.has(id)?`url(#${ids.get(id)})`:all));
     if(['href','xlink:href'].includes(attr.name)&&ids.has(attr.value.slice(1)))el.setAttribute(attr.name,'#'+ids.get(attr.value.slice(1)));
   }
-  copy.inert=true;copy.setAttribute('aria-hidden','true');copy.removeAttribute('data-swipe-bound');
+  copy.inert=true;copy.setAttribute('aria-hidden','true');
   copy.style.transform='none';copy.style.animation='none';copy.style.transition='none';
   copy.querySelectorAll('.page-lift,[data-no-capture]').forEach(n=>n.remove());
   return copy;
@@ -96,13 +96,42 @@ export class BookMotion {
       await Promise.all(animations.map(a=>a.finished));
     }finally{animations.forEach(a=>a.cancel());layer.remove();shadow.remove();}
   }
-  async turn(swap,direction=1){
+  async turnCover(swap,forward){
+    const main=document.getElementById('main');
+    const outgoing=main.querySelector(forward?'.cover-view':'.workbench');
+    const copy=outgoing&&paperCopy(outgoing);
+    swap();
+    if(!copy)return;
+    Object.assign(copy.style,{position:'absolute',inset:'0',pointerEvents:'none',zIndex:4});
+    main.append(copy);
+    const cover=forward?copy:main.querySelector('.cover-view');
+    if(!forward&&cover)cover.style.zIndex='5';
+    const options={duration:500,easing:CURVE,fill:'both'};
+    const frames=[{transform:'rotateY(0deg)'},{transform:'rotateY(-100deg)'}];
+    const animations=[];
+    try{
+      animations.push(copy.animate([{opacity:1},{opacity:0}],options));
+      const face=cover?.querySelector('.passport-cover');
+      if(face)animations.push(face.animate(forward?frames:frames.reverse(),options));
+      await Promise.all(animations.map(animation=>animation.finished));
+    }finally{
+      animations.forEach(animation=>animation.cancel());
+      copy.remove();
+      if(!forward&&cover)cover.style.zIndex='';
+    }
+  }
+  async turn(swap,direction=1,cover=false){
     if(this.busy)return false;
     const old=document.querySelector('.paper-right');
-    if(!old||this.reduced()){this.mode='none';document.documentElement.dataset.pageRenderer='none';swap();return true;}
+    if(this.reduced()||!old&&!cover){this.mode='none';document.documentElement.dataset.pageRenderer='none';swap();return true;}
     this.busy=true;document.getElementById('main').classList.add('is-turning');
     let leaf=null,safety=null,swapped=false;
     try{
+      if(cover){
+        await this.turnCover(()=>{swap();swapped=true;},direction>0);
+        this.mode='dom';document.documentElement.dataset.pageRenderer=this.mode;
+        return true;
+      }
       const oldBoard=old.closest('.book-board'),oldCopy=paperCopy(old);
       safety=document.createElement('div');safety.className='turn-safety';safety.setAttribute('aria-hidden','true');safety.append(paperCopy(old));place(safety,oldBoard,old);oldBoard.append(safety);
       let snapshot=null;

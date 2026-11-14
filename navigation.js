@@ -1,7 +1,16 @@
-import {targetPoems,mastered,poemCurriculumLabel,profileGradeLabel} from './curriculum.js?v=67';
+import {targetPoems,mastered,poemCurriculumLabel,profileGradeLabel} from './curriculum.js?v=68';
 
 export const MAIN_TABS=[['passport','book','首页'],['library','compass','选诗'],['challenge','trophy','挑战'],['stamps','seal','我的']];
 export const rootTab=(route,readerFrom='library')=>route==='practice'?(MAIN_TABS.some(([r])=>r===readerFrom)?readerFrom:'library'):route;
+export function bookPageTarget({route,direction,index=0,count=1}){
+  const tab=MAIN_TABS.findIndex(([name])=>name===route);
+  if(tab<0)return null;
+  const page=index+direction;
+  if(page>=0&&page<count)return {page};
+  if(tab===0&&direction<0)return {route:'passport',opened:false};
+  const adjacent=MAIN_TABS[tab+direction]?.[0];
+  return adjacent?{route:adjacent,opened:true,edge:direction>0?'first':'last'}:null;
+}
 export function readingPageTarget({direction,atArt=false,hasArt=false,index=0,count=1}){
   if(atArt)return direction>0?{art:false,index:0}:null;
   if(direction<0&&index===0&&hasArt)return {art:true,index:0};

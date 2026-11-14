@@ -1,5 +1,7 @@
-/* Main tabs select destinations. Paper turns stay inside the selected content. */
+/* A horizontal gesture turns the book. Keep vertical scrolling and zoom available. */
 [hidden]{display:none!important}
+.cover-view,.paper-sheet,.sheet-content{touch-action:pan-y pinch-zoom}
+.cover-view{position:relative}
 .workbench.without-pager{grid-template-rows:minmax(0,1fr)}
 .reader-back{display:flex;align-items:center;gap:var(--spacing-50);min-height:44px;padding:var(--spacing-75) var(--spacing-50);border:0;background:transparent;color:var(--teal-dark);font:500 14px/20px var(--sans);cursor:pointer;white-space:nowrap}
 .home-welcome{gap:var(--spacing-75)}
