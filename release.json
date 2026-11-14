@@ -1,18 +1,18 @@
 {
   "app": "shiyouji",
-  "version": 70,
-  "sourceCommit": "01ea462f93badcfe7d26f095bf5ab392e0ac9688",
+  "version": 71,
+  "sourceCommit": "a708f75d5f52d03134cc40b275516224acefdf9b",
   "frontend": "github-pages",
   "assets": [
     {
       "path": "account-ui.js",
       "bytes": 7717,
-      "sha256": "35dc4d92357f02f58b020e7cf93da90f30c12614cb9d49b717efe175c088bab4"
+      "sha256": "21b3c07d6b21b3f2ec52d5a7842926aa4506d470f67a0eba732610b5f08ff8c4"
     },
     {
       "path": "accounts.js",
       "bytes": 22637,
-      "sha256": "f062ca55ceb8a712160fe0bad888d299888b4e9d38d63f193b2218055a1b9ee7"
+      "sha256": "8999fcf1a7088ebba73d2d96f413b1857360067403f5c9ecc386a71f425694f1"
     },
     {
       "path": "api.js",
@@ -106,18 +106,23 @@
     },
     {
       "path": "app.js",
-      "bytes": 117111,
-      "sha256": "8c9bf890dc05db45f98b35606fd84254c6e17041e8455ebd019295c51360a55b"
+      "bytes": 118497,
+      "sha256": "bd71eaf3eab1ee2efcf2cb85b5e491b3ed5f848d6c8813dcb50b7b6cb0220aa9"
     },
     {
       "path": "art.js",
       "bytes": 3953,
-      "sha256": "4d50bc7d6f89b8128a6c8c807ae770344c0920b006b768306435dc2f10b015ac"
+      "sha256": "bc4482a50430c770397d1c521617d3efe4c8f40d98748dbc3ab7417d807be099"
     },
     {
       "path": "audio/feihualing/00b30ac946d6921a.mp3",
       "bytes": 12384,
       "sha256": "7db4a6b4fc7c970bbe59c28b7bf301fde72c2595a48dc98c03744fc3f9d19746"
+    },
+    {
+      "path": "audio/feihualing/00dfb4e946d24660.mp3",
+      "bytes": 27936,
+      "sha256": "0111dd197b6505f1f6c4bcbba9f3e6ed6511364ca5149c01a228adee625a3dc9"
     },
     {
       "path": "audio/feihualing/010d3433a5be5617.mp3",
@@ -150,9 +155,19 @@
       "sha256": "498e3d0e751d8d999cc4eac46495cacc58ee3ba4112aba02629b6c4667c31083"
     },
     {
+      "path": "audio/feihualing/062a29e0a9bb501d.mp3",
+      "bytes": 22176,
+      "sha256": "440fbb4a646b166af29287cb5bf6ca05e8704a5c660cd2d2a7c76c0f286f9a87"
+    },
+    {
       "path": "audio/feihualing/0750f1862ccdb3ab.mp3",
       "bytes": 15696,
       "sha256": "82e12189d63efce789899f22acf0a33d04c2927535311cd51139ec15cce7fbb4"
+    },
+    {
+      "path": "audio/feihualing/075bf1fe5a693f09.mp3",
+      "bytes": 27936,
+      "sha256": "188c1152756d86da33ab27bbafc93b54f8c38e887ef0efc65b9e8afbc9e855e4"
     },
     {
       "path": "audio/feihualing/083ecdaae5452587.mp3",
@@ -195,9 +210,44 @@
       "sha256": "868a5dcef9ff96850b5891e96074f006cde513f0fa9dd403f50b74d23649aaaa"
     },
     {
+      "path": "audio/feihualing/0d0d8a4df87f572a.mp3",
+      "bytes": 22032,
+      "sha256": "3d9b2d50ccc8884be16a0697b9d32898d5d40822c68166ffbc791a375bd89ca8"
+    },
+    {
+      "path": "audio/feihualing/0d4e9aa2bd09b5db.mp3",
+      "bytes": 27648,
+      "sha256": "8a08716e25dd30cc373d994cd9ba97c490e8d87853237a9cf758e18fd7550132"
+    },
+    {
+      "path": "audio/feihualing/0e1eff542d025ee0.mp3",
+      "bytes": 26352,
+      "sha256": "9b32902637320dea8c078b59a108a90e98ad720b21b65c7ef0816fb9e7cf6644"
+    },
+    {
+      "path": "audio/feihualing/0f8ff432605bf0f8.mp3",
+      "bytes": 22896,
+      "sha256": "5d20d04b165866ebe966c874fd5cc6f49a3cff85bf20b53aeca3e944ae0d30f6"
+    },
+    {
+      "path": "audio/feihualing/0faf15f35c117167.mp3",
+      "bytes": 27648,
+      "sha256": "bdbb7c5a2ba03d6e9cf3c888ad2e6d4e1a82106e5177c8ae0bbed6e1abd1e6eb"
+    },
+    {
       "path": "audio/feihualing/11f1a1ffefe19e6e.mp3",
       "bytes": 16128,
       "sha256": "79c9ace40c12f335384b9c7a42a4f353245de55541e3c8dbaf1ef2b3effb4f49"
+    },
+    {
+      "path": "audio/feihualing/142180629a49ca82.mp3",
+      "bytes": 28224,
+      "sha256": "0b7be741014152120d847580996e061c9deb33c9ccd2a7674952f353752175f7"
+    },
+    {
+      "path": "audio/feihualing/146f190986db9309.mp3",
+      "bytes": 27504,
+      "sha256": "058388c405fa06271405185e4cdd42dc082b49ef0cd3564736b0713dd9544e36"
     },
     {
       "path": "audio/feihualing/15550333e3c95b0e.mp3",
@@ -205,9 +255,19 @@
       "sha256": "44e484c3c6eb1173bde2b7f8b501cf5bf03c310502ee108684c82751042cb613"
     },
     {
+      "path": "audio/feihualing/165e6934fb669917.mp3",
+      "bytes": 27792,
+      "sha256": "83c7de6a24e4e60d7c44c6bbb79a9c8fab01ec564c859aef1b3dc4cdc2885490"
+    },
+    {
       "path": "audio/feihualing/167676f87a1b0b0a.mp3",
       "bytes": 13104,
       "sha256": "ee69f8b900411ec4ad69f3a41dea550006821ad004cd3f67ba45d52d776c3896"
+    },
+    {
+      "path": "audio/feihualing/18d0c4af2d6f3386.mp3",
+      "bytes": 27936,
+      "sha256": "d7292bf83447d5ee833d6690a1ae5494ae8981382203ed21a9b775642fc21fba"
     },
     {
       "path": "audio/feihualing/1a86ff279ab5b9e7.mp3",
@@ -215,9 +275,19 @@
       "sha256": "8acba0830bbb01ebf012b5705065eec045653af48ca45ea5999218ee0620498e"
     },
     {
+      "path": "audio/feihualing/1b3adc23c2ca87ee.mp3",
+      "bytes": 22752,
+      "sha256": "98c2312bac00ccd2ed3e9a6189aa5c2e5c5dd3d0b17e77ae5de5445a8cce5e19"
+    },
+    {
       "path": "audio/feihualing/1ba526cb759b9652.mp3",
       "bytes": 15984,
       "sha256": "d9d557b91c4d3ca3835b4cc1937f4d7ecec6ac8b4da31ba54f5a45dc48b93bb3"
+    },
+    {
+      "path": "audio/feihualing/1d0238a598d023e0.mp3",
+      "bytes": 22464,
+      "sha256": "0ce10aa0086d825824ae03534fde5bdeb9ff49ce062092dfdc7e61f3f029fa7c"
     },
     {
       "path": "audio/feihualing/1ed2a121cb44bf24.mp3",
@@ -230,6 +300,16 @@
       "sha256": "c777bb149dcaa9ab660851fe5b1c0fa4ca67d6e6a598b0a0c4013ba5f4488ac4"
     },
     {
+      "path": "audio/feihualing/202f209b51fc8693.mp3",
+      "bytes": 21312,
+      "sha256": "7a8ba86211bb16e51bd527fb93da43e2c2f618368369a9010ea45739ddd89693"
+    },
+    {
+      "path": "audio/feihualing/2033a05f66080165.mp3",
+      "bytes": 27504,
+      "sha256": "fe2910bda2a3f918cf2374114418adada50f026b2f88c218e67982328a3bf87f"
+    },
+    {
       "path": "audio/feihualing/21b41d5725a0b47d.mp3",
       "bytes": 16272,
       "sha256": "fccd0018c5a595165a144cebd75766cbab9b9af2bd244507ac21db6bd86e1ab7"
@@ -238,6 +318,11 @@
       "path": "audio/feihualing/22f9d7347f7193ce.mp3",
       "bytes": 15552,
       "sha256": "4e84a24d0a13ea753297971128120a89dd3ccd30bedd16bcef44cd97f9bd59b9"
+    },
+    {
+      "path": "audio/feihualing/23385de973e2be35.mp3",
+      "bytes": 28368,
+      "sha256": "af3e45da736f530aa79a7a4f22fab62a4c71920c904757b4f249ce3b811548a6"
     },
     {
       "path": "audio/feihualing/25e6ae7f41c5b06b.mp3",
@@ -250,6 +335,11 @@
       "sha256": "724cf077bd92007dfed83abe1d603d23d5e547035f9f877daac1ef6a7d80ccca"
     },
     {
+      "path": "audio/feihualing/2b766a636de29cb6.mp3",
+      "bytes": 22032,
+      "sha256": "18fc0db5f9a0364d1642d3f9d0df3fd50eef04c64d3846fcadcd09ba9bf1a618"
+    },
+    {
       "path": "audio/feihualing/2c2263ef10ef135a.mp3",
       "bytes": 16128,
       "sha256": "5c78a186a4158502da16cbf7025c41333118ef14f4e201518b64f4c9007a8bc6"
@@ -260,9 +350,19 @@
       "sha256": "5934c16dbd3c30e3b603bc33ee266fa7e48b50bf2b38404414b01d60f6eb80c3"
     },
     {
+      "path": "audio/feihualing/2e97ab17af991d39.mp3",
+      "bytes": 21744,
+      "sha256": "d2806c088bf08878d3a980e3fc7b6ed7f1b83881703bacdfe0d464a9f7860ad9"
+    },
+    {
       "path": "audio/feihualing/300695fa1566eade.mp3",
       "bytes": 13536,
       "sha256": "95c58ff32338c95d9fc5f8fcbcbea772a021bc904d1ce26249fbaa3f59650312"
+    },
+    {
+      "path": "audio/feihualing/300f7d2ff6c71208.mp3",
+      "bytes": 21744,
+      "sha256": "45678887a529da3c9eb4fc2228d1e7b8cae5bc83cee76c8767c46c3aa406e04c"
     },
     {
       "path": "audio/feihualing/30bc0f992c6628cc.mp3",
@@ -290,6 +390,16 @@
       "sha256": "98f8fef1928e1b69072f1d82476a64ff5db3356df37c62f43105b3a15d865122"
     },
     {
+      "path": "audio/feihualing/39567e88403996ab.mp3",
+      "bytes": 21744,
+      "sha256": "8e84832a64ea3c354b56678eea072d53b8033eb44098821e4e0d1ec07d37198f"
+    },
+    {
+      "path": "audio/feihualing/3a66627de0de38ee.mp3",
+      "bytes": 28368,
+      "sha256": "c1adc7a0c80ee06617e8bbe724ea0d9902943d5c8e0d7498b59d72c55cc1f127"
+    },
+    {
       "path": "audio/feihualing/3ac55022d068e581.mp3",
       "bytes": 15696,
       "sha256": "6fd4f769f29aea8ec6e39a37d741411a4b89a50bbbecb07889254ca88526acec"
@@ -298,6 +408,21 @@
       "path": "audio/feihualing/3b9d2220461ca924.mp3",
       "bytes": 14256,
       "sha256": "3bc8ab56b00b2b9d39a88f6fdcc4d77a6babce4c526b782e766076326c7fb529"
+    },
+    {
+      "path": "audio/feihualing/3c1b51deb276d60c.mp3",
+      "bytes": 28080,
+      "sha256": "9c1e09b1424de8802d3317c66cfc3c94aff6c2dd643f0169b519b07a6a96a0c8"
+    },
+    {
+      "path": "audio/feihualing/3cba6a58e8ae31bf.mp3",
+      "bytes": 27216,
+      "sha256": "22e2367c3ceb9d9461655497ffc6b4ff66bfb1cb0f28abbed52421862dbeefbe"
+    },
+    {
+      "path": "audio/feihualing/3cce51be3f8e3320.mp3",
+      "bytes": 22032,
+      "sha256": "c3d0814ead70ec10b04ef823bcbdc81d01b85a834a3adaf9daa0fc1962a505ef"
     },
     {
       "path": "audio/feihualing/3cda7a8d832b96f3.mp3",
@@ -320,6 +445,26 @@
       "sha256": "983514aaa72f4486adcf7ce70c83e949079474f7338a96fe346315ad26f488a9"
     },
     {
+      "path": "audio/feihualing/421a8576f2bd0edf.mp3",
+      "bytes": 26352,
+      "sha256": "25ec533d474246545cc99bc6197d60bfbcd2ecdbbc459868c8fb781c75bf63a1"
+    },
+    {
+      "path": "audio/feihualing/45dd0c0e1e21430c.mp3",
+      "bytes": 28080,
+      "sha256": "03e597913a98cfbcb6ad348e6b0d845455a013c968343a357ab3daa301798ddb"
+    },
+    {
+      "path": "audio/feihualing/46664b92a7e750e4.mp3",
+      "bytes": 28224,
+      "sha256": "eba342260d35c505b09e2996a533d23904912894388336e58258aa0d4830dea2"
+    },
+    {
+      "path": "audio/feihualing/46dd358d235eec43.mp3",
+      "bytes": 28368,
+      "sha256": "a12dde121a3273a7fd15918e2a9288b05eb40b17a2fc8ab9fa96b3285ebabcd9"
+    },
+    {
       "path": "audio/feihualing/484a7f2cddefc891.mp3",
       "bytes": 15840,
       "sha256": "e759cce6b6b762841b4d13964e5aeade99b895eba35f6180a1b2f0dea03ade40"
@@ -330,9 +475,34 @@
       "sha256": "2d323f55077b7c954107f5856f0e554e09e33a1350ba40e80a205a7ff9e25a46"
     },
     {
+      "path": "audio/feihualing/4a80a9da8b0c99a3.mp3",
+      "bytes": 22320,
+      "sha256": "10146fa67cdc5a33d9a704f5ac81a86d5670a463f01d607b9def60af0a5792e5"
+    },
+    {
       "path": "audio/feihualing/4a87350d5b0b8e90.mp3",
       "bytes": 13248,
       "sha256": "b41927779a2e572d7fb8323bb8bc7688678bd2e24386bfdb925abb902fe60c72"
+    },
+    {
+      "path": "audio/feihualing/4ba1d377bb5f5e02.mp3",
+      "bytes": 27504,
+      "sha256": "9e10a273dba3cb8381078124c0a7994a11aad9892466856637b0ace4ad2beab7"
+    },
+    {
+      "path": "audio/feihualing/4cfb78a49ac3820c.mp3",
+      "bytes": 28944,
+      "sha256": "22fa7f88ce309bdd555c0c0cf3b9f18d09faacd40984d1fd8823babdbff41f03"
+    },
+    {
+      "path": "audio/feihualing/4e082705c3c28e9e.mp3",
+      "bytes": 28368,
+      "sha256": "f5b8d823b9ca0b65bd62c4c72941973f7b4c549c02b79e4c604616077040ec8e"
+    },
+    {
+      "path": "audio/feihualing/4e6b62fcabdb3917.mp3",
+      "bytes": 22032,
+      "sha256": "fb6ad4f2d0643679af04579b60b2e41a4e0853409f24795aea5ba9aa5ac4174c"
     },
     {
       "path": "audio/feihualing/4ea5c7590cd0fe4d.mp3",
@@ -345,9 +515,29 @@
       "sha256": "c2a1ed95bf5ee245c6c5b8bb43a37798a36daefc71ae9e0e9462cd09c5fa3652"
     },
     {
+      "path": "audio/feihualing/4fdf40831781cb31.mp3",
+      "bytes": 27936,
+      "sha256": "f1a926ac49915d282fee9cf67db618e23fa4ce46f6c31659ed586065e4299fb3"
+    },
+    {
+      "path": "audio/feihualing/5125c707ac9b8748.mp3",
+      "bytes": 22464,
+      "sha256": "b5be51dc964e527f1cecfbcc94819d43ad43793d100936433937d6687f8e64ce"
+    },
+    {
       "path": "audio/feihualing/524ea230c7aa237a.mp3",
       "bytes": 16272,
       "sha256": "f1aa156a66fb338fdd24dba9f274fba1525184bece9e036e5c3477d0c93f70de"
+    },
+    {
+      "path": "audio/feihualing/53619bf252ba1d86.mp3",
+      "bytes": 28224,
+      "sha256": "5dcfebc5d95f743b642f01ddf726f8be24b97799e4eee9cb87924a685a60f3fe"
+    },
+    {
+      "path": "audio/feihualing/5474376380646cf4.mp3",
+      "bytes": 22176,
+      "sha256": "fd34fcf40cfac3b75d0f0e94cd113129fa9b65034a9181a362dc386c4eab1249"
     },
     {
       "path": "audio/feihualing/5841f4bd33580fef.mp3",
@@ -368,6 +558,21 @@
       "path": "audio/feihualing/597f9d47c0d2e09c.mp3",
       "bytes": 15840,
       "sha256": "2bf145f35086be3e91dcde26974e447758b34089b5b3379011c76125775eb28a"
+    },
+    {
+      "path": "audio/feihualing/5a256fee8eb6096b.mp3",
+      "bytes": 24048,
+      "sha256": "6408ef589160290efd6d43044824ecaa2978524a64ab1ae6cff0188a62b2a3e7"
+    },
+    {
+      "path": "audio/feihualing/5ac64cde550f3207.mp3",
+      "bytes": 26928,
+      "sha256": "c0d4c31b29600f4c9f99b22f7517b4d1830989410953841e7402a1d35b63840e"
+    },
+    {
+      "path": "audio/feihualing/5b4e03d0188f68fa.mp3",
+      "bytes": 27648,
+      "sha256": "993448c3eb0acd85d888306c40753ff5cc64c1a44b709629009081d7d327db9e"
     },
     {
       "path": "audio/feihualing/5c710992d8c7863a.mp3",
@@ -395,14 +600,34 @@
       "sha256": "e81572014403f83c0264a0fa10fbe16d74a6a5bf238ac814bcc55c627b735116"
     },
     {
+      "path": "audio/feihualing/644a557a0657e328.mp3",
+      "bytes": 28656,
+      "sha256": "7853c490fa793b10d6250cd8b565a6ac088b171416071f013457b13239521b8c"
+    },
+    {
+      "path": "audio/feihualing/64aafef51a7d052a.mp3",
+      "bytes": 27792,
+      "sha256": "76b7b0da03715d0b1948c7cff2de5fbda147807609191e5e3e77bda52cd1a0b0"
+    },
+    {
       "path": "audio/feihualing/6600d6b31f537711.mp3",
       "bytes": 12384,
       "sha256": "622169ab00225acd6c3df10cffc27abb746cf1c08c3c00eb2351458cbedbf4d8"
     },
     {
+      "path": "audio/feihualing/660c350c7c224d2d.mp3",
+      "bytes": 21312,
+      "sha256": "fcf8929d463c0eb70991d4dad7860e32dccec58599bd4b8ee9ed91be291a032f"
+    },
+    {
       "path": "audio/feihualing/67770f16ef8eb130.mp3",
       "bytes": 15408,
       "sha256": "7283c369b532f9af88b332b01aeadb0247f36d143238f723dd5aa026ddf9e50e"
+    },
+    {
+      "path": "audio/feihualing/6bfb56c211632a97.mp3",
+      "bytes": 22464,
+      "sha256": "a2eaa0d098e11161c29507937f8e94ffabb2ee3953dba1f21af98ebed5a3cfb9"
     },
     {
       "path": "audio/feihualing/6d9000b5c51be481.mp3",
@@ -413,6 +638,16 @@
       "path": "audio/feihualing/6e02d5345038b481.mp3",
       "bytes": 13824,
       "sha256": "963274ee0aab0226493c27816fc2d386497ed2c43d633fd9bbe3503cf6c2b0db"
+    },
+    {
+      "path": "audio/feihualing/6eb4b012d6d66178.mp3",
+      "bytes": 27648,
+      "sha256": "0c31d9d9885f343e7fb2c08181baeb143ca3e6cd242f55c7c705b59842b5f040"
+    },
+    {
+      "path": "audio/feihualing/6f98a2d173f25dce.mp3",
+      "bytes": 27504,
+      "sha256": "d26c7e0e6e37a2cc6e21de96443d25b5b19938f34cd02284536b47bfcbb5d398"
     },
     {
       "path": "audio/feihualing/70dc65744e967f31.mp3",
@@ -430,6 +665,11 @@
       "sha256": "c31422c63e359e23ba09b06bdd4d76619832a54fcc34a0c871f07e369f66138c"
     },
     {
+      "path": "audio/feihualing/758f1dae0e5c0c83.mp3",
+      "bytes": 27504,
+      "sha256": "d319a33424d7530ed078c4b07242a559ce71b3fb19106b481ff2f08290db89d7"
+    },
+    {
       "path": "audio/feihualing/75a873fa5b4b5299.mp3",
       "bytes": 16416,
       "sha256": "0e80d9e03eb29dfda3bc6058bb55d034bbdbdf70d691c6d3f78edf921cef3772"
@@ -440,14 +680,39 @@
       "sha256": "cfa1a0a8694f7699e4135e0125411bffd7cb7fdaf311da6ad66ce6a55153e4c7"
     },
     {
+      "path": "audio/feihualing/77018d83c00e5793.mp3",
+      "bytes": 21456,
+      "sha256": "0ecdc9203d502bfd90c3eb4ee54b4261bafc4d0b192cd38e8c4fef01f3c6ba7c"
+    },
+    {
       "path": "audio/feihualing/7732dc686eb7cdec.mp3",
       "bytes": 15984,
       "sha256": "d4a099c927c75dcc319427faf4fb672126e50bc274fea22fa2da60063156fe7e"
     },
     {
+      "path": "audio/feihualing/774cb092581c03b3.mp3",
+      "bytes": 27504,
+      "sha256": "1f63de0615050e28d1b41bed2cbb1044827fe9bcff8ade721f4b0087285abbf0"
+    },
+    {
       "path": "audio/feihualing/7a8e7914c196ef25.mp3",
       "bytes": 13248,
       "sha256": "e8091e304784bfaf73a477762cb77afd84cf4da32cb3cae3540643e11e52e331"
+    },
+    {
+      "path": "audio/feihualing/7b8e7f1e9d82a713.mp3",
+      "bytes": 22464,
+      "sha256": "22df7b80b54991f174bb6ebd1eee8e566c8c3017fdcf11df27bcc141fc1b071a"
+    },
+    {
+      "path": "audio/feihualing/7d276b46d147b482.mp3",
+      "bytes": 28656,
+      "sha256": "0420ee99957877e640fd615f57e6dfa8d53bf225b69d4b1ce5e230cdcd9e0d3e"
+    },
+    {
+      "path": "audio/feihualing/8215cd72113da318.mp3",
+      "bytes": 21600,
+      "sha256": "d1c1b3a3e26ca6ae7953a14f38e78475b8741a32a7e17634be657ad45aa49f9b"
     },
     {
       "path": "audio/feihualing/8335f6c4b7a7943f.mp3",
@@ -458,6 +723,11 @@
       "path": "audio/feihualing/87ea3a29da926efc.mp3",
       "bytes": 16128,
       "sha256": "a2d1e44c98de5584a0c29c0f13bb00f44bca7d27b1f375d552e42e3b5d4f48e3"
+    },
+    {
+      "path": "audio/feihualing/89bd3f7cb0ab9d99.mp3",
+      "bytes": 28368,
+      "sha256": "1c9ade737bad5fa372a3177c496eaa6b25a2e9e246920da5be3fe7387918e114"
     },
     {
       "path": "audio/feihualing/8b4550f1457f5b45.mp3",
@@ -475,6 +745,11 @@
       "sha256": "f4f5655ec2470bb88492b3d56ce70c38dd31eb3956ae96f65cb8409de7fd9902"
     },
     {
+      "path": "audio/feihualing/8dcc98f65d911a4f.mp3",
+      "bytes": 29088,
+      "sha256": "53c350483a7832df64e7f0af96678b5d5906f9730c6b0ce8268da6cc819218db"
+    },
+    {
       "path": "audio/feihualing/8e6f274253a45c0c.mp3",
       "bytes": 15552,
       "sha256": "f601cd8f5aad4f2fe40b4fea3892dd34f447bb7db9573d349b2b5971b9f4b9f6"
@@ -485,9 +760,24 @@
       "sha256": "6d884464d29c674014211befdc317e8ea34bb45b98daae160a7f570802621348"
     },
     {
+      "path": "audio/feihualing/913ddade11644d0f.mp3",
+      "bytes": 27792,
+      "sha256": "381dc2757e80d27e24f0f387d76a8a2a29cb9ca0770f71210db00097cb79361a"
+    },
+    {
       "path": "audio/feihualing/918294f3b3a66212.mp3",
       "bytes": 15696,
       "sha256": "89cdc433d9b610efdee6de8849a87d7aa653fc17b6e92566ef8e413b539a8008"
+    },
+    {
+      "path": "audio/feihualing/920c82e486c66ddf.mp3",
+      "bytes": 27360,
+      "sha256": "2494f7443aad0377643b9c9986800ab3211e1c97d2a452728ea16c1bbb2b40d6"
+    },
+    {
+      "path": "audio/feihualing/93f563eb90d941ca.mp3",
+      "bytes": 29232,
+      "sha256": "c9f054789fa427eca27e231054c84c527859f74e382e5a4a60dda98d3cf2f4ec"
     },
     {
       "path": "audio/feihualing/9bbee45a60846cd2.mp3",
@@ -500,6 +790,31 @@
       "sha256": "a7d051bf47669cf14fd881e43102de683bdbfc49c239dcc8260101aab1c949da"
     },
     {
+      "path": "audio/feihualing/a408f2312626b0e0.mp3",
+      "bytes": 27936,
+      "sha256": "68e452155bbce0131ee3bbc046b5b830eab9756748853e368ea78389ac5294ed"
+    },
+    {
+      "path": "audio/feihualing/a56f01aefaf1214c.mp3",
+      "bytes": 28080,
+      "sha256": "347583e9ad8be2fc41b1b38f4e41a581cec373bf6adca536721485c36f00f8a6"
+    },
+    {
+      "path": "audio/feihualing/a71cbef78732bc25.mp3",
+      "bytes": 21456,
+      "sha256": "66e9b4dbb577b90142cb93232d9f05e7f67fd0eba47da98b888fdac3287e9d67"
+    },
+    {
+      "path": "audio/feihualing/a862ba3f615ec778.mp3",
+      "bytes": 22320,
+      "sha256": "f8293256e6941793e4ab7c861b4a8af76484d593b7285753a47067d82b540ff1"
+    },
+    {
+      "path": "audio/feihualing/a8b5df5e1feec241.mp3",
+      "bytes": 27648,
+      "sha256": "d66fd3c581220411b503dd4df09f3b432a8300283513cfff3520e7817f61d432"
+    },
+    {
       "path": "audio/feihualing/ad5718c63bd27846.mp3",
       "bytes": 12672,
       "sha256": "abb9a033f7ebfcf1ec9c65bb1aa7ae7d6f1838d63585ec44d620c14e39fdc4ad"
@@ -510,9 +825,34 @@
       "sha256": "de681f4af849d6073e05a706562fe1838a7763cc358688cc95fa6438767669d8"
     },
     {
+      "path": "audio/feihualing/ae7be2f5866d45e9.mp3",
+      "bytes": 22032,
+      "sha256": "77fb01d0691323554d1b38039d8f4ce4d8862121ad8caf2af8d1df2ae1387b62"
+    },
+    {
       "path": "audio/feihualing/af12001c0a317ade.mp3",
       "bytes": 15696,
       "sha256": "31dc664e452865fd886682fba3f36ebaf0d8d95747af5d53141d023dd7a3b079"
+    },
+    {
+      "path": "audio/feihualing/af927464248c2d5b.mp3",
+      "bytes": 27216,
+      "sha256": "c21351f72479a4b3cb9a882dbfc98b49cdae18f51d0708a68a6715d01bb1e7aa"
+    },
+    {
+      "path": "audio/feihualing/af9ec5d82f5f12b0.mp3",
+      "bytes": 21744,
+      "sha256": "d2b34ec7515752cc25d5b28845b655dabfbaa8f1701dd6fbc03ec9dc3f09d0e8"
+    },
+    {
+      "path": "audio/feihualing/b08f34a7617a260e.mp3",
+      "bytes": 22464,
+      "sha256": "8e55fb1e0da35949c9a752db62a596cb341babf415492d0a0f9abd34b41633b3"
+    },
+    {
+      "path": "audio/feihualing/b0a9bd03a62061ee.mp3",
+      "bytes": 27216,
+      "sha256": "c53155f8441d7fc11367d7acaaed9c5ba557197004ba7ac689e8b91bd75a3a00"
     },
     {
       "path": "audio/feihualing/b111af6da3993f58.mp3",
@@ -550,9 +890,24 @@
       "sha256": "9e2c808d31fbac719d5f32ca095238c3c1055b06c8b765d4bca151e604c51fd5"
     },
     {
+      "path": "audio/feihualing/b82a154a5b3cdad3.mp3",
+      "bytes": 22032,
+      "sha256": "9875771e6333960ed726e3db874fb1c70933ea1468773cdd1f5ac5649ee87a8d"
+    },
+    {
       "path": "audio/feihualing/ba7ac43b0655ef5d.mp3",
       "bytes": 16128,
       "sha256": "a44c5af408212e52fb2700c2634f1d255c20dd9cfeb20bff188a5591c9e5caa1"
+    },
+    {
+      "path": "audio/feihualing/bb9013c0099dabd8.mp3",
+      "bytes": 28224,
+      "sha256": "5d3a19b9331331ae1b74be080236e969e513173927bd01784a8587dd9e8d0134"
+    },
+    {
+      "path": "audio/feihualing/bc0a8822b8ae31d3.mp3",
+      "bytes": 22608,
+      "sha256": "44d18bd0ce140aad660455615e3f1e7b247f4ae6a9d7347f58eee15fd95d7db7"
     },
     {
       "path": "audio/feihualing/bcff41bf8b82ca54.mp3",
@@ -590,6 +945,21 @@
       "sha256": "c9a47d66f99a28da2066d908fddd97e524798c8abc9f37e9941281c18d92a6fa"
     },
     {
+      "path": "audio/feihualing/c6a6737a65036be9.mp3",
+      "bytes": 28224,
+      "sha256": "08cc0dc1d0cf28c4eff8d4c29686fc91b44a594c5863d306c53cec0475ad2c3f"
+    },
+    {
+      "path": "audio/feihualing/c72b5f93a3f682e0.mp3",
+      "bytes": 21168,
+      "sha256": "d62d9a5564234591c92bf3a2713549a81c2dd5a6e990afebfca639ee72e21cb8"
+    },
+    {
+      "path": "audio/feihualing/c918e42809cdd740.mp3",
+      "bytes": 21312,
+      "sha256": "fd519926134f0912ab3c45a7d9566619472e91dfcdc9fb204e3324f122d5b4a5"
+    },
+    {
       "path": "audio/feihualing/c9dd2e405589750a.mp3",
       "bytes": 12960,
       "sha256": "e5f8fc4eb7c2b5f6a81243cfe9ee9b8ac525244afcaa229c64542aa1812d884e"
@@ -600,9 +970,24 @@
       "sha256": "5fe156c2c2e623127b12f93d18b249ac887fbde04cdcc06219d86d15e83b7d89"
     },
     {
+      "path": "audio/feihualing/ccd0839f3b301463.mp3",
+      "bytes": 22032,
+      "sha256": "f5c3b98c4b8051ba0648810a8c591eb944cd5cbb717c499d87b929a527f1089a"
+    },
+    {
       "path": "audio/feihualing/cd1565406add9167.mp3",
       "bytes": 15696,
       "sha256": "790d0b6e56fd1381b591985459a4eafa228f35b1578a1f632740cbcfc8921901"
+    },
+    {
+      "path": "audio/feihualing/cd316f346ed8e275.mp3",
+      "bytes": 26784,
+      "sha256": "2f23b095337ff85036e8f58e179a8eff2c72a2283b0e64f1627488da1c1c2b51"
+    },
+    {
+      "path": "audio/feihualing/cd6175563906f618.mp3",
+      "bytes": 26352,
+      "sha256": "b62664878ad051676a2faa81c5e55f797eb255004f3dc9ffc51877496fae9190"
     },
     {
       "path": "audio/feihualing/cf2c1e9d7056ef0a.mp3",
@@ -615,9 +1000,39 @@
       "sha256": "819ea8d033ab97b46365432f1376a6b851deeaf14024c8be52d8504b914dbe0b"
     },
     {
+      "path": "audio/feihualing/d26e2743175eab3b.mp3",
+      "bytes": 27936,
+      "sha256": "67678cb9b4d4c66093095be14fbf00ce7ba1b820d3408c38814cdcaa35dad740"
+    },
+    {
       "path": "audio/feihualing/d35f0058e7d039dd.mp3",
       "bytes": 13104,
       "sha256": "8cf36cfcf4a88e31b889edad4b6deb24a6ef7a21c877977f11c6c75222de4231"
+    },
+    {
+      "path": "audio/feihualing/d3734433040712d4.mp3",
+      "bytes": 27072,
+      "sha256": "39df3e626f9c0dba432314a25321bd24c257febb27a8780014615940e4c4b066"
+    },
+    {
+      "path": "audio/feihualing/d3f59a0f27ee8c85.mp3",
+      "bytes": 27936,
+      "sha256": "8a288cb69c9a7b9a610f98f50e443731a02b97317d21868cf4d0f313093a6bcb"
+    },
+    {
+      "path": "audio/feihualing/d6022eb5d692e7c2.mp3",
+      "bytes": 21744,
+      "sha256": "fcdcc64b34c5c3a87b513b874578a9e78c98d033bef24dd8cdb139e71dbe48c4"
+    },
+    {
+      "path": "audio/feihualing/d6ac6ff0bfdccfeb.mp3",
+      "bytes": 22032,
+      "sha256": "9dfb540a338c0411d20d03043e259c487e09d8e1cdc2ccd931a77c381d7a3bd5"
+    },
+    {
+      "path": "audio/feihualing/d753467f8de14999.mp3",
+      "bytes": 27504,
+      "sha256": "53a410729a4f4ad631de1375ceeae76544b8078a6ef31035b098056353afaee9"
     },
     {
       "path": "audio/feihualing/d7baeb77f41ddc83.mp3",
@@ -625,14 +1040,29 @@
       "sha256": "1370bbe2522c45a1c1db7eac147f9c375a0fb089d9290517f27e0fce4ff47133"
     },
     {
+      "path": "audio/feihualing/dcacd4f600d3977c.mp3",
+      "bytes": 27504,
+      "sha256": "5b93fe0b6392c6df737f8fa96f05e88d280c66c1e0e792ac68307b1cf61cf492"
+    },
+    {
       "path": "audio/feihualing/dcd06e07d3a13f40.mp3",
       "bytes": 12528,
       "sha256": "4f314d019e0088377338b9dc770a44101d3588e9bc06016087b4a4e7c1713548"
     },
     {
+      "path": "audio/feihualing/dd60842c2d6f9fe6.mp3",
+      "bytes": 22032,
+      "sha256": "792d924096f98f878565c531c04457ac4db9ff8b52874d85a450e0b28c6e32b5"
+    },
+    {
       "path": "audio/feihualing/dd86707dcb0bbb27.mp3",
       "bytes": 15840,
       "sha256": "1ce423aa942a305efda7d73cd9891cd1fb5213844e10341ed35371aad5168acd"
+    },
+    {
+      "path": "audio/feihualing/dd971d2a9908944c.mp3",
+      "bytes": 28800,
+      "sha256": "ff75253be498c751cfe11703a59dad9b9665d908821475f8eec6de8335a4458c"
     },
     {
       "path": "audio/feihualing/de46e1a3e79c2a74.mp3",
@@ -645,9 +1075,24 @@
       "sha256": "1f97092bd452a552f921625fd64edda28142025c0dcbe33a57faac486325dae9"
     },
     {
+      "path": "audio/feihualing/e4e973a60ded0741.mp3",
+      "bytes": 27936,
+      "sha256": "426a246d933c86866ac07d08a27e978e5ab92b6d9a9904b93f03a0f19990c621"
+    },
+    {
       "path": "audio/feihualing/e572bc06b247b2bd.mp3",
       "bytes": 14976,
       "sha256": "1fb79d06b453a7c0b56885aadcf1d20d2ba0b63382187aee54650af29f8abee0"
+    },
+    {
+      "path": "audio/feihualing/e65a79782b0f32bf.mp3",
+      "bytes": 28800,
+      "sha256": "1b003cc6fa714fb0e73e4c33d1d267ecbbb0731d61fedda516bcb9d65162070f"
+    },
+    {
+      "path": "audio/feihualing/e8fa9a0e1c00a620.mp3",
+      "bytes": 27216,
+      "sha256": "2e2ea140a8cc03861c6ac0ebda4448e64990510a84422981f6ebe98e3015105b"
     },
     {
       "path": "audio/feihualing/e94428a6bc253abb.mp3",
@@ -660,6 +1105,16 @@
       "sha256": "0d8ba74c566e694f6108d633a7ac1b359704e5870ccfb9435acf3379c71416c5"
     },
     {
+      "path": "audio/feihualing/ea67be5e63a3ae63.mp3",
+      "bytes": 22032,
+      "sha256": "e2b20a7829282a8e86aee9926cf654271aa69d415de1ab9acf845995f3a49cfd"
+    },
+    {
+      "path": "audio/feihualing/eb030ac21463f684.mp3",
+      "bytes": 21456,
+      "sha256": "c607cde58cc8fd62ac3011758c5c9d60932f87f19274c0bd64540b9ad672bfdd"
+    },
+    {
       "path": "audio/feihualing/ec5b5e6332560891.mp3",
       "bytes": 15984,
       "sha256": "d1f40441b885bb26163ef242511d2132742d16f64ba3e71596bf3e0fc1a179e9"
@@ -670,9 +1125,39 @@
       "sha256": "fdaca7ec5e22ac53633c6828f1bf4ef82d5d03188b6d83e4b9e0d97023bb5d20"
     },
     {
+      "path": "audio/feihualing/ee55f3907b509d2f.mp3",
+      "bytes": 22752,
+      "sha256": "b1d4c44dcbe16778c33616824e50b5fac077205605bf2a478aad9d43996ac7fb"
+    },
+    {
+      "path": "audio/feihualing/ef6c23e82b9aed01.mp3",
+      "bytes": 28080,
+      "sha256": "6e12ad7ea2b9c859beced9f2d269f806846a9aa3e74e067c233dadf52f8dadc8"
+    },
+    {
+      "path": "audio/feihualing/f16a7c71c5f7f02f.mp3",
+      "bytes": 22464,
+      "sha256": "791ec0c085d539a9c62fd82e8249c5603c98cf4e4cb23fb5244f1747331f82fa"
+    },
+    {
       "path": "audio/feihualing/f437fbeb1480a3ae.mp3",
       "bytes": 16128,
       "sha256": "5c9f60ac52665348ea53a44878782c2a1b2c39c623e3bf6d57d9762f34c27e0d"
+    },
+    {
+      "path": "audio/feihualing/f508f3966083d452.mp3",
+      "bytes": 28944,
+      "sha256": "543555c781a8333e2d91e98f5540421c1a94b113c335b1d4ffa28d46ba41ea7b"
+    },
+    {
+      "path": "audio/feihualing/f5532c028e8a865f.mp3",
+      "bytes": 27504,
+      "sha256": "44c5e47a0f4f0176a68841f58e4463db5a1f4101815126098f1b320c9c011c8f"
+    },
+    {
+      "path": "audio/feihualing/f5db7f8642e54613.mp3",
+      "bytes": 28224,
+      "sha256": "a85c560fb35690e004b10fc11659cb4a3a1c847528aec434009ebda66134b866"
     },
     {
       "path": "audio/feihualing/f6da563177ed190a.mp3",
@@ -680,14 +1165,29 @@
       "sha256": "7a4ce9a01beba8ebc79cf5794ea79e92f4e41976117a3f8fd24d64b6032b488c"
     },
     {
+      "path": "audio/feihualing/f6f7bb90c2db50eb.mp3",
+      "bytes": 27648,
+      "sha256": "1168e71ab05cfdf9bb245d1697cc8cb11cad84c7d49ac3a8f6d1b91d4c639736"
+    },
+    {
       "path": "audio/feihualing/f77307022b6cbf35.mp3",
       "bytes": 16704,
       "sha256": "7806267dc8d0137a95b17b0257e47854b543b0f6547c91d64e9d83c0029fd346"
     },
     {
+      "path": "audio/feihualing/f8ab98a1b4425f8d.mp3",
+      "bytes": 27792,
+      "sha256": "3e467e88c0a5d1bcf251235417a56eed2a11fdf934e40e071fd1d8bbaae5c5b5"
+    },
+    {
       "path": "audio/feihualing/f92eb9153207d708.mp3",
       "bytes": 12672,
       "sha256": "92c9f1170b6fa2a6a9a6286cf43fea6506ee7c50403b2d132d9d3b094c67092c"
+    },
+    {
+      "path": "audio/feihualing/f9348ecdf0ca4b05.mp3",
+      "bytes": 22608,
+      "sha256": "65dafc38c5fe90ef37f4c0162fa23d4ac0fcd0bf334f996e3f14cb66bf4d6657"
     },
     {
       "path": "audio/feihualing/f9fb825e62a7f4c4.mp3",
@@ -708,6 +1208,26 @@
       "path": "audio/feihualing/fd267e1646675742.mp3",
       "bytes": 15552,
       "sha256": "d092ac619f3b37f6f8ccbd4fb314e44fec92424672d278fb94b9eb8317a08daa"
+    },
+    {
+      "path": "audio/feihualing/fe8e89a38bf100d9.mp3",
+      "bytes": 28224,
+      "sha256": "7f52d108139aa195447ed830492a84bba60f06b00a756886daa46f6c8818af1a"
+    },
+    {
+      "path": "audio/feihualing/fe9da40df3075414.mp3",
+      "bytes": 28224,
+      "sha256": "75e520f06f6b84589bfcf87d32f03b092054686e0ad6ba37dd7347cd76ee27c1"
+    },
+    {
+      "path": "audio/feihualing/fea844fb12f62fc5.mp3",
+      "bytes": 27648,
+      "sha256": "ebac194ae981a920bce4133ed58e24f1adc435f44f24532301f1650e82bf77b9"
+    },
+    {
+      "path": "audio/feihualing/ff1717a9dbcd8bce.mp3",
+      "bytes": 21888,
+      "sha256": "ec42d12b9a2f6a0c5360b86ac683dd94b5ff52644da5482ce948b1e2e240ba7b"
     },
     {
       "path": "audio/feihualing/ff76f13737008d1b.mp3",
@@ -2632,7 +3152,7 @@
     {
       "path": "curriculum.js",
       "bytes": 2285,
-      "sha256": "3871f57f2341e3952e876f1cfd5d305c500b89a566695993777e2f8c925cdb6b"
+      "sha256": "3ac7e8d45c1ff5e5df6ae638fcf6bd3d25fad3708cffe33ab728e74c75a459b5"
     },
     {
       "path": "curriculum.json",
@@ -2646,28 +3166,28 @@
     },
     {
       "path": "feihualing-audio.json",
-      "bytes": 28833,
-      "sha256": "c4644c7731326c4db5bd40d326b2caf7083a942c51d38b11432dbaa9d0eeab8d"
+      "bytes": 59734,
+      "sha256": "4acdf27dd3813c8537e7e418410a0a5352b52f56eb2faff5b4ed486fdff0038b"
     },
     {
       "path": "feihualing-play.js",
-      "bytes": 8261,
-      "sha256": "9d5daa1ce29a19e75e0f6f21e421ad652d26d2ca7833c6d84996821814c55ce9"
+      "bytes": 8710,
+      "sha256": "2feb929e8f402e6bdb16454f71fc46e44d03fb6e2d8aab522a0ebf0abbff68fc"
     },
     {
       "path": "feihualing-ui.js",
-      "bytes": 4658,
-      "sha256": "584c700e0032ab2aaa53d224586919472785ef22cbee6712808afe48187ef33c"
+      "bytes": 4958,
+      "sha256": "4e7c5cfc3afbe07e38b400915918b71cb7fe78d81e1bc75a02fd1120a480835a"
     },
     {
       "path": "feihualing.css",
-      "bytes": 4214,
-      "sha256": "8d9d9f3d6beb97d74396866173e49addcf337f35e620c93ea735b6162117320f"
+      "bytes": 5008,
+      "sha256": "1b9c806215e027d8e354573fb47cc4b2db68dfa0e5e246aa7fad8dc288c12751"
     },
     {
       "path": "feihualing.js",
-      "bytes": 3378,
-      "sha256": "5a2bbb47fb68dd12b2c95947bb70a5d3071be430dce87cff810ea4521dfa0cf7"
+      "bytes": 4294,
+      "sha256": "667949b7f0abde2d99779e9bf404abaaaeab524569d212a8d11e0d80edc04f4f"
     },
     {
       "path": "grades.js",
@@ -7472,7 +7992,7 @@
     {
       "path": "index.html",
       "bytes": 3886,
-      "sha256": "f5276fc76696c8fadec8b801d654d75697cda074b39f77a56df84f6570cc6cb5"
+      "sha256": "6460f371fd2b29d441b613ce154921b956f7b2ded731003c5f729d1337d2698c"
     },
     {
       "path": "manifest.webmanifest",
@@ -7482,7 +8002,7 @@
     {
       "path": "navigation.js",
       "bytes": 2802,
-      "sha256": "7a07296f5fd74cf44be6b9a99d60e13f6dc604af7e1157533c1ad058f07e8cf6"
+      "sha256": "6340f8e3ec8970399d8d02bdccdfe17ad758f2f368e525dd66736ab123d63fea"
     },
     {
       "path": "pagination.js",
@@ -7512,7 +8032,7 @@
     {
       "path": "recitation-heading.js",
       "bytes": 5294,
-      "sha256": "a9a7ae764d96c8f74b2f81adf3dae883bcc61f78b8e7461baeeb0d1e1544a061"
+      "sha256": "5fc1bb8f22ccadffe08f9a15e5313e84e61d5a4ef5ed0c16db834b5bd15b78d6"
     },
     {
       "path": "recitation-options.js",
@@ -7541,18 +8061,18 @@
     },
     {
       "path": "store.js",
-      "bytes": 10862,
-      "sha256": "0a43cc29683eb193406cf518dfe18ac14faef135d96e726ff7a426738e8e882b"
+      "bytes": 10931,
+      "sha256": "e4515b6b42b65ea15e162554e5fd296df25f4409cdc396ba76a1e84770582878"
     },
     {
       "path": "sw.js",
       "bytes": 4061,
-      "sha256": "5943e082ab174f5ec70c0b6fcd988463c40662a3ac52915645c1a712586783fc"
+      "sha256": "c0da56ead33bbf843d78955cd19ed91d969bb849178b35e243820af11f4a2d48"
     },
     {
       "path": "sync-core.js",
       "bytes": 8073,
-      "sha256": "928bc2458f56ce548686a33b1037448b58ff5ab7ca89ac77ebea00c00a4a92b1"
+      "sha256": "e82006e915297d6f438f1453b80f9761b459d0b5c359aa45c89a90c83942fee8"
     },
     {
       "path": "textbook-poems.json",
@@ -7627,7 +8147,7 @@
     {
       "path": "voice-ui.js",
       "bytes": 19796,
-      "sha256": "95c9fd7355342ef989cd8cb72005153ad4d0e28fe134296c30cd2ae8198f7a63"
+      "sha256": "4caeb42941f879ccae7a1fbed71d6ceedc4425d45de55122ea003c6f172efefb"
     },
     {
       "path": "voice.js",

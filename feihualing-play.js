@@ -1,10 +1,12 @@
-import {apiUrl} from './api.js?v=70';
-import {VoiceSession, voiceCapabilities} from './voice.js?v=70';
-import {chooseComputerLine, flowerHint, flowerSource, judgeFlowerAnswer} from './feihualing.js?v=70';
+import {apiUrl} from './api.js?v=71';
+import {VoiceSession, voiceCapabilities} from './voice.js?v=71';
+import {chooseComputerLine, flowerHint, flowerSource, flowerUnit, judgeFlowerAnswer} from './feihualing.js?v=71';
 
 export class FlowerPractice {
   constructor({word, index, pool, clips, familiar, reserved, variants, phonetics, update, finish, speechMode}) {
     Object.assign(this, {word, index, pool, clips, familiar, reserved, variants, phonetics, update, finish, speechMode});
+    this.mode = index.mode;
+    this.unit = flowerUnit(this.mode);
     this.type = 'feihualing';
     this.phase = 'ready';
     this.answers = [];
@@ -81,7 +83,7 @@ export class FlowerPractice {
         this.show('ready', '语音识别暂时不可用，可以重说或打字。');
       } else if (!payload.text.trim() || Number.isFinite(payload.confidence) && payload.confidence < .6 ||
         payload.segments?.some(line => line.noSpeechProbability > .6)) {
-        this.show('ready', '这句没听清，可以慢一点再说一遍。');
+        this.show('ready', '这一遍没听清，可以慢一点再说一次。');
       } else await this.answer(payload.text, true);
     } catch {
       if (this.request === request) this.show('ready', '语音核对未完成，可以重说或打字。');
@@ -111,14 +113,14 @@ export class FlowerPractice {
   revealHint() {
     if (this.phase !== 'ready' || this.hint) return;
     const line = flowerHint(this.index, this.word, this.used, this.familiar, this.reserved);
-    if (line) this.hint = {text: line.text, poem: flowerSource(line, this.familiar)};
+    if (line) this.hint = {initials: line.parts.map(part => [...part][0]), poem: flowerSource(line, this.familiar)};
     this.update();
   }
 
   addLine(line, who, details = {}) {
-    this.used.add(line.text);
+    for (const part of line.parts) this.used.add(part);
     const poem = flowerSource(line, this.familiar);
-    const answer = {text: line.text, poem, who, ...details};
+    const answer = {text: line.text, parts: line.parts, poem, who, ...details};
     this.answers.push(answer);
     return answer;
   }
@@ -131,10 +133,12 @@ export class FlowerPractice {
     if (result.status !== 'accepted') {
       const notes = {
         empty: '这一遍没听清，请再说一次。',
-        unknown: speech ? '诗库里暂未核对到这句。可以重说或试试打字。' : '诗库里暂未核对到这句，请核对文字再试。',
-        ambiguous: '有多句的读音相同，可以打字确认是哪一句。',
-        'missing-word': `这句诗里没有「${this.word}」，换一句试试。`,
-        duplicate: '这句已经接过了，想想其他诗。'
+        incomplete: '听到了一句，请按原诗顺序说完整的上下两句。',
+        unknown: this.mode === 'couplet' ? '没找到这一联。请核对上下两句的原文和顺序。'
+          : speech ? '诗库里暂未核对到这句。可以重说或试试打字。' : '诗库里暂未核对到这句，请核对文字再试。',
+        ambiguous: '有多个读音相同的答案，可以打字确认。',
+        'missing-word': `这${this.unit}诗里没有「${this.word}」，换一${this.unit}试试。`,
+        duplicate: this.mode === 'couplet' ? '上下句中有一句已经接过了，换一联试试。' : '这句已经接过了，想想其他诗。'
       };
       this.show('ready', notes[result.status]);
       return;
