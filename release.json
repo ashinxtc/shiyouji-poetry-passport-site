@@ -1,18 +1,18 @@
 {
   "app": "shiyouji",
-  "version": 68,
-  "sourceCommit": "fcad4ff6182fdf8e96568640d3afdcd3a0ec97ba",
+  "version": 69,
+  "sourceCommit": "0be22a0fce1146ca917595dc10506ab34a76bf64",
   "frontend": "github-pages",
   "assets": [
     {
       "path": "account-ui.js",
       "bytes": 7717,
-      "sha256": "a7deec48b3dc032c97c5d480cbae01fd359f379e4b94b2fba18cb480d51ac219"
+      "sha256": "37deae01b846c051e4a91455fafeec8380a9586ac311be18b1e12a932afa67cb"
     },
     {
       "path": "accounts.js",
       "bytes": 22637,
-      "sha256": "88ab9286c8d11f864f98205637e841903a092e8f4b234ee5e6e002dfaa514cf5"
+      "sha256": "cceb1d948841924c4bc614cbc16e416ba303e6ff1627c5a8ac61c10c41d0e1f8"
     },
     {
       "path": "api.js",
@@ -106,13 +106,13 @@
     },
     {
       "path": "app.js",
-      "bytes": 110867,
-      "sha256": "8ba30b99700207ffffeb04a09067a5bd435330a2f0dbd9a42cd916c02074661d"
+      "bytes": 110816,
+      "sha256": "f57c1326de4ad3097a7e41cf15c329cec5b14aaf02906d51872b7b0c750324a4"
     },
     {
       "path": "art.js",
       "bytes": 3953,
-      "sha256": "7e7f50bc512201fca875b9efcd5c793933ef08c63852ea8f9d65c6e5f11be16c"
+      "sha256": "f2359f8e02d32d59e86e832373259894f8a3bf7bd830e42f6a91d5f87e9a4d12"
     },
     {
       "path": "audio/primary-001.mp3",
@@ -2032,7 +2032,7 @@
     {
       "path": "curriculum.js",
       "bytes": 2285,
-      "sha256": "470dabc1fd10192a6e0f4a26fd12a4763d9a4decbffaed6843644b0e30b64c4b"
+      "sha256": "a38ad84d16fbcb37c02e93c67f1e33e8f446629fd951ac8c9df940607adeedfa"
     },
     {
       "path": "curriculum.json",
@@ -6847,7 +6847,7 @@
     {
       "path": "index.html",
       "bytes": 3830,
-      "sha256": "a70b38c621071c917fd78b9eb43b52c0918eb8c6db8f6f2f9ec52b1018b44774"
+      "sha256": "675483ab54b9530ec92fdaa1ebc8dfac13c84dcfb41bdb7967a6ae89aed0306c"
     },
     {
       "path": "manifest.webmanifest",
@@ -6857,7 +6857,7 @@
     {
       "path": "navigation.js",
       "bytes": 2802,
-      "sha256": "5762da9cbada9d358b519f4709b95a6c5dc22633a856dc88aae7094184d7e1be"
+      "sha256": "d732794c2a032656fa9c700f92cdcc251b922d9372fd5bf0d27852e3ac02ee7f"
     },
     {
       "path": "pagination.js",
@@ -6887,7 +6887,7 @@
     {
       "path": "recitation-heading.js",
       "bytes": 5294,
-      "sha256": "a99e3ee240a5ccc575b12fcad4467e737fbd2c44a5a07c89c4027cb39f236156"
+      "sha256": "d4c0f2348e4ffa4c361520696460c43e943058627bd17b4c355987a697ba7e94"
     },
     {
       "path": "recitation-options.js",
@@ -6917,17 +6917,17 @@
     {
       "path": "store.js",
       "bytes": 10507,
-      "sha256": "83764d704e9205fa3c1b86330c46fe6ed179a0a90ebe8bf56f4c86756f7afc77"
+      "sha256": "5840bfbda27590303921eac73ce3d22d488837a2d63c89d8cc2cd1a679c6e66e"
     },
     {
       "path": "sw.js",
       "bytes": 3929,
-      "sha256": "63dca11f400fd6731ecddca46e0ee2f120f0678bbf111ba58c3ce443edea522c"
+      "sha256": "8d2774e0c92f659d8659b25948921d1174c041b862418d5d58320db6b6f9cca0"
     },
     {
       "path": "sync-core.js",
       "bytes": 8073,
-      "sha256": "414863474efdb328900f1af8fbd36a1c92a62a20d6b8343f9c4d5ecd29bf641b"
+      "sha256": "b439405bb1fce68310ea1da2af721e72bf8bbf3f5f381c2b909c7f669af83a4e"
     },
     {
       "path": "textbook-poems.json",
@@ -7002,7 +7002,7 @@
     {
       "path": "voice-ui.js",
       "bytes": 19796,
-      "sha256": "dfa28a5c5a1f640d0c0ad0234a216ab06f7876968d8e3875609afdf1b22df96c"
+      "sha256": "de19f78d3989aa874ba3c4ce7d0b6a748cafcd27b41770904c699ff6797dd0fc"
     },
     {
       "path": "voice.js",
