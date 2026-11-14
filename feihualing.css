@@ -1,0 +1,50 @@
+.challenge-list:has([data-type="feihualing"]){grid-template-rows:auto repeat(2,minmax(0,1fr))}
+.challenge-tile[data-type="feihualing"]{grid-column:1/-1;flex-direction:row;align-items:center;justify-content:flex-start;min-height:52px;background:#e9f1e4;color:var(--teal-dark)}
+.flower-page{height:100%;min-height:0;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--spacing-75)}
+.flower-top{display:flex;align-items:center;justify-content:space-between;gap:var(--spacing-75)}
+.flower-top h2{font:500 20px/28px var(--serif)}
+.flower-top .text-button{min-height:44px}
+.flower-board{min-height:0;overflow:auto;overscroll-behavior:contain;text-align:center;padding:var(--spacing-50) var(--spacing-50) var(--spacing-75)}
+.flower-token{display:grid;place-items:center;width:clamp(56px,12dvh,104px);aspect-ratio:1;margin:0 auto var(--spacing-75);background:var(--teal-dark);color:#f3deb2;border:1px solid #56717a;border-radius:12px;box-shadow:0 3px 0 #d1be95;font:400 clamp(32px,7dvh,60px)/1 var(--serif)}
+.flower-counts{display:flex;justify-content:center;gap:var(--spacing-300);font:500 14px/20px var(--sans)}
+.flower-counts strong,.flower-summary strong{color:var(--teal-dark)}
+.flower-turn{color:var(--teal-dark);font:600 18px/28px var(--sans);margin:var(--spacing-75) 0 var(--spacing-50)}
+.flower-verse p{font:500 24px/32px var(--serif);overflow-wrap:anywhere}
+.flower-verse small,.flower-last,.flower-low,.flower-summary small,.flower-review-row small{font:400 12px/16px var(--sans);color:var(--muted)}
+.flower-last{margin-top:var(--spacing-75)}
+.flower-verse{animation:flower-verse-in 500ms cubic-bezier(.22,1,.36,1) both}
+@keyframes flower-verse-in{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.flower-note,.flower-hint,.flower-rule,.flower-load{font:400 14px/20px var(--sans);margin:var(--spacing-75) 0 0}
+.flower-note{color:#854b34}
+.flower-hint{padding:var(--spacing-75);border:1px solid var(--line);border-radius:8px;background:#f3f3e6}
+.flower-controls{text-align:center}
+.flower-controls .button{min-height:52px}
+.flower-options{display:flex;justify-content:center;gap:var(--spacing-200)}
+.flower-options .text-button{min-height:44px;padding:0 var(--spacing-50)}
+.flower-words{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--spacing-75)}
+.flower-words label{display:grid;position:relative}
+.flower-words input{position:absolute;inset:0;margin:0;opacity:0;cursor:pointer}
+.flower-words span{display:grid;place-items:center;min-height:48px;border:1px solid var(--line);border-radius:8px;color:var(--teal-dark);font:500 20px/28px var(--serif)}
+.flower-words input:checked + span{background:var(--teal-dark);color:#f3deb2}
+.flower-words input:focus-visible + span{outline:3px solid #608b9c;outline-offset:2px}
+.flower-result{grid-template-rows:auto auto minmax(0,1fr) auto}
+.flower-summary{text-align:center;padding:var(--spacing-75);border:1px solid var(--line);border-radius:8px;background:#f3f6ec;font:500 14px/20px var(--sans)}
+.flower-summary .flower-turn{margin:0}
+.flower-result .flower-board{text-align:left}
+.flower-result .flower-board h3{font:500 14px/20px var(--sans)}
+.flower-review{list-style:none;margin:0;padding:0}
+.flower-review-row{width:100%;display:grid;grid-template-columns:4.5em minmax(0,1fr) auto;align-items:center;gap:var(--spacing-75);text-align:left;min-height:52px;padding:var(--spacing-75) var(--spacing-50);border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink)}
+.flower-review-row strong,.flower-review-row small{display:block;overflow-wrap:anywhere}
+.flower-role{font:500 12px/16px var(--sans);color:var(--muted)}
+@media(max-height:650px){
+  .flower-token{max-width:60px}
+  .challenge-list:has([data-type="feihualing"]){gap:var(--spacing-75)}
+  .challenge-tile[data-type="feihualing"]{min-height:44px}
+}
+@media(max-height:480px){
+  .challenge-list:has([data-type="feihualing"]){grid-template-rows:repeat(3,minmax(0,1fr))}
+  .challenge-tile[data-type="feihualing"]{min-height:0}
+  .flower-controls .button,.flower-options .text-button,.flower-top .text-button{min-height:36px}
+  .flower-low{display:none}
+}
+@media(prefers-reduced-motion:reduce){.flower-verse{animation:none}}

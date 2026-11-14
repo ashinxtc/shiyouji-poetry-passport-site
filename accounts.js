@@ -1,6 +1,6 @@
-import {apiUrl} from './api.js?v=69';
-import {initialData} from './store.js?v=69';
-import {APP_ID,clone,same,canonical,initialSpace,newProfile,validateSpace,generateCode,normalizeCode,codeHash,mergeSpaces,chooseConflicts,MAX_PROFILES,MAX_PROFILE_RECORDS,isDeleted} from './sync-core.js?v=69';
+import {apiUrl} from './api.js?v=70';
+import {initialData} from './store.js?v=70';
+import {APP_ID,clone,same,canonical,initialSpace,newProfile,validateSpace,generateCode,normalizeCode,codeHash,mergeSpaces,chooseConflicts,MAX_PROFILES,MAX_PROFILE_RECORDS,isDeleted} from './sync-core.js?v=70';
 export const INDEX_KEY='shiyouji.accounts.index.v1',CODES_KEY='shiyouji.accounts.codes.v1',ACTIVE_KEY='shiyouji.accounts.active.v1',PREFIX='shiyouji.accounts.space.v1:';
 export class PoetryAccounts {
   constructor(poemIds,{storage=globalThis.localStorage,session=globalThis.sessionStorage,fetcher=globalThis.fetch.bind(globalThis),onChange=()=>{}}={}){Object.assign(this,{poemIds,storage,session,fetcher,onChange});this.busy=new Set();this.syncTasks=new Map();this.statuses=new Map();this.timers=new Map();this.cache=new Map();this.active=null;}
@@ -58,7 +58,7 @@ export class PoetryAccounts {
   deleteProfile(id,options={}){return this.changeProfileState(id,true,options);}
   restoreProfile(id,options={}){return this.changeProfileState(id,false,options);}
   async request(code,options={}){
-    const response=await this.fetcher(apiUrl('/api/poetry-sync'),{...options,headers:{Authorization:'Bearer '+encodeURIComponent(code),'X-Poetry-Code-Encoding':'uri','X-Poetry-Client':'14',...options.headers},cache:'no-store',signal:AbortSignal.timeout(20000)});
+    const response=await this.fetcher(apiUrl('/api/poetry-sync'),{...options,headers:{Authorization:'Bearer '+encodeURIComponent(code),'X-Poetry-Code-Encoding':'uri','X-Poetry-Client':'15',...options.headers},cache:'no-store',signal:AbortSignal.timeout(20000)});
     const body=await response.json().catch(()=>({}));if(!response.ok){const error=new Error(body.error||'云同步暂时不可用，本机数据已保留。');error.status=response.status;error.code=body.code;throw error;}
     if(body.app!==APP_ID)throw new Error('云端不是诗游记的同步空间，已停止读取。');return body;
   }

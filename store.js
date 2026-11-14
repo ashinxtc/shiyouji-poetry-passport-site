@@ -1,5 +1,5 @@
-import {STAGE_NAMES,stageForGrade} from './grades.js?v=69';
-import {headingRequirements,HEADING_FIELDS} from './recitation-options.js?v=69';
+import {STAGE_NAMES,stageForGrade} from './grades.js?v=70';
+import {headingRequirements,HEADING_FIELDS} from './recitation-options.js?v=70';
 export const STORAGE_KEY='shiyouji.passport.v3';
 export const LEGACY_STORAGE_KEY='shiyouji.passport.v1';
 export const SCHEMA=2;
@@ -34,10 +34,11 @@ export function validateData(raw,poemIds){
     out.entries[id]={seen:entry.seen,reading,attempts,dueAt:entry.dueAt};
   }
   out.games=raw.games.slice(-100).map(g=>{
-    if(!g||!['cloze','sequence','recite','family'].includes(g.type)||!Number.isFinite(Date.parse(g.at))||!Number.isInteger(g.score)||!Number.isInteger(g.total)||g.total<1||g.total>100||g.score<0||g.score>g.total)throw new Error('挑战记录格式无效');
+    if(!g||!['cloze','sequence','recite','family','feihualing'].includes(g.type)||!Number.isFinite(Date.parse(g.at))||!Number.isInteger(g.score)||!Number.isInteger(g.total)||g.total<1||g.total>100||g.score<0||g.score>g.total)throw new Error('挑战记录格式无效');
+    if(g.type==='feihualing'&&(!/^\p{Script=Han}$/u.test(g.word||'')||!Number.isInteger(g.computer)||g.computer<g.total-1||g.computer>g.total||typeof g.won!=='boolean'||g.won!==(g.computer===g.total-1)))throw new Error('飞花令成绩无效');
     if(g.type==='family'&&(!Array.isArray(g.players)||g.players.length!==2||g.players.some(p=>!p||typeof p.name!=='string'||!p.name.trim()||p.name.length>16||!Number.isInteger(p.score)||p.score<0||p.score>g.total)))throw new Error('家庭赛参与者记录无效');
     if(g.type!=='family'&&g.players!==null)throw new Error('挑战记录缺少明确的参与者字段');
-    return {type:g.type,at:g.at,score:g.score,total:g.total,players:g.type==='family'?g.players.map(p=>({name:p.name,score:p.score})):null};
+    return {type:g.type,at:g.at,score:g.score,total:g.total,players:g.type==='family'?g.players.map(p=>({name:p.name,score:p.score})):null,...(g.type==='feihualing'?{word:g.word,computer:g.computer,won:g.won}:{})};
   });
   if(typeof raw.createdAt!=='string'||!Number.isFinite(Date.parse(raw.createdAt)))throw new Error('备份缺少有效的创建时间');
   out.createdAt=raw.createdAt;
@@ -86,7 +87,7 @@ export function summary(data,poems,now=new Date()){
   }
   const unique=list=>[...new Map(list.map(p=>[p.workId||p.id,p])).values()];return {learned:unique(learned),independent:unique(independent),remembered:unique(remembered),due};
 }
-export function recordGame(data,type,score,total,players=null){data.games.push({type,score,total,players,at:new Date().toISOString()});data.games=data.games.slice(-100);}
+export function recordGame(data,type,score,total,players=null,details={}){data.games.push({type,score,total,players,at:new Date().toISOString(),...details});data.games=data.games.slice(-100);}
 export function bestScore(data,type,total){return Math.max(0,...data.games.filter(g=>g.type===type&&g.total===total).map(g=>g.score));}
 export function shuffled(items,rng=Math.random){const arr=[...items];for(let i=arr.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
 export function makeCloze(poems,count=5,rng=Math.random){

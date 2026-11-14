@@ -1,17 +1,20 @@
-import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=69';
-import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=69';
-import {MAIN_TABS,rootTab,bookPageTarget,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=69';
-import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=69';
-import {BookMotion} from './book.js?v=69';
-import {PassportEffects} from './effects.js?v=69';
-import {versePages,listPageSize,stampPageSize} from './pagination.js?v=69';
+import {initialData,validateData,STORAGE_KEY,LEGACY_STORAGE_KEY,summary,markSeen,completeReading,recordAttempt,recordGame,bestScore,shuffled,makeCloze,localDay} from './store.js?v=70';
+import {icon,landscape,emblem,poemArtwork,artworkImage,illustrationFor,POEM_ILLUSTRATIONS} from './art.js?v=70';
+import {MAIN_TABS,rootTab,bookPageTarget,readingPageTarget,homeLearningTarget,navigationHash,locationRoute} from './navigation.js?v=70';
+import {applyPinyinCatalog,hasPinyin,pinyinState} from './pinyin.js?v=70';
+import {BookMotion} from './book.js?v=70';
+import {buildFlowerIndex, flowerPool, flowerSource, FLOWER_WORDS} from './feihualing.js?v=70';
+import {FlowerPractice} from './feihualing-play.js?v=70';
+import {flowerView, flowerResult} from './feihualing-ui.js?v=70';
+import {PassportEffects} from './effects.js?v=70';
+import {versePages,listPageSize,stampPageSize} from './pagination.js?v=70';
 
-import {ReadingTracker} from './reading.js?v=69';
-import {VoiceUI,speechCorrectionDetails} from './voice-ui.js?v=69';
-import {headingLabels,headingRequirements} from './recitation-options.js?v=69';
-import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=69';
-import {accountPanel,profileRows,deletedRows,quickAccountHeader,quickProfileRows,quickSwitchTarget} from './account-ui.js?v=69';
-import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=69';
+import {ReadingTracker} from './reading.js?v=70';
+import {VoiceUI,speechCorrectionDetails} from './voice-ui.js?v=70';
+import {headingLabels,headingRequirements} from './recitation-options.js?v=70';
+import {PoetryAccounts,INDEX_KEY,CODES_KEY,PREFIX} from './accounts.js?v=70';
+import {accountPanel,profileRows,deletedRows,quickAccountHeader,quickProfileRows,quickSwitchTarget} from './account-ui.js?v=70';
+import {GRADE_NAMES,STAGE_NAMES,stageForGrade,profileGradeLabel,gradeOptions,targetPoems,targetAssignments,curriculumProgress,recommendation,mastered,poemCurriculumLabel,standardItems,standardPoetry} from './curriculum.js?v=70';
 
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -31,6 +34,7 @@ player.addEventListener('ended',()=>{if(player.dataset.poemId)readingTracker.aud
 player.addEventListener('error',()=>{if(player.getAttribute('src')){speaking=false;audioButton();say('朗读暂时没加载好，联网后点一下重试。');}});
 const readingTracker=new ReadingTracker();
 let speechVariants={},speechPhonetics={},speechHeadings={},manualVoiceContext=null;
+let flowerIndex=null,flowerCatalog=null;
 const voiceUI=new VoiceUI({dialog,icon,escape,showDialog,onConfirmed:saveVoiceConfirmation,onManual:manualVoiceReview,speechMode:()=>data.settings.speechMode,variants:()=>speechVariants,phonetics:()=>speechPhonetics,headings:()=>speechHeadings,requirements:()=>data.settings.recitationHeading,onRequirementsChange:(requirements,flow)=>{if((accounts?.context()??null)!==flow.accountContext)return;data.settings.recitationHeading=headingRequirements(requirements);persist();}});
 const currentPoem=()=>{const p=poems.find(p=>p.id===ui.poemId)||poems[0];return p.archived?poems.find(x=>x.id===p.replacementId)||poems[0]:p;};
 const stats=()=>summary(data,poems);
@@ -60,7 +64,7 @@ function applyNavigation(entry){
     ui.readerFrom=rootTab('practice',entry.readerFrom);ui.returnKey=entry.returnKey||null;ui.lastPoemId=ui.route==='practice'?ui.poemId:ui.lastPoemId||entry.lastPoemId||null;ui.artPage=!!entry.artPage;ui.versePage=Math.max(0,entry.versePage||0);
     ui.filter=['全部','适合我','课标75篇','唐诗三百首','读完的','会背的','待复习'].includes(entry.filter)?entry.filter:'适合我';ui.search=String(entry.search||'').slice(0,40);ui.category=entry.category||'';ui.listPage=Math.max(0,entry.listPage||0);ui.collectionPage=Math.max(0,entry.collectionPage||0);ui.stampFilter=entry.stampFilter==='badges'?'badges':'poems';
   }else{ui.route='passport';ui.lastPoemId=null;ui.readerFrom='library';ui.returnKey=null;}
-  ui.opened=valid?entry.opened!==false||ui.route!=='passport':true;if(ui.route!=='challenge')ui.game=null;
+  ui.opened=valid?entry.opened!==false||ui.route!=='passport':true;if(ui.route!=='challenge')clearGame();
 }
 function restoreNavigation(entry){applyNavigation(entry);recordNavigation(false);render();}
 function backFromPoem(){if(history.state?.poetryNav?.returnKey){history.back();return;}void navigate(ui.readerFrom,{replace:true});}
@@ -72,15 +76,15 @@ window.addEventListener('popstate',event=>{
   if(entry.context===dataContext&&entry.key===navigationEntry?.key&&entry.position!==navigationEntry.position){const direction=entry.position>navigationEntry.position?1:-1;navigationEntry=entry;history.go(direction);return;}
 
   if(ui.game&&!ui.game.done&&entry.route!=='challenge'){
-    pendingChallengeBack=entry;const delta=(navigationEntry?.position||0)-(entry.position||0);if(delta){restoringHistory=true;history.go(delta);}
-    showDialog('先离开这场挑战？','已保存的学习记录会保留，未结束的这场挑战不会计入成绩。','<div class="dialog-actions"><button class="button" data-action="cancel-history-back">继续挑战</button><button class="button primary" data-action="confirm-history-back">结束并返回</button></div>',{history:false});return;
+    void ui.game.cancelTurn?.();pendingChallengeBack=entry;const delta=(navigationEntry?.position||0)-(entry.position||0);if(delta){restoringHistory=true;history.go(delta);}
+    showDialog('先离开这场挑战？','已保存的学习记录会保留。','<div class="dialog-actions"><button class="button" data-action="cancel-history-back">继续挑战</button><button class="button primary" data-action="confirm-history-back">结束并返回</button></div>',{history:false});return;
   }
   if(ui.busy){pendingHistory=entry;return;}restoreNavigation(entry);
 });
 window.addEventListener('hashchange',()=>{
   if(!navigationReady||restoringHistory||pendingHistory||location.hash===navigationHash(ui.route,ui.poemId))return;
   const linked=locationRoute(location.hash,poems.filter(p=>!p.archived).map(p=>p.id));if(!linked)return;
-  if(ui.game&&!ui.game.done){recordNavigation(false);say('请先完成或结束当前挑战。');return;}
+  if(ui.game&&!ui.game.done){void ui.game.cancelTurn?.();recordNavigation(false);say('请先完成或结束当前挑战。');return;}
   const entry={...navSnapshot(),...linked,poemId:linked.poemId||ui.poemId,opened:true,readerFrom:rootTab(ui.route,ui.readerFrom),returnKey:linked.route==='practice'?navigationEntry?.key||null:null,key:crypto.randomUUID(),position:(navigationEntry?.position||0)+1};
   history.replaceState({poetryNav:entry},'',location.hash);if(ui.busy)pendingHistory=entry;else restoreNavigation(entry);
 });
@@ -148,7 +152,7 @@ function poemText(p,{mode=ui.reading,hint=ui.hint,revealed=ui.revealed,game=fals
 }
 async function loadPinyin(){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),5000);
-  try{const r=await fetch('./pinyin.json?v=69',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
+  try{const r=await fetch('./pinyin.json?v=70',{signal:controller.signal});if(!r.ok)throw new Error('拼音资料暂未加载');const catalog=await r.json();poems=applyPinyinCatalog(poems,catalog);pinyinCatalog=catalog;pinyinLoadError=null;return true;}
   catch{pinyinLoadError='拼音资料暂未加载，联网后可以重试。';return false;}
   finally{clearTimeout(timer);}
 }
@@ -176,7 +180,7 @@ function sceneRight(p){
 function challengeLeft(){return leftScene('让记住的诗，<br>再闪一次光。','挑战馆 · 与自己和家人比一比','山河',`<p class="poetic-caption">抽一枚诗签，<br>看看自己记得多少。</p><div class="best-record"><div><span>接句最佳 · 五题</span><br><strong>${bestScore(data,'cloze',5)} / 5</strong></div><div><span>抽背最佳 · 三首</span><br><strong>${bestScore(data,'recite',3)} / 3</strong></div></div><p class="note">接句、排序记录挑战成绩。<br>整首独立背出，才会获得背诗印章。</p>`);}
 function challengeRight(){
   if(ui.game)return gameRight();
-  return `<section class="challenge-page"><div class="eyebrow">和自己，也和家人比一比</div><h2 class="section-title">今天，挑战哪一种？</h2><div class="challenge-list">${[['recite','shuffle','抽签背诗','藏起全文，看看自己记得多少。'],['cloze','spark','接下一句','找出你记得的下一句。'],['sequence','book','诗句归位','把四句诗排回原位。'],['family','users','家庭擂台','轮流背诗，邀请家人听背。']].map(([type,i,title,desc])=>`<button class="challenge-tile" data-action="setup-game" data-type="${type}"><span class="challenge-symbol">${icon(i,23)}</span><span><h3>${title}</h3><p>${desc}</p></span></button>`).join('')}</div><button class="text-button" data-action="history">我的挑战记录</button></section>`;
+  return `<section class="challenge-page"><div class="eyebrow">和自己，也和家人比一比</div><h2 class="section-title">今天，挑战哪一种？</h2><div class="challenge-list">${[['feihualing','spark','飞花令','你一句，电脑一句。'],['recite','shuffle','抽签背诗','藏起全文，看看自己记得多少。'],['cloze','spark','接下一句','找出你记得的下一句。'],['sequence','book','诗句归位','把四句诗排回原位。'],['family','users','家庭擂台','轮流背诗，邀请家人听背。']].map(([type,i,title,desc])=>`<button class="challenge-tile" data-action="setup-game" data-type="${type}"><span class="challenge-symbol">${icon(i,23)}</span><span><h3>${title}</h3><p>${desc}</p></span></button>`).join('')}</div><button class="text-button" data-action="history">我的挑战记录</button></section>`;
 }
 function stampsRight(){
   const s=stats(),badges=earnedAchievements(),items=ui.stampFilter==='poems'?s.independent:badges;
@@ -254,7 +258,7 @@ function bookPageState(){
   switch(ui.route){
     case 'library':return {key:'listPage',count:libraryPageCount()};
     case 'stamps':return {key:'collectionPage',count:collectionPageCount()};
-    case 'challenge':if(ui.game?.done)return {key:'resultPage',count:resultPageCount()};
+    case 'challenge':if(ui.game?.done&&ui.game.type!=='feihualing')return {key:'resultPage',count:resultPageCount()};
   }
   return {key:null,count:1};
 }
@@ -323,7 +327,7 @@ function resetPractice(){ui.reading='read';ui.artPage=false;ui.hint='none';ui.re
 async function navigate(route,{force=false,replace=false,direction=0,edge}={}){
   if(!dialog.open)discardDialogHistory();
   if(!MAIN_TABS.some(([r])=>r===route))return;
-  if(ui.game&&!ui.game.done&&route!=='challenge'&&!force){showDialog('先离开这场挑战？','已记录的单首背诵会保留；未结束的这场挑战不会计入成绩。',`<div class="dialog-actions"><button class="button" data-action="dialog-close">继续挑战</button><button class="button primary" data-action="leave-game" data-route-target="${route}">结束并离开</button></div>`);return;}
+  if(ui.game&&!ui.game.done&&route!=='challenge'&&!force){void ui.game.cancelTurn?.();showDialog('先离开这场挑战？','已记录的学习进度会保留。',`<div class="dialog-actions"><button class="button" data-action="dialog-close">继续挑战</button><button class="button primary" data-action="leave-game" data-route-target="${route}">结束并离开</button></div>`);return;}
   if(ui.route===route&&ui.opened)return;
   const change=()=>{
     if(route==='challenge'&&ui.game?.done)ui.game=null;
@@ -348,7 +352,7 @@ async function openPassport(){
 }
 async function closePassport(){
   await transition(()=>{
-    ui.opened=false;ui.route='passport';ui.returnKey=null;ui.game=null;recordNavigation(true);
+    ui.opened=false;ui.route='passport';ui.returnKey=null;clearGame();recordNavigation(true);
   },-1,true);
   announce('已回到护照封面');
 }
@@ -376,7 +380,7 @@ function closeDialog(){dialog.close();discardDialogHistory();}
 function accountChanged(event){
   if(!accounts||event.spaceId!==accounts.spaceId)return;
   const current=accounts.current(),context=accounts.context(),changed=context!==dataContext;
-  if(changed){const managing=!!dialog.querySelector('#account-list,[data-action=account-delete-confirm]');if(voiceUI.flow)voiceUI.close();stopSpeech();ui.game=null;resetPractice();ui.route='passport';entryNavigation=null;ui.lastPoemId=null;ui.returnKey=null;ui.readerFrom='library';ui.search='';ui.filter='适合我';ui.category='';ui.listPage=0;if(dialog.open&&!managing){closeDialog();say('学习账号已切换，旧账号的操作窗口已关闭。');}}
+  if(changed){const managing=!!dialog.querySelector('#account-list,[data-action=account-delete-confirm]');if(voiceUI.flow)voiceUI.close();stopSpeech();clearGame();resetPractice();ui.route='passport';entryNavigation=null;ui.lastPoemId=null;ui.returnKey=null;ui.readerFrom='library';ui.search='';ui.filter='适合我';ui.category='';ui.listPage=0;if(dialog.open&&!managing){closeDialog();say('学习账号已切换，旧账号的操作窗口已关闭。');}}
   data=current;dataContext=context;dataBaseline=structuredClone(data);if(changed)recordNavigation(false);
   updateAccountSwitcher();const quick=$('#quick-account-list');if(quick)quick.innerHTML=quickProfileRows(accounts,escape,!!ui.game&&!ui.game.done);
   const status=accounts.status(),label=$('#account-sync-status');if(label)label.textContent=status.message;
@@ -441,8 +445,99 @@ function profileDialog(){
 function recitationDialog(){showDialog('这一遍，背得怎么样？',`刚才使用了 ${ui.hints} 次提示。请按实际情况记录整首背诵。`,`<label class="field">这次由谁检查？<select id="confirmation"><option value="self">我自己检查</option><option value="family">家人已经听背确认</option></select></label><div class="outcome-options"><button class="outcome-button" data-action="record" data-outcome="independent" ${ui.hints?'disabled':''}>${icon('seal',24)}<span><strong>我独立背出来了</strong><small>${ui.hints?'本次用过提示，选择下面的记录':'整首背完，没有查看提示'}</small></span></button><button class="outcome-button" data-action="record" data-outcome="hinted">${icon('leaf',24)}<span><strong>提醒以后背出来了</strong><small>记住了大部分，继续练就会更熟</small></span></button><button class="outcome-button" data-action="record" data-outcome="learning">${icon('book',24)}<span><strong>我还想再练一练</strong><small>留下记录，下次接着来</small></span></button></div>`);}
 async function saveRecitation(outcome){const p=currentPoem(),before=totalIndependent(),confirmation=$('#confirmation')?.value==='family'?'family':'self';const attempt=recordAttempt(data,p.id,{outcome,hints:ui.hints,confirmation});const saved=persist();closeDialog();resetPractice();render();if(attempt.outcome==='independent'){sound('stamp');showDialog(before<totalIndependent()?'又一首，住进心里。':'这一首，记得更牢了。',`${saved?'已保存背诵记录':'本次记录尚未保存，请导出备份'} · ${confirmation==='family'?'家人听背确认':'自己检查'}`,`<div class="stamp-celebration">${stampMarkup(p,{large:true,fresh:true})}</div><p class="result-label" style="text-align:center">你的护照里已有 ${totalIndependent()} 首独立背出的诗</p><div class="dialog-actions"><button class="button" data-action="dialog-close">再读一遍</button><button class="button primary" data-action="go-stamps">看看我的印章</button></div>`);}else say('记录好了，明天再来温习这一首。');}
 function poemDetails(id){const p=poems.find(x=>x.id===id);if(!p)return;const e=data.entries[id],attempts=[...(e?.attempts||[])].reverse();showDialog(escape(p.title),'每一次背诵和提示使用情况都会留下记录。',`<button class="button full" data-action="view-poem-art" data-id="${p.id}">${illustrationFor(p.id)?'看这首诗的插画':'浏览诗境画册'}</button><button class="text-button" data-action="pinyin-info" data-id="${p.id}">${hasPinyin(p)?'拼音说明':'拼音待补说明'}</button><div class="mini-history">${attempts.length?attempts.slice(0,12).map(a=>`<div class="history-row"><span>${localDay(a.at)} · ${confirmationLabel(a.confirmation)}</span><strong>${outcomeNames[a.outcome]}${a.evidence?.heading&&headingLabels(a.evidence.heading.requirements).length?' · 含'+headingLabels(a.evidence.heading.requirements).join('、'):''}${a.hints?' · 提示 '+a.hints+' 次':''}</strong></div>`).join(''):'<p class="note">还没有背诵记录，先读一读，再试着藏起全文。</p>'}</div><div class="source-list">${p.alternateTitle?`<p>原数据附题：${escape(p.alternateTitle)}</p>`:''}<p>诗文来源：<a href="${escape(p.source.url)}" target="_blank" rel="noopener noreferrer">${p.sourceIndex!==null?'chinese-poetry · 唐诗三百首':'诗文正文来源'}</a>。作者、原文和原始版本信息随应用保存。</p>${p.sourceNotes.length?`<p>原数据附记：${p.sourceNotes.map(escape).join('；')}</p>`:''}${p.punctuationChanges.length?'<p>应用对句末标点作了规范化处理，文字保留原数据版本。</p>':''}<p>${p.pinyin?'本篇已配置辅助拼音。':'本篇拼音未核对，暂不显示。'}朗读音频为 AI 合成；逐句译注未配置。</p></div><div class="dialog-actions"><button class="button primary" data-action="detail-practice" data-id="${p.id}">去背这首诗</button></div>`);}
+const flowerBest = word => Math.max(0, ...data.games.filter(game=>game.type==='feihualing'&&game.word===word).map(game=>game.score));
+function clearGame(){
+  ui.game?.dispose?.();
+  ui.game=null;
+}
+async function flowerSetup(){
+  showDialog('飞花令','你说一句，电脑念一句。',`<form id="flower-setup"><div id="flower-words" class="flower-words"></div><p class="flower-load" role="status">正在准备令字…</p><div class="dialog-actions"><button class="button" type="button" data-action="dialog-close">返回</button><button class="button primary" type="submit" disabled>开始陪练</button></div></form>`);
+  const form=$('#flower-setup');
+  try{
+    flowerCatalog ||= await fetch('./feihualing-audio.json?v=70').then(response=>{
+      if(!response.ok)throw new Error('audio catalog unavailable');
+      return response.json();
+    });
+    if(!form.isConnected||!dialog.open)return;
+    const prose=new Set([...curriculum.items,...curriculum.juniorItems].filter(item=>item.kind==='prose').map(item=>item.poemId));
+    flowerIndex ||= buildFlowerIndex(poems,prose,speechVariants,speechPhonetics);
+    const familiar=flowerFamiliar();
+    const available=FLOWER_WORDS.filter(word=>flowerPool(flowerIndex,flowerCatalog,word).length>=3);
+    const counts=new Map(available.map(word=>[word,[...flowerIndex.byText.values()].filter(line=>line.text.includes(word)&&line.sources.some(({poem})=>familiar.has(poem.id))).length]));
+    const suggested=shuffled(available).sort((a,b)=>counts.get(b)-counts.get(a))[0];
+    if(!suggested)throw new Error('no playable words');
+    form.querySelector('#flower-words').innerHTML=available.map(word=>`<label><input type="radio" name="word" value="${word}" ${word===suggested?'checked':''}><span>${word}</span></label>`).join('');
+    form.querySelector('.flower-load').textContent='不限时。同一句只能用一次。';
+    form.querySelector('[type=submit]').disabled=false;
+  }catch{
+    if(form.isConnected)form.querySelector('.flower-load').textContent='令字暂时没加载好，联网后重新打开飞花令。';
+  }
+}
+function flowerFamiliar(){
+  const grade=data.profile.grade;
+  const stages=grade?[grade]:curriculum.stages[data.profile.stage].grades;
+  const nearby=curriculum.assignments.filter(a=>a.grade>=Math.min(...stages)-2&&a.grade<=Math.max(...stages)&&a.poemId);
+  return new Set(nearby.map(a=>a.poemId));
+}
+async function startFlower(form){
+  if(ui.busy||ui.game&&!ui.game.done||!flowerIndex)return;
+  const word=new FormData(form).get('word');
+  if(!FLOWER_WORDS.includes(word))return;
+  const pool=flowerPool(flowerIndex,flowerCatalog,word);
+  if(pool.length<3)return;
+  const familiar=flowerFamiliar();
+  const reserved=new Set(Object.entries(data.entries).filter(([,entry])=>entry.reading?.completedAt||entry.attempts.length).map(([id])=>id));
+  if(ui.lastPoemId)reserved.add(ui.lastPoemId);
+  const game=new FlowerPractice({word,index:flowerIndex,pool:shuffled(pool),clips:flowerCatalog.clips,familiar,reserved,variants:speechVariants,phonetics:speechPhonetics,
+    update:()=>{if(ui.game===game)render();},finish:won=>finishFlower(game,won),speechMode:()=>data.settings.speechMode});
+  game.unlockAudio();
+  closeDialog();
+  await transition(()=>{clearGame();ui.game=game;});
+  if(ui.game!==game)game.dispose();
+}
+function finishFlower(game,won=false){
+  if(game!==ui.game||game.done)return;
+  game.dispose();
+  game.done=true;game.won=won;
+  const previous=flowerBest(game.word);
+  game.saved=false;
+  if(game.total){
+    recordGame(data,game.type,game.score,game.total,null,{word:game.word,computer:game.computer,won});
+    game.saved=persist();
+  }
+  game.newBest=game.saved&&game.score>previous;
+  game.best=Math.max(previous,game.saved?game.score:0);
+  render();
+  if(game.total)sound('stamp');
+  announce('飞花令结束，独立接出 '+game.score+' 句');
+}
+function flowerTextDialog(game){
+  if(game.phase!=='ready')return;
+  game.unlockAudio();
+  showDialog('打字接令',`输入一句含「${game.word}」的完整诗句。`,`<form id="flower-text"><label class="field">诗句<input name="verse" required maxlength="64" autocomplete="off"></label><div class="dialog-actions"><button class="button primary full" type="submit">核对这句</button></div></form>`);
+  $('#flower-text input').focus();
+}
+function flowerAction(action){
+  const game=ui.game;
+  if(game?.type!=='feihualing'||game.done)return;
+  switch(action){
+    case 'flower-start':stopSpeech();void game.startRecording();break;
+    case 'flower-stop':void game.stopRecording();break;
+    case 'flower-cancel':void game.cancelTurn();break;
+    case 'flower-text':flowerTextDialog(game);break;
+    case 'flower-hint':game.revealHint();break;
+    case 'flower-play':game.unlockAudio();void game.play();break;
+    case 'flower-skip-audio':if(game.phase==='listen')game.show('ready');break;
+    case 'flower-finish':
+      void game.cancelTurn();
+      finishFlower(game);
+      break;
+  }
+}
+
 function setupGame(type){
   if(ui.game&&!ui.game.done){say('先完成当前挑战，或离开后重新开始。');return;}
+  if(type==='feihualing'){flowerSetup();return;}
   const labels={recite:'抽签背诗',cloze:'接下一句',sequence:'诗句归位',family:'家庭擂台'};
   const description={recite:'随机抽出几首诗，藏起全文后背诵。完成后自己检查，也可以请家人确认。',cloze:'每题选出正确的下一句，系统自动判分。接句成绩单独记录。',sequence:'把一组打乱的诗句按原文顺序排列，长诗使用明确标出的节选。',family:'两个人使用同一组诗轮流背诵，由另一位参与者听背确认。首位玩家使用这本护照。'};
   showDialog(labels[type],description[type],`<form id="game-setup" data-type="${type}"><label class="field">从哪里抽诗<select name="pool"><option value="all">全部书库 · ${poems.filter(p=>!p.archived).length} 篇</option><option value="seen">我读完的 · ${stats().learned.length} 首</option><option value="known">我会背的 · ${stats().independent.length} 首</option><option value="level" selected>适合我 · ${profileGradeLabel(data.profile)}</option></select></label>${type==='sequence'?'':`<label class="field">${type==='cloze'?'题目数量':type==='family'?'每人背几首':'抽背数量'}<select name="count">${(type==='cloze'?[5,10]:[3,1,5]).map(n=>`<option value="${n}">${n} ${type==='cloze'?'题':'首'}</option>`).join('')}</select></label>`}${type==='family'?`<label class="field">我的名字<input name="player1" value="${escape(data.profile.name)}" maxlength="16" required></label><label class="field">另一位参与者<input name="player2" value="家人" maxlength="16" required></label><p class="note">只有首位玩家的整首背诵会记入这本护照。双方挑战成绩都会保留在比赛记录中。</p>`:''}<p class="note" id="setup-error" role="alert"></p><div class="dialog-actions"><button class="button" type="button" data-action="dialog-close">再想想</button><button class="button primary" type="submit">开始挑战</button></div></form>`);
@@ -467,7 +562,9 @@ async function startGame(form){
 }
 function gameProgress(g){const total=g.type==='family'?g.total*2:g.total,done=g.type==='family'?g.index*2+g.player:g.index;return `<div class="row-label"><span class="eyebrow">${{recite:'抽签背诗',cloze:'接下一句',sequence:'诗句归位',family:'家庭擂台'}[g.type]}</span><button class="text-button" data-action="exit-game">结束挑战</button></div><div class="progress-track" role="progressbar" aria-label="挑战进度" aria-valuenow="${done}" aria-valuemin="0" aria-valuemax="${total}"><div class="progress-fill" style="width:${done/total*100}%"></div></div>`;}
 function gameRight(){
-  const g=ui.game;if(g.done)return resultRight(g);
+  const g=ui.game;
+  if(g.type==='feihualing')return g.done?flowerResult(g,{escape,icon}):flowerView(g,{escape,icon});
+  if(g.done)return resultRight(g);
   if(g.type==='cloze'){
     const q=g.questions[g.index];
     return `<section class="game-page">${gameProgress(g)}<p class="question-source">第 ${g.index+1} / ${g.total} 题 · ${escape(q.title)}</p><h2 class="question-prompt">${escape(q.prompt)}</h2><div class="answer-options">${q.options.map((o,i)=>`<button class="answer-option ${g.choice!==undefined?(o===q.answer?'correct':g.choice===i?'wrong':''):''}" data-action="choose-answer" data-index="${i}" ${g.choice!==undefined?'disabled':''}>${escape(o)}</button>`).join('')}</div><div class="answer-feedback ${g.choice!==undefined&&q.options[g.choice]!==q.answer?'wrong':''}" role="status">${g.choice===undefined?'下一句是？选出你记得的那一句。':q.options[g.choice]===q.answer?'接对了，这一句你记得！':'正确答案已标出，再记一记。'}</div><button class="button primary full" data-action="next-question" ${g.choice===undefined?'disabled':''}>${g.index===g.total-1?'看看成绩':'下一题'}${icon('right',15)}</button></section>`;
@@ -495,11 +592,20 @@ async function recordGameRecitation(outcome,{confirmation=null,evidence=null}={}
   if(g.type==='family'&&g.player===0)g.player=1;else{g.index++;g.player=g.type==='family'?0:null;}
   if(g.index>=g.total){finishGame(g);return;}await transition(()=>{});announce('已抽出下一首诗');
 }
-function historyDialog(){showDialog('我的挑战记录','按挑战类型和题量分别保留成绩。',`<div class="mini-history">${data.games.length?[...data.games].reverse().slice(0,20).map(g=>`<div class="history-row"><span>${localDay(g.at)} · ${{cloze:'接下一句',sequence:'诗句归位',recite:'抽签背诗',family:'家庭擂台'}[g.type]}</span><strong>${g.type==='family'&&g.players?g.players.map(p=>escape(p.name)+' '+p.score).join(' / '):g.score+' / '+g.total}</strong></div>`).join(''):'<p class="note">完成一场挑战后，这里会留下你的成绩。</p>'}</div>`);}
+function historyDialog(){
+  const labels={cloze:'接下一句',sequence:'诗句归位',recite:'抽签背诗',family:'家庭擂台',feihualing:'飞花令'};
+  const rows=[...data.games].reverse().slice(0,20).map(game=>{
+    const label=game.type==='feihualing'?`飞花令 · 「${escape(game.word)}」`:labels[game.type];
+    const score=game.type==='feihualing'?`独立 ${game.score} 句 · 提示 ${game.total-game.score} 句`
+      : game.type==='family'?game.players.map(p=>escape(p.name)+' '+p.score).join(' / '):game.score+' / '+game.total;
+    return `<div class="history-row"><span>${localDay(game.at)} · ${label}</span><strong>${score}</strong></div>`;
+  }).join('');
+  showDialog('我的挑战记录','每场挑战的成绩都在这里。',`<div class="mini-history">${rows||'<p class="note">完成一场挑战后，这里会留下你的成绩。</p>'}</div>`);
+}
 function download(text,filename){const url=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);}
-async function importBackup(file){if(!file)return;const targetContext=accounts?.context()??null;if(file.size>1024*1024){say('文件过大，请选择应用导出的 JSON 备份。');return;}try{const checked=validateData(JSON.parse(await file.text()),poems.map(p=>p.id));if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有导入其他账号。');return;}const count=summary(checked,poems).independent.length;showDialog('导入这本护照？',`${escape(checked.profile.name)}的备份包含 ${count} 首独立背出的诗。导入只替换当前学习账号，其他账号不受影响。`, '<p class="note">建议先导出当前护照，以便需要时恢复。</p><div class="dialog-actions"><button class="button" data-action="export">先导出当前记录</button><button class="button primary" id="confirm-import">替换并导入</button></div>');$('#confirm-import').addEventListener('click',()=>{if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有写入其他账号。');return;}data=checked;invalidRaw=null;persist();ui.game=null;ui.route='passport';resetPractice();closeDialog();render();say('护照已导入，欢迎继续旅程。');});}catch(e){say('导入失败：'+e.message);}}
+async function importBackup(file){if(!file)return;const targetContext=accounts?.context()??null;if(file.size>1024*1024){say('文件过大，请选择应用导出的 JSON 备份。');return;}try{const checked=validateData(JSON.parse(await file.text()),poems.map(p=>p.id));if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有导入其他账号。');return;}const count=summary(checked,poems).independent.length;showDialog('导入这本护照？',`${escape(checked.profile.name)}的备份包含 ${count} 首独立背出的诗。导入只替换当前学习账号，其他账号不受影响。`, '<p class="note">建议先导出当前护照，以便需要时恢复。</p><div class="dialog-actions"><button class="button" data-action="export">先导出当前记录</button><button class="button primary" id="confirm-import">替换并导入</button></div>');$('#confirm-import').addEventListener('click',()=>{if((accounts?.context()??null)!==targetContext){say('账号已切换，备份没有写入其他账号。');return;}data=checked;invalidRaw=null;persist();clearGame();ui.route='passport';resetPractice();closeDialog();render();say('护照已导入，欢迎继续旅程。');});}catch(e){say('导入失败：'+e.message);}}
 async function creditsDialog(){
-  const credits=await fetch('./credits.json?v=69').then(r=>r.json()).catch(()=>null);
+  const credits=await fetch('./credits.json?v=70').then(r=>r.json()).catch(()=>null);
   showDialog('诗文来源与使用说明','诗游记 · 唐诗三百首全本',`<div class="source-list"><p>完整接入 chinese-poetry 的《唐诗三百首》文件，共 ${poems.filter(p=>p.sourceIndex!==null).length} 个条目；小学课标及一至九年级教材补充诗词另存正文与来源。各篇保留原文、作者、来源顺序和附记；附记不混入背诵题目。</p><p>读诗页保留拼音入口；已配置的诗可开关拼音，其余明确提示待补，避免自动注音误导孩子。阅读提示仅在已配置的诗中提供；逐句译注尚未配置。</p><p>“朗读”播放应用提供的 AI 合成 MP3，无需安装手机语音包。首次播放需要联网，已播放的音频可以离线缓存。新打开一首诗、开始背诵或离开页面时会停止播放。</p><p>左右滑动纸面或点页脚按钮，可以依次翻过封面、首页、选诗、挑战和我的。点底部书签可直达对应功能。读诗时，左右滑动翻阅本首诗的诗境和正文。录音背诵一次核对全文。</p><p>录音背诵会联网转写，再按读音核对；同音误字自动还原为原诗文字，原始转写可单独查看。漏句、错序或读音未匹配时可回听核对，不作声学发音评分。完成阅读需要覆盖全文并主动确认，或完成整首语音核对。接句、排序成绩单独记录。学习记录按账号保存，可通过诗游记专用同步码跨设备同步。</p><p>${POEM_ILLUSTRATIONS.length} 幅专属诗境已上线，由 AI 生成；未完成的诗篇仍用通用插画，覆盖清单公开保留。手机在独立诗境页看完整配图，左右翻页进入正文；点按配图可放大。浏览配图不计入完成阅读。</p><details><summary>开源许可与数据核对</summary><p><a href="./vendor/chinese-poetry-LICENSE.txt" target="_blank" rel="noopener">诗词数据许可</a> · <a href="./vendor/three-LICENSE.txt" target="_blank" rel="noopener">Three.js</a> · <a href="./vendor/html2canvas-LICENSE.txt" target="_blank" rel="noopener">html2canvas</a> · <a href="./vendor/pypinyin-LICENSE.txt" target="_blank" rel="noopener">pypinyin</a></p><pre>${escape(JSON.stringify(credits?.corpus||null,null,2))}</pre></details></div>`);
 }
 let swipe=null;
@@ -569,14 +675,15 @@ document.addEventListener('click',async e=>{
   if(el.matches('a.brand')){e.preventDefault();await navigate('passport');return;}
   if(el.dataset.route){await navigate(el.dataset.route);return;}
   const a=el.dataset.action;
-  if(a?.startsWith('account-')){await accountAction(el);return;}
+  if(a?.startsWith('flower-')){flowerAction(a);return;}
+  if(a?.startsWith('account-')){void ui.game?.cancelTurn?.();await accountAction(el);return;}
   switch(a){
     case 'open':await openPassport();break;
     case 'close-book':if(dialog.open)closeDialog();if(ui.game&&!ui.game.done){await navigate('passport');break;}if(ui.opened)await closePassport();break;
     case 'profile':profileDialog();break;
     case 'reader-back':backFromPoem();break;
     case 'cancel-history-back':pendingChallengeBack=null;closeDialog();break;
-    case 'confirm-history-back':{const target=pendingChallengeBack;pendingChallengeBack=null;ui.game=null;closeDialog();if(target){const delta=(navigationEntry?.position||0)-(target.position||0);if(delta)history.go(-delta);else restoreNavigation(target);}break;}
+    case 'confirm-history-back':{const target=pendingChallengeBack;pendingChallengeBack=null;closeDialog();if(ui.game?.type==='feihualing')finishFlower(ui.game);clearGame();if(target){const delta=(navigationEntry?.position||0)-(target.position||0);if(delta)history.go(-delta);else restoreNavigation(target);}break;}
     case 'choose-grade':gradeDialog();break;
     case 'browse-grade':ui.filter='适合我';ui.category='';ui.search='';ui.listPage=0;await navigate('library');render();break;
     case 'curriculum':curriculumDialog();break;
@@ -644,9 +751,9 @@ document.addEventListener('click',async e=>{
     case 'game-reveal':if(ui.game){const n=Number(el.dataset.index);if(!ui.game.revealed.has(n)){ui.game.revealed.add(n);ui.game.hints++;render();}}break;
     case 'game-record':await recordGameRecitation(el.dataset.outcome);break;
     case 'another-game':{const type=ui.game?.type;ui.game=null;render();if(type)setupGame(type);break;}
-    case 'challenge-home':ui.game=null;render();break;
+    case 'challenge-home':clearGame();render();break;
     case 'exit-game':showDialog('结束这场挑战？','已经记录的单首背诵会保留；尚未完成的整场成绩不计入纪录。','<div class="dialog-actions"><button class="button" data-action="dialog-close">继续挑战</button><button class="button primary" data-action="leave-game" data-route-target="challenge">结束挑战</button></div>');break;
-    case 'leave-game':closeDialog();ui.game=null;await navigate(el.dataset.routeTarget,{force:true});render();break;
+    case 'leave-game':closeDialog();if(ui.game?.type==='feihualing')finishFlower(ui.game);clearGame();await navigate(el.dataset.routeTarget,{force:true});render();break;
     case 'history':historyDialog();break;
     case 'export':download(invalidRaw!==null?invalidRaw:JSON.stringify(data,null,2),`诗游记${invalidRaw!==null?'原始记录':'护照备份'}-${localDay()}.json`);say('备份文件已准备好，请保留下载的 JSON 文件。');break;
     case 'import':$('#backup-input')?.click();break;
@@ -661,19 +768,21 @@ document.addEventListener('submit',async e=>{
   if(e.target.id==='grade-form'){e.preventDefault();if(accounts&&e.target.dataset.accountContext!==accounts.context()){closeDialog();say('学习账号已切换，请重新选择。');return;}const grade=Number(new FormData(e.target).get('grade'));if(!GRADE_NAMES[grade])return;data.profile.grade=grade;data.profile.stage=stageForGrade(grade);ui.lastPoemId=null;ui.filter='适合我';ui.search='';ui.category='';ui.listPage=0;persist();closeDialog();render();say('推荐已调整为'+GRADE_NAMES[grade]+'。');}
   if(e.target.id==='account-create-form'){e.preventDefault();const fd=new FormData(e.target);await accountWork(async()=>{if(ui.game&&!ui.game.done)throw new Error('请先结束当前挑战。');const grade=Number(fd.get('accountGrade'));accounts.addProfile(fd.get('accountName'),stageForGrade(grade),grade);say('新的学习账号已建立，拥有独立护照。');});}
   if(e.target.id==='account-sync-form'){e.preventDefault();if(accountOperation)return;const form=e.target,fd=new FormData(form),button=form.querySelector('[type=submit]');button.disabled=true;button.textContent='正在同步…';try{await accountWork(async()=>{if(ui.game&&!ui.game.done)throw new Error('请先结束当前挑战。');await accounts.useCode(fd.get('syncCode'),{expectedContext:form.dataset.accountContext});say(accounts.status().message);});}finally{if(button.isConnected){button.disabled=false;button.textContent='保存并同步';}}}
+  if(e.target.id==='flower-setup'){e.preventDefault();await startFlower(e.target);}
+  if(e.target.id==='flower-text'){e.preventDefault();const game=ui.game;if(game?.type==='feihualing'){const verse=new FormData(e.target).get('verse');closeDialog();await game.answer(verse);}}
   if(e.target.id==='game-setup'){e.preventDefault();await startGame(e.target);}
 });
 document.addEventListener('input',e=>{if(e.target.id==='poem-search'){ui.search=e.target.value;ui.listPage=0;$('#poem-results').innerHTML=poemResults();updatePager();saveSession();}});
 document.addEventListener('error',e=>{const img=e.target;if(!img.matches?.('img[data-art-image]'))return;const item=illustrationFor(img.dataset.artImage),button=img.closest('.poem-art-button');if(button){button.innerHTML=landscape(poems.find(p=>p.id===item.poemId)?.theme||'山河')+'<span class="art-zoom caption-5">配图暂未加载，点按重试</span>';}else{const note=document.createElement('p');note.className='body-6 art-unavailable';note.textContent='配图暂未加载，联网后重新打开这一幅。';img.replaceWith(note);}},true);
 document.addEventListener('change',e=>{if(e.target.id==='manual-voice-reviewed'){dialog.querySelectorAll('[data-action=voice-manual-save]').forEach(b=>{b.disabled=!e.target.checked||b.dataset.outcome==='independent'&&manualVoiceContext?.hints>0;});}if(e.target.id==='poem-status-filter'||e.target.id==='poem-category-filter'){if(e.target.id==='poem-status-filter')ui.filter=e.target.value;else ui.category=e.target.value;ui.listPage=0;$('#poem-results').innerHTML=poemResults();updatePager();saveSession();}if(e.target.id==='backup-input'){if(accounts&&e.target.dataset.accountContext!==accounts.context())say('学习账号已切换，备份没有导入其他账号。');else importBackup(e.target.files?.[0]);}if(e.target.id==='family-confirm'&&ui.game){ui.game.confirmed=e.target.checked;const y=window.scrollY;render();window.scrollTo(0,y);}});
-$('#profile-button').addEventListener('click',()=>{if(!ui.busy)profileDialog();});$('#credits-button').addEventListener('click',creditsDialog);
+$('#profile-button').addEventListener('click',()=>{if(!ui.busy){void ui.game?.cancelTurn?.();profileDialog();}});$('#credits-button').addEventListener('click',creditsDialog);
 window.addEventListener('storage',e=>{if(accounts||e.key!==STORAGE_KEY||!e.newValue)return;try{const next=validateData(JSON.parse(e.newValue),poems.map(p=>p.id));data=next;invalidRaw=null;if(!ui.game&&!ui.busy)render();say('已同步这个浏览器另一窗口的学习记录。');}catch{say('另一窗口的记录无法读取，当前学习记录保持原样。');}});
-document.addEventListener('visibilitychange',()=>{if(document.hidden){stopSpeech();void voiceUI.background();}});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){stopSpeech();void voiceUI.background();void ui.game?.cancelTurn?.('已暂停，可以继续接令。');}});
 async function boot(){
   try{
-    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=69');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
+    const sources=await Promise.all(['poems','curriculum-poems','textbook-poems','curriculum'].map(async name=>{const r=await fetch('./'+name+'.json?v=70');if(!r.ok)throw new Error('诗单或课标对照加载失败');return r.json();}));poems=[...sources[0],...sources[1],...sources[2]];curriculum=sources[3];await loadPinyin();
     if(!Array.isArray(poems)||!poems.length||new Set(poems.map(p=>p.id)).size!==poems.length)throw new Error('诗单格式无效');
-    [speechVariants,speechPhonetics,speechHeadings]=await Promise.all(['speech-variants','speech-phonetics','speech-headings'].map(name=>fetch(`./${name}.json?v=69`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
+    [speechVariants,speechPhonetics,speechHeadings]=await Promise.all(['speech-variants','speech-phonetics','speech-headings'].map(name=>fetch(`./${name}.json?v=70`).then(r=>r.ok?r.json():{}).catch(()=>({}))));
     let migrated=false;
     try{const current=localStorage.getItem(STORAGE_KEY),legacy=!current?localStorage.getItem(LEGACY_STORAGE_KEY):null,raw=current||legacy;if(raw){try{data=validateData(JSON.parse(raw),poems.map(p=>p.id));migrated=!!legacy;}catch{invalidRaw=raw;}}}catch{storageFailed=true;}
     try{accounts=new PoetryAccounts(poems.map(p=>p.id),{onChange:accountChanged});data=accounts.initialize(data);dataContext=accounts.context();dataBaseline=structuredClone(data);accounts.start();}catch(error){accountsError=error.message;accounts=null;say('多账号数据未能读取，原始数据已保留。');}
@@ -691,7 +800,7 @@ async function boot(){
     ui.opened=false;ui.route='passport';recordNavigation(false);render();
     if(migrated)persist();
     if(migrated)say('旧记录已保留：浏览不再计入完成阅读，背诵印章继续保留。');
-    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=69').catch(()=>{});
+    if('serviceWorker'in navigator&&window.isSecureContext)navigator.serviceWorker.register('./sw.js?v=70').catch(()=>{});
     window.__SHIYOUJI__=Object.freeze({snapshot:()=>structuredClone(data),renderer:()=>motion.mode,poemCount:poems.length});
   }catch(error){main.innerHTML=`<div class="empty-state"><h1>这次没能打开护照</h1><p>${escape(error.message)}，请联网后重新打开。</p><button class="button primary" onclick="location.reload()">重新打开</button></div>`;}
 }

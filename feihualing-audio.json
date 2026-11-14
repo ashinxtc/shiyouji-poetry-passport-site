@@ -1,0 +1,769 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-15%",
+  "engine": "edge-tts 7.3.1",
+  "words": {
+    "月": [
+      "能开二月花",
+      "二月春风似剪刀",
+      "小时不识月",
+      "湖光秋月两相和",
+      "霜叶红于二月花",
+      "人间四月芳菲尽",
+      "明月何时照我还",
+      "乡村四月闲人少",
+      "燕山月似钩",
+      "八月秋高风怒号",
+      "长沟流月去无声",
+      "缺月挂疏桐",
+      "床前明月光",
+      "明月来相照",
+      "烟花三月下扬州",
+      "月落乌啼霜满天",
+      "江清月近人",
+      "受降城外月如霜"
+    ],
+    "春": [
+      "二月春风似剪刀",
+      "春风吹又生",
+      "春种一粒粟",
+      "春风花草香",
+      "春光懒困倚微风",
+      "春来江水绿如蓝",
+      "阳春布德泽",
+      "当春乃发生",
+      "最是一年春好处",
+      "化作春泥更护花",
+      "料峭春风吹酒醒",
+      "谁家新燕啄春泥",
+      "春眠不觉晓",
+      "报得三春晖",
+      "铜雀春深锁二乔",
+      "春潮带雨晚来急",
+      "春城无处不飞花",
+      "随意春芳歇"
+    ],
+    "花": [
+      "能开二月花",
+      "桃花潭水深千尺",
+      "映日荷花别样红",
+      "春风花草香",
+      "桃花一簇开无主",
+      "日出江花红胜火",
+      "花重锦官城",
+      "桃花流水鳜鱼肥",
+      "花木成畦手自栽",
+      "化作春泥更护花",
+      "闲敲棋子落灯花",
+      "误入藕花深处",
+      "花落知多少",
+      "烟花三月下扬州",
+      "落花时节又逢君",
+      "隔江犹唱后庭花",
+      "春城无处不飞花",
+      "感时花溅泪"
+    ],
+    "风": [
+      "二月春风似剪刀",
+      "春风吹又生",
+      "出没风波里",
+      "北风吹雁雪纷纷",
+      "春风花草香",
+      "春光懒困倚微风",
+      "随风潜入夜",
+      "斜风细雨不须归",
+      "浪淘风簸自天涯",
+      "山雨欲来风满楼",
+      "料峭春风吹酒醒",
+      "八月秋高风怒号",
+      "夜来风雨声",
+      "云母屏风烛影深",
+      "正是江南好风景",
+      "东风不与周郎便",
+      "寒食东风御柳斜",
+      "风烟望五津"
+    ],
+    "山": [
+      "白日依山尽",
+      "千山鸟飞绝",
+      "只在此山中",
+      "两岸青山相对出",
+      "迟日江山丽",
+      "遥望洞庭山水色",
+      "西塞山前白鹭飞",
+      "水村山郭酒旗风",
+      "钟山只隔数重山",
+      "山山惟落晖",
+      "山河表里潼关路",
+      "政入万山围子里",
+      "轻舟已过万重山",
+      "姑苏城外寒山寺",
+      "巴山夜雨涨秋池",
+      "空山不见人",
+      "平明送客楚山孤",
+      "空山新雨后"
+    ],
+    "雨": [
+      "夜来风雨声",
+      "清明时节雨纷纷",
+      "山色空蒙雨亦奇",
+      "荷尽已无擎雨盖",
+      "好雨知时节",
+      "斜风细雨不须归",
+      "天街小雨润如酥",
+      "黄梅时节家家雨",
+      "山雨欲来风满楼",
+      "一蓑烟雨任平生",
+      "渭城朝雨浥轻尘",
+      "巴山夜雨涨秋池",
+      "寒雨连江夜入吴",
+      "春潮带雨晚来急",
+      "空山新雨后",
+      "多少楼台烟雨中",
+      "白雨跳珠乱入船",
+      "子规声里雨如烟"
+    ],
+    "水": [
+      "白毛浮绿水",
+      "桃花潭水深千尺",
+      "树阴照水爱晴柔",
+      "碧水东流至此回",
+      "黄师塔前江水东",
+      "遥望洞庭山水色",
+      "桃花流水鳜鱼肥",
+      "水村山郭酒旗风",
+      "京口瓜洲一水间",
+      "故国东来渭水流",
+      "水面初平云脚低",
+      "小桥流水人家",
+      "烟笼寒水月笼沙",
+      "行舟绿水前",
+      "仍怜故乡水",
+      "白水绕东城",
+      "八月湖水平",
+      "湘水无情吊岂知"
+    ],
+    "云": [
+      "飞在青云端",
+      "云深不知处",
+      "千里黄云白日曛",
+      "白云生处有人家",
+      "孤云独去闲",
+      "野径云俱黑",
+      "黑云翻墨未遮山",
+      "天光云影共徘徊",
+      "溪云初起日沈阁",
+      "俄顷风定云墨色",
+      "水面初平云脚低",
+      "朝辞白帝彩云间",
+      "云母屏风烛影深",
+      "云生结海楼",
+      "浮云游子意",
+      "气蒸云梦泽",
+      "晓镜但愁云鬓改",
+      "白云千载空悠悠"
+    ]
+  },
+  "clips": {
+    "一蓑烟雨任平生": {
+      "src": "./audio/feihualing/de46e1a3e79c2a74.mp3",
+      "bytes": 15840,
+      "sha256": "09b9d5279a0efad5c7b69addfc2d914bf462450cbdf1582fe953177ff288ae0f"
+    },
+    "东风不与周郎便": {
+      "src": "./audio/feihualing/67770f16ef8eb130.mp3",
+      "bytes": 15408,
+      "sha256": "7283c369b532f9af88b332b01aeadb0247f36d143238f723dd5aa026ddf9e50e"
+    },
+    "两岸青山相对出": {
+      "src": "./audio/feihualing/8335f6c4b7a7943f.mp3",
+      "bytes": 16272,
+      "sha256": "ba1ba5af7aa6b3d9d180d033b5b4cb0fa6243dbdaf3366c440082c3fc775c2d8"
+    },
+    "乡村四月闲人少": {
+      "src": "./audio/feihualing/3cda7a8d832b96f3.mp3",
+      "bytes": 16128,
+      "sha256": "d808530d7eabab08dcab4ad20b883c7c4581c72250be5a6fb89d9842c619f12a"
+    },
+    "二月春风似剪刀": {
+      "src": "./audio/feihualing/cd1565406add9167.mp3",
+      "bytes": 15696,
+      "sha256": "790d0b6e56fd1381b591985459a4eafa228f35b1578a1f632740cbcfc8921901"
+    },
+    "云母屏风烛影深": {
+      "src": "./audio/feihualing/0750f1862ccdb3ab.mp3",
+      "bytes": 15696,
+      "sha256": "82e12189d63efce789899f22acf0a33d04c2927535311cd51139ec15cce7fbb4"
+    },
+    "云深不知处": {
+      "src": "./audio/feihualing/ff76f13737008d1b.mp3",
+      "bytes": 12672,
+      "sha256": "f7728b4ea7a63a9f85f87b6b90fb116e1abaddee65a9df05c3e62f653399e303"
+    },
+    "云生结海楼": {
+      "src": "./audio/feihualing/c2dd64f459d9f246.mp3",
+      "bytes": 13392,
+      "sha256": "b53da32f52a6379f56aec664970375cc38a6fecb28687e9f23b9ef75b0cf3ae5"
+    },
+    "京口瓜洲一水间": {
+      "src": "./audio/feihualing/05f5d1b9f543df46.mp3",
+      "bytes": 15840,
+      "sha256": "498e3d0e751d8d999cc4eac46495cacc58ee3ba4112aba02629b6c4667c31083"
+    },
+    "人间四月芳菲尽": {
+      "src": "./audio/feihualing/e572bc06b247b2bd.mp3",
+      "bytes": 14976,
+      "sha256": "1fb79d06b453a7c0b56885aadcf1d20d2ba0b63382187aee54650af29f8abee0"
+    },
+    "仍怜故乡水": {
+      "src": "./audio/feihualing/6e02d5345038b481.mp3",
+      "bytes": 13824,
+      "sha256": "963274ee0aab0226493c27816fc2d386497ed2c43d633fd9bbe3503cf6c2b0db"
+    },
+    "俄顷风定云墨色": {
+      "src": "./audio/feihualing/1a86ff279ab5b9e7.mp3",
+      "bytes": 16128,
+      "sha256": "8acba0830bbb01ebf012b5705065eec045653af48ca45ea5999218ee0620498e"
+    },
+    "八月湖水平": {
+      "src": "./audio/feihualing/3da63bb948f5bb7c.mp3",
+      "bytes": 13104,
+      "sha256": "427690b0ddc554b32b8ec3b31a97459b37b6e401200e79b179c7836a3c3e648f"
+    },
+    "八月秋高风怒号": {
+      "src": "./audio/feihualing/af12001c0a317ade.mp3",
+      "bytes": 15696,
+      "sha256": "31dc664e452865fd886682fba3f36ebaf0d8d95747af5d53141d023dd7a3b079"
+    },
+    "出没风波里": {
+      "src": "./audio/feihualing/327b7a31e826bc45.mp3",
+      "bytes": 12672,
+      "sha256": "bb2c3a98a6796fff436c33398d79f584aeeeb83c6b2f4220c55cdf0456d02d97"
+    },
+    "化作春泥更护花": {
+      "src": "./audio/feihualing/c3d289f856de7d5d.mp3",
+      "bytes": 15264,
+      "sha256": "5990eac22793b8c52d35e787733f6f71e228f76a0bdd8a5d911fafbcfff45369"
+    },
+    "北风吹雁雪纷纷": {
+      "src": "./audio/feihualing/fa313b42879cdd54.mp3",
+      "bytes": 15840,
+      "sha256": "ff0816563d092b4ce86ac336b747aca29c689a02c52ffdcca2f63863b9abbce2"
+    },
+    "千山鸟飞绝": {
+      "src": "./audio/feihualing/ec692c5773a379de.mp3",
+      "bytes": 13824,
+      "sha256": "fdaca7ec5e22ac53633c6828f1bf4ef82d5d03188b6d83e4b9e0d97023bb5d20"
+    },
+    "千里黄云白日曛": {
+      "src": "./audio/feihualing/918294f3b3a66212.mp3",
+      "bytes": 15696,
+      "sha256": "89cdc433d9b610efdee6de8849a87d7aa653fc17b6e92566ef8e413b539a8008"
+    },
+    "受降城外月如霜": {
+      "src": "./audio/feihualing/35ab6c1a029ae332.mp3",
+      "bytes": 16560,
+      "sha256": "98f8fef1928e1b69072f1d82476a64ff5db3356df37c62f43105b3a15d865122"
+    },
+    "只在此山中": {
+      "src": "./audio/feihualing/b111af6da3993f58.mp3",
+      "bytes": 12960,
+      "sha256": "de506fa6aa8a558bdd7f46821086a78043cf110e2299beea34c32df49b1e0996"
+    },
+    "多少楼台烟雨中": {
+      "src": "./audio/feihualing/30bc0f992c6628cc.mp3",
+      "bytes": 15408,
+      "sha256": "b0f30cccd88043372ba14c48224d6584bfba7c27527963a994094a4bef894ccc"
+    },
+    "夜来风雨声": {
+      "src": "./audio/feihualing/b2782cb2ecc1818a.mp3",
+      "bytes": 12672,
+      "sha256": "97a67db85f3a5a80fc94e172289c9b57c07c5298d90874caf9fb227ef1875dfb"
+    },
+    "天光云影共徘徊": {
+      "src": "./audio/feihualing/d7baeb77f41ddc83.mp3",
+      "bytes": 15984,
+      "sha256": "1370bbe2522c45a1c1db7eac147f9c375a0fb089d9290517f27e0fce4ff47133"
+    },
+    "天街小雨润如酥": {
+      "src": "./audio/feihualing/8b4550f1457f5b45.mp3",
+      "bytes": 15840,
+      "sha256": "028050ef98466b4725bd27b819d633d82ea3d1931ff0f6b304ee089c58f10001"
+    },
+    "好雨知时节": {
+      "src": "./audio/feihualing/6117c12307491dac.mp3",
+      "bytes": 13104,
+      "sha256": "712f453b4014cc67757f8290e8a75e2e83772ccc60e5c1ed12175b0bcc868781"
+    },
+    "姑苏城外寒山寺": {
+      "src": "./audio/feihualing/76d7752b37c29b3d.mp3",
+      "bytes": 15840,
+      "sha256": "cfa1a0a8694f7699e4135e0125411bffd7cb7fdaf311da6ad66ce6a55153e4c7"
+    },
+    "子规声里雨如烟": {
+      "src": "./audio/feihualing/bcff41bf8b82ca54.mp3",
+      "bytes": 15408,
+      "sha256": "798a6d634d58c7f6fdad1299d93818795c355b30edac3bbb72267eb8a92cb1c4"
+    },
+    "孤云独去闲": {
+      "src": "./audio/feihualing/f92eb9153207d708.mp3",
+      "bytes": 12672,
+      "sha256": "92c9f1170b6fa2a6a9a6286cf43fea6506ee7c50403b2d132d9d3b094c67092c"
+    },
+    "寒雨连江夜入吴": {
+      "src": "./audio/feihualing/4a423d1fadca9653.mp3",
+      "bytes": 15840,
+      "sha256": "2d323f55077b7c954107f5856f0e554e09e33a1350ba40e80a205a7ff9e25a46"
+    },
+    "寒食东风御柳斜": {
+      "src": "./audio/feihualing/0ba5e010f4a3b886.mp3",
+      "bytes": 16128,
+      "sha256": "90a631d44b7a9967e3bdda8071635c94435f2e544fb97fd1aabea70adbce6519"
+    },
+    "小时不识月": {
+      "src": "./audio/feihualing/9bbee45a60846cd2.mp3",
+      "bytes": 12528,
+      "sha256": "c3dc7e7e04f2e5d5e945f10538e1de1da65a4273f5291228a4ad5adb59c2885d"
+    },
+    "小桥流水人家": {
+      "src": "./audio/feihualing/3b9d2220461ca924.mp3",
+      "bytes": 14256,
+      "sha256": "3bc8ab56b00b2b9d39a88f6fdcc4d77a6babce4c526b782e766076326c7fb529"
+    },
+    "山山惟落晖": {
+      "src": "./audio/feihualing/300695fa1566eade.mp3",
+      "bytes": 13536,
+      "sha256": "95c58ff32338c95d9fc5f8fcbcbea772a021bc904d1ce26249fbaa3f59650312"
+    },
+    "山河表里潼关路": {
+      "src": "./audio/feihualing/0841b3b2f363d508.mp3",
+      "bytes": 16128,
+      "sha256": "253c2e680e01291ac7c6dfa5769f6795d387eee2b6695d42c6107aea75b7ea94"
+    },
+    "山色空蒙雨亦奇": {
+      "src": "./audio/feihualing/013f7b420883907a.mp3",
+      "bytes": 16272,
+      "sha256": "36623cee481cba1df2de9bf7a922be4e6219f7533a657b5d7a7373320c0d1605"
+    },
+    "山雨欲来风满楼": {
+      "src": "./audio/feihualing/b53302c0b4bdab85.mp3",
+      "bytes": 15840,
+      "sha256": "9e2c808d31fbac719d5f32ca095238c3c1055b06c8b765d4bca151e604c51fd5"
+    },
+    "巴山夜雨涨秋池": {
+      "src": "./audio/feihualing/70dc65744e967f31.mp3",
+      "bytes": 16272,
+      "sha256": "40bc4c330cb7cb1d10846780eb2cdd5a2de8280a0f83ee776d153a2f793d0737"
+    },
+    "平明送客楚山孤": {
+      "src": "./audio/feihualing/4fc6a48ddaff4182.mp3",
+      "bytes": 16128,
+      "sha256": "c2a1ed95bf5ee245c6c5b8bb43a37798a36daefc71ae9e0e9462cd09c5fa3652"
+    },
+    "床前明月光": {
+      "src": "./audio/feihualing/c9dd2e405589750a.mp3",
+      "bytes": 12960,
+      "sha256": "e5f8fc4eb7c2b5f6a81243cfe9ee9b8ac525244afcaa229c64542aa1812d884e"
+    },
+    "当春乃发生": {
+      "src": "./audio/feihualing/f9fb825e62a7f4c4.mp3",
+      "bytes": 12960,
+      "sha256": "50b45cd6c418a27904c7fde8b176422253daa8f131bfdd26459f4b4bf069c6da"
+    },
+    "感时花溅泪": {
+      "src": "./audio/feihualing/f6da563177ed190a.mp3",
+      "bytes": 12816,
+      "sha256": "7a4ce9a01beba8ebc79cf5794ea79e92f4e41976117a3f8fd24d64b6032b488c"
+    },
+    "报得三春晖": {
+      "src": "./audio/feihualing/0bc32209637a3a03.mp3",
+      "bytes": 12816,
+      "sha256": "ce4d5668924404299bdcdb25e039df90dd5188ca429d091b3047c2baa471c9f6"
+    },
+    "政入万山围子里": {
+      "src": "./audio/feihualing/297d159b3a6452c3.mp3",
+      "bytes": 15120,
+      "sha256": "724cf077bd92007dfed83abe1d603d23d5e547035f9f877daac1ef6a7d80ccca"
+    },
+    "故国东来渭水流": {
+      "src": "./audio/feihualing/484a7f2cddefc891.mp3",
+      "bytes": 15840,
+      "sha256": "e759cce6b6b762841b4d13964e5aeade99b895eba35f6180a1b2f0dea03ade40"
+    },
+    "料峭春风吹酒醒": {
+      "src": "./audio/feihualing/524ea230c7aa237a.mp3",
+      "bytes": 16272,
+      "sha256": "f1aa156a66fb338fdd24dba9f274fba1525184bece9e036e5c3477d0c93f70de"
+    },
+    "斜风细雨不须归": {
+      "src": "./audio/feihualing/8e6f274253a45c0c.mp3",
+      "bytes": 15552,
+      "sha256": "f601cd8f5aad4f2fe40b4fea3892dd34f447bb7db9573d349b2b5971b9f4b9f6"
+    },
+    "日出江花红胜火": {
+      "src": "./audio/feihualing/11f1a1ffefe19e6e.mp3",
+      "bytes": 16128,
+      "sha256": "79c9ace40c12f335384b9c7a42a4f353245de55541e3c8dbaf1ef2b3effb4f49"
+    },
+    "明月何时照我还": {
+      "src": "./audio/feihualing/588b44a31cf3a325.mp3",
+      "bytes": 15696,
+      "sha256": "514c265b792161a52dd5551c37f15ffeaad6351744d442c91cc943223d824db5"
+    },
+    "明月来相照": {
+      "src": "./audio/feihualing/dcd06e07d3a13f40.mp3",
+      "bytes": 12528,
+      "sha256": "4f314d019e0088377338b9dc770a44101d3588e9bc06016087b4a4e7c1713548"
+    },
+    "映日荷花别样红": {
+      "src": "./audio/feihualing/25e6ae7f41c5b06b.mp3",
+      "bytes": 16128,
+      "sha256": "cb9bd9facf3b3ed74259220df049feebc3d13ebab1c925b595969a1209e1ca32"
+    },
+    "春光懒困倚微风": {
+      "src": "./audio/feihualing/22f9d7347f7193ce.mp3",
+      "bytes": 15552,
+      "sha256": "4e84a24d0a13ea753297971128120a89dd3ccd30bedd16bcef44cd97f9bd59b9"
+    },
+    "春城无处不飞花": {
+      "src": "./audio/feihualing/fd267e1646675742.mp3",
+      "bytes": 15552,
+      "sha256": "d092ac619f3b37f6f8ccbd4fb314e44fec92424672d278fb94b9eb8317a08daa"
+    },
+    "春来江水绿如蓝": {
+      "src": "./audio/feihualing/1ed2a121cb44bf24.mp3",
+      "bytes": 15696,
+      "sha256": "9bdce63e924a0d5c016ed0e73ea8c1cd903c9a8e4b81d99b3d4a9f16607b4eae"
+    },
+    "春潮带雨晚来急": {
+      "src": "./audio/feihualing/2e61e1f0d344b6d0.mp3",
+      "bytes": 15984,
+      "sha256": "5934c16dbd3c30e3b603bc33ee266fa7e48b50bf2b38404414b01d60f6eb80c3"
+    },
+    "春眠不觉晓": {
+      "src": "./audio/feihualing/4a87350d5b0b8e90.mp3",
+      "bytes": 13248,
+      "sha256": "b41927779a2e572d7fb8323bb8bc7688678bd2e24386bfdb925abb902fe60c72"
+    },
+    "春种一粒粟": {
+      "src": "./audio/feihualing/ad5718c63bd27846.mp3",
+      "bytes": 12672,
+      "sha256": "abb9a033f7ebfcf1ec9c65bb1aa7ae7d6f1838d63585ec44d620c14e39fdc4ad"
+    },
+    "春风吹又生": {
+      "src": "./audio/feihualing/add9b816cb7e0deb.mp3",
+      "bytes": 13104,
+      "sha256": "de681f4af849d6073e05a706562fe1838a7763cc358688cc95fa6438767669d8"
+    },
+    "春风花草香": {
+      "src": "./audio/feihualing/7a8e7914c196ef25.mp3",
+      "bytes": 13248,
+      "sha256": "e8091e304784bfaf73a477762cb77afd84cf4da32cb3cae3540643e11e52e331"
+    },
+    "晓镜但愁云鬓改": {
+      "src": "./audio/feihualing/3f68e1bb7989d855.mp3",
+      "bytes": 16272,
+      "sha256": "ad217465fb4fd0c3b145fe8c1474c4434e6c5d4ff73a6c033559fdadc5ed28d8"
+    },
+    "最是一年春好处": {
+      "src": "./audio/feihualing/e9afb3609087e753.mp3",
+      "bytes": 15696,
+      "sha256": "0d8ba74c566e694f6108d633a7ac1b359704e5870ccfb9435acf3379c71416c5"
+    },
+    "月落乌啼霜满天": {
+      "src": "./audio/feihualing/05bbc7aa2eb152f8.mp3",
+      "bytes": 15552,
+      "sha256": "4de0d878fdc8576ad8b3f80adb555d6050fc5eeb0954d97ed37ba0006a4c0543"
+    },
+    "朝辞白帝彩云间": {
+      "src": "./audio/feihualing/cff7c95468f28c37.mp3",
+      "bytes": 15984,
+      "sha256": "819ea8d033ab97b46365432f1376a6b851deeaf14024c8be52d8504b914dbe0b"
+    },
+    "树阴照水爱晴柔": {
+      "src": "./audio/feihualing/ba7ac43b0655ef5d.mp3",
+      "bytes": 16128,
+      "sha256": "a44c5af408212e52fb2700c2634f1d255c20dd9cfeb20bff188a5591c9e5caa1"
+    },
+    "桃花一簇开无主": {
+      "src": "./audio/feihualing/597f9d47c0d2e09c.mp3",
+      "bytes": 15840,
+      "sha256": "2bf145f35086be3e91dcde26974e447758b34089b5b3379011c76125775eb28a"
+    },
+    "桃花流水鳜鱼肥": {
+      "src": "./audio/feihualing/2c2263ef10ef135a.mp3",
+      "bytes": 16128,
+      "sha256": "5c78a186a4158502da16cbf7025c41333118ef14f4e201518b64f4c9007a8bc6"
+    },
+    "桃花潭水深千尺": {
+      "src": "./audio/feihualing/0bf249a581151c4d.mp3",
+      "bytes": 16848,
+      "sha256": "8adbea36025f6f7321300677b6ef9fe5262ec48dcf19da916863b6fb72588d4a"
+    },
+    "正是江南好风景": {
+      "src": "./audio/feihualing/f437fbeb1480a3ae.mp3",
+      "bytes": 16128,
+      "sha256": "5c9f60ac52665348ea53a44878782c2a1b2c39c623e3bf6d57d9762f34c27e0d"
+    },
+    "气蒸云梦泽": {
+      "src": "./audio/feihualing/0b487764cdc9cb2d.mp3",
+      "bytes": 13248,
+      "sha256": "28d90b4b2ae6c49e72cbfb65d526f52b388de23f8250c6ab7593093ee55ff47e"
+    },
+    "水村山郭酒旗风": {
+      "src": "./audio/feihualing/58e04502a84974d4.mp3",
+      "bytes": 16272,
+      "sha256": "a798fc9e6c054034c617c026962596e1cf5ede605733e6a6d7e7b817278b8dd8"
+    },
+    "水面初平云脚低": {
+      "src": "./audio/feihualing/4ea5c7590cd0fe4d.mp3",
+      "bytes": 16272,
+      "sha256": "879fd97b0e016609ebf23e27aa8af24a0551a87634473b2f938e8467cdd7a1cf"
+    },
+    "江清月近人": {
+      "src": "./audio/feihualing/5841f4bd33580fef.mp3",
+      "bytes": 12672,
+      "sha256": "4b348c941a20049476dfebae68e0463ce136633455138ce6043991d34671afec"
+    },
+    "浪淘风簸自天涯": {
+      "src": "./audio/feihualing/21b41d5725a0b47d.mp3",
+      "bytes": 16272,
+      "sha256": "fccd0018c5a595165a144cebd75766cbab9b9af2bd244507ac21db6bd86e1ab7"
+    },
+    "浮云游子意": {
+      "src": "./audio/feihualing/d35f0058e7d039dd.mp3",
+      "bytes": 13104,
+      "sha256": "8cf36cfcf4a88e31b889edad4b6deb24a6ef7a21c877977f11c6c75222de4231"
+    },
+    "清明时节雨纷纷": {
+      "src": "./audio/feihualing/dd86707dcb0bbb27.mp3",
+      "bytes": 15840,
+      "sha256": "1ce423aa942a305efda7d73cd9891cd1fb5213844e10341ed35371aad5168acd"
+    },
+    "渭城朝雨浥轻尘": {
+      "src": "./audio/feihualing/b112ddb0dc03580a.mp3",
+      "bytes": 15696,
+      "sha256": "b9013d259d3853fb4965e065ce4709a0a09b9f1de96521953a1b499d71194106"
+    },
+    "湖光秋月两相和": {
+      "src": "./audio/feihualing/8cd2df5b548fc369.mp3",
+      "bytes": 16128,
+      "sha256": "f4f5655ec2470bb88492b3d56ce70c38dd31eb3956ae96f65cb8409de7fd9902"
+    },
+    "湘水无情吊岂知": {
+      "src": "./audio/feihualing/75a873fa5b4b5299.mp3",
+      "bytes": 16416,
+      "sha256": "0e80d9e03eb29dfda3bc6058bb55d034bbdbdf70d691c6d3f78edf921cef3772"
+    },
+    "溪云初起日沈阁": {
+      "src": "./audio/feihualing/b1e5c2388c931712.mp3",
+      "bytes": 15408,
+      "sha256": "e911d94ca7abdcf0179bcc52f030099b69f605adc54adba75b866c8ca8d6a56b"
+    },
+    "烟笼寒水月笼沙": {
+      "src": "./audio/feihualing/5e952b008652161a.mp3",
+      "bytes": 15840,
+      "sha256": "6b7fa00d6944cb2cb581c96e2cbfec937167953e5f67b1791f9329ba94a825db"
+    },
+    "烟花三月下扬州": {
+      "src": "./audio/feihualing/de7564e998ae8030.mp3",
+      "bytes": 15984,
+      "sha256": "1f97092bd452a552f921625fd64edda28142025c0dcbe33a57faac486325dae9"
+    },
+    "燕山月似钩": {
+      "src": "./audio/feihualing/c21f6d0ff4fd4b67.mp3",
+      "bytes": 13104,
+      "sha256": "84ff0b45f3879294228bafd5546283bfbb1f4db1659df7e1bda29af2066dae78"
+    },
+    "白云千载空悠悠": {
+      "src": "./audio/feihualing/601b317473568d4c.mp3",
+      "bytes": 15984,
+      "sha256": "a01de9680718bc7554f97e88d8047c4ea6a9c0d75bbe49ae4a22968a29f97f3d"
+    },
+    "白云生处有人家": {
+      "src": "./audio/feihualing/7244ede12642067e.mp3",
+      "bytes": 15120,
+      "sha256": "7e86f71c4f017e9417bf98891147a0865b17ee22b23049d7b9e5e31f0aa56773"
+    },
+    "白日依山尽": {
+      "src": "./audio/feihualing/00b30ac946d6921a.mp3",
+      "bytes": 12384,
+      "sha256": "7db4a6b4fc7c970bbe59c28b7bf301fde72c2595a48dc98c03744fc3f9d19746"
+    },
+    "白毛浮绿水": {
+      "src": "./audio/feihualing/167676f87a1b0b0a.mp3",
+      "bytes": 13104,
+      "sha256": "ee69f8b900411ec4ad69f3a41dea550006821ad004cd3f67ba45d52d776c3896"
+    },
+    "白水绕东城": {
+      "src": "./audio/feihualing/c4459ae2e538e7eb.mp3",
+      "bytes": 13536,
+      "sha256": "c9a47d66f99a28da2066d908fddd97e524798c8abc9f37e9941281c18d92a6fa"
+    },
+    "白雨跳珠乱入船": {
+      "src": "./audio/feihualing/8c1a6ad8e9f67a1b.mp3",
+      "bytes": 15696,
+      "sha256": "952f9eabada8fbd0d244edcda70195ca555b8e8c19ff52fd554908a32ffb84c0"
+    },
+    "碧水东流至此回": {
+      "src": "./audio/feihualing/ec5b5e6332560891.mp3",
+      "bytes": 15984,
+      "sha256": "d1f40441b885bb26163ef242511d2132742d16f64ba3e71596bf3e0fc1a179e9"
+    },
+    "空山不见人": {
+      "src": "./audio/feihualing/9d729b8fba0f3adc.mp3",
+      "bytes": 12816,
+      "sha256": "a7d051bf47669cf14fd881e43102de683bdbfc49c239dcc8260101aab1c949da"
+    },
+    "空山新雨后": {
+      "src": "./audio/feihualing/0a697b6c249c488a.mp3",
+      "bytes": 13104,
+      "sha256": "50f20b0d43d6bdd8d3bbb953f57a02d96b748a28e2b3610d3f7d45d039a2a467"
+    },
+    "缺月挂疏桐": {
+      "src": "./audio/feihualing/010d3433a5be5617.mp3",
+      "bytes": 13104,
+      "sha256": "e0acba2d7df18893088617ccbf06f565164c7af831d903a598bdbc5fc1685a39"
+    },
+    "能开二月花": {
+      "src": "./audio/feihualing/c3021754d8777f1d.mp3",
+      "bytes": 12384,
+      "sha256": "0559cbc8dc9e5b6ecbf9d2677940e292b1df1ffc9a7425f189588afd88406332"
+    },
+    "花木成畦手自栽": {
+      "src": "./audio/feihualing/fcbb4a926022f67a.mp3",
+      "bytes": 15552,
+      "sha256": "7709ae00fb750a5461dda483d54692ed7200fb89a3002d3e355d6fec8ea3c8ec"
+    },
+    "花落知多少": {
+      "src": "./audio/feihualing/730f5f17d7cd3f97.mp3",
+      "bytes": 12960,
+      "sha256": "c31422c63e359e23ba09b06bdd4d76619832a54fcc34a0c871f07e369f66138c"
+    },
+    "花重锦官城": {
+      "src": "./audio/feihualing/cb0efcc4039ed411.mp3",
+      "bytes": 13248,
+      "sha256": "5fe156c2c2e623127b12f93d18b249ac887fbde04cdcc06219d86d15e83b7d89"
+    },
+    "荷尽已无擎雨盖": {
+      "src": "./audio/feihualing/349964ce59856869.mp3",
+      "bytes": 14832,
+      "sha256": "fa131c9460633c7c49bc9111678195c8c3f1699be198adda33e20f549741fa47"
+    },
+    "落花时节又逢君": {
+      "src": "./audio/feihualing/1ba526cb759b9652.mp3",
+      "bytes": 15984,
+      "sha256": "d9d557b91c4d3ca3835b4cc1937f4d7ecec6ac8b4da31ba54f5a45dc48b93bb3"
+    },
+    "行舟绿水前": {
+      "src": "./audio/feihualing/5c710992d8c7863a.mp3",
+      "bytes": 13680,
+      "sha256": "b7e1d42585754438b10c68f8f506f93d43fe84f936bbf23711441a2a2406a0df"
+    },
+    "西塞山前白鹭飞": {
+      "src": "./audio/feihualing/15550333e3c95b0e.mp3",
+      "bytes": 16272,
+      "sha256": "44e484c3c6eb1173bde2b7f8b501cf5bf03c310502ee108684c82751042cb613"
+    },
+    "误入藕花深处": {
+      "src": "./audio/feihualing/b3d922d58fac511d.mp3",
+      "bytes": 13248,
+      "sha256": "9cbbd4c4156425d0d714e2b7a7b156fb443184db611cc885b2ac50612c282c3f"
+    },
+    "谁家新燕啄春泥": {
+      "src": "./audio/feihualing/f77307022b6cbf35.mp3",
+      "bytes": 16704,
+      "sha256": "7806267dc8d0137a95b17b0257e47854b543b0f6547c91d64e9d83c0029fd346"
+    },
+    "轻舟已过万重山": {
+      "src": "./audio/feihualing/61328b9d60c1cf7c.mp3",
+      "bytes": 15984,
+      "sha256": "e81572014403f83c0264a0fa10fbe16d74a6a5bf238ac814bcc55c627b735116"
+    },
+    "迟日江山丽": {
+      "src": "./audio/feihualing/c0d315065391fad1.mp3",
+      "bytes": 13392,
+      "sha256": "6507d20ef58c0cf602d256b0c55a0f61793152cd6308370b35b583f339f89f9f"
+    },
+    "遥望洞庭山水色": {
+      "src": "./audio/feihualing/1ef395863d610257.mp3",
+      "bytes": 16272,
+      "sha256": "c777bb149dcaa9ab660851fe5b1c0fa4ca67d6e6a598b0a0c4013ba5f4488ac4"
+    },
+    "野径云俱黑": {
+      "src": "./audio/feihualing/04fe548c829e6b7d.mp3",
+      "bytes": 12672,
+      "sha256": "14621b677750a4c2ff09583b54cc20458c8f67fb9dc3ea50df1df5f2908b3250"
+    },
+    "钟山只隔数重山": {
+      "src": "./audio/feihualing/910386aba0441109.mp3",
+      "bytes": 16128,
+      "sha256": "6d884464d29c674014211befdc317e8ea34bb45b98daae160a7f570802621348"
+    },
+    "铜雀春深锁二乔": {
+      "src": "./audio/feihualing/cf2c1e9d7056ef0a.mp3",
+      "bytes": 16272,
+      "sha256": "ed9037f30de00c7d37d5274e7cb9071a6169609713af487a00256aa31f282b1d"
+    },
+    "长沟流月去无声": {
+      "src": "./audio/feihualing/3410089605feaa93.mp3",
+      "bytes": 15552,
+      "sha256": "bbe166e24707f2666d18929e92a3136705eb452080e047cdf5b147d1cd9a8c9f"
+    },
+    "闲敲棋子落灯花": {
+      "src": "./audio/feihualing/7732dc686eb7cdec.mp3",
+      "bytes": 15984,
+      "sha256": "d4a099c927c75dcc319427faf4fb672126e50bc274fea22fa2da60063156fe7e"
+    },
+    "阳春布德泽": {
+      "src": "./audio/feihualing/3fcb0e47627f1408.mp3",
+      "bytes": 12960,
+      "sha256": "983514aaa72f4486adcf7ce70c83e949079474f7338a96fe346315ad26f488a9"
+    },
+    "随意春芳歇": {
+      "src": "./audio/feihualing/6d9000b5c51be481.mp3",
+      "bytes": 13104,
+      "sha256": "e784c960de49b43d15849a5fcec825c49959bc15e9785f1556b64f74ffa284db"
+    },
+    "随风潜入夜": {
+      "src": "./audio/feihualing/04603b8deace8e6a.mp3",
+      "bytes": 13536,
+      "sha256": "9b410085f6df764e9acdfb093095ac3b6c4b9c2d596b21c6a5ce05814811e7a5"
+    },
+    "隔江犹唱后庭花": {
+      "src": "./audio/feihualing/87ea3a29da926efc.mp3",
+      "bytes": 16128,
+      "sha256": "a2d1e44c98de5584a0c29c0f13bb00f44bca7d27b1f375d552e42e3b5d4f48e3"
+    },
+    "霜叶红于二月花": {
+      "src": "./audio/feihualing/083ecdaae5452587.mp3",
+      "bytes": 15696,
+      "sha256": "e5b6e9ee656eb89e1901740b2e7a69655a1112bf7edf7f03d2a78368af116caf"
+    },
+    "风烟望五津": {
+      "src": "./audio/feihualing/6600d6b31f537711.mp3",
+      "bytes": 12384,
+      "sha256": "622169ab00225acd6c3df10cffc27abb746cf1c08c3c00eb2351458cbedbf4d8"
+    },
+    "飞在青云端": {
+      "src": "./audio/feihualing/b19db8f8c6854bfc.mp3",
+      "bytes": 12960,
+      "sha256": "03677a5b4f78839b8465f5e721497309f978a007f7c463955ba351bba7d4da94"
+    },
+    "黄师塔前江水东": {
+      "src": "./audio/feihualing/e94428a6bc253abb.mp3",
+      "bytes": 15840,
+      "sha256": "0e5c181e924322622ca82c7958cf842243d164eedcd31c6f5bcd2dc05e3388dd"
+    },
+    "黄梅时节家家雨": {
+      "src": "./audio/feihualing/0c1dcf0dceb11b08.mp3",
+      "bytes": 16128,
+      "sha256": "868a5dcef9ff96850b5891e96074f006cde513f0fa9dd403f50b74d23649aaaa"
+    },
+    "黑云翻墨未遮山": {
+      "src": "./audio/feihualing/3ac55022d068e581.mp3",
+      "bytes": 15696,
+      "sha256": "6fd4f769f29aea8ec6e39a37d741411a4b89a50bbbecb07889254ca88526acec"
+    }
+  }
+}
