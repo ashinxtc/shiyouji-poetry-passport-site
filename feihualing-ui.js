@@ -1,3 +1,18 @@
+function flowerPoemLabel(poem, escape) {
+  const author = [poem.dynasty, poem.author].filter(Boolean).join(' · ');
+  return `${escape(author || '作者未获取')}《${escape(poem.title || '篇名未获取')}》`;
+}
+
+function answerReview(answer, {escape, icon}) {
+  const poem = answer.poem;
+  const role = answer.who === 'computer' ? '电脑' : answer.hinted ? '你 · 提示' : '你';
+  const content = `<span class="flower-role">${role}</span><span><strong>${escape(answer.text)}</strong><small>${flowerPoemLabel(poem, escape)}</small></span>`;
+  if (poem.url?.startsWith('https://github.com/chinese-poetry/chinese-poetry/blob/')) {
+    return `<div class="flower-review-row">${content}<a href="${escape(poem.url)}" target="_blank" rel="noopener noreferrer" class="caption-5">出处</a></div>`;
+  }
+  return `<button class="flower-review-row" data-action="poem" data-id="${escape(poem.id)}">${content}${icon('right', 15)}</button>`;
+}
+
 export function flowerView(game, {escape, icon}) {
   const {word, mode, unit, phase, note, hint, score, total, computer, answers} = game;
   const lastYou = answers.findLast(answer => answer.who === 'you');
@@ -19,14 +34,14 @@ export function flowerView(game, {escape, icon}) {
       <div class="flower-counts"><span>你接出 <strong>${total}</strong> ${unit}</span><span>电脑 <strong>${computer}</strong> ${unit}</span></div>
       <p class="flower-turn" aria-live="polite">${title}</p>
       ${recent}
-      ${lastYou ? `<p class="flower-last">${lastYou.corrected ? '同音字已还原为' : '你接出了'}「${escape(lastYou.text)}」</p>` : ''}
+      ${lastYou ? `<p class="flower-last">${lastYou.corrected ? '同音字已还原为' : '你接出了'}「${escape(lastYou.text)}」${lastYou.poem.url ? `<br>${flowerPoemLabel(lastYou.poem, escape)}` : ''}</p>` : ''}
       ${hint ? `<p class="flower-hint">想想《${escape(hint.poem.title)}》，${mode==='couplet'?'上下句分别以':'这句以'}${hint.initials.map(initial=>`「${escape(initial)}」`).join('、')}开头。</p>` : ''}
       ${note ? `<p class="flower-note" role="status">${escape(note)}</p>` : ''}
     </div>
     <div class="flower-controls">
       ${primary}
       <div class="flower-options">${listening ? '<button class="text-button" data-action="flower-skip-audio">继续接令</button>' : recording || waiting ?
-        '<button class="text-button" data-action="flower-cancel">取消本轮录音</button>' :
+        `<button class="text-button" data-action="flower-cancel">${phase === 'checking' ? '取消本轮核对' : '取消本轮录音'}</button>` :
         `<button class="text-button" data-action="flower-hint" ${hint || playing ? 'disabled' : ''}>给个提示</button>${voice ? `<button class="text-button" data-action="flower-text" ${playing ? 'disabled' : ''}>打字</button>` : ''}${lastComputer ? `<button class="text-button" data-action="flower-play" ${playing ? 'disabled' : ''}>重听</button>` : ''}`}</div>
       <p class="flower-low">${voice ? '录音结束后联网核对' : '可用文字核对完整诗句'} · 独立接出 ${score} ${unit}</p>
     </div>
@@ -43,7 +58,7 @@ export function flowerResult(game, {escape, icon}) {
       <small>${!saved && total ? '成绩未能保存' : newBest ? '刷新了本令个人最佳' : `本令个人最佳 ${best} ${unit}`}</small>
     </div>
     <div class="flower-board">
-      ${answers.length ? `<h3>本局回顾</h3><ol class="flower-review">${answers.map(answer => `<li><button class="flower-review-row" data-action="poem" data-id="${escape(answer.poem.id)}"><span class="flower-role">${answer.who === 'computer' ? '电脑' : answer.hinted ? '你 · 提示' : '你'}</span><span><strong>${escape(answer.text)}</strong><small>${escape(answer.poem.dynasty)} · ${escape(answer.poem.author)}《${escape(answer.poem.title)}》</small></span>${icon('right', 15)}</button></li>`).join('')}</ol>` : '<p class="flower-rule">这局还没有接出诗句。</p>'}
+      ${answers.length ? `<h3>本局回顾</h3><ol class="flower-review">${answers.map(answer => `<li>${answerReview(answer, {escape, icon})}</li>`).join('')}</ol>` : '<p class="flower-rule">这局还没有接出诗句。</p>'}
     </div>
     <div class="flower-controls"><button class="button primary full" data-action="setup-game" data-type="feihualing">再来一局</button></div>
   </section>`;

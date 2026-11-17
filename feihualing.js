@@ -1,4 +1,4 @@
-import {normalizeSpeech, compareRecitation} from './recitation.js?v=71';
+import {normalizeSpeech, compareRecitation} from './recitation.js?v=72';
 
 export const FLOWER_WORDS = ['月', '春', '花', '风', '山', '雨', '水', '云'];
 export const FLOWER_MODES = ['line', 'couplet'];

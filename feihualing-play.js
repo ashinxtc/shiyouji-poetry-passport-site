@@ -1,6 +1,34 @@
-import {apiUrl} from './api.js?v=71';
-import {VoiceSession, voiceCapabilities} from './voice.js?v=71';
-import {chooseComputerLine, flowerHint, flowerSource, flowerUnit, judgeFlowerAnswer} from './feihualing.js?v=71';
+import {apiUrl} from './api.js?v=72';
+import {VoiceSession, voiceCapabilities} from './voice.js?v=72';
+import {chooseComputerLine, flowerHint, flowerSource, flowerUnit, judgeFlowerAnswer, usedFlowerLine} from './feihualing.js?v=72';
+import {matchIndexedFlowerAnswer, validFlowerQuery} from './feihualing-index.js?v=72';
+
+let lookupEndpointAvailable = true;
+const indexRoot = './feihualing-index/v1/';
+const lookupFiles = new Map();
+
+async function lookupExpansion(query, variants, signal) {
+  if (!validFlowerQuery(query)) return {status: 'unknown'};
+  if (lookupEndpointAvailable) {
+    const response = await fetch(apiUrl('/api/feihualing/lookup'), {
+      method: 'POST', headers: {'Content-Type': 'application/json'}, signal,
+      body: JSON.stringify(query)
+    });
+    if (response.ok) return response.json();
+    if (response.status !== 404) return {status: 'unavailable'};
+    lookupEndpointAvailable = false;
+  }
+  const loadShard = async file => {
+    if (lookupFiles.has(file)) return lookupFiles.get(file);
+    const response = await fetch(indexRoot + file, {signal});
+    if (!response.ok) throw new Error('Feihualing index unavailable');
+    const data = await response.json();
+    if (file === 'manifest.json' || file === 'readings.json') lookupFiles.set(file, data);
+    return data;
+  };
+  const manifest = await loadShard('manifest.json');
+  return matchIndexedFlowerAnswer(query, {manifest, variants, loadShard});
+}
 
 export class FlowerPractice {
   constructor({word, index, pool, clips, familiar, reserved, variants, phonetics, update, finish, speechMode}) {
@@ -125,18 +153,45 @@ export class FlowerPractice {
     return answer;
   }
 
+  async lookupAnswer(text, speech) {
+    const request = this.request ?? new AbortController();
+    const ownsRequest = !this.request;
+    this.request = request;
+    this.show('checking');
+    const timeout = setTimeout(() => request.abort(), 8000);
+    try {
+      const match = await lookupExpansion({mode: this.mode, word: this.word, text, speech}, this.variants, request.signal);
+      if (this.request !== request) return null;
+      if (match.status !== 'accepted') return match;
+      const line = {parts: match.parts, text: match.parts.join('，'), sources: [{poem: match.source}]};
+      return usedFlowerLine(line, this.used) ? {status: 'duplicate'} : {...match, line};
+    } catch {
+      return this.request === request ? {status: 'unavailable'} : null;
+    } finally {
+      clearTimeout(timeout);
+      if (ownsRequest && this.request === request) this.request = null;
+    }
+  }
+
   async answer(text, speech = false) {
     if (this.phase !== (speech ? 'checking' : 'ready')) return;
-    const result = judgeFlowerAnswer(this.index, this.word, this.used, text, {
+    let result = judgeFlowerAnswer(this.index, this.word, this.used, text, {
       speech, variants: this.variants, phonetics: this.phonetics
     });
+    if (result.status === 'unknown' || result.status === 'incomplete') {
+      const local = result;
+      result = await this.lookupAnswer(text, speech);
+      if (!result || this.phase !== 'checking') return;
+      if (result.status === 'unknown' && local.status === 'incomplete') result = local;
+    }
     if (result.status !== 'accepted') {
       const notes = {
         empty: '这一遍没听清，请再说一次。',
         incomplete: '听到了一句，请按原诗顺序说完整的上下两句。',
         unknown: this.mode === 'couplet' ? '没找到这一联。请核对上下两句的原文和顺序。'
           : speech ? '诗库里暂未核对到这句。可以重说或试试打字。' : '诗库里暂未核对到这句，请核对文字再试。',
-        ambiguous: '有多个读音相同的答案，可以打字确认。',
+        ambiguous: '有多个可能的答案，可以重说或打字确认。',
+        unavailable: '扩展诗词库暂时连不上，可以稍后重试。',
         'missing-word': `这${this.unit}诗里没有「${this.word}」，换一${this.unit}试试。`,
         duplicate: this.mode === 'couplet' ? '上下句中有一句已经接过了，换一联试试。' : '这句已经接过了，想想其他诗。'
       };
